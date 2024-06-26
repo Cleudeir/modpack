@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:titan_plate"
+    },
+    "1": {
+      "item": "zombie_extreme:energy_battery"
+    },
+    "2": {
+      "item": "zombie_extreme:titan_plate"
+    },
+    "3": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "4": {
+      "item": "zombie_extreme:combat_armor_leggings"
+    },
+    "5": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "6": {
+      "item": "zombie_extreme:titan_plate"
+    },
+    "8": {
+      "item": "zombie_extreme:titan_plate"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:exo_suit_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:amphibious_hands",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:blaze_nucleus",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:blindfold",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:broken_ankh",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:broken_magnet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:callus",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:cracked_crown",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:creeper_sense",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:dark_nelumbo",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:dragons_eye",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:dubious_dust",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:electric_paddle",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ethereal_wings",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:experience_battery",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:experience_magnet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:explosion_proof_jacket",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:fate_emerald",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:fertilizer",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:four_leaf_clover",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:fractured_nullstone",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:fragile_cloud",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ghast_eye",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:gills",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:glowing_dust",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:gods_crown",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ice_cube",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:light_gloves",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:miners_soul",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:missing_page",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:moon_stone",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:mysterious_trinket",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:nelumbo",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:pocket_lightning_rod",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:puffer_fish_liver",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:rage_mind",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:reforger",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:reverse_card",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:scarab_amulet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:sigil_of_baphomet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:sleeping_pills",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:speed_force",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:spider_legs",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:super_magnet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:tear_of_the_sea",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:tick",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:true_heart_of_the_sea",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:ultimate_dust",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:unknown_fragment",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:vampire_blood",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:what_magnet",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:wooden_stick",
+          "weight": 8
+        }
+      ],
+      "name": "main",
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/lootintegration_nameless"
+}

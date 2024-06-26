@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "1": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "2": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "3": {
+      "item": "zombie_extreme:lead_plate"
+    },
+    "4": {
+      "tag": "forge:stained_glass"
+    },
+    "5": {
+      "item": "zombie_extreme:lead_plate"
+    },
+    "6": {
+      "item": "zombie_extreme:filter"
+    },
+    "8": {
+      "item": "zombie_extreme:filter"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:hazmat_suit_helmet",
+    "count": 1
+  }
+}

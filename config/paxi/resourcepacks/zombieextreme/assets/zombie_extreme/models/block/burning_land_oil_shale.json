@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zombie_extreme:block/burning_land_oil_shale",
+    "up": "zombie_extreme:block/burning_land_oil_shale",
+    "north": "zombie_extreme:block/burning_land_oil_shale",
+    "east": "zombie_extreme:block/burning_land_oil_shale",
+    "south": "zombie_extreme:block/burning_land_oil_shale",
+    "west": "zombie_extreme:block/burning_land_oil_shale",
+    "particle": "zombie_extreme:block/burning_land_oil_shale"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,85 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.crawler",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 4, -2],
+					"cubes": [
+						{"origin": [-4, 1, -9], "size": [8, 8, 8], "pivot": [0, 5, -2], "rotation": [-60, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [0, 4, -2]
+				},
+				{
+					"name": "chest1",
+					"parent": "body",
+					"pivot": [0, 2, 4],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [8, 4, 6], "inflate": 0.1, "pivot": [0, 2, 4], "rotation": [-17.5, 0, 0], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "chest2",
+					"parent": "body",
+					"pivot": [0, 2, 4],
+					"cubes": [
+						{"origin": [-4, 0, 4], "size": [8, 4, 3], "uv": [24, 0]},
+						{"origin": [-1, 2, 7], "size": [2, 1, 3], "pivot": [0, 3, 7], "rotation": [-40, 0, 0], "uv": [12, 26]}
+					]
+				},
+				{
+					"name": "RArm",
+					"pivot": [-4, 3, -1]
+				},
+				{
+					"name": "Rarm1",
+					"parent": "RArm",
+					"pivot": [-4, 3, 0],
+					"cubes": [
+						{"origin": [-8, -1, -3], "size": [4, 6, 4], "pivot": [-4, 3, -1], "rotation": [-69.76837, 6.13784, 4.31837], "uv": [12, 32]}
+					]
+				},
+				{
+					"name": "Rarm2",
+					"parent": "RArm",
+					"pivot": [-6.5, 2, -4],
+					"cubes": [
+						{"origin": [-8.40459, -4.23486, -5.76349], "size": [4, 6, 4], "pivot": [-6.32398, 1.76514, -3.61634], "rotation": [-90, 0, 4.3], "uv": [28, 12]}
+					]
+				},
+				{
+					"name": "LArm",
+					"pivot": [4, 3, -1]
+				},
+				{
+					"name": "Larm1",
+					"parent": "LArm",
+					"pivot": [4, 3, 0],
+					"cubes": [
+						{"origin": [3.99672, -0.84253, -2.96215], "size": [4, 6, 4], "pivot": [4, 3, -1], "rotation": [-70.28599, 2.30694, 0.25051], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "Larm2",
+					"parent": "LArm",
+					"pivot": [6, 2, -4],
+					"cubes": [
+						{"origin": [3.86803, -4.21888, -6.08073], "size": [4, 6, 4], "pivot": [5.86803, 1.77355, -4.09601], "rotation": [-89.56312, 0, 0], "uv": [24, 22]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/vending_machine",
+  "textures": {
+    "all": "zombie_extreme:block/vending_machine",
+    "particle": "zombie_extreme:block/vending_machine",
+    "0": "zombie_extreme:block/vending_machine"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+
+#Server configuration settings
+[server]
+	#The minimum follow range for hostile mobs
+	#Only overridden if the original mob's follow range was lower
+	#Default value: 32. Vanilla behaviour: 16
+	#Range: 0.0 ~ 2048.0
+	minHostileFollowRange = 32.0
+	#A list of follow range overrides. Entry format: "mod:entity_id,range"
+	#Example: ["minecraft:creeper,32","minecraft:zombie,16"]
+	#Default value: []
+	mobFollowRangeOverrides = ["minecraft:spider,10", "minecraft:cave_spider,10", "minecraft:creeper,12", "minecraft:zombie,16", "minecraft:zombie,16", "minecraft:witch,16", "minecraft:enderman,16", "quark:forgotten,20", "minecraft:wither_skeleton,20", "zombie_extreme:infected,16", "zombie_extreme:runner,16", "zombie_extreme:boomer,16", "zombie_extreme:crawler,16", "zombie_extreme:demolisher,16", "zombie_extreme:clicker,16", "zombie_extreme:inflated,16", "zombie_extreme:faceless,16", "zombie_extreme:goon,16", "zombie_extreme:revived,16", "zombie_extreme:divided,16", "zombie_extreme:parasite,16", "zombie_extreme:zero_patient,16", "zombie_extreme:military,16", "zombie_extreme:assasin_black_ops,16", "minecraft:skeleton,20", "alexscaves:watcher,20", "world_of_rot:blind_walker,10", "mutantmonsters:mutant_zombie,20", "mutantmonsters:mutant_skeleton,36"]
+

@@ -1,0 +1,72 @@
+[
+  {
+    "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller"],
+    "persecond": 60,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 80,
+      "minheight": -10,	  	  
+      "maxheight": 20,
+      "maxthis": 10
+    }
+  },
+  {
+    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten"],
+    "persecond": 60,
+    "attempts": 3,
+    "amount": {
+      "minimum": 0,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 80,
+      "minheight": -64,
+      "maxheight": -10,
+      "maxthis": 8
+    }
+  },
+  {
+    "mob": ["alexscaves:watcher", "alexsmobs:murmur"],
+    "persecond": 60,
+    "attempts": 1,
+    "amount": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 80,	  
+	  "minheight": -64,
+      "maxheight": -30,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": ["mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_zombie", "realmrpg_demons:demon"],
+    "persecond": 20,
+    "attempts": 1,
+    "amount": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 80,
+	  "minheight": -64,	  
+      "maxheight": -30,	  
+      "maxthis": 1
+    }
+  }   
+]
+
+

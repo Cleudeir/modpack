@@ -1,0 +1,71 @@
+{
+    "de.rubixdev.inventorio.client.ui.InventorioScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 35
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 83,
+                "top": 66
+            },
+            "SORT": {
+                "horizontalOffset": 11,
+                "top": 66
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 35,
+                "top": 66
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 59,
+                "top": 66
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -4
+            },
+            "SETTINGS": {
+                "horizontalOffset": -4,
+                "top": -2
+            }
+        },
+        "force": true
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 28,
+                "bottom": -12
+            },
+            "SORT": {
+                "horizontalOffset": -8
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 40
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 40
+            }
+        }
+    },
+    "com.simibubi.create.content.logistics.filter.AttributeFilterScreen": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.AttributeFilterMenu": {
+        "ignore": true
+    },
+    "org.violetmoon.quark.addons.oddities.inventory.BackpackMenu": {
+        "ignore": true
+    },
+    "org.violetmoon.quark.addons.oddities.client.screen.CrateScreen": {
+        "ignore": true
+    },
+    "org.violetmoon.quark.addons.oddities.inventory.CrateMenu": {
+        "ignore": true
+    },
+    "de.rubixdev.inventorio.player.InventorioScreenHandler": {
+        "force": true
+    },
+    "org.violetmoon.quark.addons.oddities.client.screen.BackpackInventoryScreen": {
+        "ignore": true
+    }
+}

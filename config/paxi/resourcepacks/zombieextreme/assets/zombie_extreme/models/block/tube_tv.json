@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/tv",
+  "textures": {
+    "all": "zombie_extreme:block/tv",
+    "particle": "zombie_extreme:block/tv",
+    "0": "zombie_extreme:block/tv"
+  },
+  "render_type": "solid"
+}

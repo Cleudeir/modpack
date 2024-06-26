@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "zombie_extreme:rubber"
+    },
+    "3": {
+      "item": "zombie_extreme:rubber"
+    },
+    "4": {
+      "item": "zombie_extreme:rubber"
+    },
+    "5": {
+      "item": "zombie_extreme:rubber"
+    },
+    "7": {
+      "item": "zombie_extreme:rubber"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:rubber_sheet",
+    "count": 1
+  }
+}

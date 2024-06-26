@@ -1,0 +1,15 @@
+#Allows players to regain hearts by killing other players
+lifeSteal = false
+#Set the biggest amount of max health that the player can reach
+maxHealth = 40.0
+#Set the initial health of a player upon joining a world for the first time
+initialHealth = 20.0
+#Set how much health is gained when eating specified items
+increase = 2.0
+#Set how much health is lost upon death
+decrease = 2.0
+#A list of items that increase max health upon eating.
+foods = ["minecraft:enchanted_golden_apple"]
+#A list of items that can be used to trigger a resurrection.
+sacrifices = ["minecraft:enchanted_golden_apple"]
+

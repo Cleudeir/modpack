@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/bear_trap",
+  "textures": {
+    "all": "zombie_extreme:block/bear_trap",
+    "particle": "zombie_extreme:block/bear_trap",
+    "0": "zombie_extreme:block/bear_trap"
+  },
+  "render_type": "solid"
+}

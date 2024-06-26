@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "zombie_extreme:shelf",
+    "zombie_extreme:cupboard",
+    "zombie_extreme:barbed_fence",
+    "zombie_extreme:wooden_barricades"
+  ]
+}

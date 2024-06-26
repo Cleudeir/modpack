@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/kitchen_table",
+  "textures": {
+    "all": "zombie_extreme:block/kitchen_table",
+    "particle": "zombie_extreme:block/kitchen_table",
+    "0": "zombie_extreme:block/kitchen_table"
+  },
+  "render_type": "solid"
+}

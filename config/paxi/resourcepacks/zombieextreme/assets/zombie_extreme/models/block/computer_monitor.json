@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/computer_monitor",
+  "textures": {
+    "all": "zombie_extreme:block/computer_monitor",
+    "particle": "zombie_extreme:block/computer_monitor",
+    "0": "zombie_extreme:block/computer_monitor"
+  },
+  "render_type": "solid"
+}

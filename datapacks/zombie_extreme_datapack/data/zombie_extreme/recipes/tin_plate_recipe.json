@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignot_tin"
+    },
+    "1": {
+      "item": "zombie_extreme:ignot_tin"
+    },
+    "2": {
+      "item": "zombie_extreme:ignot_tin"
+    },
+    "3": {
+      "item": "zombie_extreme:ignot_tin"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:tin_plate",
+    "count": 1
+  }
+}

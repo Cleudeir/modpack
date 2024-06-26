@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "better_ore_generation:block/diamond_ore_better"
+    }
+  }
+}

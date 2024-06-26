@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:civilian_suit_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "better_ore_generation:nether_gold_better",
+  "config": {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:nether_gold_ore"
+          }
+        },
+        "state": {
+          "Name": "better_ore_generation:nether_gold_better"
+        }
+      }
+    ]
+  }
+}

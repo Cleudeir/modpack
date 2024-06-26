@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "1": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "2": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "3": {
+      "item": "zombie_extreme:ignotsteel"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:steel_plate",
+    "count": 1
+  }
+}

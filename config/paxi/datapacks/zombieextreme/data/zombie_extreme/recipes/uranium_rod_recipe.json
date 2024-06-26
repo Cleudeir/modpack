@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignotlead"
+    },
+    "1": {
+      "item": "zombie_extreme:uranium"
+    },
+    "2": {
+      "item": "zombie_extreme:ignotlead"
+    },
+    "3": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "4": {
+      "item": "zombie_extreme:uranium"
+    },
+    "5": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "6": {
+      "item": "zombie_extreme:ignotlead"
+    },
+    "7": {
+      "item": "zombie_extreme:uranium"
+    },
+    "8": {
+      "item": "zombie_extreme:ignotlead"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:uranium_rod",
+    "count": 1
+  }
+}

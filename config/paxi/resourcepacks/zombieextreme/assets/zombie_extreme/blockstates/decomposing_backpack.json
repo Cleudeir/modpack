@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/decomposing_backpack"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/decomposing_backpack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/decomposing_backpack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/decomposing_backpack",
+      "y": 270
+    }
+  }
+}

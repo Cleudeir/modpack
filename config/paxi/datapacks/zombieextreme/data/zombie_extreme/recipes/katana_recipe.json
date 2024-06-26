@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "4": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "5": {
+      "item": "zombie_extreme:blueprint_rare"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:katana",
+    "count": 1
+  }
+}

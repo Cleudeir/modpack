@@ -1,0 +1,78 @@
+{
+  "mappings": {
+    "com/mrcrayfish/guns/mixin/common/LivingEntityMixin": {
+      "Lnet/minecraft/world/entity/LivingEntity;knockback(DDD)V": "Lnet/minecraft/world/entity/LivingEntity;m_147240_(DDD)V",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "com/mrcrayfish/guns/mixin/client/LevelRendererMixin": {
+      "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V",
+      "Lnet/minecraft/client/renderer/LevelRenderer;checkPoseStack(Lcom/mojang/blaze3d/vertex/PoseStack;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109588_(Lcom/mojang/blaze3d/vertex/PoseStack;)V"
+    },
+    "com/mrcrayfish/guns/mixin/common/SittingPhaseMixin": {
+      "onHurt": "Lnet/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonSittingPhase;m_7584_(Lnet/minecraft/world/damagesource/DamageSource;F)F"
+    },
+    "com/mrcrayfish/guns/mixin/common/EndPortalBlockMixin": {
+      "entityInside": "Lnet/minecraft/world/level/block/EndPortalBlock;m_7892_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V",
+      "Lnet/minecraft/world/entity/Entity;changeDimension(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/entity/Entity;": "Lnet/minecraft/world/entity/Entity;m_5489_(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/entity/Entity;"
+    },
+    "com/mrcrayfish/guns/mixin/client/MouseHandlerMixin": {
+      "turnPlayer()V": "Lnet/minecraft/client/MouseHandler;m_91523_()V"
+    },
+    "com/mrcrayfish/guns/mixin/client/GameRendererMixin": {
+      "Lnet/minecraft/util/profiling/ProfilerFiller;popPush(Ljava/lang/String;)V": "Lnet/minecraft/util/profiling/ProfilerFiller;m_6182_(Ljava/lang/String;)V",
+      "render": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V"
+    },
+    "com/mrcrayfish/guns/mixin/common/LayeredCauldronBlockMixin": {
+      "entityInside": "Lnet/minecraft/world/level/block/LayeredCauldronBlock;m_7892_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "com/mrcrayfish/guns/mixin/client/PlayerModelMixin": {
+      "setupAnim*": "Lnet/minecraft/client/model/PlayerModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+    },
+    "com/mrcrayfish/guns/mixin/client/ItemInHandLayerMixin": {
+      "renderArmWithItem": "Lnet/minecraft/client/renderer/entity/layers/ItemInHandLayer;m_117184_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "com/mrcrayfish/guns/mixin/client/MinecraftMixin": {
+      "startUseItem": "Lnet/minecraft/client/Minecraft;m_91277_()V",
+      "Lnet/minecraft/client/renderer/ItemInHandRenderer;itemUsed(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109320_(Lnet/minecraft/world/InteractionHand;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/mrcrayfish/guns/mixin/common/LivingEntityMixin": {
+        "Lnet/minecraft/world/entity/LivingEntity;knockback(DDD)V": "Lnet/minecraft/world/entity/LivingEntity;m_147240_(DDD)V",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "com/mrcrayfish/guns/mixin/client/LevelRendererMixin": {
+        "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V",
+        "Lnet/minecraft/client/renderer/LevelRenderer;checkPoseStack(Lcom/mojang/blaze3d/vertex/PoseStack;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109588_(Lcom/mojang/blaze3d/vertex/PoseStack;)V"
+      },
+      "com/mrcrayfish/guns/mixin/common/SittingPhaseMixin": {
+        "onHurt": "Lnet/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonSittingPhase;m_7584_(Lnet/minecraft/world/damagesource/DamageSource;F)F"
+      },
+      "com/mrcrayfish/guns/mixin/common/EndPortalBlockMixin": {
+        "entityInside": "Lnet/minecraft/world/level/block/EndPortalBlock;m_7892_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V",
+        "Lnet/minecraft/world/entity/Entity;changeDimension(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/entity/Entity;": "Lnet/minecraft/world/entity/Entity;m_5489_(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/entity/Entity;"
+      },
+      "com/mrcrayfish/guns/mixin/client/MouseHandlerMixin": {
+        "turnPlayer()V": "Lnet/minecraft/client/MouseHandler;m_91523_()V"
+      },
+      "com/mrcrayfish/guns/mixin/client/GameRendererMixin": {
+        "Lnet/minecraft/util/profiling/ProfilerFiller;popPush(Ljava/lang/String;)V": "Lnet/minecraft/util/profiling/ProfilerFiller;m_6182_(Ljava/lang/String;)V",
+        "render": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V"
+      },
+      "com/mrcrayfish/guns/mixin/common/LayeredCauldronBlockMixin": {
+        "entityInside": "Lnet/minecraft/world/level/block/LayeredCauldronBlock;m_7892_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "com/mrcrayfish/guns/mixin/client/PlayerModelMixin": {
+        "setupAnim*": "Lnet/minecraft/client/model/PlayerModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+      },
+      "com/mrcrayfish/guns/mixin/client/ItemInHandLayerMixin": {
+        "renderArmWithItem": "Lnet/minecraft/client/renderer/entity/layers/ItemInHandLayer;m_117184_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "com/mrcrayfish/guns/mixin/client/MinecraftMixin": {
+        "startUseItem": "Lnet/minecraft/client/Minecraft;m_91277_()V",
+        "Lnet/minecraft/client/renderer/ItemInHandRenderer;itemUsed(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109320_(Lnet/minecraft/world/InteractionHand;)V"
+      }
+    }
+  }
+}

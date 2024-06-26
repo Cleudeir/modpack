@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:sand"
+    },
+    "1": {
+      "item": "zombie_extreme:cloth"
+    },
+    "2": {
+      "tag": "minecraft:sand"
+    },
+    "3": {
+      "item": "zombie_extreme:cloth"
+    },
+    "4": {
+      "tag": "minecraft:sand"
+    },
+    "5": {
+      "item": "zombie_extreme:cloth"
+    },
+    "6": {
+      "tag": "minecraft:sand"
+    },
+    "7": {
+      "item": "zombie_extreme:cloth"
+    },
+    "8": {
+      "tag": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:sand_bag",
+    "count": 4
+  }
+}

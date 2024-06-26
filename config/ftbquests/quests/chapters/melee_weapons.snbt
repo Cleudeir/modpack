@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "melee_weapons"
+	group: "156F81D1189E2A4A"
+	id: "403C15095DDCD45A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AB961BEAD7D5C6C"]
+			id: "4D1A074CB0BED04E"
+			tasks: [{
+				id: "05DC8C1BDAE62DB0"
+				item: {
+					Count: 1
+					id: "zombie_extreme:buzz_killer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AB961BEAD7D5C6C"]
+			id: "49758948FC284626"
+			tasks: [{
+				id: "47CDD4CA93852FE9"
+				item: {
+					Count: 1
+					id: "zombie_extreme:electric_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["396855F45F8B0820"]
+			id: "36A345FE38C40AD6"
+			tasks: [{
+				id: "74CE579FD07700D4"
+				item: {
+					Count: 1
+					id: "special_drops:piglin_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -9.5d
+		}
+		{
+			id: "396855F45F8B0820"
+			tasks: [{
+				id: "058332A9BC091DD2"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["396855F45F8B0820"]
+			dependency_requirement: "one_completed"
+			id: "57EABA7E7F41F68D"
+			tasks: [{
+				id: "3872C9EB24869001"
+				item: {
+					Count: 1
+					id: "special_drops:zombified_piglin_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			id: "6D7BD0E34FA5018B"
+			tasks: [{
+				id: "047FAA3DE91B8DDA"
+				item: {
+					Count: 1
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6D7BD0E34FA5018B"]
+			id: "2B1DA79E27E715B3"
+			tasks: [{
+				id: "10F334CA9976821F"
+				item: {
+					Count: 1
+					id: "mutantsbuff:upgraded_hulk_hammer"
+					tag: {
+						Damage: 7
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6D7BD0E34FA5018B"]
+			id: "7B238DFA9AC21423"
+			tasks: [{
+				id: "2BD3D50006EB548F"
+				item: {
+					Count: 1
+					id: "mutantsbuff:charged_hammer"
+					tag: {
+						Damage: 20
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			id: "4CDF5E4DC627935E"
+			tasks: [{
+				id: "5EDE7F104EE143EC"
+				item: {
+					Count: 1
+					id: "alexsmobs:tendon_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"57EABA7E7F41F68D"
+				"36A345FE38C40AD6"
+			]
+			id: "3B874A1989AC708D"
+			tasks: [{
+				id: "71269306278354AD"
+				item: {
+					Count: 1
+					id: "special_drops:warden_bane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2AB961BEAD7D5C6C"]
+			id: "593BFA517E92D66E"
+			tasks: [{
+				id: "28A8D51BD4B6BD94"
+				item: {
+					Count: 1
+					id: "special_drops:emerald_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			id: "2AB961BEAD7D5C6C"
+			tasks: [{
+				id: "361E4D4D5DC7754A"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			id: "62D3844030F09918"
+			size: 1.0d
+			tasks: [{
+				id: "4A5C0FD7EECDBA7B"
+				item: {
+					Count: 1
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2AB961BEAD7D5C6C"]
+			id: "4EFD4A6873DDBA1E"
+			tasks: [{
+				id: "3BD4351A32217876"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+	]
+	title: "Melee Weapons"
+}

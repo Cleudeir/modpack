@@ -1,0 +1,24 @@
+
+
+
+
+profile Saved activate HOT4
+	HOT1
+		"minecraft:torch"
+	HOT2
+		"minecraft:wheat"
+	HOT3
+		"minecraft:gunpowder"
+	HOT4
+		"minecraft:spruce_log"
+	HOT5
+		"minecraft:spider_eye"
+	HOT6
+		"minecraft:rotten_flesh"
+	HOT7
+		"minecraft:bone"
+	HOT8
+		"minecraft:wheat_seeds"
+	HOT9
+		"minecraft:spruce_sapling"
+

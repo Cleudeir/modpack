@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "beach",
+    "swamp",
+    "snowy_beach"
+  ],
+  "features": "zombie_extreme:lighthouse",
+  "step": "surface_structures"
+}

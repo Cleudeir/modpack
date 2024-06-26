@@ -1,0 +1,90 @@
+
+["Stats slot 1 Settings"]
+	#is stat 1 enabled?
+	"stat 1" = true
+	#name of the stat in game
+	"stat 1 name" = "Strength"
+	#ID of the stat element
+	"stat 1 ID" = "minecraft:generic.attack_damage"
+	#amount of that stat added when level up
+	"stat 1 value" = 0.5
+
+["Stats slot 2 Settings"]
+	#is stat 2 enabled?
+	"stat 2" = false
+	#name of the stat 2 in game
+	"stat 2 name" = "Vitality"
+	#ID of the stat 2 element
+	"stat 2 ID" = "minecraft:generic.max_health"
+	#amount of that stat added when level up
+	"stat 2 value" = 2.0
+	"stat 2 default" = 20.0
+
+["Stats slot 3 Settings"]
+	"stat 3" = true
+	"stat 3 name" = "Endurance"
+	"stat 3 ID" = "minecraft:generic.armor"
+	"stat 3 value" = 0.5
+
+["Stats slot 4 Settings"]
+	"stat 4" = true
+	"stat 4 name" = "Intelligence"
+	"stat 4 ID" = "modid:attribute"
+	"stat 4 value" = 1.0
+	"stat 4 extras" = true
+	"stat 4 extra 1 ID" = "irons_spellbooks:cast_time_reduction"
+	"stat 4 extra 1 value" = 0.1
+	"stat 4 extra 1 max" = 3.0
+	"stat 4 extra 2 ID" = "irons_spellbooks:cooldown_reduction"
+	"stat 4 extra 2 value" = 0.1
+	"stat 4 extra 2 max" = 3.0
+	"stat 4 extra 3 ID" = "irons_spellbooks:spell_power"
+	"stat 4 extra 3 value" = 0.1
+	"stat 4 extra 3 max" = 3.0
+	#Requeriment in main stat level for apply the stat
+	"stat 4 extra 1 level req" = 80.0
+	"stat 4 extra 2 level req" = 40.0
+	"stat 4 extra 3 level req" = 1.0
+
+["Stats slot 5 Settings"]
+	"stat 5" = false
+	"stat 5 name" = "Magic"
+	"stat 5 ID" = "modid:attribute"
+	"stat 5 value" = 1.0
+	"stat 5 extras" = true
+	"stat 5 extra 1 ID" = "irons_spellbooks:max_mana"
+	"stat 5 extra 1 value" = 1.0
+	"stat 5 extra 1 max" = 500.0
+	"stat 5 extra 2 ID" = "irons_spellbooks:spell_resist"
+	"stat 5 extra 2 value" = 0.1
+	"stat 5 extra 2 max" = 3.0
+	"stat 5 extra 1 level req" = 1.0
+	"stat 5 extra 2 level req" = 50.0
+	#The amount of Irons Spells mod mana at the start of a new world (dont modify if you arent using it, it need to be in slot 5 too)
+	"iron mana" = 0.0
+	"mana custom for irons spell" = true
+
+["Stats slot 6 Settings"]
+	"stat 6" = true
+	"stat 6 name" = "Dexterity"
+	"stat 6 ID" = "minecraft:generic.attack_speed"
+	"stat 6 value" = 0.1
+	"stat 6 default" = 4.0
+
+["Stats slot 7 Settings"]
+	"Stat 7" = true
+	"Stat 7 name" = "Stamina"
+	"Stat 7 ID" = "modid:attribute"
+	"Stat 7 value" = 0.1
+	"Extra attributes for stat" = true
+	"Stat 7 extra ID" = "epicfight:staminar"
+	"Stat 7 extra value" = 1.0
+	"Stat 7 extra 2" = "paraglider:max_stamina"
+	"Stat 7 extra value 2" = 10.0
+
+["Stats slot 8 Settings"]
+	"stat 8" = false
+	"stat 8 name" = "Luck"
+	"stat 8 ID" = "minecraft:generic.luck"
+	"stat 8 value" = 0.1
+

@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "com/alrex/parcool/mixin/client/LocalPlayerMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;aiStep()V": "Lnet/minecraft/client/player/LocalPlayer;m_8107_()V"
+    },
+    "com/alrex/parcool/mixin/common/PlayerMixin": {
+      "isStayingOnGroundSurface": "Lnet/minecraft/world/entity/player/Player;m_36343_()Z",
+      "tryToStartFallFlying": "Lnet/minecraft/world/entity/player/Player;m_36319_()Z",
+      "jumpFromGround": "Lnet/minecraft/world/entity/player/Player;m_6135_()V"
+    },
+    "com/alrex/parcool/mixin/common/LivingEntityMixin": {
+      "net.minecraft.world.entity.LivingEntity.onClimbable": "Lnet/minecraft/world/entity/LivingEntity;m_6147_()Z"
+    },
+    "com/alrex/parcool/mixin/client/PlayerRendererMixin": {
+      "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;setupRotations(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFF)V": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_7523_(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFF)V"
+    },
+    "com/alrex/parcool/mixin/client/PlayerModelMixin": {
+      "Lnet/minecraft/client/model/PlayerModel;setupAnim(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V": "Lnet/minecraft/client/model/PlayerModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/alrex/parcool/mixin/client/LocalPlayerMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;aiStep()V": "Lnet/minecraft/client/player/LocalPlayer;m_8107_()V"
+      },
+      "com/alrex/parcool/mixin/common/PlayerMixin": {
+        "isStayingOnGroundSurface": "Lnet/minecraft/world/entity/player/Player;m_36343_()Z",
+        "tryToStartFallFlying": "Lnet/minecraft/world/entity/player/Player;m_36319_()Z",
+        "jumpFromGround": "Lnet/minecraft/world/entity/player/Player;m_6135_()V"
+      },
+      "com/alrex/parcool/mixin/common/LivingEntityMixin": {
+        "net.minecraft.world.entity.LivingEntity.onClimbable": "Lnet/minecraft/world/entity/LivingEntity;m_6147_()Z"
+      },
+      "com/alrex/parcool/mixin/client/PlayerRendererMixin": {
+        "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;setupRotations(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFF)V": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_7523_(Lnet/minecraft/client/player/AbstractClientPlayer;Lcom/mojang/blaze3d/vertex/PoseStack;FFF)V"
+      },
+      "com/alrex/parcool/mixin/client/PlayerModelMixin": {
+        "Lnet/minecraft/client/model/PlayerModel;setupAnim(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V": "Lnet/minecraft/client/model/PlayerModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+      }
+    }
+  }
+}

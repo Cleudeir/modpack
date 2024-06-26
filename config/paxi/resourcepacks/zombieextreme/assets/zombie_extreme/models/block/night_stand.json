@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/night_stand",
+  "textures": {
+    "all": "zombie_extreme:block/night_stand",
+    "particle": "zombie_extreme:block/night_stand",
+    "0": "zombie_extreme:block/night_stand"
+  },
+  "render_type": "solid"
+}

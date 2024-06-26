@@ -1,0 +1,25 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "savanna_plateau",
+    "forest",
+    "snowy_plains",
+    "taiga",
+    "flower_forest",
+    "snowy_slopes",
+    "snowy_taiga",
+    "swamp",
+    "badlands",
+    "old_growth_birch_forest",
+    "bamboo_jungle",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "plains",
+    "savanna",
+    "desert",
+    "old_growth_spruce_taiga",
+    "snowy_beach"
+  ],
+  "features": "zombie_extreme:modern_house_1",
+  "step": "surface_structures"
+}

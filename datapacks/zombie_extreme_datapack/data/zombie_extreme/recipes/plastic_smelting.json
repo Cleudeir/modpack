@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "zombie_extreme:raw_plastic"
+    },
+    "3": {
+      "item": "zombie_extreme:raw_plastic"
+    },
+    "4": {
+      "item": "zombie_extreme:raw_plastic"
+    },
+    "5": {
+      "item": "zombie_extreme:raw_plastic"
+    },
+    "7": {
+      "item": "zombie_extreme:raw_plastic"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:plastic",
+    "count": 4
+  }
+}

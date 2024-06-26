@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/modern_love",
+  "textures": {
+    "0": "zombie_extreme:block/modern_love",
+    "particle": "zombie_extreme:item/modern_axe"
+  }
+}

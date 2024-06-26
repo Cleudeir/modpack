@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Carli/AppData/Roaming/.minecraft/versions/20240509/saves/SOLO_20240625
+}
+

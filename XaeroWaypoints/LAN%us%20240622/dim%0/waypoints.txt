@@ -1,0 +1,6 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:Latest Death:D:30:23:212:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:Cave Entrance:CE:-18:~:-119:11:false:0:gui.xaero_default:false:0:0:false
+waypoint:Cama:S:71:24:-77:13:false:0:gui.xaero_default:false:0:0:false

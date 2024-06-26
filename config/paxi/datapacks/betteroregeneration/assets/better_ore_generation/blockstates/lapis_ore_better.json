@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "better_ore_generation:block/lapis_ore_better"
+    }
+  }
+}

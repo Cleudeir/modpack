@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "better_ore_generation:block/d_iron_ore_better"
+    }
+  }
+}

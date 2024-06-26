@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignot_titan"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:titan_nugget",
+    "count": 9
+  }
+}

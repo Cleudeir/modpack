@@ -1,0 +1,6 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:gui.xaero_deathpoint:D:1138:73:282:0:false:1:gui.xaero_default:false:0:1:true
+waypoint:Quest:Q:1120:3:370:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:Casa:C:1162:72:296:5:false:0:gui.xaero_default:false:0:0:false

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "better_ore_generation:nether_quartz_ore",
+  "step": "underground_ores"
+}

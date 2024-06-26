@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:acid_bottle"
+    },
+    "1": {
+      "item": "zombie_extreme:ignot_infected_titan"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:ignot_titan",
+    "count": 1
+  }
+}

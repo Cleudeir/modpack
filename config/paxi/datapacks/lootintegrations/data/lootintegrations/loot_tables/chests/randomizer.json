@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/lootintegration_celestial",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/lootintegration_nameless",
+          "weight": 1
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/lootintegration_artifacts",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "lootintegrations:chests/randomizer"
+}
