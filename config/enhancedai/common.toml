@@ -389,7 +389,7 @@
 	"Enable Targeting" = true
 	#Use enhancedai:can_open_doors to add more mobs that can open doors.
 	"Enable Open Doors" = true
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid Explosions" = true
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
 	"Enable Item Disruption" = true
@@ -471,7 +471,7 @@
 	[Mobs."Miner Mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner Chance" = 0.2
+		"Miner Chance" = 0.5
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
@@ -485,7 +485,7 @@
 		"Max Y" = 320
 		#The maximum distance from the target at which the Mobs can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
-		"Max Distance" = 30
+		"Max Distance" = 20
 		#Mobs with Miner AI will not be able to break tile entities
 		"Blacklist Tile Entities" = true
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
@@ -559,7 +559,7 @@
 			#Range: 0.0 ~ 1.0
 			Hard = 0.04
 
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	[Mobs."Avoid Explosions"]
 		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
 		#Range: 0.0 ~ 10.0
@@ -736,6 +736,9 @@
 		"TNT Like" = false
 		#If IguanaTweaks Reborn is installed and Explosion Overhaul is enabled, Angry creeper will deal more knockback and break more blocks and breaching creepers will break more blocks
 		"IguanaTweaks Reborn Integration" = true
+		#Makes creepers blow up on death like when they were added back in 0.30
+		#Allowed Values: NONE, CHARGED, ALL
+		"Blow up on death" = "NONE"
 
 		[Creepers."Creeper Swell".Launch]
 			#Launching creepers will try ignite and throw themselves at the player.
@@ -770,6 +773,8 @@
 			"Explosion power" = 4.0
 			#Angry Creeper will not stop swelling when triggered
 			"Forced Explosion" = true
+			#Makes angry creepers blow up on death like when they were added back in 0.30
+			"Explode on death" = true
 
 [Bugs]
 	#Let them swarm. This also changes the Merge With stone goal to have 1.5 seconds cooldown before trying to merge, to prevent them from instantly getting into stone without having the chance to target someone.

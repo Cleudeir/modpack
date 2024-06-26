@@ -3,21 +3,10 @@
     "mob": "world_of_rot:burster",
 	"mincount": {	
 		"mob":"world_of_rot:burster",
-		"amount": 1,
+		"amount": 4,
 		"perplayer": true
     },
     "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "hostile": true,
-    "mincount": {
-		"amount": 40,
-		"hostile": true,
-		"perplayer": true
-    },
-    "result": "deny",
-	"message": "Too many mobs around"
   },
   {
     "mod": "zombie_extreme",
@@ -27,8 +16,7 @@
 	"healthmultiply": 1.2,
     "damagemultiply": 1.8,
 	"followrangemultiply": 1.2,
-    "speedmultiply": 1.2,
-    "armorhelmet": ["minecraft:leather_helmet"]	
+    "speedmultiply": 1.2
   },  
   {
     "phase": "after_day7",

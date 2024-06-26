@@ -3,7 +3,7 @@
   "hud": {
     "distance": 60,
     "x": 2.0,
-    "y": 4.0,
+    "y": 12.0,
     "scale": 0.8,
     "hideDelay": 20,
     "anchorPoint": "UPPER_LEFT",
@@ -24,7 +24,7 @@
   "inWorld": {
     "mode": "NONE",
     "distance": 40.0,
-    "onlyWhenLookingAt": false,
+    "onlyWhenLookingAt": true,
     "onlyWhenHurt": false
   },
   "particle": {

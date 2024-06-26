@@ -13,9 +13,9 @@
 	#Example ["0-0.01","10-0.1","30-0"]
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
-	"Difficulty Increase" = ["0-0.1", "250-0"]
+	"Difficulty Increase" = ["0-0.01", "14-0.1", "30-0"]
 	#Wether difficulty should only increase with at least one online players or not
-	"Ignore Players" = false
+	"Ignore Players" = true
 	#If true will increase difficulty by the amount of time skipped. Else will only increase difficulty once.
 	"Punish Time Skip" = true
 	#Disable/Enable friendly fire for owned pets.
@@ -38,7 +38,7 @@
 	#You can also define it as a triple x-y-z instead where z is the increase per block in for that area.
 	#E.g. ["0-0-0.1","1000-5-1"] the difficulty increases between 0-1000 by 0.1 per block and >= 1000 by 1 per block with a starting value of 5
 	#Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN, DISTANCE, DISTANCESPAWN
-	"Difficulty type" = "GLOBAL"
+	"Difficulty type" = "PLAYERMAX"
 	#Position used for DISTANCE difficulty type
 	"Center Position" = "0-0"
 
@@ -92,7 +92,7 @@
 	#If true and LevelZ is installed will use the the total skill level from LevelZ as difficulty
 	"Use LevelZ Mod" = true
 	#Using pehkui to vary the size of mobs
-	"Use pehkui Mod" = true
+	"Use pehkui Mod" = false
 	#The Max scale of mobs. Range [1.0,10], default 2.0
 	#Range: 1.0 ~ 10.0
 	"Max size Multiplier" = 2.0
@@ -105,14 +105,14 @@
 	#Whitelist for blocks, which can be actively broken. 
 	#Usage: id|namespace|#tag. Put "!" infront to exclude blocks. E.g. "minecraft", "minecraft:dirt" or "#minecraft:planks"
 	#Note: If you include common blocks (like grass blocks) the pathfinding can have undesirable results.
-	"Block Break Whitelist" = ["#forge:glass", "#forge:glass_panes", "#minecraft:fence_gates", "#forge:fence_gates", "#minecraft:wooden_doors"]
+	"Block Break Whitelist" = ["minecraft:netherite_brick", "minecraft:netherite_brick_slab", "minecraft:netherite_brick_stairs", "minecraft:netherite_brick_wall", "minecraft:netherite_brick_fence", "minecraft:netherite_brick_fence_gate", "minecraft:netherite_brick_pressure_plate", "minecraft:netherite_brick_button", "minecraft:netherite_brick_chiseled", "minecraft:netherite_brick_pillar", "minecraft:netherite_brick_cracked", "minecraft:netherite_brick_mossy", "minecraft:netherite_brick_polished", "minecraft:netherite_brick_polished_slab", "minecraft:netherite_brick_polished_stairs", "minecraft:netherite_brick_polished_wall", "minecraft:iron_block", "minecraft:diamond_block"]
 	#Treat Block Whitelist as Blocklist
 	"Breaklist as Blacklist" = false
 	#Use the block breaking sound instead of a knocking sound
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0.3
+	"Breaker Chance" = 0.0
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
@@ -132,12 +132,12 @@
 	"Steal Block Blacklist" = []
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
 	#Note: Mobs can only break blocks if the tool they are holding can break the blocks
-	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
+	"Breaking items" = ["minecraft:stone_pickaxe;1", "minecraft:iron_axe;2"]
 	#Should mobs be able to break block entities? Evaluated before the break list
-	"Break BlockEntities" = true
+	"Break BlockEntities" = false
 	#Chance for neutral mobs to be aggressive
 	#Range: 0.0 ~ 1.0
-	"Neutral Aggressive Chance" = 0.1
+	"Neutral Aggressive Chance" = 0.01
 	#List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.
 	# e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons
 	"Auto Target List" = []
@@ -149,10 +149,14 @@
 	"Difficulty Steal AI" = 0.0
 	#Chance for mobs to be able to summon an aquatic mount
 	#Range: 0.0 ~ 1.0
-	"Guardian Chance" = 1.0
+	"Guardian Chance" = 0.1
 	#Chance for mobs to be able to summon a flying mount
 	#Range: 0.0 ~ 1.0
 	"Phantom Chance" = 0.1
+	#By default mobs can only break the block they can harvest with the current tool they holding. Set this to true to disable that check (The block will not drop if they cant harvest it though!).
+	"Ignore Harvest Check" = false
+	#Set this to true to allow tnt thrown by mobs to destroy blocks
+	"TNT Block Destruction" = false
 
 #Configs regarding mobs spawning with equipment
 [equipment]
@@ -181,13 +185,13 @@
 	"Equipment Addition" = 0.3
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
-	"Weapon Chance" = 0.05
+	"Weapon Chance" = 0.1
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Weapon Chance Add" = 0.3
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
-	"Enchanting Chance" = 0.2
+	"Enchanting Chance" = 0.05
 	#Adds additional x*difficulty% to base enchanting chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Enchanting Addition" = 0.2
@@ -199,12 +203,12 @@
 	"Enchanting Whitelist" = false
 	#Chance for mobs to have an item in offhand
 	#Range: 0.0 ~ 1.0
-	"Item Equip Chance" = 0.05
+	"Item Equip Chance" = 0.2
 	#Adds additional x*difficulty% to base item chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Item Chance add" = 0.2
 	#Should mobs drop the armor equipped through this mod? Will not change drops if the mob obtained the armor through other means (e.g. vanilla)
-	"Should drop equipment" = true
+	"Should drop equipment" = false
 
 #Settings for attribute modifiers
 [attributes]
@@ -222,13 +226,13 @@
 	"Damage Increase Multiplier" = 1.0
 	#Damage will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Damage Increase" = 3.0
+	"Max Damage Increase" = 10.0
 	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Speed Increase" = 1.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
-	"Max Speed" = 0.1
+	"Max Speed" = 1.0
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Knockback Increase" = 1.0

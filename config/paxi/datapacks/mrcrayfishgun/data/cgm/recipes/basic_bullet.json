@@ -2,16 +2,20 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 4,
+      "count": 1,
       "item": "minecraft:copper_ingot"
     },
     {
-      "count": 1,
+      "count": 32,
       "tag": "forge:gunpowder"
-    }
+    },
+    {
+      "count": 32,
+      "item": "minecraft:iron_nugget"
+    }	
   ],
   "result": {
-    "count": 64,
+    "count": 32,
     "item": "cgm:basic_bullet"
   }
 }

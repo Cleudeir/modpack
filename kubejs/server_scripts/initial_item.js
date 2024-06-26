@@ -25,6 +25,7 @@ PlayerEvents.loggedIn(event => {
 
         // Add a random artifact item from the Artifacts mod
         let artifacts = [
+			'quark:backpack',
             'artifacts:anglers_hat',
             'artifacts:antidote_vessel',
             'artifacts:aqua_dashers',

@@ -1,0 +1,45 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:zombie"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:skeleton"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:spider"
+    },
+    {
+      "factor": 3,
+      "value": "minecraft:zombie_villager"
+    },
+    {
+      "factor": 1,
+      "value": "zombie_extreme.infected_military"
+    },
+    {
+      "factor": 1,
+      "value": "zombie_extreme.infected_juggernaut"
+    },
+    {
+      "factor": 1,
+      "value": "zombie_extreme.demolisher"
+    },
+    {
+      "factor": 1,
+      "value": "zombie_extreme.ram"
+    },
+    {
+      "factor": 1,
+      "value": "zombie_extreme:infected_police"
+    },
+    {
+      "factor": 1,
+      "value": "zombie_extreme.faceless"
+    }    
+
+  ]
+}

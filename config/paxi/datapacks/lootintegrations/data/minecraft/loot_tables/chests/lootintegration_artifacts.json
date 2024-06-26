@@ -1,7 +1,8 @@
 {
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -214,8 +215,12 @@
           "weight": 2
         }
       ],
-      "name": "main",
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/lootintegration_artifacts"

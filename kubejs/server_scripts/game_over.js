@@ -18,8 +18,8 @@ PlayerEvents.respawned(event => {
 //	player.persistentData.putInt("customHealth", newHealth);
 //	//player.tell(`HP reduzido para ${newHealth/2}!`);
 //	player.runCommandSilent(`title ${playername} title {"text":"${newHealth/2}${heartIcon}!","bold":false,"color":"#D62828"}`);
-	player.runCommandSilent(`effect give ${playername} minecraft:regeneration 90 1`);	
-	player.runCommandSilent(`effect give ${playername} minecraft:resistance 90 1`);	
+	player.runCommandSilent(`effect give ${playername} minecraft:regeneration 90 4`);	
+	player.runCommandSilent(`effect give ${playername} minecraft:resistance 90 4`);	
 });
 
 

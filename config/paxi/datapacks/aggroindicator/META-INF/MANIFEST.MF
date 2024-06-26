@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: aggroindicator
+Specification-Vendor: Raverbury
+Specification-Version: 1
+Implementation-Title: AggroIndicator
+Implementation-Version: 1.20.x-1.0.0.0
+Implementation-Vendor: Raverbury
+Implementation-Timestamp: 2024-01-28T03:11:28+0700
+

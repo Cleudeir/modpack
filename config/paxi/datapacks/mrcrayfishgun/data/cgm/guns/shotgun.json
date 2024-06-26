@@ -40,7 +40,7 @@
     }
   },
   "projectile": {
-    "damage": 18.0,
+    "damage": 23.0,
     "item": "cgm:shell",
     "life": 5,
     "size": 1.0,

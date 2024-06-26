@@ -125,7 +125,9 @@
           "includeList": [],
           "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
-          "excludeList": [],
+          "excludeList": [
+            "artifacts:mimic"
+          ],
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {

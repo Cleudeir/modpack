@@ -1,13 +1,23 @@
-[20:34:39.190][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
-[20:34:39.220][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[20:34:39.322][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[20:34:39.324][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[20:34:39.327][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[20:34:41.015][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[20:34:41.017][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
-[20:34:41.017][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
-[20:34:41.017][INFO][CraftTweaker]: - 'gamestages' at version '15.0.1'
-[20:35:00.951][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[20:35:01.623][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[20:35:01.666][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[20:35:01.765][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[19:19:07.975][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[19:19:08.009][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[19:19:08.108][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[19:19:08.110][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[19:19:08.115][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[19:19:10.058][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[19:19:10.061][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
+[19:19:10.061][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
+[19:19:10.061][INFO][CraftTweaker]: - 'gamestages' at version '15.0.1'
+[19:19:31.158][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[19:19:31.849][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:19:31.895][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[19:19:32.015][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[19:20:13.928][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[19:20:13.957][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:20:13.984][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[19:20:13.995][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[19:20:14.888][INFO][CraftTweaker]: CraftTweaker reload starting!
+[19:20:14.893][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[19:20:14.916][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:20:15.433][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:20:15.443][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[19:20:15.444][INFO][CraftTweaker]: CraftTweaker reload complete!

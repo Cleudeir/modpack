@@ -68,8 +68,11 @@
     "modpackMemory": false,
     "memory": 0,
     "id": -936546381558800,
-    "name": "20240509",
+    "name": "modpack",
     "favorite": false,
+    "categories": [],
+    "tags": [],
+    "pictures": [],
     "version": {
       "mods": [
         {
@@ -3025,7 +3028,7 @@
           "adult": false
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": 282639,
           "name": "Improved Mobs (Forge)",
           "author": "Flemmli97",
@@ -10965,7 +10968,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -185946452078400,
           "name": "ScalingHealth-1.20.1-8.0.2+9",
           "favorite": false,
@@ -13683,6 +13686,160 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": -157085448349700,
+          "name": "DistantFriends-forge-1.20.1-0.5.4",
+          "favorite": false,
+          "version": {
+            "id": -157085449872400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bf8b77a1371c87d0469dd1ed20f1b434695d9185",
+              "size": 52572,
+              "path": "mods/DistantFriends-forge-1.20.1-0.5.4.jar",
+              "url": "mods/DistantFriends-forge-1.20.1-0.5.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -157085450115900,
+          "name": "EnhancedAI-2.4.7-mc1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -157085459027800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2520af8c3ffed9af0857292a7bf16332752787f3",
+              "size": 681636,
+              "path": "mods/EnhancedAI-2.4.7-mc1.20.1.jar",
+              "url": "mods/EnhancedAI-2.4.7-mc1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -157085459762800,
+          "name": "improvedmobs-1.20.1-1.12.4-forge",
+          "favorite": false,
+          "version": {
+            "id": -157085464615200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d5d627bb027a2fa0da4907b740bb681d1c47c520",
+              "size": 322964,
+              "path": "mods/improvedmobs-1.20.1-1.12.4-forge.jar",
+              "url": "mods/improvedmobs-1.20.1-1.12.4-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": -157085465894300,
+          "name": "PresenceFootsteps-1.20.1-1.9.1-beta.1",
+          "favorite": false,
+          "version": {
+            "id": -157085486598000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6ccb76043763f929a11f1857a57b41bb70ab7512",
+              "size": 7080698,
+              "path": "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+              "url": "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -192134433317000,
+          "name": "AI-Improvements-1.20-0.5.2",
+          "favorite": false,
+          "version": {
+            "id": -192134433762800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8",
+              "size": 29553,
+              "path": "mods/AI-Improvements-1.20-0.5.2.jar",
+              "url": "mods/AI-Improvements-1.20-0.5.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -192339649120700,
+          "name": "crashutilities-8.1.4",
+          "favorite": false,
+          "version": {
+            "id": -192339649790100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e3c00b7591fd5ea99cfbb853b9369fb999d68ed0",
+              "size": 233000,
+              "path": "mods/crashutilities-8.1.4.jar",
+              "url": "mods/crashutilities-8.1.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -194992877655200,
+          "name": "torohealth-1.20-forge-4",
+          "favorite": false,
+          "version": {
+            "id": -194992878585300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8d1032ac29aa9e29c5b71b7adf1970218063d14a",
+              "size": 120750,
+              "path": "mods/torohealth-1.20-forge-4.jar",
+              "url": "mods/torohealth-1.20-forge-4.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
@@ -16077,6 +16234,7 @@
         }
       ]
     },
+    "versions": [],
     "userInstall": false,
     "populateStatus": false,
     "available": false,
