@@ -107,12 +107,16 @@
 	#Note: If you include common blocks (like grass blocks) the pathfinding can have undesirable results.
 	"Block Break Whitelist" = ["minecraft:netherite_brick", "minecraft:netherite_brick_slab", "minecraft:netherite_brick_stairs", "minecraft:netherite_brick_wall", "minecraft:netherite_brick_fence", "minecraft:netherite_brick_fence_gate", "minecraft:netherite_brick_pressure_plate", "minecraft:netherite_brick_button", "minecraft:netherite_brick_chiseled", "minecraft:netherite_brick_pillar", "minecraft:netherite_brick_cracked", "minecraft:netherite_brick_mossy", "minecraft:netherite_brick_polished", "minecraft:netherite_brick_polished_slab", "minecraft:netherite_brick_polished_stairs", "minecraft:netherite_brick_polished_wall", "minecraft:iron_block", "minecraft:diamond_block"]
 	#Treat Block Whitelist as Blocklist
-	"Breaklist as Blacklist" = false
+	"Breaklist as Blacklist" = true
 	#Use the block breaking sound instead of a knocking sound
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
+<<<<<<< HEAD
 	"Breaker Chance" = 0.0
+=======
+	"Breaker Chance" = 1.0
+>>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120

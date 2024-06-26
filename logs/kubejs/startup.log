@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [19:19:10] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
 [19:19:10] [INIT] Loaded plugins:
 [19:19:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
@@ -10,3 +11,17 @@
 [19:19:11] [INFO] Loaded script startup_scripts:example.js in 0.002 s
 [19:19:11] [INFO] Loaded script startup_scripts:worldgen.js in 0.0 s
 [19:19:11] [INFO] Loaded 3/3 KubeJS startup scripts in 1.189 s with 0 errors and 0 warnings
+=======
+[08:08:19] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[08:08:19] [INIT] Loaded plugins:
+[08:08:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[08:08:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[08:08:19] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[08:08:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[08:08:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[08:08:20] [INFO] Loaded script startup_scripts:custom_item_attributes.js in 0.083 s
+[08:08:20] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[08:08:20] [INFO] Loaded script startup_scripts:example.js in 0.001 s
+[08:08:20] [INFO] Loaded script startup_scripts:worldgen.js in 0.0 s
+[08:08:20] [INFO] Loaded 3/3 KubeJS startup scripts in 1.004 s with 0 errors and 0 warnings
+>>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52

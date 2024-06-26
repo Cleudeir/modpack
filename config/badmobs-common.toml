@@ -8489,3 +8489,20 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 
+<<<<<<< HEAD
+=======
+#Options for the distantfriends mod.
+[distantfriends]
+
+	#Spawning options for distantfriends:friend
+	[distantfriends.friend]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+>>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52

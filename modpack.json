@@ -1841,15 +1841,15 @@
       "size": 23028853,
       "url": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar"
     },
-    "client_mappings": {
-      "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
-      "size": 8001795,
-      "url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt"
-    },
     "server": {
       "sha1": "84194a2f286ef7c14ed7ce0090dba59902951553",
       "size": 47791053,
       "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar"
+    },
+    "client_mappings": {
+      "sha1": "6c48521eed01fe2e8ecdadbd5ae348415f3c47da",
+      "size": 8001795,
+      "url": "https://piston-data.mojang.com/v1/objects/6c48521eed01fe2e8ecdadbd5ae348415f3c47da/client.txt"
     },
     "server_mappings": {
       "sha1": "0b4dba049482496c507b2387a73a913230ebbd76",
@@ -1857,7 +1857,6 @@
       "url": "https://piston-data.mojang.com/v1/objects/0b4dba049482496c507b2387a73a913230ebbd76/server.txt"
     }
   },
-  "complianceLevel": 1.0,
   "javaVersion": {
     "component": "java-runtime-gamma",
     "majorVersion": 17.0

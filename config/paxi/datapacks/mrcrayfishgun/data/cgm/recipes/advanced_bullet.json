@@ -11,7 +11,11 @@
     },
     {
       "count": 48,
+<<<<<<< HEAD
       "item": "minecraft:iron_nugget"
+=======
+      "tag": "minecraft:iron_nugget"
+>>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52
     }	
   ],
   "result": {

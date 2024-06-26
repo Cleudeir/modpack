@@ -2,6 +2,10 @@ type = last_world
 
 last_world {
   is_server = false
+<<<<<<< HEAD
   world = C:/Users/Carli/AppData/Roaming/.minecraft/versions/modpack/saves/SOLO_20240626
+=======
+  world = C:/Users/Carli/AppData/Roaming/.minecraft/versions/modpack/saves/Test
+>>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52
 }
 
