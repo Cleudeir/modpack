@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "com/corosus/zombieawareness/mixin/client/MixinPlaySoundClient": {
+      "playSound": "Lnet/minecraft/client/multiplayer/ClientLevel;m_233602_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V"
+    },
+    "com/corosus/zombieawareness/mixin/MixinRecomputePath": {
+      "shouldRecomputePath": "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;m_200903_(Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "com/corosus/zombieawareness/mixin/MixinLevelEvent": {
+      "levelEvent": "Lnet/minecraft/server/level/ServerLevel;m_5898_(Lnet/minecraft/world/entity/player/Player;ILnet/minecraft/core/BlockPos;I)V",
+      "Lnet/minecraft/server/players/PlayerList;broadcast(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/players/PlayerList;m_11241_(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V"
+    },
+    "com/corosus/zombieawareness/mixin/MixinPreventWandering": {
+      "canUse": "Lnet/minecraft/world/entity/ai/goal/RandomStrollGoal;m_8036_()Z"
+    },
+    "com/corosus/zombieawareness/mixin/MixinPlaySound": {
+      "playSeededSound(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/core/Holder;Lnet/minecraft/sounds/SoundSource;FFJ)V": "Lnet/minecraft/server/level/ServerLevel;m_262808_(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/core/Holder;Lnet/minecraft/sounds/SoundSource;FFJ)V",
+      "Lnet/minecraft/server/players/PlayerList;broadcast(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/players/PlayerList;m_11241_(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/corosus/zombieawareness/mixin/client/MixinPlaySoundClient": {
+        "playSound": "Lnet/minecraft/client/multiplayer/ClientLevel;m_233602_(DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FFZJ)V"
+      },
+      "com/corosus/zombieawareness/mixin/MixinRecomputePath": {
+        "shouldRecomputePath": "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;m_200903_(Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "com/corosus/zombieawareness/mixin/MixinLevelEvent": {
+        "levelEvent": "Lnet/minecraft/server/level/ServerLevel;m_5898_(Lnet/minecraft/world/entity/player/Player;ILnet/minecraft/core/BlockPos;I)V",
+        "Lnet/minecraft/server/players/PlayerList;broadcast(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/players/PlayerList;m_11241_(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V"
+      },
+      "com/corosus/zombieawareness/mixin/MixinPreventWandering": {
+        "canUse": "Lnet/minecraft/world/entity/ai/goal/RandomStrollGoal;m_8036_()Z"
+      },
+      "com/corosus/zombieawareness/mixin/MixinPlaySound": {
+        "playSeededSound(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/core/Holder;Lnet/minecraft/sounds/SoundSource;FFJ)V": "Lnet/minecraft/server/level/ServerLevel;m_262808_(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/core/Holder;Lnet/minecraft/sounds/SoundSource;FFJ)V",
+        "Lnet/minecraft/server/players/PlayerList;broadcast(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/players/PlayerList;m_11241_(Lnet/minecraft/world/entity/player/Player;DDDDLnet/minecraft/resources/ResourceKey;Lnet/minecraft/network/protocol/Packet;)V"
+      }
+    }
+  }
+}

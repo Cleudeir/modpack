@@ -68,8 +68,11 @@
     "modpackMemory": false,
     "memory": 0,
     "id": -936546381558800,
-    "name": "20240509",
+    "name": "modpack",
     "favorite": false,
+    "categories": [],
+    "tags": [],
+    "pictures": [],
     "version": {
       "mods": [
         {
@@ -10965,7 +10968,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -185946452078400,
           "name": "ScalingHealth-1.20.1-8.0.2+9",
           "favorite": false,
@@ -16077,6 +16080,7 @@
         }
       ]
     },
+    "versions": [],
     "userInstall": false,
     "populateStatus": false,
     "available": false,

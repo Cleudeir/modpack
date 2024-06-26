@@ -1,20 +1,61 @@
-[20:34:51] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
-[20:34:51] [INIT] Loaded plugins:
-[20:34:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[20:34:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[20:34:51] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[20:34:51] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[20:34:51] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[20:34:51] [INFO] Loaded script server_scripts:block_replace.js in 0.0 s
-[20:34:51] [INFO] Loaded script server_scripts:custom_equipment.js in 0.013 s
-[20:34:51] [INFO] Loaded script server_scripts:custom_equipment_effect.js in 0.0 s
-[20:34:51] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[20:34:51] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[20:34:51] [INFO] Loaded script server_scripts:game_over.js in 0.001 s
-[20:34:51] [INFO] Loaded script server_scripts:initial_item.js in 0.004 s
-[20:34:51] [INFO] Loaded script server_scripts:inventory.js in 0.0 s
-[20:34:51] [INFO] Loaded script server_scripts:item_category.js in 0.008 s
-[20:34:51] [INFO] Loaded script server_scripts:rewards.js in 0.0 s
-[20:34:51] [INFO] Loaded 9/9 KubeJS server scripts in 0.041 s with 0 errors and 0 warnings
-[20:34:51] [INFO] Scripts loaded
-[20:34:51] [INFO] Initializing recipe event...
+[08:31:34] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[08:31:34] [INIT] Loaded plugins:
+[08:31:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[08:31:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[08:31:34] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[08:31:34] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[08:31:34] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[08:31:34] [INFO] Loaded script server_scripts:block_replace.js in 0.001 s
+[08:31:34] [INFO] Loaded script server_scripts:custom_equipment.js in 0.001 s
+[08:31:34] [INFO] Loaded script server_scripts:custom_equipment_effect.js in 0.0 s
+[08:31:34] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[08:31:34] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[08:31:34] [INFO] Loaded script server_scripts:game_over.js in 0.0 s
+[08:31:34] [INFO] Loaded script server_scripts:initial_item.js in 0.0 s
+[08:31:34] [INFO] Loaded script server_scripts:inventory.js in 0.0 s
+[08:31:34] [INFO] Loaded script server_scripts:item_category.js in 0.001 s
+[08:31:34] [INFO] Loaded script server_scripts:rewards.js in 0.0 s
+[08:31:34] [INFO] Loaded 9/9 KubeJS server scripts in 0.007 s with 0 errors and 0 warnings
+[08:31:34] [INFO] Scripts loaded
+[08:31:34] [INFO] Initializing recipe event...
+[08:31:34] [INFO] [minecraft:item] Found 939 tags, added 542 objects, removed 0 objects
+[08:31:35] [INFO] Processing recipes...
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:apophis_katana_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:amaterasu_shuriken_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_sickle_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:mjollnir_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:lug_longsword_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'marbledsarsenal:heavy_riot_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'mutantsbuff:creeper_shard_plus_hammer[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:chaos_sword_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:cernunnos_sickle_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_dagger_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_battleaxe_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_katana_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_rapier_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:erebus_scythe_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:fujin_dagger_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_shuriken_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'marbledsarsenal:riot_shield[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_scythe_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'design_decor:stonecutting/metals/iron/bolt[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'mutantsbuff:creeper_shard_plus_ham_2[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:om_spear_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:jotunn_battleaxe_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_cutlass_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:sobek_rapier_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:zeus_cutlass_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'design_decor:stonecutting/metals/iron/screw[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_hammer_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:tunupa_glaive_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_spear_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_glaive_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'divine_weaponry:netherite_longsword_craft[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'incendium:upgrade_elytra[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [WARN] Failed to parse recipe 'mutantsbuff:aadd[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[08:31:35] [INFO] Found 10512 recipes in 69.11 ms
+[08:31:35] [INFO] Posted recipe events in 6.292 ms
+[08:31:35] [WARN] Error parsing recipe design_decor:item_application/millstones/special_aluminum_cylinder[create:item_application]: {"type":"create:item_application","ingredients":[{"item":"design_decor:aluminum_boiler"},{"item":"minecraft:pink_dye"}],"results":[{"item":"design_decor:aluminum_boiler_special"}]}: Unknown item 'design_decor:aluminum_boiler'
+[08:31:35] [WARN] Error parsing recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder[create:item_application]: {"type":"create:item_application","ingredients":[{"item":"design_decor:aluminum_boiler"},{"item":"minecraft:pink_dye"}],"results":[{"item":"design_decor:aluminum_boiler_special"}]}: Unknown item 'design_decor:aluminum_boiler'
+[08:31:35] [INFO] Added 44 recipes, removed 157 recipes, modified 0 recipes, with 2 failed recipes in 36.58 ms
+[08:31:36] [INFO] Server resource reload complete!

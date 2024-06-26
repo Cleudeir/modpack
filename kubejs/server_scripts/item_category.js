@@ -844,3 +844,10 @@ ServerEvents.tags('item', event => {
     'minecraft:tropical_fish_bucket'
   ]);
 });
+
+ServerEvents.tags('entity', event => {
+    // Add world_of_rot:burster to the #forge:creepers tag
+    event.add('forge:creepers', [
+	'world_of_rot:burster'
+	]);
+});
