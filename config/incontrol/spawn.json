@@ -1,14 +1,5 @@
 [
   {
-    "mob": "world_of_rot:burster",
-	"mincount": {	
-		"mob":"world_of_rot:burster",
-		"amount": 4,
-		"perplayer": true
-    },
-    "result": "deny"
-  },
-  {
     "mod": "zombie_extreme",
     "seesky": true,
     "when": "finalize",
@@ -16,7 +7,8 @@
 	"healthmultiply": 1.2,
     "damagemultiply": 1.8,
 	"followrangemultiply": 1.2,
-    "speedmultiply": 1.2
+    "speedmultiply": 1.2,
+    "armorhelmet": ["minecraft:leather_helmet"]	
   },  
   {
     "phase": "after_day7",

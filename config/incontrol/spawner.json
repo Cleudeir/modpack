@@ -1,6 +1,6 @@
 [
   {
-    "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller","minecraft:stray"],
+    "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller"],
     "persecond": 60,
     "attempts": 3,
     "amount": {
@@ -45,7 +45,7 @@
       "dimension": "minecraft:overworld",
       "mindist": 40,
       "maxdist": 80,	  
-	    "minheight": -64,
+	  "minheight": -64,
       "maxheight": -30,
       "maxthis": 3
     }

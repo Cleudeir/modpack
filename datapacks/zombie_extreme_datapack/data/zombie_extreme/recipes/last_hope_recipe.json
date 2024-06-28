@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "3": {
+      "item": "zombie_extreme:tin_plate"
+    },
+    "4": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "5": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "6": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "7": {
+      "item": "zombie_extreme:tin_plate"
+    },
+    "8": {
+      "item": "zombie_extreme:blueprint_epic"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:last_hope",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "zombie_extreme:scorched_earth",
+  "features": "zombie_extreme:ruin_1",
+  "step": "surface_structures"
+}

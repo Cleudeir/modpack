@@ -1,6 +1,5 @@
 {
     "values": [
-<<<<<<< HEAD
 		"minecraft:slime",
 		"quark:stoneling",
 		"alexsmobs:stradpole",
@@ -187,8 +186,6 @@
 		"wrd:the_angry_giant_king",
 		"wrd:the_overseer",
 		"wrd:the_giant_king"
-=======
         "minecraft:creeper"
->>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52
     ]
 }

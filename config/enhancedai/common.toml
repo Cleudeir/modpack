@@ -471,7 +471,7 @@
 	[Mobs."Miner Mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner Chance" = 0.5
+		"Miner Chance" = 0.0
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
 		"Can mine with tool only" = true
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.

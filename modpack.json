@@ -47,234 +47,280 @@
       {
         "values": [
           "-Djava.library.path=${natives_directory}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-Djna.tmpdir=${natives_directory}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-Dio.netty.native.workdir=${natives_directory}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-Dminecraft.launcher.brand=${launcher_name}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-Dminecraft.launcher.version=${launcher_version}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-cp"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${classpath}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-Djava.net.preferIPv6Addresses=system"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-,${version_name}.jar"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-DlibraryDirectory=${library_directory}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "-p"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${library_directory}/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar${classpath_separator}${library_directory}/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar${classpath_separator}${library_directory}/org/ow2/asm/asm/9.7/asm-9.7.jar${classpath_separator}${library_directory}/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--add-modules"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "ALL-MODULE-PATH"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--add-opens"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "java.base/java.util.jar=cpw.mods.securejarhandler"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--add-opens"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "java.base/java.lang.invoke=cpw.mods.securejarhandler"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--add-exports"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "java.base/sun.security.util=cpw.mods.securejarhandler"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--add-exports"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "jdk.naming.dns/com.sun.jndi.dns=java.naming"
-        ]
+        ],
+        "rules": []
       }
     ],
     "game": [
       {
         "values": [
           "--username"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${auth_player_name}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--version"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${version_name}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--gameDir"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${game_directory}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--assetsDir"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${assets_root}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--assetIndex"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${assets_index_name}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--uuid"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${auth_uuid}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--accessToken"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${auth_access_token}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--clientId"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${clientid}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--xuid"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${auth_xuid}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--userType"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${user_type}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--versionType"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "${version_type}"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
@@ -364,52 +410,62 @@
       {
         "values": [
           "--launchTarget"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "forgeclient"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--fml.forgeVersion"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "47.3.0"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--fml.mcVersion"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "1.20.1"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--fml.forgeGroup"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "net.minecraftforge"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "--fml.mcpVersion"
-        ]
+        ],
+        "rules": []
       },
       {
         "values": [
           "20230612.114412"
-        ]
+        ],
+        "rules": []
       }
     ]
   },

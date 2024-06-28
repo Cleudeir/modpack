@@ -7,7 +7,7 @@
 	"Open Doors" = true
 	#The difficulty and above that player mobs can open doors, if enabled above.
 	#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
-	"Open Doors Difficulty" = "HARD"
+	"Open Doors Difficulty" = "NORMAL"
 	#The chance of the mob getting the ability to pickup items, it's used on mob spawn.
 	#Set to -1 to disable.
 	#Range: -1.0 ~ 256.0

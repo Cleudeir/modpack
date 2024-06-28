@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "badlands",
+    "savanna_plateau",
+    "bamboo_jungle",
+    "forest",
+    "zombie_extreme:scorched_earth",
+    "dark_forest",
+    "taiga",
+    "plains",
+    "savanna",
+    "birch_forest",
+    "jungle",
+    "desert"
+  ],
+  "features": "zombie_extreme:gas_station_1",
+  "step": "surface_structures"
+}

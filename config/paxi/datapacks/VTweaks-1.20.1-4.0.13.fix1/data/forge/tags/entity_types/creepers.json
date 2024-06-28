@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:creeper",
+    "world_of_rot:burster",
+    "zombie_extreme:boomer",
+    "zombie_extreme:inflated"
+  ]
+}

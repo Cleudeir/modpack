@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "plains",
+    "beach",
+    "desert",
+    "snowy_beach"
+  ],
+  "features": "zombie_extreme:oil_shale_sand",
+  "step": "underground_ores"
+}

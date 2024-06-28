@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "3": {
+      "item": "zombie_extreme:ignot_tin"
+    },
+    "4": {
+      "item": "zombie_extreme:ignot_bronze"
+    },
+    "5": {
+      "item": "zombie_extreme:ignot_tin"
+    },
+    "7": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:bear_trap",
+    "count": 1
+  }
+}

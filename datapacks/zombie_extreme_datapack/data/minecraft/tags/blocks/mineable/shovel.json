@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zombie_extreme:radiation_block",
+    "zombie_extreme:burning_land_oil_shale",
+    "zombie_extreme:oil_shale_sand",
+    "zombie_extreme:dead_body",
+    "zombie_extreme:sand_bag"
+  ]
+}

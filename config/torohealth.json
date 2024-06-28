@@ -3,16 +3,16 @@
   "hud": {
     "distance": 60,
     "x": 2.0,
-    "y": 12.0,
+    "y": 16.0,
     "scale": 0.8,
     "hideDelay": 20,
     "anchorPoint": "UPPER_LEFT",
     "showEntity": true,
     "showBar": true,
-    "showSkin": true,
+    "showSkin": false,
     "onlyWhenHurt": false,
     "showExtraData": true,
-    "showDataType": "MINMAX"
+    "showDataType": "PERCENTAGE"
   },
   "bar": {
     "damageNumberType": "NONE",

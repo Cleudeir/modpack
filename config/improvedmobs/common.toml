@@ -54,7 +54,7 @@
 	#<#minecraft:raiders|ATTRIBUTES> will add all entities in the raiders tag to everything except attributes
 	#<minecraft:sheep|ATTRIBUTES> will add sheep to everything except attributes
 	#<minecraft> disables everything for all minecraft mobs
-	"Entity Configs" = ["alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "alexsmobs:centipede_tail", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "alexsmobs:moose", "alexsmobs:seal", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "alexsmobs:anaconda", "minecraft:polar_bear", "mutantmonsters:mutant_snow_golem", "minecraft:llama", "minecraft:pig", "twilightforest:raven", "minecraft:turtle", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "alexsmobs:rattlesnake", "alexsmobs:gelada_monkey", "minecraft:cod", "alexsmobs:mantis_shrimp", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "twilightforest:loyal_zombie", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "twilightforest:tiny_bird", "mutantmonsters:spider_pig", "alexsmobs:potoo", "quark:stoneling", "minecraft:cow", "alexsmobs:fly", "mutantsbuff:shockwaves", "minecraft:bee", "alexsmobs:devils_hole_pupfish", "quark:shiba", "alexsmobs:crocodile", "quark:toretoise", "alexsmobs:blue_jay", "guardvillagers:guard", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "twilightforest:quest_ram", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "alexsmobs:rain_frog", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "minecraft:rabbit", "minecraft:axolotl", "alexsmobs:blobfish", "alexsmobs:gorilla", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "quark:crab", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "twilightforest:bighorn_sheep", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "alexsmobs:spectre", "alexsmobs:cosmaw", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "mutantmonsters:creeper_minion", "twilightforest:deer", "alexsmobs:banana_slug", "alexsmobs:mimic_octopus", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "alexsmobs:gazelle", "twilightforest:squirrel", "minecraft:mule", "minecraft:sniffer", "mutantsbuff:shockwave", "alexsmobs:skunk", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "twilightforest:boar", "minecraft:cat", "minecraft:pufferfish", "alexsmobs:stradpole", "alexsmobs:tarantula_hawk", "twilightforest:dwarf_rabbit", "minecraft:fox", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "minecraft:ocelot", "twilightforest:penguin", "alexsmobs:warped_toad", "minecraft:chicken", "alexsmobs:giant_squid", "minecraft:wolf", "minecraft:panda"]
+	"Entity Configs" = ["alexmobs|BLOCKBREAK", "realmrpg_demons|BLOCKBREAK", "riskofrain_mobs|BLOCKBREAK", "twilightforest|BLOCKBREAK", "minecraft:zombie", "alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "alexsmobs:centipede_tail", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "alexsmobs:moose", "alexsmobs:seal", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "alexsmobs:anaconda", "minecraft:polar_bear", "mutantmonsters:mutant_snow_golem", "minecraft:llama", "minecraft:pig", "twilightforest:raven", "minecraft:turtle", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "alexsmobs:rattlesnake", "alexsmobs:gelada_monkey", "minecraft:cod", "alexsmobs:mantis_shrimp", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "twilightforest:loyal_zombie", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "twilightforest:tiny_bird", "mutantmonsters:spider_pig", "alexsmobs:potoo", "quark:stoneling", "minecraft:cow", "alexsmobs:fly", "mutantsbuff:shockwaves", "minecraft:bee", "alexsmobs:devils_hole_pupfish", "quark:shiba", "alexsmobs:crocodile", "quark:toretoise", "alexsmobs:blue_jay", "guardvillagers:guard", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "twilightforest:quest_ram", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "alexsmobs:rain_frog", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "minecraft:rabbit", "minecraft:axolotl", "alexsmobs:blobfish", "alexsmobs:gorilla", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "quark:crab", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "twilightforest:bighorn_sheep", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "alexsmobs:spectre", "alexsmobs:cosmaw", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "mutantmonsters:creeper_minion", "twilightforest:deer", "alexsmobs:banana_slug", "alexsmobs:mimic_octopus", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "alexsmobs:gazelle", "twilightforest:squirrel", "minecraft:mule", "minecraft:sniffer", "mutantsbuff:shockwave", "alexsmobs:skunk", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "twilightforest:boar", "minecraft:cat", "minecraft:pufferfish", "alexsmobs:stradpole", "alexsmobs:tarantula_hawk", "twilightforest:dwarf_rabbit", "minecraft:fox", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "minecraft:ocelot", "twilightforest:penguin", "alexsmobs:warped_toad", "minecraft:chicken", "alexsmobs:giant_squid", "minecraft:wolf", "minecraft:panda"]
 	#Any of the following 
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO]
 	#added here will disable that feature completely.
@@ -92,7 +92,7 @@
 	#If true and LevelZ is installed will use the the total skill level from LevelZ as difficulty
 	"Use LevelZ Mod" = true
 	#Using pehkui to vary the size of mobs
-	"Use pehkui Mod" = false
+	"Use pehkui Mod" = true
 	#The Max scale of mobs. Range [1.0,10], default 2.0
 	#Range: 1.0 ~ 10.0
 	"Max size Multiplier" = 2.0
@@ -112,11 +112,7 @@
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-<<<<<<< HEAD
-	"Breaker Chance" = 0.0
-=======
-	"Breaker Chance" = 1.0
->>>>>>> ab4496fff3137fb4f9d3f10f81975e2c2d442a52
+	"Breaker Chance" = 0.8
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
@@ -126,12 +122,12 @@
 	#Blocks will be restored after x ticks being broken. If set to 0 will never restore
 	#This will not restore block entity data!
 	#Range: > 0
-	"Restore delay" = 6000
+	"Restore delay" = 4000
 	#If mobs should break blocks when not chasing a target
 	"Idle Break" = false
 	#Chance for a mob to be able to steal items from inventory blocks
 	#Range: 0.0 ~ 1.0
-	"Stealer Chance" = 0.3
+	"Stealer Chance" = 0.03
 	#List of blocks mobs shouldn't steal from. You can also add a modid to blacklist whole mods
 	"Steal Block Blacklist" = []
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight

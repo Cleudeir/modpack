@@ -1,8 +1,0 @@
-#
-#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
-#
-waypoint:gui.xaero_deathpoint:D:-483:102:-214:0:false:1:gui.xaero_default:false:0:1:true
-waypoint:gui.xaero_deathpoint_old:D:-486:102:-223:0:false:2:gui.xaero_default:false:0:1:true
-waypoint:gui.xaero_deathpoint_old:D:-250:98:-212:0:false:2:gui.xaero_default:false:0:1:true
-waypoint:Shared Location:S:-260:112:-194:11:false:0:gui.xaero_default:false:0:0:false
-waypoint:gui.xaero_deathpoint_old:D:-208:11:-52:0:false:2:gui.xaero_default:false:0:1:true

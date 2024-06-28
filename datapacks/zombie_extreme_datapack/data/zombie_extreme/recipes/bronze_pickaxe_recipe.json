@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignot_bronze"
+    },
+    "1": {
+      "item": "zombie_extreme:ignot_bronze"
+    },
+    "2": {
+      "item": "zombie_extreme:ignot_bronze"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:bronze_pickaxe",
+    "count": 1
+  }
+}

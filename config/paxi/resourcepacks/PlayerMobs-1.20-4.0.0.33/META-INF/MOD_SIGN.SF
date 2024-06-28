@@ -1,0 +1,149 @@
+Signature-Version: 1.0
+Created-By: 17.0.7 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: Dyq7OnjKSJO/ZrJoTS0+GRUHeo7qNY4ItlL2O0vnEbk=
+SHA-256-Digest-Manifest-Main-Attributes: F4zVxP6ciUauqi6PsBirNwUQTUNzRbD
+ nZ0+SQ9yMYqQ=
+
+Name: META-INF/jarjar/Registrate-MC1.20-1.3.1.jar
+SHA-256-Digest: Z36uzlRHm8phoE/HzTVhl7OXooKLYnp7U1302S3t7MU=
+
+Name: se/gory_moon/player_mobs/world/AddSpawnsToSameAsEntityBiomeModifie
+ r.class
+SHA-256-Digest: x+m7h/OjEYfX6yRJiD4eLAmsAE0rETOsS3+EIn9qJy4=
+
+Name: se/gory_moon/player_mobs/utils/TextureUtils$SkinType.class
+SHA-256-Digest: bUfCfaN8Z7qqxDY+xCw5gedtzCBTpSn9EZi+BJOYzKc=
+
+Name: se/gory_moon/player_mobs/Constants.class
+SHA-256-Digest: v+x8KvMt4ZrP/sBd2Z5G8/Gzc4VuZTJ4qw0TnTgHN08=
+
+Name: se/gory_moon/player_mobs/LangKeys.class
+SHA-256-Digest: j4jftTN6Y/QHlzG0Px/XBu3dfopU8gZYJCzIHFrDnOg=
+
+Name: se/gory_moon/player_mobs/utils/package-info.class
+SHA-256-Digest: vg0fGXiL6Dy6IN9wWTESloI3TtMPcym19qvEqga37xw=
+
+Name: se/gory_moon/player_mobs/sound/SoundRegistry.class
+SHA-256-Digest: 0cLP7mKDhJcBbXbDwOBvRLMX9kfhjvFiwoMs2815ZXc=
+
+Name: assets/player_mobs/sounds/mob/ambient.ogg
+SHA-256-Digest: R/gbXWCR0bNJGng05IkSR137+ILF7xvWAXGU+fsGqu0=
+
+Name: data/player_mobs/forge/biome_modifier/add_player_mobs_spawns.json
+SHA-256-Digest: edcKIwOAAbKMd2vXze5OJg6tbMKU0YFiv4RduPSAA+c=
+
+Name: se/gory_moon/player_mobs/sound/SoundBuilder.class
+SHA-256-Digest: z3Fv2a3SjPFlONE9Lfvknv+j7y5VtFiVhkYlJsXG9rU=
+
+Name: se/gory_moon/player_mobs/utils/DeathHandler.class
+SHA-256-Digest: uC5Sj3dZqU4o3RA470PSEruo45iZDekSQpd4XxmQ6Zg=
+
+Name: META-INF/accesstransformer.cfg
+SHA-256-Digest: Ksas1u9ezNhf02Sn0opEW2FlV81bOcvF7Dh3fQQGMI4=
+
+Name: META-INF/mods.toml
+SHA-256-Digest: VsbcdgI6Njn0yoY/TyFDGA7Gq2pwzxV7tUCc14r6vO8=
+
+Name: se/gory_moon/player_mobs/utils/ClientThreadUtils.class
+SHA-256-Digest: IMbWpnpbKms16IbpLX5k/AC/im/320MdyDv8ypAqjGk=
+
+Name: se/gory_moon/player_mobs/client/render/PlayerMobDeadmau5EarsLayer.
+ class
+SHA-256-Digest: BRzpdecQlMnyHK5p5QlH0uujkf586otpyvcsu14/P0c=
+
+Name: banner.png
+SHA-256-Digest: P4v7SGF9LUH88g1pe32SIdz1CuE5ukVmmridjqtRvac=
+
+Name: se/gory_moon/player_mobs/PlayerMobs.class
+SHA-256-Digest: BsK/Nc/SIKmphJK2D1lrSvxkdrpfBaBKeoS7zsMlMHM=
+
+Name: se/gory_moon/player_mobs/client/render/PlayerMobCapeLayer.class
+SHA-256-Digest: ECKzHY/fJi813/I4JMqXelzAZAPHWmCdiWcdSNHN5lg=
+
+Name: assets/player_mobs/lang/en_us.json
+SHA-256-Digest: r4zFUSMhsLE8jI68VMwdGnX3mzueTxxET8g+30jj00M=
+
+Name: se/gory_moon/player_mobs/package-info.class
+SHA-256-Digest: CXieckCT9DpqJQ8+lrU0ZMAisOz1414R47O6qUxSM/s=
+
+Name: se/gory_moon/player_mobs/world/BiomeModifierRegistry.class
+SHA-256-Digest: Cievro4hPbrPB+avPnSEEc/k1YuEbeKzlTahqA2eWT0=
+
+Name: assets/player_mobs/sounds.json
+SHA-256-Digest: n88z8a6ibJuI7UnIm7QnQG+BoH4uXzKRGaZXxfhrK6I=
+
+Name: se/gory_moon/player_mobs/PlayerMobsCommand.class
+SHA-256-Digest: zXJi3VAhS08t27jgolj1+ZZnrGCrZbK+8s5s+osa9ZY=
+
+Name: assets/player_mobs/models/item/player_mob_spawn_egg.json
+SHA-256-Digest: jbVzRCUZx94BzUvBKP2I+WiezewrtWkYXF2BMLd/0qY=
+
+Name: se/gory_moon/player_mobs/sound/SoundProvider.class
+SHA-256-Digest: NSWnRzypxLfI/4kLNZs7V9qmdcauoqK5MMKf2iN3IaA=
+
+Name: se/gory_moon/player_mobs/entity/package-info.class
+SHA-256-Digest: bdB6TDuGyxGO2jfViRG8XU8gmE1qRVnetGuk4CAbFnc=
+
+Name: se/gory_moon/player_mobs/utils/ItemManager.class
+SHA-256-Digest: FUA5VfBfwPZSq0mv51FxJHtnYQFhPGmhZ4PGiyZ570s=
+
+Name: se/gory_moon/player_mobs/utils/SpawnHandler.class
+SHA-256-Digest: My387mB+5fcYtCyAcXl/6yUjT1RLcw7enOEVfZ8boIY=
+
+Name: se/gory_moon/player_mobs/utils/CustomRegistrate.class
+SHA-256-Digest: tohjz99z2uE+Z+r9yN9GEbB7wHr4BgQWUkvj1WXED2M=
+
+Name: se/gory_moon/player_mobs/utils/TextureUtils.class
+SHA-256-Digest: DsTjUN/49Y03GbucVbEV4P0m4tmxyzSX2AH5/wfRrio=
+
+Name: se/gory_moon/player_mobs/client/render/package-info.class
+SHA-256-Digest: zBN1CQaeVlkcvVkW0/xqiWNiTO2jQWC32hTVlZ5JfQY=
+
+Name: se/gory_moon/player_mobs/entity/EntityRegistry.class
+SHA-256-Digest: ZfXzjaErJUd2wj34lDQkqGyCkJ/wuDftgBAFzNoLG48=
+
+Name: .cache/b2aa7585193e18a30887d1799757990f482ceaf6
+SHA-256-Digest: Tny+8HpYI+ctEyFnGHgQs1SVQXTKwLGFS4rtfGJeSdQ=
+
+Name: se/gory_moon/player_mobs/utils/NameManager.class
+SHA-256-Digest: Pakc1WXSoLKDZ5HWx3/LcdvLoS11FFuTMHXAoGAobfI=
+
+Name: se/gory_moon/player_mobs/entity/PlayerMobEntity$1.class
+SHA-256-Digest: bBfDJN64+1jasU3B/5kQ6BvfHkgCTidU7mO8+AJu4jg=
+
+Name: se/gory_moon/player_mobs/sound/package-info.class
+SHA-256-Digest: esa906LPlwg066VqU3+uog95lX2OGn8Fq1/Uw215slI=
+
+Name: se/gory_moon/player_mobs/utils/PlayerName.class
+SHA-256-Digest: RH4EzGPV81uur5h9g+DOttLP1eLl9hlbqm9rTiLsa1w=
+
+Name: pack.mcmeta
+SHA-256-Digest: ECej0Wyg9gb/LrpPkPnjXCZZPkkGeyBpdlFDcHHn1W4=
+
+Name: assets/player_mobs/lang/en_ud.json
+SHA-256-Digest: svy5AbQg5tjsj1/ZAViJZdP27oKQY5BVdJvwjplQdmI=
+
+Name: se/gory_moon/player_mobs/utils/ProfileUpdater.class
+SHA-256-Digest: Ksqudgwu8SYtu2OLyk3sVypYOEYwqxNrDPfGAKmrYps=
+
+Name: META-INF/jarjar/metadata.json
+SHA-256-Digest: wn99EBYwmavzVhBeUCAmp8A70FD13+oT3PF13+whWt4=
+
+Name: se/gory_moon/player_mobs/client/render/PlayerMobRenderer.class
+SHA-256-Digest: zFdisHAIBkMEbKwNRSnOnumc7Umv5CWABZBEAuVvVdM=
+
+Name: se/gory_moon/player_mobs/Configs.class
+SHA-256-Digest: pTf6YHqh+IAzH2Clb9PfE/VFdLbUDz6wQsSEzlk8klo=
+
+Name: se/gory_moon/player_mobs/entity/PlayerMobEntity.class
+SHA-256-Digest: lJM3kMXoU2chMkj3GmfcfmIne/MgEMl+WEhBajPNZvQ=
+
+Name: se/gory_moon/player_mobs/Configs$Common.class
+SHA-256-Digest: +mZqJ2kml00zJEvILyt5eqiP1VKJOdOx2A2wvTAsFEE=
+
+Name: data/player_mobs/loot_tables/entities/player_mob.json
+SHA-256-Digest: G/iWq6ITAraE/I/Bq5npWHK3rx0jk9HOWiuQ9c7NsB8=
+
+Name: se/gory_moon/player_mobs/utils/ThreadUtils.class
+SHA-256-Digest: ff7+Q3p33x1o1asWPAUIFS4TUdRGs2duif4WMTybWik=
+

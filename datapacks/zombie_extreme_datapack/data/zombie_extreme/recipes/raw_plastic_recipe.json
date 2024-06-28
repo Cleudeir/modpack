@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal"
+    },
+    "1": {
+      "item": "zombie_extreme:oil_shale"
+    },
+    "2": {
+      "item": "zombie_extreme:oil_shale"
+    },
+    "3": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:raw_plastic",
+    "count": 4
+  }
+}
