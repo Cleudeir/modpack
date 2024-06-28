@@ -1,1 +1,40 @@
-[]
+[
+    {
+      "on": "mob_killed",
+      "parameters": {
+        "mob": ["zombie_extreme:faceless", "world_of_rot:blind_walker"],
+        "player": true
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "random": 0.6
+      },
+      "spawn": {
+        "mob": "zombie_extreme:parasite",
+        "mindistance": 3,
+        "maxdistance": 5,
+        "mincount": 1,
+        "maxcount": 3,
+        "attempts": 20
+      }
+    },
+    {
+      "on": "mob_killed",
+      "parameters": {
+        "mob": ["wrd:undead_spider"],
+        "player": true
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "random": 0.4
+      },
+      "spawn": {
+        "mob": "twilightforest:swarm_spider",
+        "mindistance": 3,
+        "maxdistance": 5,
+        "mincount": 1,
+        "maxcount": 3,
+        "attempts": 20
+      }
+    }
+  ]

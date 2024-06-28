@@ -1,5 +1,39 @@
 [
   {
+    "mob": ["wrd:bait_snapper"],
+    "persecond": 120,
+    "attempts": 2,
+    "amount": {
+      "minimum": 0,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 80,
+      "minheight": -10,	  	  
+      "maxheight": 40,
+      "maxthis": 6
+    }
+  },  
+  {
+    "mob": ["wrd:undead_spider","wrd:bulky_ancient_skeleton_torso","wrd:mini_demon","wrd:crawling_eye"],
+    "persecond": 120,
+    "attempts": 1,
+    "amount": {
+      "minimum": 2,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 80,
+      "minheight": -10,	  	  
+      "maxheight": 20,
+      "maxthis": 10
+    }
+  },  
+  {
     "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller","wrd:ender_miner","wrd:speared_petrified_skeleton_m"],
     "persecond": 120,
     "attempts": 2,

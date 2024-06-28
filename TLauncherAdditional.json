@@ -13994,6 +13994,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -358313720003100,
+          "name": "RLArtifacts-1.1.2",
+          "favorite": false,
+          "version": {
+            "id": -358313726814700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f6b09ccfe0f3bbf59a3e4a693a396cc050faec95",
+              "size": 687259,
+              "path": "mods/RLArtifacts-1.1.2.jar",
+              "url": "mods/RLArtifacts-1.1.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
