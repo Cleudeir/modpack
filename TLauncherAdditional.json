@@ -205,7 +205,7 @@
             ]
           },
           "downloadMonth": 5231,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -271,7 +271,7 @@
             ]
           },
           "downloadMonth": 7231,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -340,7 +340,7 @@
             ]
           },
           "downloadMonth": 468,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -403,7 +403,7 @@
             ]
           },
           "downloadMonth": 155,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -472,7 +472,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -535,7 +535,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -648,7 +648,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -739,7 +739,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -812,7 +812,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -897,7 +897,7 @@
             ]
           },
           "downloadMonth": 18238,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -984,7 +984,7 @@
             ]
           },
           "downloadMonth": 23542,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -1077,7 +1077,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1142,7 +1142,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1220,7 +1220,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1304,7 +1304,7 @@
             ]
           },
           "downloadMonth": 43384,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1375,7 +1375,7 @@
             ]
           },
           "downloadMonth": 444,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1448,7 +1448,7 @@
             ]
           },
           "downloadMonth": 14,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -1515,7 +1515,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1586,7 +1586,7 @@
             ]
           },
           "downloadMonth": 1021,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1638,7 +1638,7 @@
             ]
           },
           "downloadMonth": 3216,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1717,7 +1717,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1806,7 +1806,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -1879,7 +1879,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -1942,7 +1942,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2017,7 +2017,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -2099,7 +2099,7 @@
             ]
           },
           "downloadMonth": 264,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2155,7 +2155,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -2236,7 +2236,7 @@
             ]
           },
           "downloadMonth": 1353,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2312,7 +2312,7 @@
             ]
           },
           "downloadMonth": 2364,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -2379,7 +2379,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2446,7 +2446,7 @@
             ]
           },
           "downloadMonth": 16,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -2513,7 +2513,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2571,7 +2571,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2646,7 +2646,7 @@
             ]
           },
           "downloadMonth": 20469,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -2746,7 +2746,7 @@
             ]
           },
           "downloadMonth": 1492,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2811,7 +2811,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2871,7 +2871,7 @@
             ]
           },
           "downloadMonth": 638,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -2930,7 +2930,7 @@
             ]
           },
           "downloadMonth": 28702,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -3012,7 +3012,7 @@
             ]
           },
           "downloadMonth": 3930,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3071,7 +3071,7 @@
             ]
           },
           "downloadMonth": 36,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3149,7 +3149,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -3254,7 +3254,7 @@
             ]
           },
           "downloadMonth": 153,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3322,7 +3322,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -3414,7 +3414,7 @@
             ]
           },
           "downloadMonth": 74909,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3497,7 +3497,7 @@
             ]
           },
           "downloadMonth": 1789,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3574,7 +3574,7 @@
             ]
           },
           "downloadMonth": 18,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -3653,7 +3653,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3727,7 +3727,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -3807,7 +3807,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -3877,7 +3877,7 @@
             ]
           },
           "downloadMonth": 2253,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -3958,7 +3958,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -4031,7 +4031,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4108,7 +4108,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4172,7 +4172,7 @@
             ]
           },
           "downloadMonth": 162,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -4239,7 +4239,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4304,7 +4304,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -4377,7 +4377,7 @@
             ]
           },
           "downloadMonth": 4,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4436,7 +4436,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4507,7 +4507,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4649,7 +4649,7 @@
             ]
           },
           "downloadMonth": 773,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4714,7 +4714,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -4829,7 +4829,7 @@
             ]
           },
           "downloadMonth": 517,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4900,7 +4900,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -4963,7 +4963,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5039,7 +5039,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -5123,7 +5123,7 @@
             ]
           },
           "downloadMonth": 318,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5190,7 +5190,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5261,7 +5261,7 @@
             ]
           },
           "downloadMonth": 193,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5324,7 +5324,7 @@
             ]
           },
           "downloadMonth": 114,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5409,7 +5409,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -5504,7 +5504,7 @@
             ]
           },
           "downloadMonth": 2069,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5585,7 +5585,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5666,7 +5666,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5751,7 +5751,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5825,7 +5825,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5905,7 +5905,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -5985,7 +5985,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6066,7 +6066,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6146,7 +6146,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6227,7 +6227,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6292,7 +6292,7 @@
             ]
           },
           "downloadMonth": 737,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6358,7 +6358,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -6425,7 +6425,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6484,7 +6484,7 @@
             ]
           },
           "downloadMonth": 21,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6543,7 +6543,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -6644,7 +6644,7 @@
             ]
           },
           "downloadMonth": 42,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -6726,7 +6726,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -6797,7 +6797,7 @@
             ]
           },
           "downloadMonth": 85,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6856,7 +6856,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -6935,7 +6935,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -6993,7 +6993,7 @@
             ]
           },
           "downloadMonth": 65,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7057,7 +7057,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7136,7 +7136,7 @@
             ]
           },
           "downloadMonth": 286,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7209,7 +7209,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -7290,7 +7290,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7397,7 +7397,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7487,7 +7487,7 @@
             ]
           },
           "downloadMonth": 11,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7554,7 +7554,7 @@
             ]
           },
           "downloadMonth": 768,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -7628,7 +7628,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7720,7 +7720,7 @@
             ]
           },
           "downloadMonth": 358,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7808,7 +7808,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -7938,7 +7938,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -7998,7 +7998,7 @@
             ]
           },
           "downloadMonth": 24,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8073,7 +8073,7 @@
             ]
           },
           "downloadMonth": 343,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8157,7 +8157,7 @@
             ]
           },
           "downloadMonth": 186,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -8231,7 +8231,7 @@
             ]
           },
           "downloadMonth": 9,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8294,7 +8294,7 @@
             ]
           },
           "downloadMonth": 78,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8357,7 +8357,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8420,7 +8420,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8479,7 +8479,7 @@
             ]
           },
           "downloadMonth": 43536,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8560,7 +8560,7 @@
             ]
           },
           "downloadMonth": 56,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -8664,7 +8664,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -8734,7 +8734,7 @@
             ]
           },
           "downloadMonth": 1,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8797,7 +8797,7 @@
             ]
           },
           "downloadMonth": 720,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8868,7 +8868,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -8927,7 +8927,7 @@
             ]
           },
           "downloadMonth": 355,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -9015,7 +9015,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -9148,7 +9148,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -9229,7 +9229,7 @@
             ]
           },
           "downloadMonth": 1537,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -9293,7 +9293,7 @@
             ]
           },
           "downloadMonth": 42,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9374,7 +9374,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9437,7 +9437,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9508,7 +9508,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9576,7 +9576,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9668,7 +9668,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9775,7 +9775,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9844,7 +9844,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9913,7 +9913,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -9976,7 +9976,7 @@
             ]
           },
           "downloadMonth": 34,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10051,7 +10051,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10124,7 +10124,7 @@
             ]
           },
           "downloadMonth": 288,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10176,7 +10176,7 @@
             ]
           },
           "downloadMonth": 4,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10245,7 +10245,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10350,7 +10350,7 @@
             ]
           },
           "downloadMonth": 28,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10465,7 +10465,7 @@
             ]
           },
           "downloadMonth": 690,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10600,7 +10600,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10665,7 +10665,7 @@
             ]
           },
           "downloadMonth": 11,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -10768,7 +10768,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -10880,7 +10880,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -174242387253300,
           "name": "whats-that-slot-forge-1.3.4+1.20.1",
           "favorite": false,
@@ -11039,7 +11039,7 @@
             ]
           },
           "downloadMonth": 244,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -11278,7 +11278,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -11351,7 +11351,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -11454,7 +11454,7 @@
             ]
           },
           "downloadMonth": 203,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -11514,7 +11514,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -269405626651300,
           "name": "l2library-2.4.27",
           "favorite": false,
@@ -11931,7 +11931,7 @@
             ]
           },
           "downloadMonth": 419,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -11969,7 +11969,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -372223795670300,
           "name": "CIA-1.1.0-Forge-MC1.20.1",
           "favorite": false,
@@ -12836,7 +12836,7 @@
             ]
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -13380,7 +13380,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -28972253185100,
           "name": "mythicmobs-1.20.1-connector-1.4.5",
           "favorite": false,
@@ -13556,7 +13556,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -229764013700,
           "name": "Neat-1.20-35-FORGE",
           "favorite": false,
@@ -13710,7 +13710,7 @@
           "totalComments": 0
         },
         {
-          "stateGameElement": "active",
+          "stateGameElement": "no_active",
           "id": -209098760586600,
           "name": "DistantFriends-forge-1.20.1-0.5.4",
           "favorite": false,
@@ -13906,6 +13906,94 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -340520651313100,
+          "name": "signpost-1.20.1-2.02.0",
+          "favorite": false,
+          "version": {
+            "id": -340520677521500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0583789e3c39756a8a2d1b1cb2efc5e0a2f525c6",
+              "size": 977052,
+              "path": "mods/signpost-1.20.1-2.02.0.jar",
+              "url": "mods/signpost-1.20.1-2.02.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -340520677758000,
+          "name": "smoothchunk-1.20.1-3.6",
+          "favorite": false,
+          "version": {
+            "id": -340520780888400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "372aae41929b81244be4ac85746f639a95a6d8cb",
+              "size": 12011,
+              "path": "mods/smoothchunk-1.20.1-3.6.jar",
+              "url": "mods/smoothchunk-1.20.1-3.6.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -340520781259000,
+          "name": "Trajectory Preview-6.0.3-1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -340520880744900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3c3a1952c8502463e1d58fa9c33695b071ffa9cd",
+              "size": 28266,
+              "path": "mods/Trajectory Preview-6.0.3-1.20.1.jar",
+              "url": "mods/Trajectory Preview-6.0.3-1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -340520881164500,
+          "name": "XaeroPlus-2.14+forge-1.20.1-WM1.38.8-MM24.2.0",
+          "favorite": false,
+          "version": {
+            "id": -340520902178800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "47ca33498189aa103647ca0cffa7b504b45945ad",
+              "size": 4565988,
+              "path": "mods/XaeroPlus-2.14+forge-1.20.1-WM1.38.8-MM24.2.0.jar",
+              "url": "mods/XaeroPlus-2.14+forge-1.20.1-WM1.38.8-MM24.2.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
@@ -14032,7 +14120,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -14169,7 +14257,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -14261,7 +14349,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 1320,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -14329,7 +14417,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -14433,7 +14521,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 57,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -14542,7 +14630,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 5,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -14866,7 +14954,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -15389,7 +15477,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -15553,7 +15641,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 603,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -15672,7 +15760,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 94,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -15820,7 +15908,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [
             {
@@ -16005,7 +16093,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {
@@ -16244,7 +16332,7 @@
             "minecraftVersionTypes": []
           },
           "downloadMonth": 0,
-          "userInstall": false,
+          "userInstall": true,
           "populateStatus": false,
           "dependencies": [],
           "lastGameVersion": {

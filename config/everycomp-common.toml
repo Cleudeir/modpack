@@ -68,9 +68,6 @@
 				coconut = true
 				walnut = true
 
-			[general.types.leaves_type.alexscaves]
-				ancient = true
-
 			[general.types.leaves_type.quark]
 				ancient = true
 				blue_blossom = true
@@ -78,6 +75,9 @@
 				orange_blossom = true
 				yellow_blossom = true
 				red_blossom = true
+
+			[general.types.leaves_type.alexscaves]
+				ancient = true
 
 		[general.types.cake]
 

@@ -1,10 +1,10 @@
 #Allows L2DamageTracker to detect and prevent cyclic damage events
-enableCyclicDamageEventInterrupt = false
+enableCyclicDamageEventInterrupt = true
 #Cyclic Damage Interruption threshold
 #Range: 1 ~ 1000
 cyclicDamageThreshold = 1
 #Mute error log lines for cyclic damage
-muteCyclicDamageInterrupt = false
+muteCyclicDamageInterrupt = true
 #Print damage trace tracked by damage tracker
 printDamageTrace = false
 #Save player attack damage trace
