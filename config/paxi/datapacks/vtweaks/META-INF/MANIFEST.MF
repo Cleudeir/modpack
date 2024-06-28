@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: vtweaks
+Specification-Vendor: oitsjustjose.com
+Specification-Version: 1
+Implementation-Title: V-Tweaks
+Implementation-Version: 4.0.13.fix1
+Implementation-Vendor: oitsjustjose.com
+Implementation-Timestamp: 2023-11-26T08:22:16-0600
+MixinConfigs: vtweaks.mixins.json
+

@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "scarlet_bracelet"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "celestial_artifacts:scarlet_bracelet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_truth_etching": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "celestial_artifacts:truth_etching"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_truth_etching",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "celestial_artifacts:scarlet_bracelet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

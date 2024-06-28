@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: celestial_core
+Specification-Vendor: xiaoyue
+Specification-Version: 1
+Implementation-Title: CelestialArtifacts
+Implementation-Version: 1.4.2
+Implementation-Vendor: xiaoyue
+Implementation-Timestamp: 2024-06-09T03:59:25+0800
+MixinConfigs: celestial_artifacts.mixins.json
+

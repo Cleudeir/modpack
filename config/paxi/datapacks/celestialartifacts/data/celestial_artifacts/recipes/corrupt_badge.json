@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "corrupt_badge"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_core:shulker_scrap"
+    },
+    "B": {
+      "item": "celestial_artifacts:the_end_dust"
+    },
+    "C": {
+      "item": "minecraft:ender_pearl"
+    },
+    "D": {
+      "item": "celestial_artifacts:chaotic_etching"
+    },
+    "E": {
+      "item": "celestial_artifacts:end_etching"
+    },
+    "F": {
+      "item": "celestial_artifacts:nebula_cube"
+    }
+  },
+  "pattern": [
+    "FEF",
+    "CBA",
+    "FDF"
+  ],
+  "result": {
+    "item": "celestial_artifacts:corrupt_badge"
+  },
+  "show_notification": true
+}

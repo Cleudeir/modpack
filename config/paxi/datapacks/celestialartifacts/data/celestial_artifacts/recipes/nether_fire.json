@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "nether_fire"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_artifacts:netherite_ring"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "celestial_core:fire_essence"
+    }
+  },
+  "pattern": [
+    " C ",
+    "BAB",
+    " D "
+  ],
+  "result": {
+    "item": "celestial_artifacts:nether_fire"
+  },
+  "show_notification": true
+}

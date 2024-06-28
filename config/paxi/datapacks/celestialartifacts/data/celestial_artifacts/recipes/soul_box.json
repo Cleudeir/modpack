@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "soul_box"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "B": {
+      "item": "celestial_core:heart_fragment"
+    },
+    "C": {
+      "item": "celestial_core:light_fragment"
+    },
+    "D": {
+      "item": "celestial_artifacts:nihility_etching"
+    },
+    "E": {
+      "item": "celestial_artifacts:life_etching"
+    },
+    "F": {
+      "item": "celestial_core:warden_sclerite"
+    }
+  },
+  "pattern": [
+    "FEF",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "item": "celestial_artifacts:soul_box"
+  },
+  "show_notification": true
+}

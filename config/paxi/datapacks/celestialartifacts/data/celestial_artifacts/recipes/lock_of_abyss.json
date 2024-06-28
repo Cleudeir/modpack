@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "lock_of_abyss"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "B": {
+      "item": "celestial_artifacts:chaotic_etching"
+    },
+    "C": {
+      "item": "celestial_core:heart_fragment"
+    },
+    "D": {
+      "item": "celestial_artifacts:the_end_dust"
+    },
+    "E": {
+      "item": "celestial_core:warden_sclerite"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ECE",
+    "DBD"
+  ],
+  "result": {
+    "item": "celestial_artifacts:lock_of_abyss"
+  },
+  "show_notification": true
+}

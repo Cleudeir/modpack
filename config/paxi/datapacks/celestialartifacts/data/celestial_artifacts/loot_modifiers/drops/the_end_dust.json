@@ -1,0 +1,20 @@
+{
+  "type": "celestial_core:add_item",
+  "chance": "celestial_configs/celestial_artifacts-common.toml/materials.endDustDropChance",
+  "conditions": [
+    {
+      "condition": "celestial_artifacts:has_curio",
+      "item": "celestial_artifacts:catastrophe_scroll"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "targeted_entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  ],
+  "item": "celestial_artifacts:the_end_dust"
+}

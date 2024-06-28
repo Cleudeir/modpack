@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "twisted_scroll"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:paper"
+    },
+    "B": {
+      "item": "celestial_core:void_essence"
+    },
+    "C": {
+      "item": "celestial_core:death_essence"
+    },
+    "D": {
+      "item": "celestial_core:midnight_fragment"
+    },
+    "X": {
+      "item": "celestial_artifacts:nebula_cube"
+    }
+  },
+  "pattern": [
+    "XAA",
+    "ADB",
+    "AAC"
+  ],
+  "result": {
+    "item": "celestial_artifacts:twisted_scroll"
+  },
+  "show_notification": true
+}

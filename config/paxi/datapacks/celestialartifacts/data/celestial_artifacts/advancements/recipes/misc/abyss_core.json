@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "abyss_core"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "celestial_artifacts:abyss_core"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "celestial_core:void_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_void_essence",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "celestial_artifacts:abyss_core"
+    ]
+  },
+  "sends_telemetry_event": false
+}

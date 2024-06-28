@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "cursed_protector"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_core:shulker_scrap"
+    },
+    "B": {
+      "item": "celestial_core:death_essence"
+    },
+    "C": {
+      "item": "celestial_artifacts:chaotic_etching"
+    },
+    "D": {
+      "item": "celestial_artifacts:truth_etching"
+    },
+    "E": {
+      "item": "celestial_artifacts:nebula_cube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "EDE"
+  ],
+  "result": {
+    "item": "celestial_artifacts:cursed_protector"
+  },
+  "show_notification": true
+}

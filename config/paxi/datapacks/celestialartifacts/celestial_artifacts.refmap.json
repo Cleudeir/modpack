@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "com/xiaoyue/celestial_artifacts/mixin/ApothEnchantmentMenuMixin": {
+      "getEnchantmentList": "Ldev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu;m_39471_(Lnet/minecraft/world/item/ItemStack;II)Ljava/util/List;"
+    },
+    "com/xiaoyue/celestial_artifacts/mixin/AbstractArrowAccessor": {
+      "getPickupItem": "m_7941_()Lnet/minecraft/world/item/ItemStack;"
+    },
+    "com/xiaoyue/celestial_artifacts/mixin/EnchantmentMenuMixin": {
+      "getEnchantmentList": "Lnet/minecraft/world/inventory/EnchantmentMenu;m_39471_(Lnet/minecraft/world/item/ItemStack;II)Ljava/util/List;"
+    },
+    "com/xiaoyue/celestial_artifacts/mixin/GameRendererMixin": {
+      "Lnet/minecraft/world/effect/MobEffectInstance;endsWithin(I)Z": "Lnet/minecraft/world/effect/MobEffectInstance;m_267633_(I)Z",
+      "getNightVisionScale": "Lnet/minecraft/client/renderer/GameRenderer;m_109108_(Lnet/minecraft/world/entity/LivingEntity;F)F"
+    },
+    "com/xiaoyue/celestial_artifacts/mixin/PhantomSpawnerMixin": {
+      "Lnet/minecraft/server/level/ServerPlayer;isSpectator()Z": "Lnet/minecraft/server/level/ServerPlayer;m_5833_()Z",
+      "tick": "Lnet/minecraft/world/level/levelgen/PhantomSpawner;m_7995_(Lnet/minecraft/server/level/ServerLevel;ZZ)I"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/xiaoyue/celestial_artifacts/mixin/ApothEnchantmentMenuMixin": {
+        "getEnchantmentList": "Ldev/shadowsoffire/apotheosis/ench/table/ApothEnchantmentMenu;m_39471_(Lnet/minecraft/world/item/ItemStack;II)Ljava/util/List;"
+      },
+      "com/xiaoyue/celestial_artifacts/mixin/AbstractArrowAccessor": {
+        "getPickupItem": "m_7941_()Lnet/minecraft/world/item/ItemStack;"
+      },
+      "com/xiaoyue/celestial_artifacts/mixin/EnchantmentMenuMixin": {
+        "getEnchantmentList": "Lnet/minecraft/world/inventory/EnchantmentMenu;m_39471_(Lnet/minecraft/world/item/ItemStack;II)Ljava/util/List;"
+      },
+      "com/xiaoyue/celestial_artifacts/mixin/GameRendererMixin": {
+        "Lnet/minecraft/world/effect/MobEffectInstance;endsWithin(I)Z": "Lnet/minecraft/world/effect/MobEffectInstance;m_267633_(I)Z",
+        "getNightVisionScale": "Lnet/minecraft/client/renderer/GameRenderer;m_109108_(Lnet/minecraft/world/entity/LivingEntity;F)F"
+      },
+      "com/xiaoyue/celestial_artifacts/mixin/PhantomSpawnerMixin": {
+        "Lnet/minecraft/server/level/ServerPlayer;isSpectator()Z": "Lnet/minecraft/server/level/ServerPlayer;m_5833_()Z",
+        "tick": "Lnet/minecraft/world/level/levelgen/PhantomSpawner;m_7995_(Lnet/minecraft/server/level/ServerLevel;ZZ)I"
+      }
+    }
+  }
+}

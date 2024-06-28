@@ -26,5 +26,5 @@
 	#Syntax: modid:mobname,healthRegenned,amount
 	#For wildcards use *. For instance [*:*,1,20] would mean every 20 kills regain half a heart
 	#While [minecraft:*,1,10] would mean every 10 kills of vanilla mobs regains half a heart
-	regenTargets = ["quark:stoneling,2,4", "*:*,2,300"]
+	regenTargets = ["quark:stoneling,2,4", "*:*,2,300", "wrd:ancient_skeleton_skull,4,1"]
 

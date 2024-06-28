@@ -1,0 +1,36 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[47,)" #mandatory
+license = "LGPL-2.1"
+[[mods]] #mandatory
+modId = "celestial_artifacts" #mandatory
+version = "1.4.2" #mandatory
+displayName = "Celestial Artifacts" #mandatory
+logoFile = "logo.png"
+authors = "Xiaoyue" #optional
+description = '''Celestial Artifacts'''
+[[mixins]]
+config = "celestial_artifacts.mixins.json"
+[[dependencies.celestial_artifacts]] #optional
+modId = "forge" #mandatory
+mandatory = true
+versionRange = "[47.1.3,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.celestial_artifacts]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.celestial_artifacts]]
+modId = "curios"
+mandatory = true
+versionRange = "[5.4.5,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.celestial_artifacts]]
+modId = "celestial_core"
+mandatory = true
+versionRange = "[1.3.3,)"
+ordering = "AFTER"
+side = "BOTH"

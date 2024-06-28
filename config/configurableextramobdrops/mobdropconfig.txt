@@ -22,7 +22,7 @@
 'alexsmobs:crocodile' : '',
 'alexsmobs:crow' : '',
 'alexsmobs:devils_hole_pupfish' : '',
-'alexsmobs:dropbear' : '',
+'alexsmobs:dropbear' : '{Count:1b,id:"twilightforest:raw_meef",tag:{dropchance:0.4d}}',
 'alexsmobs:elephant' : '',
 'alexsmobs:emu' : '',
 'alexsmobs:endergrade' : '',

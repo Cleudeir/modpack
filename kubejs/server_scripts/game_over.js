@@ -42,3 +42,11 @@ PlayerEvents.respawned(event => {
 //	event.cancel()
 //});
 
+ItemEvents.foodEaten('minecraft:golden_apple', event => {
+	let player = event.player			
+	let playername = player.getName().getString();	
+	
+	player.runCommandSilent(`summon wrd:ancient_skeleton_skull`);
+	
+	event.cancel()
+});	

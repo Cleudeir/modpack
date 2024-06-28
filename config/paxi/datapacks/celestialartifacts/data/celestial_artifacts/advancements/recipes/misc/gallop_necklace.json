@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "gallop_necklace"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "celestial_artifacts:gallop_necklace"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unowned_pendant": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "celestial_artifacts:unowned_pendant"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unowned_pendant",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "celestial_artifacts:gallop_necklace"
+    ]
+  },
+  "sends_telemetry_event": false
+}

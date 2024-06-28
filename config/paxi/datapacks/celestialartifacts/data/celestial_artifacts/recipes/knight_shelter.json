@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "knight_shelter"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "celestial_core:light_fragment"
+    },
+    "D": {
+      "item": "celestial_artifacts:origin_etching"
+    },
+    "E": {
+      "item": "celestial_artifacts:nebula_cube"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "EBE"
+  ],
+  "result": {
+    "item": "celestial_artifacts:knight_shelter"
+  },
+  "show_notification": true
+}

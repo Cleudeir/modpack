@@ -1,8 +1,8 @@
 [
   {
-    "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller"],
-    "persecond": 60,
-    "attempts": 3,
+    "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller","wrd:ender_miner","wrd:speared_petrified_skeleton_m"],
+    "persecond": 120,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 2
@@ -34,7 +34,7 @@
     }
   },
   {
-    "mob": ["alexscaves:watcher", "alexsmobs:murmur"],
+    "mob": ["alexscaves:watcher", "alexsmobs:murmur","wrd:buff_zombie"],
     "persecond": 60,
     "attempts": 1,
     "amount": {

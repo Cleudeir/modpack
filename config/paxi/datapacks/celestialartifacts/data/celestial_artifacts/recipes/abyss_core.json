@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "abyss_core"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "B": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "D": {
+      "item": "celestial_core:void_essence"
+    },
+    "E": {
+      "item": "celestial_artifacts:the_end_dust"
+    }
+  },
+  "pattern": [
+    "EAE",
+    "CBC",
+    "DCD"
+  ],
+  "result": {
+    "item": "celestial_artifacts:abyss_core"
+  },
+  "show_notification": true
+}

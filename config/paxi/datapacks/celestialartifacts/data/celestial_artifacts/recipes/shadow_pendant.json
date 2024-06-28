@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "shadow_pendant"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "celestial_core:void_essence"
+    },
+    "D": {
+      "item": "celestial_artifacts:the_end_dust"
+    },
+    "E": {
+      "item": "celestial_artifacts:unowned_pendant"
+    },
+    "F": {
+      "item": "celestial_core:death_essence"
+    },
+    "M": {
+      "item": "celestial_core:midnight_fragment"
+    },
+    "X": {
+      "item": "celestial_artifacts:nebula_cube"
+    }
+  },
+  "pattern": [
+    "XAF",
+    "CED",
+    "MBX"
+  ],
+  "result": {
+    "item": "celestial_artifacts:shadow_pendant"
+  },
+  "show_notification": true
+}

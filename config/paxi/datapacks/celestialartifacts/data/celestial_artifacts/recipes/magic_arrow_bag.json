@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "magic_arrow_bag"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:arrow"
+    },
+    "C": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "celestial_core:treasure_fragment"
+    }
+  },
+  "pattern": [
+    "ABB",
+    "CTB",
+    "ACA"
+  ],
+  "result": {
+    "item": "celestial_artifacts:magic_arrow_bag"
+  },
+  "show_notification": true
+}

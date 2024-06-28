@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "cursed_talisman"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "1": {
+      "item": "celestial_artifacts:origin_etching"
+    },
+    "2": {
+      "item": "celestial_artifacts:chaotic_etching"
+    },
+    "A": {
+      "item": "celestial_artifacts:the_end_dust"
+    },
+    "B": {
+      "item": "celestial_core:midnight_fragment"
+    },
+    "C": {
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    "D": {
+      "item": "celestial_core:heart_fragment"
+    },
+    "E": {
+      "item": "celestial_artifacts:unowned_pendant"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "1E2",
+    "CDC"
+  ],
+  "result": {
+    "item": "celestial_artifacts:cursed_talisman"
+  },
+  "show_notification": true
+}
