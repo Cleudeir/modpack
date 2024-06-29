@@ -3,7 +3,7 @@
     "name": "first",
     "conditions": {
         "mindaycount": 0,
-		"maxdaycount": 3
+		"maxdaycount": 6
     }
   },
   {

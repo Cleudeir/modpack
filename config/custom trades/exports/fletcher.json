@@ -151,11 +151,11 @@
         "itemKey": "minecraft:bow",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:punch\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 20,
+        "amount": 12,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -186,7 +186,7 @@
         "itemKey": "minecraft:crossbow",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:piercing\",lvl:2s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -204,7 +204,7 @@
         "itemKey": "minecraft:tipped_arrow",
         "amount": 5,
         "priceModifier": 0,
-        "advancedNBTData": "{Potion:\"minecraft:long_poison\"}"
+        "advancedNBTData": "{Potion:\"minecraft:turtle_master\"}"
       },
       "request": {
         "itemKey": "minecraft:emerald",

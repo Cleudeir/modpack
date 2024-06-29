@@ -3,7 +3,7 @@
 #DEFAULT - Curios items follow the keepInventory gamerule
 #OFF - Curios items are dropped on death
 #Allowed Values: ON, DEFAULT, OFF
-keepCurios = "DEFAULT"
+keepCurios = "ON"
 
 [menu]
 	#Enables the old legacy Curios menu for better backwards compatibility.

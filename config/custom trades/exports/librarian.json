@@ -25,11 +25,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"cgm:lightweight\",lvl:1s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 14,
+        "amount": 11,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -82,11 +82,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:charting_call\",lvl:3s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:charting_call\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 30,
+        "amount": 12,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -139,11 +139,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:1s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:x_ray\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 16,
+        "amount": 14,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -196,11 +196,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:taxing_bellow\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 19,
+        "amount": 11,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -270,7 +270,7 @@
         "itemKey": "quark:ancient_tome",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:4s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}"
       },
       "request": {
         "itemKey": "quark:ancient_tome",
@@ -281,7 +281,7 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:4s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}"
       },
       "tradeExp": 3,
       "maxUses": 3,

@@ -43,11 +43,11 @@
         "itemKey": "minecraft:iron_sword",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:looting\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:smite\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 20,
+        "amount": 10,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -129,11 +129,11 @@
         "itemKey": "minecraft:diamond_axe",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:efficiency\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 24,
+        "amount": 19,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -147,11 +147,11 @@
         "itemKey": "minecraft:diamond_sword",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:knockback\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 15,
+        "amount": 21,
         "priceModifier": 0
       },
       "tradeExp": 30,

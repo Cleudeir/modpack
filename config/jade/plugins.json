@@ -78,6 +78,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
   }

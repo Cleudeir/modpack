@@ -175,7 +175,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 10,
+        "amount": 11,
         "priceModifier": 0
       },
       "tradeExp": 10,

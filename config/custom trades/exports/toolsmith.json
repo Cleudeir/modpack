@@ -148,7 +148,7 @@
         "itemKey": "minecraft:iron_axe",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -166,11 +166,11 @@
         "itemKey": "minecraft:iron_shovel",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 12,
+        "amount": 11,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -184,7 +184,7 @@
         "itemKey": "minecraft:iron_pickaxe",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -237,11 +237,11 @@
         "itemKey": "minecraft:diamond_axe",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 26,
+        "amount": 19,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -259,7 +259,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 17,
+        "amount": 16,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -273,11 +273,11 @@
         "itemKey": "minecraft:diamond_pickaxe",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:3s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 18,
+        "amount": 31,
         "priceModifier": 0
       },
       "tradeExp": 30,

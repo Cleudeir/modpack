@@ -255,11 +255,11 @@
         "itemKey": "minecraft:diamond_leggings",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:4s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 22,
+        "amount": 31,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -273,7 +273,7 @@
         "itemKey": "minecraft:diamond_boots",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:depth_strider\",lvl:1s},{id:\"minecraft:feather_falling\",lvl:3s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -291,7 +291,7 @@
         "itemKey": "minecraft:diamond_helmet",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"wrd:hard_headded\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -309,11 +309,11 @@
         "itemKey": "minecraft:diamond_chestplate",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:3s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 28,
+        "amount": 25,
         "priceModifier": 0
       },
       "tradeExp": 30,

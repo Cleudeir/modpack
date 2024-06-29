@@ -1,0 +1,6 @@
+
+#Broken Blocks Data
+[brokenBlocks]
+	#Default broken blocks data
+	default = "minecraft:crafting_table"
+

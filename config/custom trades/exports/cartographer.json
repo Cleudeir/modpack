@@ -82,11 +82,11 @@
         "itemKey": "supplementaries:cartographers_quill",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{decoration:\"filled_map.adventure\",display:{Name:\u0027{\"translate\":\"filled_map.adventure\"}\u0027},maxSearchRadius:150,skinKnown:1b,targetBiomeColor:7869722,targetStructure:\"repurposed_structures:mineshaft_birch\",zoomLevel:2}"
+        "advancedNBTData": "{decoration:\"filled_map.adventure\",display:{Name:\u0027{\"translate\":\"filled_map.adventure\"}\u0027},maxSearchRadius:150,skinKnown:1b,targetBiomeColor:7869722,targetStructure:\"towns_and_towers:village_beach\",zoomLevel:2}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 13,
+        "amount": 12,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -105,7 +105,7 @@
         "itemKey": "minecraft:filled_map",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:26b,x:1040.0d,z:720.0d}],display:{Name:\u0027{\"translate\":\"item.alexscaves.underground_cabin_explorer_map\"}\u0027},map:0}"
+        "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:26b,x:-112.0d,z:224.0d}],display:{Name:\u0027{\"translate\":\"item.alexscaves.underground_cabin_explorer_map\"}\u0027},map:0}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -145,7 +145,7 @@
         "itemKey": "supplementaries:cartographers_quill",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{decoration:\"mansion\",display:{Name:\u0027{\"translate\":\"filled_map.mansion\"}\u0027},maxSearchRadius:100,skinKnown:1b,targetStructure:\"minecraft:mansion\",zoomLevel:2}"
+        "advancedNBTData": "{decoration:\"mansion\",display:{Name:\u0027{\"translate\":\"filled_map.mansion\"}\u0027},maxSearchRadius:100,skinKnown:1b,targetStructure:\"dungeons_arise:foundry\",zoomLevel:2}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -461,7 +461,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 13,
+        "amount": 11,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -484,7 +484,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 9,
+        "amount": 12,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -507,7 +507,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 11,
+        "amount": 13,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -530,7 +530,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 11,
+        "amount": 12,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -553,7 +553,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 8,
+        "amount": 11,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -576,7 +576,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 17,
+        "amount": 13,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -599,7 +599,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 12,
+        "amount": 16,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -622,7 +622,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 18,
+        "amount": 16,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -679,7 +679,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 17,
+        "amount": 19,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -702,7 +702,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 22,
+        "amount": 19,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -725,7 +725,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 17,
+        "amount": 19,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -771,7 +771,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 21,
+        "amount": 26,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -794,7 +794,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 20,
+        "amount": 23,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -817,7 +817,7 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 21,
+        "amount": 20,
         "priceModifier": 0
       },
       "additionalRequest": {

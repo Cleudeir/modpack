@@ -1,15 +1,5 @@
 [
   {
-    "dimension": "minecraft:overworld",
-    "hostile": true,
-    "mincount": {
-      "amount": 50,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },  
-  {
     "mod": "zombie_extreme",
     "seesky": true,
     "when": "onjoin",
@@ -19,6 +9,14 @@
 	  "followrangemultiply": 1.2,
     "speedmultiply": 1.2,
     "armorhelmet": ["minecraft:leather_helmet"]	
+  },
+  {
+    "phase": "FIRST",
+    "hostile": true,
+    "seesky": true,
+    "when": "onjoin",
+    "result": "allow",	
+    "armormultiply": 0.3
   },  
   {
     "phase": "after_day7",
@@ -26,9 +24,9 @@
     "seesky": true,
     "when": "onjoin",
     "result": "allow",	
-	"healthmultiply": 1.2,
+	  "healthmultiply": 1.2,
     "damagemultiply": 1.2,
-	"followrangemultiply": 1.2,
+	  "followrangemultiply": 1.2,
     "speedmultiply": 1.1,
     "armorhelmet": ["minecraft:leather_helmet"]	
   },

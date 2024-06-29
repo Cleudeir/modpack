@@ -25,7 +25,7 @@
         "itemKey": "minecraft:leather_leggings",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,display:{color:4673362}}"
+        "advancedNBTData": "{Damage:0,display:{color:10840632}}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -43,7 +43,7 @@
         "itemKey": "minecraft:leather_chestplate",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,display:{color:10329495}}"
+        "advancedNBTData": "{Damage:0,display:{color:3949738}}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -78,7 +78,7 @@
         "itemKey": "minecraft:leather_helmet",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,display:{color:10133972}}"
+        "advancedNBTData": "{Damage:0,display:{color:10462923}}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -96,7 +96,7 @@
         "itemKey": "minecraft:leather_boots",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,display:{color:5005196}}"
+        "advancedNBTData": "{Damage:0,display:{color:1481884}}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -131,7 +131,7 @@
         "itemKey": "minecraft:leather_chestplate",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,display:{color:8991416}}"
+        "advancedNBTData": "{Damage:0,display:{color:6589496}}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
@@ -200,7 +200,7 @@
         "itemKey": "minecraft:leather_helmet",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,display:{color:9329030}}"
+        "advancedNBTData": "{Damage:0,display:{color:16701501}}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
