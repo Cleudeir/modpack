@@ -1,6 +1,0 @@
-{
-  "parent": "quark:block/template/flowerbed_3",
-  "textures": {
-    "flowerbed": "minecraft:block/pink_petals"
-  }
-}

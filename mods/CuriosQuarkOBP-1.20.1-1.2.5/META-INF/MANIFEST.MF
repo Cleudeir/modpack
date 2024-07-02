@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: curiosquarkobp
-Specification-Version: 1
-Implementation-Title: CuriosQuarkOBP
-Implementation-Version: 1.2.5
-Implementation-Timestamp: 2024-02-06T09:01:39-0800
-MixinConfigs: curiosquarkobp.mixins.json
-
