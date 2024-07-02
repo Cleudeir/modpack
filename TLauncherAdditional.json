@@ -14368,6 +14368,72 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -439607215002100,
+          "name": "cc1_20_1-0.7 - 1.20.1-forge-1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -439607216559600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ace0fe5e2119524108c3c747ecd8b8ac4a5f873e",
+              "size": 206739,
+              "path": "mods/cc1_20_1-0.7 - 1.20.1-forge-1.20.1.jar",
+              "url": "mods/cc1_20_1-0.7 - 1.20.1-forge-1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -439607217246000,
+          "name": "screenshot-to-clipboard-1.0.9-forge",
+          "favorite": false,
+          "version": {
+            "id": -439607217962400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "52c91669e2be8f73b3d1493b3692311008b4d5a9",
+              "size": 16472,
+              "path": "mods/screenshot-to-clipboard-1.0.9-forge.jar",
+              "url": "mods/screenshot-to-clipboard-1.0.9-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -31759701397500,
+          "name": "avatar_blockrestoration-1.0.3",
+          "favorite": false,
+          "version": {
+            "id": -31759702206100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d45547a60b795d3dacea560f5643ef88d19f44bb",
+              "size": 16706,
+              "path": "mods/avatar_blockrestoration-1.0.3.jar",
+              "url": "mods/avatar_blockrestoration-1.0.3.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

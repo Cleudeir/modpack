@@ -9,7 +9,7 @@
 	#Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
-	byDefault = true
+	byDefault = false
 	#Animate recently picked up items
 	animatedInv = true
 	#Hide background if inventory is empty
@@ -56,7 +56,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = true
+	Potions = false
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 100

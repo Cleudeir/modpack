@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "cn/leomc/curiosquarkobp/mixin/TotemOfHoldingEntityMixin": {
+      "Lnet/minecraft/world/item/ItemStack;getItem()Lnet/minecraft/world/item/Item;": "Lnet/minecraft/world/item/ItemStack;m_41720_()Lnet/minecraft/world/item/Item;",
+      "skipAttackInteraction": "Lorg/violetmoon/quark/addons/oddities/entity/TotemOfHoldingEntity;m_7313_(Lnet/minecraft/world/entity/Entity;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "cn/leomc/curiosquarkobp/mixin/TotemOfHoldingEntityMixin": {
+        "Lnet/minecraft/world/item/ItemStack;getItem()Lnet/minecraft/world/item/Item;": "Lnet/minecraft/world/item/ItemStack;m_41720_()Lnet/minecraft/world/item/Item;",
+        "skipAttackInteraction": "Lorg/violetmoon/quark/addons/oddities/entity/TotemOfHoldingEntity;m_7313_(Lnet/minecraft/world/entity/Entity;)Z"
+      }
+    }
+  }
+}

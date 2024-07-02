@@ -404,23 +404,6 @@
       ],
       "name": "treasure",
       "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "artifacts:artifact_rarity_adjusted_chance",
-          "default_probability": 0.15
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "artifacts:artifact"
-        }
-      ],
-      "name": "artifact",
-      "rolls": 1.0
     }
   ],
   "random_sequence": "artifacts:chests/campsite_chest"
