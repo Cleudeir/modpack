@@ -7,7 +7,12 @@ for /f "tokens=1-3 delims=/- " %%a in ('date /t') do (
     set month=%%a
     set day=%%b
 )
-set currentDate=%year%-%month%-%day%
+:: Obter a hora atual no formato HH:MM
+for /f "tokens=1-2 delims=: " %%a in ('time /t') do (
+    set hour=%%a
+    set minute=%%b
+)
+set currentDateTime=%year%-%month%-%day% %hour%:%minute%
 
 :: Obter o diretório atual
 set "currentDir=%cd%"
@@ -32,14 +37,14 @@ powershell -command "Get-Content .gitignore | Sort-Object | Get-Unique | Set-Con
 
 :: Commit e Push do GitIgnore
 git add .gitignore
-git commit -m "GitIgnore %currentDate%"
+git commit -m "GitIgnore %currentDateTime%"
 git push
 
 :: Adicionar todas as mudanças
 git add .
 
-:: Fazer o commit com a mensagem de data atual
-git commit -m "%currentDate%"
+:: Fazer o commit com a mensagem de data e hora atual
+git commit -m "%currentDateTime%"
 
 :: Empurrar as mudanças para o repositório remoto
 git push
