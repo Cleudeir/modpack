@@ -7,7 +7,7 @@
       },
       "conditions": {
         "dimension": "minecraft:overworld",
-        "random": 0.6
+        "random": 0.8
       },
       "spawn": {
         "mob": "zombie_extreme:parasite",
@@ -34,6 +34,25 @@
         "maxdistance": 5,
         "mincount": 1,
         "maxcount": 3,
+        "attempts": 20
+      }
+    },
+    {
+      "on": "mob_killed",
+      "parameters": {
+        "mob": ["minecraft:zombie"],
+        "player": true
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "random": 0.3
+      },
+      "spawn": {
+        "mob": "world_of_rot:crawler",
+        "mindistance": 3,
+        "maxdistance": 5,
+        "mincount": 1,
+        "maxcount": 1,
         "attempts": 20
       }
     }

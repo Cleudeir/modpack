@@ -1,0 +1,7 @@
+{
+  "loot_table": "lootintegrations:chests/easy",
+  "max_result_itemcount": 12,
+  "integrated_loot_tables": {
+    "wythers:chests/village/forest_ruins_library": 1
+  }
+}

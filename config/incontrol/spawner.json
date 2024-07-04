@@ -2,9 +2,9 @@
   {
     "mob": ["wrd:bait_snapper"],
     "persecond": 120,
-    "attempts": 2,
+    "attempts": 3,
     "amount": {
-      "minimum": 0,
+      "minimum": 1,
       "maximum": 2
     },
     "conditions": {
@@ -17,7 +17,7 @@
     }
   },  
   {
-    "mob": ["wrd:undead_spider","wrd:bulky_ancient_skeleton_torso","wrd:mini_demon","wrd:crawling_eye"],
+    "mob": ["wrd:undead_spider","wrd:bulky_ancient_skeleton_torso","minecraft:zombie"],
     "persecond": 120,
     "attempts": 1,
     "amount": {

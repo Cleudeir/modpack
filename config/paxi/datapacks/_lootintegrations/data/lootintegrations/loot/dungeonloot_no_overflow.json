@@ -1,0 +1,7 @@
+{
+  "loot_table": "minecraft:chests/simple_dungeon",
+  "max_result_itemcount": 12,
+  "integrated_loot_tables": {
+    "minecraft:chests/village/village_weaponsmith": 0
+  }
+}

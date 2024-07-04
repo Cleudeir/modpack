@@ -1,0 +1,187 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "cgm:basic_bullet",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 12,
+                  "max": 36
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:advanced_bullet",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:shell",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:grenade",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 6
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "cgm:shell",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 24,
+                  "max": 48
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:advanced_bullet",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 24,
+                  "max": 48
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:basic_bullet",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 36,
+                  "max": 48
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:silencer",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:weighted_stock",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:short_scope",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:long_scope",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "cgm:pistol",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": -60,
+                  "max": -30
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/cgm"
+  }

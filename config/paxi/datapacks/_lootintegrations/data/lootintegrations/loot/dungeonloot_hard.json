@@ -1,0 +1,7 @@
+{
+  "loot_table": "lootintegrations:chests/hard",
+  "max_result_itemcount": 12,
+  "integrated_loot_tables": {
+    "awesomedungeonend:chests/awesome_dungeon": 3
+  }
+}
