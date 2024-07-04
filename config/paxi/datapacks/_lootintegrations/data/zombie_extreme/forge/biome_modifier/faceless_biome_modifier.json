@@ -6,7 +6,7 @@
   "spawners": {
     "type": "zombie_extreme:faceless",
     "weight": 20,
-    "minCount": 1,
-    "maxCount": 1
+    "minCount": 0,
+    "maxCount": 0
   }
 }

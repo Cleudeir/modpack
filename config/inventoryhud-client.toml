@@ -9,7 +9,7 @@
 	#Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
-	byDefault = false
+	byDefault = true
 	#Animate recently picked up items
 	animatedInv = true
 	#Hide background if inventory is empty
@@ -56,7 +56,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = false
+	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 100
@@ -69,7 +69,7 @@
 	potHor = false
 	#Full bar duration
 	#Range: > 1
-	barDuration = 300
+	barDuration = 60
 	#Show hidden effects
 	showHiddenEffects = true
 	#Disable icons for effects in this list
@@ -116,7 +116,7 @@
 	xPotionPos = 0
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 40
+	yPotionPos = 41
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103

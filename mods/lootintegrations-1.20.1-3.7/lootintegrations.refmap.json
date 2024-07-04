@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/lootintegrations/mixin/LootTableLootIntegrations": {
+      "getRandomItems(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;": "Lnet/minecraft/world/level/storage/loot/LootTable;m_230922_(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/lootintegrations/mixin/LootTableLootIntegrations": {
+        "getRandomItems(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;": "Lnet/minecraft/world/level/storage/loot/LootTable;m_230922_(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;"
+      }
+    }
+  }
+}

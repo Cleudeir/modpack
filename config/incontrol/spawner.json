@@ -17,7 +17,7 @@
     }
   },  
   {
-    "mob": ["wrd:undead_spider","wrd:bulky_ancient_skeleton_torso","minecraft:zombie"],
+    "mob": ["wrd:undead_spider","minecraft:skeleton","minecraft:zombie"],
     "persecond": 120,
     "attempts": 1,
     "amount": {
@@ -34,7 +34,7 @@
     }
   },  
   {
-    "mob": ["alexsmobs:dropbear","alexsmobs:mimicube","alexsmobs:rocky_roller","wrd:ender_miner","wrd:speared_petrified_skeleton_m"],
+    "mob": ["zombie_extreme:ram","zombie_extreme:night_hunter","alexsmobs:rocky_roller","wrd:ender_miner","minecraft:zombie"],
     "persecond": 120,
     "attempts": 2,
     "amount": {
@@ -51,7 +51,7 @@
     }
   },
   {
-    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten"],
+    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten", "zombie_extreme:zero_patient"],
     "persecond": 60,
     "attempts": 3,
     "amount": {
@@ -97,7 +97,7 @@
       "mindist": 30,
       "maxdist": 80,
 	  "minheight": -64,	  
-      "maxheight": -30,	  
+      "maxheight": -10,	  
       "maxthis": 1
     }
   }   

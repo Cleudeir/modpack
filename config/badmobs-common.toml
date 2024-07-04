@@ -7911,7 +7911,7 @@
 	#Spawning options for zombie_extreme:projectile_spit_inflated
 	[zombie_extreme.projectile_spit_inflated]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7922,7 +7922,7 @@
 	#Spawning options for zombie_extreme:infected
 	[zombie_extreme.infected]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7933,7 +7933,7 @@
 	#Spawning options for zombie_extreme:runner
 	[zombie_extreme.runner]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7944,7 +7944,7 @@
 	#Spawning options for zombie_extreme:infected_police
 	[zombie_extreme.infected_police]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7955,7 +7955,7 @@
 	#Spawning options for zombie_extreme:infected_hazmat
 	[zombie_extreme.infected_hazmat]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7966,7 +7966,7 @@
 	#Spawning options for zombie_extreme:infected_military
 	[zombie_extreme.infected_military]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7977,7 +7977,7 @@
 	#Spawning options for zombie_extreme:infected_juggernaut
 	[zombie_extreme.infected_juggernaut]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -7988,7 +7988,7 @@
 	#Spawning options for zombie_extreme:boomer
 	[zombie_extreme.boomer]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8021,7 +8021,7 @@
 	#Spawning options for zombie_extreme:ram
 	[zombie_extreme.ram]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8032,7 +8032,7 @@
 	#Spawning options for zombie_extreme:chainsaw
 	[zombie_extreme.chainsaw]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8043,7 +8043,7 @@
 	#Spawning options for zombie_extreme:explosive_infected
 	[zombie_extreme.explosive_infected]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8054,7 +8054,7 @@
 	#Spawning options for zombie_extreme:night_hunter
 	[zombie_extreme.night_hunter]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8065,7 +8065,7 @@
 	#Spawning options for zombie_extreme:rat_king
 	[zombie_extreme.rat_king]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8087,7 +8087,7 @@
 	#Spawning options for zombie_extreme:inflated
 	[zombie_extreme.inflated]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8109,7 +8109,7 @@
 	#Spawning options for zombie_extreme:goon
 	[zombie_extreme.goon]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8120,7 +8120,7 @@
 	#Spawning options for zombie_extreme:revived
 	[zombie_extreme.revived]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8131,7 +8131,7 @@
 	#Spawning options for zombie_extreme:divided
 	[zombie_extreme.divided]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8142,7 +8142,7 @@
 	#Spawning options for zombie_extreme:devestated
 	[zombie_extreme.devestated]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8153,7 +8153,7 @@
 	#Spawning options for zombie_extreme:parasite
 	[zombie_extreme.parasite]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8164,7 +8164,7 @@
 	#Spawning options for zombie_extreme:zero_patient
 	[zombie_extreme.zero_patient]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8175,7 +8175,7 @@
 	#Spawning options for zombie_extreme:fetus
 	[zombie_extreme.fetus]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8186,7 +8186,7 @@
 	#Spawning options for zombie_extreme:military
 	[zombie_extreme.military]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -8197,7 +8197,7 @@
 	#Spawning options for zombie_extreme:assasin_black_ops
 	[zombie_extreme.assasin_black_ops]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?

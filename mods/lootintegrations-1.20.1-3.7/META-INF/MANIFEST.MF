@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: lootintegrations
+Specification-Vendor: lootintegrations
+Specification-Version: 1
+Implementation-Title: dungeonlootintegration
+Implementation-Version: 1.20.1-3.7
+Implementation-Vendor: lootintegrations
+Implementation-Timestamp: 2024-05-17T00:36:40+0200
+MixinConfigs: lootintegrations.mixins.json
+

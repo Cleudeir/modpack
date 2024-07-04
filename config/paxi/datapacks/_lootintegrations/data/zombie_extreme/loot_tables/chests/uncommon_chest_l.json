@@ -3,111 +3,59 @@
     {
       "rolls": {
         "min": 1,
-        "max": 2
-      },
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "special_drops:legendary_special_drops",
-          "expand": true,
-          "weight": 4
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "special_drops:epic_special_drops",
-          "expand": true,
-          "weight": 4
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "special_drops:rare_special_drops",
-          "expand": true,
-          "weight": 5
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "special_drops:uncommon_special_drops",
-          "expand": true,
-          "weight": 10
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "special_drops:common_special_drops",
-          "expand": true,
-          "weight": 20
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.9
-        }
-      ]
-    },
-	{
-      "rolls": {
-        "min": 1,
         "max": 3
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 12,
-                "max": 64
-              }
-            }
-          ]
+          "type": "item",
+          "name": "zombie_extreme:syringe_adrenaline",
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:advanced_bullet",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 32
-              }
-            }
-          ]
+          "type": "item",
+          "name": "zombie_extreme:syringe_antidote",
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:shell",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 32
-              }
-            }
-          ]
+          "type": "item",
+          "name": "zombie_extreme:syringe_night_vision",
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:grenade",
+          "type": "item",
+          "name": "zombie_extreme:syringe_stimulator",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
+              "count": 1,
+              "condition": {
+                "condition": "random_chance",
+                "chance": 0.10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 10
               }
             }
           ]
         }
       ]
-    }	
-  ],  
-  "random_sequence": "zombie_extreme:chests/uncommon_chest_l"
+    }
+  ],"random_sequence": "zombie_extreme:chests/uncommon_chest_l"
 }

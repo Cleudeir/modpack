@@ -6,7 +6,7 @@
   "spawners": {
     "type": "zombie_extreme:demolisher",
     "weight": 10,
-    "minCount": 1,
-    "maxCount": 1
+    "minCount": 0,
+    "maxCount": 0
   }
 }

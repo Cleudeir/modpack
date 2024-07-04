@@ -24,7 +24,7 @@
 	#an existing bug. Features from certain mods might not be removed properly at this time due to an existing bug. 
 	#Example entry: ["minecraft:ore_diorite_upper", "minecraft:ore_diorite_lower", "minecraft:trees_savanna"]. 
 	#Default=[]
-	features_to_remove = []
+	features_to_remove = ["zombie_extreme:build_1","zombie_extreme:burning_land_oil_shale","zombie_extreme:caff","zombie_extreme:gas_station_1","zombie_extreme:lighthouse","zombie_extreme:modern_house_1","zombie_extreme:oil_shale_sand","zombie_extreme:ruin_1","zombie_extreme:ruin_2","zombie_extreme:ruin_3","zombie_extreme:ruin_4","zombie_extreme:ruin_5"]
 	#
 	#Change ore frequencies. Use /listallfeatures <likely ore name> to get the ore key.
 	#Example entry: ["minecraft:ore_diorite_upper=3", "minecraft:ore_diorite_lower=0.2"],
