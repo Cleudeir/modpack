@@ -8,10 +8,10 @@
 	#Range: > 1
 	healthPerDeath = 4
 	#When set to true it notifies the player about their new max health when they respawn [default: true]
-	reducedHealthMessage = true
+	reducedHealthMessage = false
 	#Decides if the reduced health is per player, for everybody or per team [default: SEPARATE]
 	#Allowed Values: SEPARATE, SCOREBOARD_TEAM, EVERYBODY
-	healthSetting = "EVERYBODY"
+	healthSetting = "SEPARATE"
 
 #Regen settings
 [Regen]
