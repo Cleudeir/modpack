@@ -14434,6 +14434,72 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -76214740752000,
+          "name": "FiltPick-forge-mc1.20.1-0.0.2",
+          "favorite": false,
+          "version": {
+            "id": -76214742396500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "fffa76fef0b98adc25d3a35629a1a7233de5901e",
+              "size": 58299,
+              "path": "mods/FiltPick-forge-mc1.20.1-0.0.2.jar",
+              "url": "mods/FiltPick-forge-mc1.20.1-0.0.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -76214744275400,
+          "name": "Public GUI Announcement-neoforge-1.20.1-5.0.0",
+          "favorite": false,
+          "version": {
+            "id": -76214746032300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "29437e21b4a88ad94568df623a48865821d1485d",
+              "size": 345356,
+              "path": "mods/Public GUI Announcement-neoforge-1.20.1-5.0.0.jar",
+              "url": "mods/Public GUI Announcement-neoforge-1.20.1-5.0.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -131735864232400,
+          "name": "mixinsquared-forge-0.1.1",
+          "favorite": false,
+          "version": {
+            "id": -131736014682400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1e7c8363d16e0c7fa799779424440727e46110ae",
+              "size": 18300,
+              "path": "mods/supplementaries-1.20-2.8.10/META-INF/jars/mixinsquared-forge-0.1.1.jar",
+              "url": "mods/supplementaries-1.20-2.8.10/META-INF/jars/mixinsquared-forge-0.1.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

@@ -1,0 +1,6 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:gui.xaero_deathpoint:D:76:64:456:0:false:1:gui.xaero_default:false:0:1:true
+waypoint:Shared Location:S:69:65:446:12:false:0:gui.xaero_default:false:0:0:false
+waypoint:Dungeon BOLADA:D:167:72:162:13:false:0:gui.xaero_default:false:0:0:false

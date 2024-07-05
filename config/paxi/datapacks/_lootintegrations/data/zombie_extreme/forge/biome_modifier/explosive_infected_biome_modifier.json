@@ -5,8 +5,8 @@
   },
   "spawners": {
     "type": "zombie_extreme:explosive_infected",
-    "weight": 12,
-    "minCount": 0,
-    "maxCount": 0
+    "weight": 0,
+    "minCount": 1,
+    "maxCount": 1
   }
 }

@@ -5,8 +5,8 @@
   },
   "spawners": {
     "type": "zombie_extreme:assasin_black_ops",
-    "weight": 20,
-    "minCount": 0,
-    "maxCount": 0
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
   }
 }

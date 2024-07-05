@@ -1,614 +1,614 @@
 {
-	"normal": {
-		"bidirectional": [
-			[
-				"-4_1",
-				"-5_3"
-			],
-			[
-				"-5_3",
-				"-6_1"
-			],
-			[
-				"-6_1",
-				"-6_-1"
-			],
-			[
-				"-6_-1",
-				"-5_-3"
-			],
-			[
-				"-5_-3",
-				"-8_0"
-			],
-			[
-				"-8_0",
-				"-7_-4"
-			],
-			[
-				"-8_0",
-				"-9_2"
-			],
-			[
-				"-8_0",
-				"-11_1"
-			],
-			[
-				"-11_1",
-				"-12_3"
-			],
-			[
-				"-12_3",
-				"-13_5"
-			],
-			[
-				"-13_5",
-				"-13_7"
-			],
-			[
-				"-13_5",
-				"-15_6"
-			],
-			[
-				"-5_3",
-				"-7_4"
-			],
-			[
-				"-7_4",
-				"-8_6"
-			],
-			[
-				"-8_6",
-				"-11_6"
-			],
-			[
-				"-9_2",
-				"-10_4"
-			],
-			[
-				"-7_-4",
-				"-8_-6"
-			],
-			[
-				"-8_-6",
-				"-11_-6"
-			],
-			[
-				"-11_-6",
-				"-13_-7"
-			],
-			[
-				"-13_-7",
-				"-15_-6"
-			],
-			[
-				"-7_-4",
-				"m802jv0yi2jlguvg"
-			],
-			[
-				"m802jv0yi2jlguvg",
-				"743du4ccvsng32fm"
-			],
-			[
-				"743du4ccvsng32fm",
-				"-12_-3"
-			],
-			[
-				"-12_-3",
-				"-13_0"
-			],
-			[
-				"-12_-3",
-				"-15_-1"
-			],
-			[
-				"-15_-1",
-				"-15_1"
-			],
-			[
-				"-15_-1",
-				"-17_0"
-			],
-			[
-				"743du4ccvsng32fm",
-				"-13_-5"
-			],
-			[
-				"-13_0",
-				"-11_-1"
-			],
-			[
-				"-1_4",
-				"-3_5"
-			],
-			[
-				"-3_5",
-				"-4_7"
-			],
-			[
-				"-4_7",
-				"-6_8"
-			],
-			[
-				"-3_5",
-				"-1_6"
-			],
-			[
-				"-1_6",
-				"2x0kwesrqtrxfre3"
-			],
-			[
-				"2x0kwesrqtrxfre3",
-				"3_5"
-			],
-			[
-				"-6_8",
-				"-8_10"
-			],
-			[
-				"-6_8",
-				"-8_8"
-			],
-			[
-				"-8_8",
-				"-10_10"
-			],
-			[
-				"-8_8",
-				"-10_8"
-			],
-			[
-				"-10_10",
-				"-12_12"
-			],
-			[
-				"-3_5",
-				"-2_9"
-			],
-			[
-				"-2_9",
-				"0_8"
-			],
-			[
-				"0_8",
-				"2_9"
-			],
-			[
-				"2_9",
-				"4_7"
-			],
-			[
-				"2_9",
-				"4_10"
-			],
-			[
-				"4_7",
-				"6_8"
-			],
-			[
-				"6_8",
-				"8_8"
-			],
-			[
-				"8_8",
-				"10_10"
-			],
-			[
-				"8_8",
-				"8_10"
-			],
-			[
-				"8_8",
-				"10_8"
-			],
-			[
-				"10_10",
-				"12_12"
-			],
-			[
-				"8_10",
-				"6_11"
-			],
-			[
-				"8_10",
-				"7_13"
-			],
-			[
-				"7_13",
-				"6_15"
-			],
-			[
-				"7_13",
-				"5_13"
-			],
-			[
-				"4_10",
-				"3_12"
-			],
-			[
-				"2_9",
-				"04tppxxmyqvcxaxw"
-			],
-			[
-				"04tppxxmyqvcxaxw",
-				"-1_11"
-			],
-			[
-				"-1_11",
-				"-3_12"
-			],
-			[
-				"-3_12",
-				"-5_13"
-			],
-			[
-				"-5_13",
-				"-6_15"
-			],
-			[
-				"-5_13",
-				"-7_13"
-			],
-			[
-				"04tppxxmyqvcxaxw",
-				"0_13"
-			],
-			[
-				"0_13",
-				"1_15"
-			],
-			[
-				"1_15",
-				"-1_15"
-			],
-			[
-				"1_15",
-				"0_17"
-			],
-			[
-				"uiimco6b875c83ie",
-				"5_3"
-			],
-			[
-				"uiimco6b875c83ie",
-				"6_1"
-			],
-			[
-				"4_-1",
-				"5_-3"
-			],
-			[
-				"4_-1",
-				"6_-1"
-			],
-			[
-				"5_-3",
-				"7_-4"
-			],
-			[
-				"7_-4",
-				"8_-6"
-			],
-			[
-				"8_-6",
-				"11_-6"
-			],
-			[
-				"11_-6",
-				"13_-7"
-			],
-			[
-				"7_-4",
-				"9_-2"
-			],
-			[
-				"6_1",
-				"8_0"
-			],
-			[
-				"6_1",
-				"9_2"
-			],
-			[
-				"6_1",
-				"7_4"
-			],
-			[
-				"7_4",
-				"8_6"
-			],
-			[
-				"8_6",
-				"11_6"
-			],
-			[
-				"11_6",
-				"13_7"
-			],
-			[
-				"9_2",
-				"10_4"
-			],
-			[
-				"9_2",
-				"12_3"
-			],
-			[
-				"12_3",
-				"13_5"
-			],
-			[
-				"13_5",
-				"15_6"
-			],
-			[
-				"9_-2",
-				"12_-3"
-			],
-			[
-				"12_-3",
-				"13_-5"
-			],
-			[
-				"13_-5",
-				"15_-6"
-			],
-			[
-				"12_-3",
-				"13_0"
-			],
-			[
-				"13_0",
-				"11_1"
-			],
-			[
-				"13_0",
-				"11_-1"
-			],
-			[
-				"13_0",
-				"15_1"
-			],
-			[
-				"13_0",
-				"15_-1"
-			],
-			[
-				"15_-1",
-				"17_0"
-			],
-			[
-				"1_-4",
-				"3_-5"
-			],
-			[
-				"3_-5",
-				"4_-7"
-			],
-			[
-				"1_-4",
-				"1_-6"
-			],
-			[
-				"-1_-4",
-				"-3_-5"
-			],
-			[
-				"-1_-4",
-				"-1_-6"
-			],
-			[
-				"-3_-5",
-				"-2_-9"
-			],
-			[
-				"-2_-9",
-				"-4_-7"
-			],
-			[
-				"-2_-9",
-				"-4_-10"
-			],
-			[
-				"-2_-9",
-				"-1_-11"
-			],
-			[
-				"-4_-7",
-				"-6_-8"
-			],
-			[
-				"-6_-8",
-				"-8_-8"
-			],
-			[
-				"-8_-8",
-				"-10_-8"
-			],
-			[
-				"-10_-8",
-				"-10_-10"
-			],
-			[
-				"-10_-10",
-				"-12_-12"
-			],
-			[
-				"-4_-10",
-				"-8_-10"
-			],
-			[
-				"-4_-10",
-				"-6_-11"
-			],
-			[
-				"1_-6",
-				"2_-9"
-			],
-			[
-				"2_-9",
-				"1_-11"
-			],
-			[
-				"1_-11",
-				"0_-13"
-			],
-			[
-				"0_-13",
-				"1_-15"
-			],
-			[
-				"1_-15",
-				"0_-17"
-			],
-			[
-				"0_-13",
-				"-1_-15"
-			],
-			[
-				"4_-7",
-				"6_-8"
-			],
-			[
-				"6_-8",
-				"8_-10"
-			],
-			[
-				"8_-10",
-				"8_-8"
-			],
-			[
-				"8_-10",
-				"10_-8"
-			],
-			[
-				"8_-10",
-				"10_-10"
-			],
-			[
-				"10_-10",
-				"12_-12"
-			],
-			[
-				"8_-10",
-				"6_-11"
-			],
-			[
-				"6_-11",
-				"4_-10"
-			],
-			[
-				"6_-11",
-				"5_-13"
-			],
-			[
-				"6_-11",
-				"7_-13"
-			],
-			[
-				"6_-11",
-				"3_-12"
-			],
-			[
-				"10_-4",
-				"8_-6"
-			],
-			[
-				"0_2",
-				"-1_4"
-			],
-			[
-				"0_2",
-				"1_4"
-			],
-			[
-				"-2_0",
-				"-4_-1"
-			],
-			[
-				"-2_0",
-				"-4_1"
-			],
-			[
-				"0_-2",
-				"1_-4"
-			],
-			[
-				"0_-2",
-				"-1_-4"
-			],
-			[
-				"2_0",
-				"4_-1"
-			],
-			[
-				"2_0",
-				"uiimco6b875c83ie"
-			],
-			[
-				"-13_7",
-				"-12_12"
-			],
-			[
-				"10_8",
-				"13_7"
-			],
-			[
-				"13_-7",
-				"12_-12"
-			],
-			[
-				"-12_-12",
-				"-15_-6"
-			],
-			[
-				"dywmltnfuribs65q",
-				"15_6"
-			],
-			[
-				"0yyk2bn4jje8u4xc",
-				"-2_-9"
-			],
-			[
-				"-2_9",
-				"-4_10"
-			],
-			[
-				"-6_-11",
-				"-5_-13"
-			],
-			[
-				"-6_-11",
-				"-6_-15"
-			]
-		]
-	},
-	"exclusive": {
-		"bidirectional": [
-			[
-				"0_-2",
-				"-2_0"
-			],
-			[
-				"-2_0",
-				"0_2"
-			],
-			[
-				"0_2",
-				"2_0"
-			],
-			[
-				"2_0",
-				"0_-2"
-			],
-			[
-				"-2_0",
-				"2_0"
-			],
-			[
-				"0_-2",
-				"0_2"
-			]
-		]
-	}
+"normal": {
+"bidirectional": [
+[
+"Increases the amount of experience gained by 10%. (-128,32)",
+"Reduces incoming damage by 10%. (-160,96)"
+],
+[
+"Reduces incoming damage by 10%. (-160,96)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,32)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,32)",
+"Applies a cold effect to target, damaging it by 0.5. (-192,-32)"
+],
+[
+"Applies a cold effect to target, damaging it by 0.5. (-192,-32)",
+"Increases luck by 0.5. (-160,-96)"
+],
+[
+"Increases luck by 0.5. (-160,-96)",
+"Increases move speed by 5%. (-256,0)"
+],
+[
+"Increases move speed by 5%. (-256,0)",
+"Increases armor by 0.5. (-224,-128)"
+],
+[
+"Increases move speed by 5%. (-256,0)",
+"Increases damage based on enemy's HP by 2%. (-288,64)"
+],
+[
+"Increases move speed by 5%. (-256,0)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,32)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,32)",
+"Increases the amount of experience gained by 10%. (-384,96)"
+],
+[
+"Increases the amount of experience gained by 10%. (-384,96)",
+"Increases critical damage by 5%. (-416,160)"
+],
+[
+"Increases critical damage by 5%. (-416,160)",
+"Increases healing received by 10%. (-416,224)"
+],
+[
+"Increases critical damage by 5%. (-416,160)",
+"Applies a burn effect to target, damaging it by 0.5. (-480,192)"
+],
+[
+"Reduces incoming damage by 10%. (-160,96)",
+"Increases the ability to bypass 0.5 armor. (-224,128)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (-224,128)",
+"Increases chance to dodge physical attacks by 3%. (-256,192)"
+],
+[
+"Increases chance to dodge physical attacks by 3%. (-256,192)",
+"Increases chance to dodge physical attacks by 3%. (-352,192)"
+],
+[
+"Increases damage based on enemy's HP by 2%. (-288,64)",
+"Increases chance to dodge physical attacks by 3%. (-320,128)"
+],
+[
+"Increases armor by 0.5. (-224,-128)",
+"Increases critical hit chance by 5%. (-256,-192)"
+],
+[
+"Increases critical hit chance by 5%. (-256,-192)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,-192)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,-192)",
+"Increases armor toughness by 1. (-416,-224)"
+],
+[
+"Increases armor toughness by 1. (-416,-224)",
+"Allow and increases life steal by 1% while attacking. (-480,-192)"
+],
+[
+"Increases armor by 0.5. (-224,-128)",
+"Increases the amount of experience gained by 5%. (-288,-96)"
+],
+[
+"Increases the amount of experience gained by 5%. (-288,-96)",
+"Increases move speed by 5%. (-352,-128)"
+],
+[
+"Increases move speed by 5%. (-352,-128)",
+"Increases critical damage by 5%. (-384,-96)"
+],
+[
+"Increases critical damage by 5%. (-384,-96)",
+"Increases attacks knockback by 0.5. (-416,0)"
+],
+[
+"Increases critical damage by 5%. (-384,-96)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-480,-32)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-480,-32)",
+"Increases attacks knockback by 0.5. (-480,32)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-480,-32)",
+"Applies a burn effect to target, damaging it by 0.5. (-544,0)"
+],
+[
+"Increases move speed by 5%. (-352,-128)",
+"Reduces incoming damage by 5%. (-416,-160)"
+],
+[
+"Increases attacks knockback by 0.5. (-416,0)",
+"Increases range to break or build by 0.5. (-352,-32)"
+],
+[
+"Increases healing received by 5%. (-32,128)",
+"Increases the ability to bypass 0.5 armor. (-96,160)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (-96,160)",
+"Increases healing received by 5%. (-128,224)"
+],
+[
+"Increases healing received by 5%. (-128,224)",
+"Increases the amount of experience gained by 5%. (-192,256)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (-96,160)",
+"Increases critical hit chance by 5%. (-32,192)"
+],
+[
+"Increases critical hit chance by 5%. (-32,192)",
+"Increases the ability to bypass 0.5 armor. (32,192)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (32,192)",
+"Allow and increases life steal by 1% while attacking. (96,160)"
+],
+[
+"Increases the amount of experience gained by 5%. (-192,256)",
+"Applies a cold effect to target, damaging it by 0.5. (-256,320)"
+],
+[
+"Increases the amount of experience gained by 5%. (-192,256)",
+"Increases attacks knockback by 0.5. (-256,256)"
+],
+[
+"Increases attacks knockback by 0.5. (-256,256)",
+"Increases luck by 0.5. (-320,320)"
+],
+[
+"Increases attacks knockback by 0.5. (-256,256)",
+"Increases extra health by 0.5. (-320,256)"
+],
+[
+"Increases luck by 0.5. (-320,320)",
+"Increases range to break or build by 0.5. (-384,384)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (-96,160)",
+"Increases critical damage by 5%. (-64,288)"
+],
+[
+"Increases critical damage by 5%. (-64,288)",
+"Increases extra health by 0.5. (0,256)"
+],
+[
+"Increases extra health by 0.5. (0,256)",
+"Increases the ability to bypass 0.5 armor. (64,288)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (64,288)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (128,224)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (64,288)",
+"Increases the amount of experience gained by 5%. (128,320)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (128,224)",
+"Increases melee damage by 5%. (192,256)"
+],
+[
+"Increases melee damage by 5%. (192,256)",
+"Increases critical hit chance by 5%. (256,256)"
+],
+[
+"Increases critical hit chance by 5%. (256,256)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (320,320)"
+],
+[
+"Increases critical hit chance by 5%. (256,256)",
+"Increases the amount of experience gained by 10%. (256,320)"
+],
+[
+"Increases critical hit chance by 5%. (256,256)",
+"Increases max health by 0.5. (320,256)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (320,320)",
+"Increases extra health by 0.5. (384,384)"
+],
+[
+"Increases the amount of experience gained by 10%. (256,320)",
+"Increases armor toughness by 0.3. (192,352)"
+],
+[
+"Increases the amount of experience gained by 10%. (256,320)",
+"Increases damage based on enemy's HP by 1%. (224,416)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (224,416)",
+"Increases the ability to bypass 0.5 armor. (192,480)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (224,416)",
+"Increases armor by 1. (160,416)"
+],
+[
+"Increases the amount of experience gained by 5%. (128,320)",
+"Increases armor toughness by 0.3. (96,384)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (64,288)",
+"Increases attack speed by 5%. (32,352)"
+],
+[
+"Increases attack speed by 5%. (32,352)",
+"Increases the ability to bypass 1 armor. (-32,352)"
+],
+[
+"Increases the ability to bypass 1 armor. (-32,352)",
+"Reduces incoming damage by 10%. (-96,384)"
+],
+[
+"Reduces incoming damage by 10%. (-96,384)",
+"Absorbs 0.5 of damage. (-160,416)"
+],
+[
+"Absorbs 0.5 of damage. (-160,416)",
+"Increases critical damage by 5%. (-192,480)"
+],
+[
+"Absorbs 0.5 of damage. (-160,416)",
+"Increases max health by 0.5. (-224,416)"
+],
+[
+"Increases attack speed by 5%. (32,352)",
+"Increases armor toughness by 0.3. (0,416)"
+],
+[
+"Increases armor toughness by 0.3. (0,416)",
+"Increases critical damage by 5%. (32,480)"
+],
+[
+"Increases critical damage by 5%. (32,480)",
+"Increases the amount of experience gained by 5%. (-32,480)"
+],
+[
+"Increases critical damage by 5%. (32,480)",
+"Increases extra health by 0.5. (0,544)"
+],
+[
+"Absorbs 0.5 of damage. (128,32)",
+"Increases the amount of experience gained by 5%. (160,96)"
+],
+[
+"Absorbs 0.5 of damage. (128,32)",
+"Increases extra health by 1. (192,32)"
+],
+[
+"Increases armor by 0.5. (128,-32)",
+"Increases attacks knockback by 0.5. (160,-96)"
+],
+[
+"Increases armor by 0.5. (128,-32)",
+"Increases attack speed by 5%. (192,-32)"
+],
+[
+"Increases attacks knockback by 0.5. (160,-96)",
+"Increases arrow damage, velocity and bow's draw speed by 20%. (224,-128)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 20%. (224,-128)",
+"Increases critical damage by 5%. (256,-192)"
+],
+[
+"Increases critical damage by 5%. (256,-192)",
+"Increases the ability to bypass 0.5 armor. (352,-192)"
+],
+[
+"Increases the ability to bypass 0.5 armor. (352,-192)",
+"Increases melee damage by 5%. (416,-224)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 20%. (224,-128)",
+"Increases damage based on enemy's HP by 1%. (288,-64)"
+],
+[
+"Increases extra health by 1. (192,32)",
+"Applies a cold effect to target, damaging it by 0.5. (256,0)"
+],
+[
+"Increases extra health by 1. (192,32)",
+"Increases critical damage by 5%. (288,64)"
+],
+[
+"Increases extra health by 1. (192,32)",
+"Increases range to break or build by 0.5. (224,128)"
+],
+[
+"Increases range to break or build by 0.5. (224,128)",
+"Increases critical hit chance by 5%. (256,192)"
+],
+[
+"Increases critical hit chance by 5%. (256,192)",
+"Increases max health by 0.5. (352,192)"
+],
+[
+"Increases max health by 0.5. (352,192)",
+"Increases armor toughness by 0.3. (416,224)"
+],
+[
+"Increases critical damage by 5%. (288,64)",
+"Increases armor by 0.5. (320,128)"
+],
+[
+"Increases critical damage by 5%. (288,64)",
+"Increases armor by 0.5. (384,96)"
+],
+[
+"Increases armor by 0.5. (384,96)",
+"Increases melee damage by 5%. (416,160)"
+],
+[
+"Increases melee damage by 5%. (416,160)",
+"Increases attacks knockback by 0.5. (480,192)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (288,-64)",
+"Increases the amount of experience gained by 10%. (384,-96)"
+],
+[
+"Increases the amount of experience gained by 10%. (384,-96)",
+"Reduces incoming damage by 5%. (416,-160)"
+],
+[
+"Reduces incoming damage by 5%. (416,-160)",
+"Increases armor toughness by 0.3. (480,-192)"
+],
+[
+"Increases the amount of experience gained by 10%. (384,-96)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
+"Reduces incoming damage by 5%. (352,32)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
+"Applies a burn effect to target, damaging it by 0.5. (352,-32)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
+"Increases range to break or build by 0.5. (480,32)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
+"Increases move speed by 10%. (480,-32)"
+],
+[
+"Increases move speed by 10%. (480,-32)",
+"Increases armor by 0.5. (544,0)"
+],
+[
+"Increases critical hit chance by 5%. (32,-128)",
+"Applies a cold effect to target, damaging it by 0.5. (96,-160)"
+],
+[
+"Applies a cold effect to target, damaging it by 0.5. (96,-160)",
+"Increases the amount of experience gained by 5%. (128,-224)"
+],
+[
+"Increases critical hit chance by 5%. (32,-128)",
+"Reduces incoming damage by 5%. (32,-192)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-128)",
+"Allow and increases life steal by 1% while attacking. (-96,-160)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-128)",
+"Reduces incoming damage by 5%. (-32,-192)"
+],
+[
+"Allow and increases life steal by 1% while attacking. (-96,-160)",
+"Reduces incoming damage by 5%. (-64,-288)"
+],
+[
+"Reduces incoming damage by 5%. (-64,-288)",
+"Increases max health by 0.5. (-128,-224)"
+],
+[
+"Reduces incoming damage by 5%. (-64,-288)",
+"Increases damage based on enemy's HP by 1%. (-128,-320)"
+],
+[
+"Reduces incoming damage by 5%. (-64,-288)",
+"Increases move speed by 5%. (-32,-352)"
+],
+[
+"Increases max health by 0.5. (-128,-224)",
+"Increases range to break or build by 0.5. (-192,-256)"
+],
+[
+"Increases range to break or build by 0.5. (-192,-256)",
+"Increases damage based on enemy's HP by 1%. (-256,-256)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (-256,-256)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-320,-256)"
+],
+[
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-320,-256)",
+"Allow and increases life steal by 1% while attacking. (-320,-320)"
+],
+[
+"Allow and increases life steal by 1% while attacking. (-320,-320)",
+"Increases attacks knockback by 1. (-384,-384)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (-128,-320)",
+"Increases melee damage by 5%. (-256,-320)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (-128,-320)",
+"Applies a burn effect to target, damaging it by 0.5. (-192,-352)"
+],
+[
+"Reduces incoming damage by 5%. (32,-192)",
+"Increases chance to dodge physical attacks by 3%. (64,-288)"
+],
+[
+"Increases chance to dodge physical attacks by 3%. (64,-288)",
+"Increases move speed by 5%. (32,-352)"
+],
+[
+"Increases move speed by 5%. (32,-352)",
+"Increases healing received by 5%. (0,-416)"
+],
+[
+"Increases healing received by 5%. (0,-416)",
+"Increases extra health by 0.5. (32,-480)"
+],
+[
+"Increases extra health by 0.5. (32,-480)",
+"Reduces incoming damage by 5%. (0,-544)"
+],
+[
+"Increases healing received by 5%. (0,-416)",
+"Applies a burn effect to target, damaging it by 0.5. (-32,-480)"
+],
+[
+"Increases the amount of experience gained by 5%. (128,-224)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-256)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-256)",
+"Absorbs 0.5 of damage. (256,-320)"
+],
+[
+"Absorbs 0.5 of damage. (256,-320)",
+"Increases critical hit chance by 5%. (256,-256)"
+],
+[
+"Absorbs 0.5 of damage. (256,-320)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (320,-256)"
+],
+[
+"Absorbs 0.5 of damage. (256,-320)",
+"Increases healing received by 5%. (320,-320)"
+],
+[
+"Increases healing received by 5%. (320,-320)",
+"Increases move speed by 5%. (384,-384)"
+],
+[
+"Absorbs 0.5 of damage. (256,-320)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
+"Allow and increases life steal by 1% while attacking. (128,-320)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
+"Reduces incoming damage by 5%. (160,-416)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
+"Increases attack speed by 5%. (224,-416)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
+"Increases the ability to bypass 0.5 armor. (96,-384)"
+],
+[
+"Increases attacks knockback by 0.5. (320,-128)",
+"Increases critical damage by 5%. (256,-192)"
+],
+[
+"Increases attack speed by 5%. (0,64)",
+"Increases healing received by 5%. (-32,128)"
+],
+[
+"Increases attack speed by 5%. (0,64)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,128)"
+],
+[
+"Increases healing received by 5%. (-64,0)",
+"Increases the amount of experience gained by 5%. (-128,-32)"
+],
+[
+"Increases healing received by 5%. (-64,0)",
+"Increases the amount of experience gained by 10%. (-128,32)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
+"Increases critical hit chance by 5%. (32,-128)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-128)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (64,0)",
+"Increases armor by 0.5. (128,-32)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (64,0)",
+"Absorbs 0.5 of damage. (128,32)"
+],
+[
+"Increases healing received by 10%. (-416,224)",
+"Increases range to break or build by 0.5. (-384,384)"
+],
+[
+"Increases max health by 0.5. (320,256)",
+"Increases armor toughness by 0.3. (416,224)"
+],
+[
+"Increases melee damage by 5%. (416,-224)",
+"Increases move speed by 5%. (384,-384)"
+],
+[
+"Increases attacks knockback by 1. (-384,-384)",
+"Allow and increases life steal by 1% while attacking. (-480,-192)"
+],
+[
+"Increases extra health by 0.5. (480,96)",
+"Increases attacks knockback by 0.5. (480,192)"
+],
+[
+"Increases melee damage by 10%. (0,-256)",
+"Reduces incoming damage by 5%. (-64,-288)"
+],
+[
+"Increases critical damage by 5%. (-64,288)",
+"Increases attack speed by 5%. (-128,320)"
+],
+[
+"Applies a burn effect to target, damaging it by 0.5. (-192,-352)",
+"Increases armor toughness by 0.3. (-160,-416)"
+],
+[
+"Applies a burn effect to target, damaging it by 0.5. (-192,-352)",
+"Increases damage based on enemy's HP by 1%. (-192,-480)"
+]
+]
+},
+"exclusive": {
+"bidirectional": [
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
+"Increases healing received by 5%. (-64,0)"
+],
+[
+"Increases healing received by 5%. (-64,0)",
+"Increases attack speed by 5%. (0,64)"
+],
+[
+"Increases attack speed by 5%. (0,64)",
+"Increases damage based on enemy's HP by 1%. (64,0)"
+],
+[
+"Increases damage based on enemy's HP by 1%. (64,0)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)"
+],
+[
+"Increases healing received by 5%. (-64,0)",
+"Increases damage based on enemy's HP by 1%. (64,0)"
+],
+[
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
+"Increases attack speed by 5%. (0,64)"
+]
+]
+}
 }

@@ -6,7 +6,7 @@
   "spawners": {
     "type": "zombie_extreme:boomer",
     "weight": 20,
-    "minCount": 0,
-    "maxCount": 0
+    "minCount": 1,
+    "maxCount": 1
   }
 }

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"minecraft:end_portal_frame","required":false},
+    {"id":"minecraft:command_block","required":false},
+    {"id":"minecraft:repeating_command_block","required":false},
+    {"id":"minecraft:chain_command_block","required":false},
+    {"id":"minecraft:structure_block","required":false},
+    {"id":"minecraft:jigsaw_block","required":false},
+    {"id":"fastpaintings:painting","required":false},
+    {"id":"create:belt","required":false},
+    {"id":"create:belt_connector","required":false},
+    {"id":"create:track","required":false},
+    {"id":"blue_skies:bag_of_spoils","required":false},
+    {"id":"securitycraft:projector","required":false},
+    {"id":"chipped:tinkering_table","required":false},
+    {"id":"chipped:mason_table","required":false},
+    {"id":"chipped:carpenters_table","required":false},
+    {"id":"chipped:loom_table","required":false}
+  ]
+}

@@ -34,7 +34,7 @@
     }
   },  
   {
-    "mob": ["zombie_extreme:ram","zombie_extreme:night_hunter","alexsmobs:rocky_roller","wrd:ender_miner","minecraft:zombie"],
+    "mob": ["alexsmobs:rocky_roller","wrd:ender_miner","minecraft:zombie"],
     "persecond": 120,
     "attempts": 2,
     "amount": {
@@ -51,7 +51,7 @@
     }
   },
   {
-    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten", "zombie_extreme:zero_patient"],
+    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten"],
     "persecond": 60,
     "attempts": 3,
     "amount": {
@@ -68,7 +68,7 @@
     }
   },
   {
-    "mob": ["alexscaves:watcher", "alexsmobs:murmur","wrd:buff_zombie"],
+    "mob": ["alexscaves:watcher", "alexsmobs:murmur","wrd:buff_zombie","zombie_extreme:ram","zombie_extreme:night_hunter"],
     "persecond": 60,
     "attempts": 1,
     "amount": {
@@ -85,7 +85,7 @@
     }
   },
   {
-    "mob": ["mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_zombie", "realmrpg_demons:demon"],
+    "mob": ["mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_zombie", "realmrpg_demons:demon_lord","zombie_extreme:zero_patient"],
     "persecond": 20,
     "attempts": 1,
     "amount": {

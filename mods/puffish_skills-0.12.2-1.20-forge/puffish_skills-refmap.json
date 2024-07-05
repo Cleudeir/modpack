@@ -1,0 +1,72 @@
+{
+  "mappings": {
+    "net/puffish/skillsmod/mixin/BufferRendererMixin": {
+      "Lnet/minecraft/client/gl/VertexBuffer;draw(Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lnet/minecraft/client/gl/ShaderProgram;)V": "Lcom/mojang/blaze3d/vertex/VertexBuffer;m_253207_(Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lnet/minecraft/client/renderer/ShaderInstance;)V",
+      "drawWithGlobalProgramInternal": "Lcom/mojang/blaze3d/vertex/BufferUploader;m_231211_(Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;)V"
+    },
+    "net/puffish/skillsmod/mixin/ServerPlayerEntityMixin": {
+      "increaseStat": "Lnet/minecraft/server/level/ServerPlayer;m_6278_(Lnet/minecraft/stats/Stat;I)V"
+    },
+    "net/puffish/skillsmod/mixin/ItemStackMixin": {
+      "onCraft": "Lnet/minecraft/world/item/ItemStack;m_41678_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;I)V"
+    },
+    "net/puffish/skillsmod/mixin/ConsumeItemCriterionMixin": {
+      "trigger": "Lnet/minecraft/advancements/critereon/ConsumeItemTrigger;m_23682_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)V"
+    },
+    "net/puffish/skillsmod/mixin/RenderLayerMixin": {
+      "Lnet/minecraft/client/render/BufferRenderer;drawWithGlobalProgram(Lnet/minecraft/client/render/BufferBuilder$BuiltBuffer;)V": "Lcom/mojang/blaze3d/vertex/BufferUploader;m_231202_(Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;)V",
+      "draw": "Lnet/minecraft/client/renderer/RenderType;m_276775_(Lcom/mojang/blaze3d/vertex/BufferBuilder;Lcom/mojang/blaze3d/vertex/VertexSorting;)V"
+    },
+    "net/puffish/skillsmod/mixin/LivingEntityMixin": {
+      "drop": "Lnet/minecraft/world/entity/LivingEntity;m_6668_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "damage": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "Lnet/minecraft/entity/ExperienceOrbEntity;spawn(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/util/math/Vec3d;I)V": "Lnet/minecraft/world/entity/ExperienceOrb;m_147082_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;I)V",
+      "dropXp": "Lnet/minecraft/world/entity/LivingEntity;m_21226_()V"
+    },
+    "net/puffish/skillsmod/mixin/BooleanRuleInvoker": {
+      "create": "m_46250_(Z)Lnet/minecraft/world/level/GameRules$Type;"
+    },
+    "net/puffish/skillsmod/mixin/BlockMixin": {
+      "afterBreak": "Lnet/minecraft/world/level/block/Block;m_6240_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V"
+    },
+    "net/puffish/skillsmod/mixin/GameRulesAccessor": {
+      "RULE_TYPES": "f_46129_:Ljava/util/Map;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/puffish/skillsmod/mixin/BufferRendererMixin": {
+        "Lnet/minecraft/client/gl/VertexBuffer;draw(Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lnet/minecraft/client/gl/ShaderProgram;)V": "Lcom/mojang/blaze3d/vertex/VertexBuffer;m_253207_(Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;Lnet/minecraft/client/renderer/ShaderInstance;)V",
+        "drawWithGlobalProgramInternal": "Lcom/mojang/blaze3d/vertex/BufferUploader;m_231211_(Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;)V"
+      },
+      "net/puffish/skillsmod/mixin/ServerPlayerEntityMixin": {
+        "increaseStat": "Lnet/minecraft/server/level/ServerPlayer;m_6278_(Lnet/minecraft/stats/Stat;I)V"
+      },
+      "net/puffish/skillsmod/mixin/ItemStackMixin": {
+        "onCraft": "Lnet/minecraft/world/item/ItemStack;m_41678_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;I)V"
+      },
+      "net/puffish/skillsmod/mixin/ConsumeItemCriterionMixin": {
+        "trigger": "Lnet/minecraft/advancements/critereon/ConsumeItemTrigger;m_23682_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)V"
+      },
+      "net/puffish/skillsmod/mixin/RenderLayerMixin": {
+        "Lnet/minecraft/client/render/BufferRenderer;drawWithGlobalProgram(Lnet/minecraft/client/render/BufferBuilder$BuiltBuffer;)V": "Lcom/mojang/blaze3d/vertex/BufferUploader;m_231202_(Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;)V",
+        "draw": "Lnet/minecraft/client/renderer/RenderType;m_276775_(Lcom/mojang/blaze3d/vertex/BufferBuilder;Lcom/mojang/blaze3d/vertex/VertexSorting;)V"
+      },
+      "net/puffish/skillsmod/mixin/LivingEntityMixin": {
+        "drop": "Lnet/minecraft/world/entity/LivingEntity;m_6668_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+        "damage": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "Lnet/minecraft/entity/ExperienceOrbEntity;spawn(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/util/math/Vec3d;I)V": "Lnet/minecraft/world/entity/ExperienceOrb;m_147082_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;I)V",
+        "dropXp": "Lnet/minecraft/world/entity/LivingEntity;m_21226_()V"
+      },
+      "net/puffish/skillsmod/mixin/BooleanRuleInvoker": {
+        "create": "m_46250_(Z)Lnet/minecraft/world/level/GameRules$Type;"
+      },
+      "net/puffish/skillsmod/mixin/BlockMixin": {
+        "afterBreak": "Lnet/minecraft/world/level/block/Block;m_6240_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V"
+      },
+      "net/puffish/skillsmod/mixin/GameRulesAccessor": {
+        "RULE_TYPES": "f_46129_:Ljava/util/Map;"
+      }
+    }
+  }
+}
