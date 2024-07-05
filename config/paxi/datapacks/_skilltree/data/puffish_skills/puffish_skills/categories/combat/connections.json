@@ -2,447 +2,447 @@
 "normal": {
 "bidirectional": [
 [
-"Increases the amount of experience gained by 10%. (-128,32)",
-"Reduces incoming damage by 10%. (-160,96)"
+"Reduces incoming damage by 5%. (-128,32)",
+"Reduces incoming damage by 5%. (-160,96)"
 ],
 [
-"Reduces incoming damage by 10%. (-160,96)",
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,32)"
+"Reduces incoming damage by 5%. (-160,96)",
+"Absorbs 0.5 of damage. (-192,32)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,32)",
-"Applies a cold effect to target, damaging it by 0.5. (-192,-32)"
+"Absorbs 0.5 of damage. (-192,32)",
+"Increases range to break or build by 0.5. (-192,-32)"
 ],
 [
-"Applies a cold effect to target, damaging it by 0.5. (-192,-32)",
-"Increases luck by 0.5. (-160,-96)"
+"Increases range to break or build by 0.5. (-192,-32)",
+"Increases critical damage by 5%. (-160,-96)"
 ],
 [
-"Increases luck by 0.5. (-160,-96)",
-"Increases move speed by 5%. (-256,0)"
+"Increases critical damage by 5%. (-160,-96)",
+"Increases armor toughness by 0.3. (-256,0)"
 ],
 [
-"Increases move speed by 5%. (-256,0)",
-"Increases armor by 0.5. (-224,-128)"
+"Increases armor toughness by 0.3. (-256,0)",
+"Increases attack speed by 5%. (-224,-128)"
 ],
 [
-"Increases move speed by 5%. (-256,0)",
-"Increases damage based on enemy's HP by 2%. (-288,64)"
+"Increases armor toughness by 0.3. (-256,0)",
+"Applies a burn effect to target, damaging it by 0.1. (-288,64)"
 ],
 [
-"Increases move speed by 5%. (-256,0)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,32)"
+"Increases armor toughness by 0.3. (-256,0)",
+"Increases chance to dodge physical attacks by 3%. (-352,32)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,32)",
-"Increases the amount of experience gained by 10%. (-384,96)"
+"Increases chance to dodge physical attacks by 3%. (-352,32)",
+"Applies a burn effect to target, damaging it by 0.5. (-384,96)"
 ],
 [
-"Increases the amount of experience gained by 10%. (-384,96)",
+"Applies a burn effect to target, damaging it by 0.5. (-384,96)",
 "Increases critical damage by 5%. (-416,160)"
 ],
 [
 "Increases critical damage by 5%. (-416,160)",
-"Increases healing received by 10%. (-416,224)"
+"Increases chance to dodge physical attacks by 3%. (-416,224)"
 ],
 [
 "Increases critical damage by 5%. (-416,160)",
 "Applies a burn effect to target, damaging it by 0.5. (-480,192)"
 ],
 [
-"Reduces incoming damage by 10%. (-160,96)",
-"Increases the ability to bypass 0.5 armor. (-224,128)"
+"Reduces incoming damage by 5%. (-160,96)",
+"Reduces incoming damage by 5%. (-224,128)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (-224,128)",
-"Increases chance to dodge physical attacks by 3%. (-256,192)"
+"Reduces incoming damage by 5%. (-224,128)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-256,192)"
 ],
 [
-"Increases chance to dodge physical attacks by 3%. (-256,192)",
-"Increases chance to dodge physical attacks by 3%. (-352,192)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-256,192)",
+"Increases attack speed by 5%. (-352,192)"
 ],
 [
-"Increases damage based on enemy's HP by 2%. (-288,64)",
-"Increases chance to dodge physical attacks by 3%. (-320,128)"
+"Applies a burn effect to target, damaging it by 0.1. (-288,64)",
+"Applies a burn effect to target, damaging it by 0.5. (-320,128)"
 ],
 [
-"Increases armor by 0.5. (-224,-128)",
-"Increases critical hit chance by 5%. (-256,-192)"
+"Increases attack speed by 5%. (-224,-128)",
+"Increases melee damage by 5%. (-256,-192)"
 ],
 [
-"Increases critical hit chance by 5%. (-256,-192)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,-192)"
+"Increases melee damage by 5%. (-256,-192)",
+"Increases arrow damage, velocity and bow's draw speed by 20%. (-352,-192)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (-352,-192)",
-"Increases armor toughness by 1. (-416,-224)"
+"Increases arrow damage, velocity and bow's draw speed by 20%. (-352,-192)",
+"Allow and increases life steal by 1% while attacking. (-416,-224)"
 ],
 [
-"Increases armor toughness by 1. (-416,-224)",
-"Allow and increases life steal by 1% while attacking. (-480,-192)"
+"Allow and increases life steal by 1% while attacking. (-416,-224)",
+"Increases melee damage by 5%. (-480,-192)"
 ],
 [
-"Increases armor by 0.5. (-224,-128)",
-"Increases the amount of experience gained by 5%. (-288,-96)"
+"Increases attack speed by 5%. (-224,-128)",
+"Increases max health by 0.5. (-288,-96)"
 ],
 [
-"Increases the amount of experience gained by 5%. (-288,-96)",
-"Increases move speed by 5%. (-352,-128)"
+"Increases max health by 0.5. (-288,-96)",
+"Increases the amount of experience gained by 5%. (-352,-128)"
 ],
 [
-"Increases move speed by 5%. (-352,-128)",
-"Increases critical damage by 5%. (-384,-96)"
+"Increases the amount of experience gained by 5%. (-352,-128)",
+"Reduces incoming damage by 5%. (-384,-96)"
 ],
 [
-"Increases critical damage by 5%. (-384,-96)",
-"Increases attacks knockback by 0.5. (-416,0)"
+"Reduces incoming damage by 5%. (-384,-96)",
+"Increases armor toughness by 0.3. (-416,0)"
 ],
 [
-"Increases critical damage by 5%. (-384,-96)",
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-480,-32)"
+"Reduces incoming damage by 5%. (-384,-96)",
+"Increases extra health by 0.5. (-480,-32)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-480,-32)",
-"Increases attacks knockback by 0.5. (-480,32)"
+"Increases extra health by 0.5. (-480,-32)",
+"Increases range to break or build by 0.5. (-480,32)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-480,-32)",
-"Applies a burn effect to target, damaging it by 0.5. (-544,0)"
+"Increases extra health by 0.5. (-480,-32)",
+"Increases range to break or build by 0.5. (-544,0)"
 ],
 [
-"Increases move speed by 5%. (-352,-128)",
-"Reduces incoming damage by 5%. (-416,-160)"
+"Increases the amount of experience gained by 5%. (-352,-128)",
+"Increases attack speed by 5%. (-416,-160)"
 ],
 [
-"Increases attacks knockback by 0.5. (-416,0)",
-"Increases range to break or build by 0.5. (-352,-32)"
+"Increases armor toughness by 0.3. (-416,0)",
+"Allow and increases life steal by 1% while attacking. (-352,-32)"
 ],
 [
-"Increases healing received by 5%. (-32,128)",
-"Increases the ability to bypass 0.5 armor. (-96,160)"
+"Reduces incoming damage by 5%. (-32,128)",
+"Increases extra health by 0.5. (-96,160)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (-96,160)",
-"Increases healing received by 5%. (-128,224)"
+"Increases extra health by 0.5. (-96,160)",
+"Increases chance to dodge physical attacks by 3%. (-128,224)"
 ],
 [
-"Increases healing received by 5%. (-128,224)",
-"Increases the amount of experience gained by 5%. (-192,256)"
+"Increases chance to dodge physical attacks by 3%. (-128,224)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,256)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (-96,160)",
-"Increases critical hit chance by 5%. (-32,192)"
+"Increases extra health by 0.5. (-96,160)",
+"Increases attack speed by 5%. (-32,192)"
 ],
 [
-"Increases critical hit chance by 5%. (-32,192)",
-"Increases the ability to bypass 0.5 armor. (32,192)"
+"Increases attack speed by 5%. (-32,192)",
+"Increases critical damage by 5%. (32,192)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (32,192)",
-"Allow and increases life steal by 1% while attacking. (96,160)"
+"Increases critical damage by 5%. (32,192)",
+"Increases melee damage by 5%. (96,160)"
 ],
 [
-"Increases the amount of experience gained by 5%. (-192,256)",
-"Applies a cold effect to target, damaging it by 0.5. (-256,320)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,256)",
+"Increases attacks knockback by 0.5. (-256,320)"
 ],
 [
-"Increases the amount of experience gained by 5%. (-192,256)",
-"Increases attacks knockback by 0.5. (-256,256)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-192,256)",
+"Increases chance to dodge physical attacks by 6%. (-256,256)"
 ],
 [
-"Increases attacks knockback by 0.5. (-256,256)",
-"Increases luck by 0.5. (-320,320)"
+"Increases chance to dodge physical attacks by 6%. (-256,256)",
+"Increases the amount of experience gained by 5%. (-320,320)"
 ],
 [
-"Increases attacks knockback by 0.5. (-256,256)",
-"Increases extra health by 0.5. (-320,256)"
+"Increases chance to dodge physical attacks by 6%. (-256,256)",
+"Increases critical damage by 10%. (-320,256)"
 ],
 [
-"Increases luck by 0.5. (-320,320)",
-"Increases range to break or build by 0.5. (-384,384)"
+"Increases the amount of experience gained by 5%. (-320,320)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-384,384)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (-96,160)",
-"Increases critical damage by 5%. (-64,288)"
+"Increases extra health by 0.5. (-96,160)",
+"Allow and increases life steal by 1% while attacking. (-64,288)"
 ],
 [
-"Increases critical damage by 5%. (-64,288)",
-"Increases extra health by 0.5. (0,256)"
+"Allow and increases life steal by 1% while attacking. (-64,288)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (0,256)"
 ],
 [
-"Increases extra health by 0.5. (0,256)",
-"Increases the ability to bypass 0.5 armor. (64,288)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (0,256)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (64,288)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (64,288)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (128,224)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (64,288)",
+"Increases the ability to bypass 0.5 armor. (128,224)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (64,288)",
-"Increases the amount of experience gained by 5%. (128,320)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (64,288)",
+"Increases attacks knockback by 0.5. (128,320)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (128,224)",
-"Increases melee damage by 5%. (192,256)"
+"Increases the ability to bypass 0.5 armor. (128,224)",
+"Increases critical damage by 5%. (192,256)"
 ],
 [
-"Increases melee damage by 5%. (192,256)",
-"Increases critical hit chance by 5%. (256,256)"
+"Increases critical damage by 5%. (192,256)",
+"Increases max health by 1. (256,256)"
 ],
 [
-"Increases critical hit chance by 5%. (256,256)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (320,320)"
+"Increases max health by 1. (256,256)",
+"Increases critical damage by 5%. (320,320)"
 ],
 [
-"Increases critical hit chance by 5%. (256,256)",
-"Increases the amount of experience gained by 10%. (256,320)"
+"Increases max health by 1. (256,256)",
+"Increases armor toughness by 0.3. (256,320)"
 ],
 [
-"Increases critical hit chance by 5%. (256,256)",
-"Increases max health by 0.5. (320,256)"
+"Increases max health by 1. (256,256)",
+"Increases armor by 1. (320,256)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (320,320)",
-"Increases extra health by 0.5. (384,384)"
+"Increases critical damage by 5%. (320,320)",
+"Increases armor toughness by 0.3. (384,384)"
 ],
 [
-"Increases the amount of experience gained by 10%. (256,320)",
-"Increases armor toughness by 0.3. (192,352)"
+"Increases armor toughness by 0.3. (256,320)",
+"Increases chance to dodge physical attacks by 3%. (192,352)"
 ],
 [
-"Increases the amount of experience gained by 10%. (256,320)",
-"Increases damage based on enemy's HP by 1%. (224,416)"
+"Increases armor toughness by 0.3. (256,320)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (224,416)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (224,416)",
-"Increases the ability to bypass 0.5 armor. (192,480)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (224,416)",
+"Increases chance to dodge physical attacks by 3%. (192,480)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (224,416)",
-"Increases armor by 1. (160,416)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (224,416)",
+"Applies a burn effect to target, damaging it by 0.5. (160,416)"
 ],
 [
-"Increases the amount of experience gained by 5%. (128,320)",
-"Increases armor toughness by 0.3. (96,384)"
+"Increases attacks knockback by 0.5. (128,320)",
+"Increases range to break or build by 0.5. (96,384)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (64,288)",
-"Increases attack speed by 5%. (32,352)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (64,288)",
+"Increases attack speed by 10%. (32,352)"
 ],
 [
-"Increases attack speed by 5%. (32,352)",
-"Increases the ability to bypass 1 armor. (-32,352)"
+"Increases attack speed by 10%. (32,352)",
+"Increases chance to dodge physical attacks by 3%. (-32,352)"
 ],
 [
-"Increases the ability to bypass 1 armor. (-32,352)",
-"Reduces incoming damage by 10%. (-96,384)"
+"Increases chance to dodge physical attacks by 3%. (-32,352)",
+"Allow and increases life steal by 1% while attacking. (-96,384)"
 ],
 [
-"Reduces incoming damage by 10%. (-96,384)",
-"Absorbs 0.5 of damage. (-160,416)"
+"Allow and increases life steal by 1% while attacking. (-96,384)",
+"Increases chance to dodge physical attacks by 6%. (-160,416)"
 ],
 [
-"Absorbs 0.5 of damage. (-160,416)",
-"Increases critical damage by 5%. (-192,480)"
+"Increases chance to dodge physical attacks by 6%. (-160,416)",
+"Increases chance to dodge physical attacks by 3%. (-192,480)"
 ],
 [
-"Absorbs 0.5 of damage. (-160,416)",
-"Increases max health by 0.5. (-224,416)"
+"Increases chance to dodge physical attacks by 6%. (-160,416)",
+"Increases the ability to bypass 0.5 armor. (-224,416)"
 ],
 [
-"Increases attack speed by 5%. (32,352)",
-"Increases armor toughness by 0.3. (0,416)"
+"Increases attack speed by 10%. (32,352)",
+"Applies a burn effect to target, damaging it by 0.5. (0,416)"
 ],
 [
-"Increases armor toughness by 0.3. (0,416)",
-"Increases critical damage by 5%. (32,480)"
+"Applies a burn effect to target, damaging it by 0.5. (0,416)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,480)"
 ],
 [
-"Increases critical damage by 5%. (32,480)",
-"Increases the amount of experience gained by 5%. (-32,480)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,480)",
+"Applies a cold effect to target, damaging it by 0.5. (-32,480)"
 ],
 [
-"Increases critical damage by 5%. (32,480)",
-"Increases extra health by 0.5. (0,544)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,480)",
+"Increases critical hit chance by 5%. (0,544)"
 ],
 [
-"Absorbs 0.5 of damage. (128,32)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (128,32)",
 "Increases the amount of experience gained by 5%. (160,96)"
 ],
 [
-"Absorbs 0.5 of damage. (128,32)",
-"Increases extra health by 1. (192,32)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (128,32)",
+"Increases critical hit chance by 10%. (192,32)"
 ],
 [
-"Increases armor by 0.5. (128,-32)",
-"Increases attacks knockback by 0.5. (160,-96)"
+"Increases critical hit chance by 5%. (128,-32)",
+"Reduces incoming damage by 5%. (160,-96)"
 ],
 [
-"Increases armor by 0.5. (128,-32)",
-"Increases attack speed by 5%. (192,-32)"
+"Increases critical hit chance by 5%. (128,-32)",
+"Increases armor toughness by 0.3. (192,-32)"
 ],
 [
-"Increases attacks knockback by 0.5. (160,-96)",
-"Increases arrow damage, velocity and bow's draw speed by 20%. (224,-128)"
+"Reduces incoming damage by 5%. (160,-96)",
+"Increases damage based on enemy's HP by 1%. (224,-128)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 20%. (224,-128)",
-"Increases critical damage by 5%. (256,-192)"
+"Increases damage based on enemy's HP by 1%. (224,-128)",
+"Applies a cold effect to target, damaging it by 0.5. (256,-192)"
 ],
 [
-"Increases critical damage by 5%. (256,-192)",
-"Increases the ability to bypass 0.5 armor. (352,-192)"
+"Applies a cold effect to target, damaging it by 0.5. (256,-192)",
+"Increases extra health by 0.5. (352,-192)"
 ],
 [
-"Increases the ability to bypass 0.5 armor. (352,-192)",
-"Increases melee damage by 5%. (416,-224)"
+"Increases extra health by 0.5. (352,-192)",
+"Increases critical damage by 10%. (416,-224)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 20%. (224,-128)",
-"Increases damage based on enemy's HP by 1%. (288,-64)"
+"Increases damage based on enemy's HP by 1%. (224,-128)",
+"Increases armor by 0.5. (288,-64)"
 ],
 [
-"Increases extra health by 1. (192,32)",
-"Applies a cold effect to target, damaging it by 0.5. (256,0)"
+"Increases critical hit chance by 10%. (192,32)",
+"Reduces incoming damage by 5%. (256,0)"
 ],
 [
-"Increases extra health by 1. (192,32)",
-"Increases critical damage by 5%. (288,64)"
+"Increases critical hit chance by 10%. (192,32)",
+"Increases critical hit chance by 10%. (288,64)"
 ],
 [
-"Increases extra health by 1. (192,32)",
-"Increases range to break or build by 0.5. (224,128)"
+"Increases critical hit chance by 10%. (192,32)",
+"Increases the amount of experience gained by 10%. (224,128)"
 ],
 [
-"Increases range to break or build by 0.5. (224,128)",
+"Increases the amount of experience gained by 10%. (224,128)",
 "Increases critical hit chance by 5%. (256,192)"
 ],
 [
 "Increases critical hit chance by 5%. (256,192)",
-"Increases max health by 0.5. (352,192)"
+"Reduces incoming damage by 5%. (352,192)"
 ],
 [
-"Increases max health by 0.5. (352,192)",
-"Increases armor toughness by 0.3. (416,224)"
+"Reduces incoming damage by 5%. (352,192)",
+"Increases attacks knockback by 0.5. (416,224)"
 ],
 [
-"Increases critical damage by 5%. (288,64)",
-"Increases armor by 0.5. (320,128)"
+"Increases critical hit chance by 10%. (288,64)",
+"Increases critical damage by 5%. (320,128)"
 ],
 [
-"Increases critical damage by 5%. (288,64)",
-"Increases armor by 0.5. (384,96)"
+"Increases critical hit chance by 10%. (288,64)",
+"Increases damage based on enemy's HP by 1%. (384,96)"
 ],
 [
-"Increases armor by 0.5. (384,96)",
-"Increases melee damage by 5%. (416,160)"
+"Increases damage based on enemy's HP by 1%. (384,96)",
+"Increases armor by 0.5. (416,160)"
 ],
 [
-"Increases melee damage by 5%. (416,160)",
-"Increases attacks knockback by 0.5. (480,192)"
+"Increases armor by 0.5. (416,160)",
+"Increases critical damage by 5%. (480,192)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (288,-64)",
-"Increases the amount of experience gained by 10%. (384,-96)"
+"Increases armor by 0.5. (288,-64)",
+"Absorbs 0.5 of damage. (384,-96)"
 ],
 [
-"Increases the amount of experience gained by 10%. (384,-96)",
-"Reduces incoming damage by 5%. (416,-160)"
+"Absorbs 0.5 of damage. (384,-96)",
+"Increases armor by 1. (416,-160)"
 ],
 [
-"Reduces incoming damage by 5%. (416,-160)",
-"Increases armor toughness by 0.3. (480,-192)"
+"Increases armor by 1. (416,-160)",
+"Increases critical hit chance by 5%. (480,-192)"
 ],
 [
-"Increases the amount of experience gained by 10%. (384,-96)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)"
+"Absorbs 0.5 of damage. (384,-96)",
+"Increases arrow damage, velocity and bow's draw speed by 20%. (416,0)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
-"Reduces incoming damage by 5%. (352,32)"
+"Increases arrow damage, velocity and bow's draw speed by 20%. (416,0)",
+"Allow and increases life steal by 1% while attacking. (352,32)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
-"Applies a burn effect to target, damaging it by 0.5. (352,-32)"
+"Increases arrow damage, velocity and bow's draw speed by 20%. (416,0)",
+"Absorbs 0.5 of damage. (352,-32)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
-"Increases range to break or build by 0.5. (480,32)"
+"Increases arrow damage, velocity and bow's draw speed by 20%. (416,0)",
+"Increases chance to dodge physical attacks by 6%. (480,32)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (416,0)",
-"Increases move speed by 10%. (480,-32)"
+"Increases arrow damage, velocity and bow's draw speed by 20%. (416,0)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (480,-32)"
 ],
 [
-"Increases move speed by 10%. (480,-32)",
-"Increases armor by 0.5. (544,0)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (480,-32)",
+"Increases range to break or build by 0.5. (544,0)"
 ],
 [
-"Increases critical hit chance by 5%. (32,-128)",
-"Applies a cold effect to target, damaging it by 0.5. (96,-160)"
+"Increases healing received by 10%. (32,-128)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (96,-160)"
 ],
 [
-"Applies a cold effect to target, damaging it by 0.5. (96,-160)",
-"Increases the amount of experience gained by 5%. (128,-224)"
+"Increases arrow damage, velocity and bow's draw speed by 10%. (96,-160)",
+"Applies a burn effect to target, damaging it by 0.5. (128,-224)"
 ],
 [
-"Increases critical hit chance by 5%. (32,-128)",
-"Reduces incoming damage by 5%. (32,-192)"
+"Increases healing received by 10%. (32,-128)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,-192)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-128)",
-"Allow and increases life steal by 1% while attacking. (-96,-160)"
+"Increases critical damage by 5%. (-32,-128)",
+"Increases the ability to bypass 0.5 armor. (-96,-160)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-128)",
-"Reduces incoming damage by 5%. (-32,-192)"
+"Increases critical damage by 5%. (-32,-128)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-192)"
 ],
 [
-"Allow and increases life steal by 1% while attacking. (-96,-160)",
-"Reduces incoming damage by 5%. (-64,-288)"
+"Increases the ability to bypass 0.5 armor. (-96,-160)",
+"Increases critical damage by 5%. (-64,-288)"
 ],
 [
-"Reduces incoming damage by 5%. (-64,-288)",
-"Increases max health by 0.5. (-128,-224)"
+"Increases critical damage by 5%. (-64,-288)",
+"Increases attacks knockback by 0.5. (-128,-224)"
 ],
 [
-"Reduces incoming damage by 5%. (-64,-288)",
-"Increases damage based on enemy's HP by 1%. (-128,-320)"
+"Increases critical damage by 5%. (-64,-288)",
+"Increases the amount of experience gained by 5%. (-128,-320)"
 ],
 [
-"Reduces incoming damage by 5%. (-64,-288)",
-"Increases move speed by 5%. (-32,-352)"
+"Increases critical damage by 5%. (-64,-288)",
+"Increases the ability to bypass 0.5 armor. (-32,-352)"
 ],
 [
-"Increases max health by 0.5. (-128,-224)",
-"Increases range to break or build by 0.5. (-192,-256)"
+"Increases attacks knockback by 0.5. (-128,-224)",
+"Increases the ability to bypass 0.5 armor. (-192,-256)"
 ],
 [
-"Increases range to break or build by 0.5. (-192,-256)",
-"Increases damage based on enemy's HP by 1%. (-256,-256)"
+"Increases the ability to bypass 0.5 armor. (-192,-256)",
+"Applies a cold effect to target, damaging it by 0.5. (-256,-256)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (-256,-256)",
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-320,-256)"
+"Applies a cold effect to target, damaging it by 0.5. (-256,-256)",
+"Increases armor toughness by 0.3. (-320,-256)"
 ],
 [
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-320,-256)",
-"Allow and increases life steal by 1% while attacking. (-320,-320)"
+"Increases armor toughness by 0.3. (-320,-256)",
+"Reduces incoming damage by 5%. (-320,-320)"
 ],
 [
-"Allow and increases life steal by 1% while attacking. (-320,-320)",
-"Increases attacks knockback by 1. (-384,-384)"
+"Reduces incoming damage by 5%. (-320,-320)",
+"Increases the amount of experience gained by 5%. (-384,-384)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (-128,-320)",
-"Increases melee damage by 5%. (-256,-320)"
+"Increases the amount of experience gained by 5%. (-128,-320)",
+"Reduces incoming damage by 5%. (-256,-320)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (-128,-320)",
-"Applies a burn effect to target, damaging it by 0.5. (-192,-352)"
+"Increases the amount of experience gained by 5%. (-128,-320)",
+"Increases critical damage by 5%. (-192,-352)"
 ],
 [
-"Reduces incoming damage by 5%. (32,-192)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,-192)",
 "Increases chance to dodge physical attacks by 3%. (64,-288)"
 ],
 [
@@ -451,163 +451,163 @@
 ],
 [
 "Increases move speed by 5%. (32,-352)",
-"Increases healing received by 5%. (0,-416)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-416)"
 ],
 [
-"Increases healing received by 5%. (0,-416)",
-"Increases extra health by 0.5. (32,-480)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-416)",
+"Absorbs 0.5 of damage. (32,-480)"
 ],
 [
-"Increases extra health by 0.5. (32,-480)",
-"Reduces incoming damage by 5%. (0,-544)"
+"Absorbs 0.5 of damage. (32,-480)",
+"Increases armor toughness by 0.3. (0,-544)"
 ],
 [
-"Increases healing received by 5%. (0,-416)",
-"Applies a burn effect to target, damaging it by 0.5. (-32,-480)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-416)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-480)"
 ],
 [
-"Increases the amount of experience gained by 5%. (128,-224)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-256)"
+"Applies a burn effect to target, damaging it by 0.5. (128,-224)",
+"Increases critical hit chance by 5%. (192,-256)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-256)",
-"Absorbs 0.5 of damage. (256,-320)"
+"Increases critical hit chance by 5%. (192,-256)",
+"Increases attack speed by 5%. (256,-320)"
 ],
 [
-"Absorbs 0.5 of damage. (256,-320)",
-"Increases critical hit chance by 5%. (256,-256)"
+"Increases attack speed by 5%. (256,-320)",
+"Increases critical damage by 5%. (256,-256)"
 ],
 [
-"Absorbs 0.5 of damage. (256,-320)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (320,-256)"
+"Increases attack speed by 5%. (256,-320)",
+"Increases move speed by 5%. (320,-256)"
 ],
 [
-"Absorbs 0.5 of damage. (256,-320)",
-"Increases healing received by 5%. (320,-320)"
+"Increases attack speed by 5%. (256,-320)",
+"Increases chance to dodge physical attacks by 3%. (320,-320)"
 ],
 [
-"Increases healing received by 5%. (320,-320)",
-"Increases move speed by 5%. (384,-384)"
+"Increases chance to dodge physical attacks by 3%. (320,-320)",
+"Increases range to break or build by 0.5. (384,-384)"
 ],
 [
-"Absorbs 0.5 of damage. (256,-320)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)"
+"Increases attack speed by 5%. (256,-320)",
+"Increases armor toughness by 0.3. (192,-352)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
-"Allow and increases life steal by 1% while attacking. (128,-320)"
+"Increases armor toughness by 0.3. (192,-352)",
+"Reduces incoming damage by 5%. (128,-320)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
-"Reduces incoming damage by 5%. (160,-416)"
+"Increases armor toughness by 0.3. (192,-352)",
+"Increases attack speed by 5%. (160,-416)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
-"Increases attack speed by 5%. (224,-416)"
+"Increases armor toughness by 0.3. (192,-352)",
+"Applies a cold effect to target, damaging it by 1. (224,-416)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (192,-352)",
-"Increases the ability to bypass 0.5 armor. (96,-384)"
+"Increases armor toughness by 0.3. (192,-352)",
+"Increases chance to dodge physical attacks by 3%. (96,-384)"
 ],
 [
-"Increases attacks knockback by 0.5. (320,-128)",
-"Increases critical damage by 5%. (256,-192)"
+"Increases damage based on enemy's HP by 2%. (320,-128)",
+"Applies a cold effect to target, damaging it by 0.5. (256,-192)"
 ],
 [
-"Increases attack speed by 5%. (0,64)",
-"Increases healing received by 5%. (-32,128)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,64)",
+"Reduces incoming damage by 5%. (-32,128)"
 ],
 [
-"Increases attack speed by 5%. (0,64)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (32,128)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,64)",
+"Increases range to break or build by 0.5. (32,128)"
 ],
 [
-"Increases healing received by 5%. (-64,0)",
-"Increases the amount of experience gained by 5%. (-128,-32)"
+"Increases extra health by 1. (-64,0)",
+"Increases armor by 0.5. (-128,-32)"
 ],
 [
-"Increases healing received by 5%. (-64,0)",
-"Increases the amount of experience gained by 10%. (-128,32)"
+"Increases extra health by 1. (-64,0)",
+"Reduces incoming damage by 5%. (-128,32)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
-"Increases critical hit chance by 5%. (32,-128)"
+"Increases critical damage by 5%. (0,-64)",
+"Increases healing received by 10%. (32,-128)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
-"Increases arrow damage, velocity and bow's draw speed by 10%. (-32,-128)"
+"Increases critical damage by 5%. (0,-64)",
+"Increases critical damage by 5%. (-32,-128)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (64,0)",
-"Increases armor by 0.5. (128,-32)"
+"Applies a burn effect to target, damaging it by 0.5. (64,0)",
+"Increases critical hit chance by 5%. (128,-32)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (64,0)",
-"Absorbs 0.5 of damage. (128,32)"
+"Applies a burn effect to target, damaging it by 0.5. (64,0)",
+"Increases arrow damage, velocity and bow's draw speed by 10%. (128,32)"
 ],
 [
-"Increases healing received by 10%. (-416,224)",
-"Increases range to break or build by 0.5. (-384,384)"
+"Increases chance to dodge physical attacks by 3%. (-416,224)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (-384,384)"
 ],
 [
-"Increases max health by 0.5. (320,256)",
-"Increases armor toughness by 0.3. (416,224)"
+"Increases armor by 1. (320,256)",
+"Increases attacks knockback by 0.5. (416,224)"
 ],
 [
-"Increases melee damage by 5%. (416,-224)",
-"Increases move speed by 5%. (384,-384)"
+"Increases critical damage by 10%. (416,-224)",
+"Increases range to break or build by 0.5. (384,-384)"
 ],
 [
-"Increases attacks knockback by 1. (-384,-384)",
-"Allow and increases life steal by 1% while attacking. (-480,-192)"
+"Increases the amount of experience gained by 5%. (-384,-384)",
+"Increases melee damage by 5%. (-480,-192)"
 ],
 [
 "Increases extra health by 0.5. (480,96)",
-"Increases attacks knockback by 0.5. (480,192)"
+"Increases critical damage by 5%. (480,192)"
 ],
 [
-"Increases melee damage by 10%. (0,-256)",
-"Reduces incoming damage by 5%. (-64,-288)"
+"Increases chance to dodge physical attacks by 3%. (0,-256)",
+"Increases critical damage by 5%. (-64,-288)"
 ],
 [
-"Increases critical damage by 5%. (-64,288)",
-"Increases attack speed by 5%. (-128,320)"
+"Allow and increases life steal by 1% while attacking. (-64,288)",
+"Increases chance to dodge physical attacks by 3%. (-128,320)"
 ],
 [
-"Applies a burn effect to target, damaging it by 0.5. (-192,-352)",
-"Increases armor toughness by 0.3. (-160,-416)"
+"Increases critical damage by 5%. (-192,-352)",
+"Increases healing received by 5%. (-160,-416)"
 ],
 [
-"Applies a burn effect to target, damaging it by 0.5. (-192,-352)",
-"Increases damage based on enemy's HP by 1%. (-192,-480)"
+"Increases critical damage by 5%. (-192,-352)",
+"Absorbs 0.5 of damage. (-192,-480)"
 ]
 ]
 },
 "exclusive": {
 "bidirectional": [
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
-"Increases healing received by 5%. (-64,0)"
+"Increases critical damage by 5%. (0,-64)",
+"Increases extra health by 1. (-64,0)"
 ],
 [
-"Increases healing received by 5%. (-64,0)",
-"Increases attack speed by 5%. (0,64)"
+"Increases extra health by 1. (-64,0)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,64)"
 ],
 [
-"Increases attack speed by 5%. (0,64)",
-"Increases damage based on enemy's HP by 1%. (64,0)"
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,64)",
+"Applies a burn effect to target, damaging it by 0.5. (64,0)"
 ],
 [
-"Increases damage based on enemy's HP by 1%. (64,0)",
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)"
+"Applies a burn effect to target, damaging it by 0.5. (64,0)",
+"Increases critical damage by 5%. (0,-64)"
 ],
 [
-"Increases healing received by 5%. (-64,0)",
-"Increases damage based on enemy's HP by 1%. (64,0)"
+"Increases extra health by 1. (-64,0)",
+"Applies a burn effect to target, damaging it by 0.5. (64,0)"
 ],
 [
-"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,-64)",
-"Increases attack speed by 5%. (0,64)"
+"Increases critical damage by 5%. (0,-64)",
+"Decreases gravity by 20%, increases jump height and decreases fall damage. (0,64)"
 ]
 ]
 }
