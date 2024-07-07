@@ -2,8 +2,8 @@
   {
     "name": "first",
     "conditions": {
-        "mindaycount": 0,
-		"maxdaycount": 6
+    "mindaycount": 0,
+		"maxdaycount": 4
     }
   },
   {

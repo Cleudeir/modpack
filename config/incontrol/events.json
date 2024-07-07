@@ -14,7 +14,7 @@
         "mindistance": 3,
         "maxdistance": 5,
         "mincount": 1,
-        "maxcount": 3,
+        "maxcount": 1,
         "attempts": 20
       }
     },
@@ -26,14 +26,14 @@
       },
       "conditions": {
         "dimension": "minecraft:overworld",
-        "random": 0.4
+        "random": 0.8
       },
       "spawn": {
         "mob": "twilightforest:swarm_spider",
         "mindistance": 3,
         "maxdistance": 5,
-        "mincount": 1,
-        "maxcount": 3,
+        "mincount": 2,
+        "maxcount": 5,
         "attempts": 20
       }
     },
@@ -45,7 +45,7 @@
       },
       "conditions": {
         "dimension": "minecraft:overworld",
-        "random": 0.3
+        "random": 0.5
       },
       "spawn": {
         "mob": "world_of_rot:crawler",

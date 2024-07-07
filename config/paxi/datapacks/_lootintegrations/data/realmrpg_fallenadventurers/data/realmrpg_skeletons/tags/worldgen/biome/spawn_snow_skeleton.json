@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:is_snowy",
+      "required": false
+    },
+    {
+      "id": "#forge:is_snowy",
+      "required": false
+    },
+    {
+      "id": "twilightforest:snowy_forest",
+      "required": false
+    },
+    {
+      "id": "twilightforest:glacier",
+      "required": false
+    }
+  ]
+}
+    

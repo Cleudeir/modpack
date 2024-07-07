@@ -1,6 +1,6 @@
 {
 "loot_table": "minecraft:chests/specialdrops",
-"max_result_itemcount": 2,
+"max_result_itemcount": 5,
 "integrated_loot_tables": {
 "zombie_extreme:chests/uncommon_chest_l":2,
 "artifacts:chests/campsite_barrel": 2,

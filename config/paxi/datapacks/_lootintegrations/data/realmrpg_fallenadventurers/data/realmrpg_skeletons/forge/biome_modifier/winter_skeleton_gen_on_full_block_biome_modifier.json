@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "realmrpg_skeletons:winter_skeleton_gen_on_full_block",
+  "step": "vegetal_decoration"
+}
