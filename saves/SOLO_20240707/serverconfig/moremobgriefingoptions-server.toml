@@ -2266,6 +2266,24 @@
 	#zombieawareness:scent mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"zombieawareness:scent" = "DEFAULT"
+	#spelunkers_charm:tremor_handler mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"spelunkers_charm:tremor_handler" = "DEFAULT"
+	#spelunkers_charm:sound_entity mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"spelunkers_charm:sound_entity" = "DEFAULT"
+	#spelunkers_charm:projectile_rock_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"spelunkers_charm:projectile_rock_projectile" = "DEFAULT"
+	#spelunkers_charm:projectile_deepslate_rock_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"spelunkers_charm:projectile_deepslate_rock_projectile" = "DEFAULT"
+	#spelunkers_charm:projectile_dripstone_rock_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"spelunkers_charm:projectile_dripstone_rock_projectile" = "DEFAULT"
+	#spelunkers_charm:projectile_basalt_rock_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"spelunkers_charm:projectile_basalt_rock_projectile" = "DEFAULT"
 	#dummmmmmy:target_dummy mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"dummmmmmy:target_dummy" = "DEFAULT"
@@ -2323,6 +2341,9 @@
 	#entropy:projectile_hullbreak_halberd_threw mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"entropy:projectile_hullbreak_halberd_threw" = "DEFAULT"
+	#whispering_spirits:whispering_spirit mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"whispering_spirits:whispering_spirit" = "DEFAULT"
 	#riskofrain_mobs:lemurian_entity mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"riskofrain_mobs:lemurian_entity" = "DEFAULT"

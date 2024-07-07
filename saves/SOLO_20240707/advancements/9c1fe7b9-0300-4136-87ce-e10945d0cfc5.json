@@ -1,342 +1,249 @@
 {
   "corail_woodcutter:recipes/from_jungle_planks": {
     "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "minecraft:unlock_deep_pockets_book": {
-    "criteria": {
-      "exists": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_warped_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_cherry_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "create:root": {
-    "criteria": {
-      "0": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_bamboo_mosaic": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_crimson_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "world_of_rot:world_of_rotroot": {
-    "criteria": {
-      "world_of_rotroot": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "repurposed_structures:root": {
-    "criteria": {
-      "always": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_mangrove_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "betterdungeons:root": {
-    "criteria": {
-      "always": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_birch_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_oak_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_acacia_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "parcool:grant_parcool_guide": {
-    "criteria": {
-      "tick": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_spruce_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "betterdeserttemples:root": {
-    "criteria": {
-      "always": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_dark_oak_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "incendium:technical/new_player": {
-    "criteria": {
-      "requirement": "2024-07-07 01:20:33 -0300"
-    },
-    "done": true
-  },
-  "corail_woodcutter:recipes/from_bamboo_planks": {
-    "criteria": {
-      "has_ingredient": "2024-07-07 01:20:33 -0300"
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
+  },
+  "minecraft:unlock_deep_pockets_book": {
+    "criteria": {
+      "exists": "2024-07-07 13:47:20 -0300"
+    },
+    "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-07-07 13:49:33 -0300"
+    },
+    "done": true
+  },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
   "incendium:technical/using/ragnarok": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
-  "incendium:technical/feed_ghastling": {
+  "dungeons_arise:wda_root": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2024-07-07 01:27:16 -0300",
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "WDA": "2024-07-07 13:47:20 -0300"
     },
     "done": true
   },
-  "incendium:technical/using/trailblazer": {
+  "corail_woodcutter:recipes/from_warped_planks": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "corail_woodcutter:recipes/from_cherry_planks": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "farmersdelight:main/root": {
     "criteria": {
-      "minecraft:cherry_grove": "2024-07-07 01:26:41 -0300",
-      "minecraft:birch_forest": "2024-07-07 01:25:42 -0300",
-      "minecraft:dark_forest": "2024-07-07 01:33:05 -0300",
-      "minecraft:river": "2024-07-07 01:29:34 -0300",
-      "minecraft:forest": "2024-07-07 01:20:34 -0300",
-      "minecraft:old_growth_birch_forest": "2024-07-07 01:21:44 -0300",
-      "minecraft:plains": "2024-07-07 01:27:37 -0300"
+      "seeds": "2024-07-07 13:47:19 -0300"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "create:root": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "0": "2024-07-07 13:47:19 -0300"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/using/shield": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-07 01:20:34 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
   "minecraft:story/upgrade_tools": {
     "criteria": {
-      "stone_pickaxe": "2024-07-07 01:20:49 -0300"
+      "stone_pickaxe": "2024-07-07 13:48:11 -0300"
     },
     "done": true
   },
-  "artifacts:amateur_archaeologist": {
+  "corail_woodcutter:recipes/from_bamboo_mosaic": {
     "criteria": {
-      "find_artifact": "2024-07-07 01:20:49 -0300"
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
-  "mutantmonsters:root": {
+  "incendium:technical/on_inventory_change": {
     "criteria": {
-      "killed_something": "2024-07-07 01:27:18 -0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-07-07 01:27:18 -0300"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "bread": "2024-07-07 01:27:27 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
-  "minecraft:husbandry/root": {
+  "corail_woodcutter:recipes/from_crimson_planks": {
     "criteria": {
-      "consumed_item": "2024-07-07 01:27:27 -0300"
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
-  "supplementaries:adventure/way_sign": {
+  "world_of_rot:world_of_rotroot": {
     "criteria": {
-      "bastion": "2024-07-07 01:34:06 -0300"
+      "world_of_rotroot": "2024-07-07 13:47:20 -0300"
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "incendium:technical/on_player_hurt": {
     "criteria": {
-      "get_stone": "2024-07-07 01:37:49 -0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2024-07-07 02:00:02 -0300",
-      "minecraft:spider": "2024-07-07 01:38:59 -0300",
-      "minecraft:creeper": "2024-07-07 01:41:57 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
     },
     "done": false
   },
-  "minecraft:adventure/kill_a_mob": {
+  "repurposed_structures:root": {
     "criteria": {
-      "minecraft:spider": "2024-07-07 01:38:59 -0300"
+      "always": "2024-07-07 13:47:20 -0300"
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "incendium:technical/using/trailblazer": {
     "criteria": {
-      "slept_in_bed": "2024-07-07 01:40:54 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "corail_woodcutter:recipes/from_mangrove_planks": {
+    "criteria": {
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
+  "betterdungeons:root": {
     "criteria": {
-      "iron_helmet": "2024-07-07 02:04:12 -0300"
+      "always": "2024-07-07 13:47:20 -0300"
     },
     "done": true
   },
-  "dungeons_arise:find_thornborn_towers": {
+  "incendium:technical/firestorm": {
     "criteria": {
-      "location0": "2024-07-07 02:08:49 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "corail_woodcutter:recipes/from_birch_planks": {
+    "criteria": {
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
-  "minecraft:story/smelt_iron": {
+  "corail_woodcutter:recipes/from_oak_planks": {
     "criteria": {
-      "iron": "2024-07-07 02:04:01 -0300"
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
-  "wrd:wesleys_roguelike_dungeons": {
+  "incendium:technical/on_block": {
     "criteria": {
-      "wesleys_roguelike_dungeons": "2024-07-07 02:04:01 -0300"
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "corail_woodcutter:recipes/from_acacia_planks": {
+    "criteria": {
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "parcool:grant_parcool_guide": {
     "criteria": {
-      "crafting_table": "2024-07-07 02:01:53 -0300"
+      "tick": "2024-07-07 13:47:20 -0300"
     },
     "done": true
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "corail_woodcutter:recipes/from_spruce_planks": {
+    "criteria": {
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2024-07-07 13:47:20 -0300"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_dark_oak_planks": {
+    "criteria": {
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2024-07-07 13:47:20 -0300"
+    },
+    "done": true
+  },
+  "corail_woodcutter:recipes/from_bamboo_planks": {
+    "criteria": {
+      "has_ingredient": "2024-07-07 13:47:19 -0300"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-07 13:47:21 -0300"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

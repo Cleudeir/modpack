@@ -1,0 +1,9 @@
+
+["Spawn Times"]
+	"Spawn In Day" = true
+	"Spawn At Night" = true
+
+["Spawn Weight"]
+	#default:20
+	weight = 20.0
+

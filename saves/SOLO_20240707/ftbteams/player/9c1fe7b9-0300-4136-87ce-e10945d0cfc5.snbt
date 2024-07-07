@@ -2,11 +2,13 @@
 	id: "9c1fe7b9-0300-4136-87ce-e10945d0cfc5"
 	type: "player"
 	player_name: "cliffpk"
-	ranks: { }
+	ranks: {
+		9c1fe7b9-0300-4136-87ce-e10945d0cfc5: "owner"
+	}
 	properties: {
 		"ftbteams:display_name": "cliffpk"
 		"ftbteams:description": ""
-		"ftbteams:color": "#59FF94"
+		"ftbteams:color": "#9BFF59"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 	}
