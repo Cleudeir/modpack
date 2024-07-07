@@ -1,11 +1,12 @@
 [
-  //Tornar monstros mais fracos nos primeiros dias
+  //Tornar monstros com menos armaduras e velocidade nos primeiros dias
   {
     "phase": "first",
     "hostile": true,
     "when": "onjoin",
     "result": "allow",
-    "armormultiply": 0.3
+    "armormultiply": 0.3,
+    "speedmultiply": 0.9    
   },
   {
     "mod": "zombie_extreme",

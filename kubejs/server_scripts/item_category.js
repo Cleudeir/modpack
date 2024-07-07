@@ -843,4 +843,14 @@ ServerEvents.tags('item', event => {
     'minecraft:cod_bucket',
     'minecraft:tropical_fish_bucket'
   ]);
+  event.add('kubejs:medicine', [
+   'zombie_extreme:dizziness_pill',
+   'zombie_extreme:pill_anti_hunger',
+   'zombie_extreme:pill_night_vision',
+   'zombie_extreme:pill_night_vision',
+   'zombie_extreme:syringe_drug',
+   'zombie_extreme:syringe_night_vision',
+   'zombie_extreme:syringe_adrenaline'
+  ]);  
+  
 });

@@ -14588,6 +14588,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -89566597744000,
+          "name": "dynamiclights-1.20.1.2",
+          "favorite": false,
+          "version": {
+            "id": -89566839238500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "19a5b772e1b6ca15cca8db6f201884459f37a173",
+              "size": 49564,
+              "path": "mods/dynamiclights-1.20.1.2.jar",
+              "url": "mods/dynamiclights-1.20.1.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

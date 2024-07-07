@@ -38,7 +38,7 @@ const rankA = [
     'artifacts:chorus_totem',
     'artifacts:power_glove',
     'artifacts:fire_gauntlet',
-    'artifacts:vampiric_gloves',
+    'artifacts:vampiric_glove',
     'artifacts:pickaxe_heater',
     'artifacts:running_shoes',
     'celestial_artifacts:magic_horseshoe',
@@ -101,7 +101,7 @@ const rankB = [
     'nameless_trinkets:amphibious_hands',
     'nameless_trinkets:spider_legs',
     'nameless_trinkets:scarab_amulet',
-    'nameless_trinkets:fate_emerald',
+    //'nameless_trinkets:fate_emerald',
     'nameless_trinkets:dragons_eye',
     'nameless_trinkets:four_leaf_clover',
     'nameless_trinkets:experience_battery'
