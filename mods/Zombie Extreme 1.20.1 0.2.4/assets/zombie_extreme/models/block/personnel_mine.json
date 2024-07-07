@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/mine",
+  "textures": {
+    "all": "zombie_extreme:block/mine",
+    "particle": "zombie_extreme:block/mine",
+    "0": "zombie_extreme:block/mine"
+  },
+  "render_type": "solid"
+}

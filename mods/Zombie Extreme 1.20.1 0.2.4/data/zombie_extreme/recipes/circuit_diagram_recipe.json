@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:bronze_wire"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "zombie_extreme:bronze_wire"
+    },
+    "3": {
+      "item": "zombie_extreme:tin_plate"
+    },
+    "4": {
+      "item": "zombie_extreme:ruby"
+    },
+    "5": {
+      "item": "zombie_extreme:tin_plate"
+    },
+    "6": {
+      "item": "zombie_extreme:energy_battery"
+    },
+    "7": {
+      "item": "zombie_extreme:tin_plate"
+    },
+    "8": {
+      "item": "zombie_extreme:energy_battery"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:circuit_diagram",
+    "count": 1
+  }
+}

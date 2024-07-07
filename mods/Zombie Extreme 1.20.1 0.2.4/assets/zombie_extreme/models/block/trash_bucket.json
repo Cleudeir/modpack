@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/trash_bucket",
+  "textures": {
+    "all": "zombie_extreme:block/trash_bucket",
+    "particle": "zombie_extreme:block/trash_bucket",
+    "0": "zombie_extreme:block/trash_bucket"
+  },
+  "render_type": "solid"
+}

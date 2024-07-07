@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/army_cargo_thb",
+  "textures": {
+    "all": "zombie_extreme:block/army_cargo_thb",
+    "particle": "zombie_extreme:block/army_cargo_thb",
+    "0": "zombie_extreme:block/army_cargo_thb"
+  },
+  "render_type": "solid"
+}

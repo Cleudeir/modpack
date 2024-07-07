@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/table",
+  "textures": {
+    "all": "zombie_extreme:block/table",
+    "particle": "zombie_extreme:block/table",
+    "0": "zombie_extreme:block/table"
+  },
+  "render_type": "solid"
+}

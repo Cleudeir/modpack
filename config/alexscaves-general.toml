@@ -51,7 +51,7 @@
 
 [item-behavior]
 	#True if one Cave Codex is all that is needed to unlock every Cave Compendium entry.
-	only_one_research_needed = false
+	only_one_research_needed = true
 	#How many attempts to find a biome a cave map engages in when used. Increase this to increase the search radius, or decrease it to make them faster.
 	#Range: > 64
 	cave_map_search_attempts = 128000

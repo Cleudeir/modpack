@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "2": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "3": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "4": {
+      "item": "zombie_extreme:lead_plate"
+    },
+    "5": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "6": {
+      "item": "zombie_extreme:lead_plate"
+    },
+    "7": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "8": {
+      "item": "zombie_extreme:lead_plate"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:hazmat_suit_chestplate",
+    "count": 1
+  }
+}

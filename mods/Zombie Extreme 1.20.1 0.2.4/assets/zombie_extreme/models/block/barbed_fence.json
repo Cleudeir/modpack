@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/barbed_fence",
+  "textures": {
+    "all": "zombie_extreme:block/barbed_fence",
+    "particle": "zombie_extreme:block/barbed_fence",
+    "0": "zombie_extreme:block/barbed_fence"
+  },
+  "render_type": "solid"
+}

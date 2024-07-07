@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/buzz_killer",
+  "textures": {
+    "0": "zombie_extreme:block/buzz_killer",
+    "particle": "zombie_extreme:item/placeholder_hammer"
+  }
+}

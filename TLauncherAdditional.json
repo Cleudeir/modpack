@@ -14808,6 +14808,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -120223701531200,
+          "name": "Zombie Extreme 1.20.1 0.2.4",
+          "favorite": false,
+          "version": {
+            "id": -120223748555300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f55d76d07e24ce986ebe6a648f69b859382fb5d4",
+              "size": 6343367,
+              "path": "mods/Zombie Extreme 1.20.1 0.2.4.jar",
+              "url": "mods/Zombie Extreme 1.20.1 0.2.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

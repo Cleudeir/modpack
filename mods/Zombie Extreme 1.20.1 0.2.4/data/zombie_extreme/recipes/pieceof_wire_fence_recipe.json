@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignot_aluminum"
+    },
+    "2": {
+      "item": "zombie_extreme:ignot_aluminum"
+    },
+    "4": {
+      "item": "zombie_extreme:ignot_aluminum"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "zombie_extreme:ignot_aluminum"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:pieceof_wire_fence",
+    "count": 1
+  }
+}

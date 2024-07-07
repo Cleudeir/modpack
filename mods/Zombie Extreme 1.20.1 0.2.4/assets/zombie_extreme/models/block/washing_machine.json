@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/washing_machine",
+  "textures": {
+    "all": "zombie_extreme:block/washing_michine",
+    "particle": "zombie_extreme:block/washing_michine",
+    "0": "zombie_extreme:block/washing_michine"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/trading_table",
+  "textures": {
+    "all": "zombie_extreme:block/trading_table",
+    "particle": "zombie_extreme:block/trading_table",
+    "0": "zombie_extreme:block/trading_table"
+  },
+  "render_type": "solid"
+}

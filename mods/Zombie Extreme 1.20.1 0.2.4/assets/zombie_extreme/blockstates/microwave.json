@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/microwave"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/microwave",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/microwave",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/microwave",
+      "y": 270
+    }
+  }
+}

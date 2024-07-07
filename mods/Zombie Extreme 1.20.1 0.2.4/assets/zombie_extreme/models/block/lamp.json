@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/lamp",
+  "textures": {
+    "all": "zombie_extreme:block/lamp",
+    "particle": "zombie_extreme:block/lamp",
+    "0": "zombie_extreme:block/lamp"
+  },
+  "render_type": "solid"
+}

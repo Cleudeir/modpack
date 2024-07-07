@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/frying_pan",
+  "textures": {
+    "0": "zombie_extreme:block/frying_pan",
+    "particle": "zombie_extreme:item/w_pan"
+  }
+}

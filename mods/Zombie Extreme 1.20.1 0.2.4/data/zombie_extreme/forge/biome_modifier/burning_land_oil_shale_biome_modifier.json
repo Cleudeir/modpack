@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "zombie_extreme:scorched_earth",
+  "features": "zombie_extreme:burning_land_oil_shale",
+  "step": "underground_ores"
+}

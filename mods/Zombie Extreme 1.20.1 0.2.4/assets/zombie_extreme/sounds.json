@@ -1,0 +1,730 @@
+{
+  "demolisher_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:demolisher_step",
+        "stream": false
+      }
+    ]
+  },
+  "demolisher_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:demolisher_death",
+        "stream": false
+      }
+    ]
+  },
+  "demolisher_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:demolisher_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "demolisher_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:demolisher_idle",
+        "stream": false
+      }
+    ]
+  },
+  "bomber_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:bomber_idle",
+        "stream": false
+      }
+    ]
+  },
+  "bomber_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:bomber_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "bomber_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:bomber_death",
+        "stream": false
+      }
+    ]
+  },
+  "rat_king_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:rat_king_idle",
+        "stream": false
+      }
+    ]
+  },
+  "rat_king_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:rat_king_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "rat_king_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:rat_king_death",
+        "stream": false
+      }
+    ]
+  },
+  "clicker_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:clicker_idle",
+        "stream": false
+      }
+    ]
+  },
+  "clicker_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:clicker_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "clicker_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:clicker_death",
+        "stream": false
+      }
+    ]
+  },
+  "inflated_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:inflated_idle",
+        "stream": false
+      }
+    ]
+  },
+  "inflated_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:inflated_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "inflated_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:inflated_death",
+        "stream": false
+      }
+    ]
+  },
+  "inflated_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:inflated_step",
+        "stream": false
+      }
+    ]
+  },
+  "inflated_shot": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:inflated_shot",
+        "stream": false
+      }
+    ]
+  },
+  "biome_geiger_counter": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:biome_geiger_counter",
+        "stream": false
+      }
+    ]
+  },
+  "biome_mood_sound_cave": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:biome_mood_sound_cave",
+        "stream": false
+      }
+    ]
+  },
+  "biome_wind_sound_radiation": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:biome_wind_sound_radiation",
+        "stream": false
+      }
+    ]
+  },
+  "gas_mask_sound_effect": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:gas_mask_sound_effect",
+        "stream": true
+      }
+    ]
+  },
+  "chainsaw_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:chainsaw_idle",
+        "stream": false
+      }
+    ]
+  },
+  "chainsaw_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:chainsaw_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "chainsaw_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:chainsaw_step",
+        "stream": false
+      }
+    ]
+  },
+  "chainsaw_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:chainsaw_death",
+        "stream": false
+      }
+    ]
+  },
+  "chainsaw_ambient": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:chainsaw_ambient_sound",
+        "stream": false
+      }
+    ]
+  },
+  "fat_infected_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fat_infected_idle",
+        "stream": false
+      }
+    ]
+  },
+  "fat_infected_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fat_infected_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fat_infected_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fat_infected_death",
+        "stream": false
+      }
+    ]
+  },
+  "night_hunter_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:night_hunter_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "night_hunter_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:night_hunter_death",
+        "stream": false
+      }
+    ]
+  },
+  "night_hunter_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:night_hunter_step",
+        "stream": false
+      }
+    ]
+  },
+  "night_hunter_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:night_hunter_idle",
+        "stream": false
+      }
+    ]
+  },
+  "devastated_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:devastated_idle",
+        "stream": false
+      }
+    ]
+  },
+  "devastated_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:devastated_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "devastated_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:devastated_step",
+        "stream": false
+      }
+    ]
+  },
+  "devastated_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:devastated_death",
+        "stream": false
+      }
+    ]
+  },
+  "faceless_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:faceless_idle",
+        "stream": false
+      }
+    ]
+  },
+  "faceless_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:faceless_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "faceless_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:faceless_death",
+        "stream": false
+      }
+    ]
+  },
+  "revived_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:revived_idle",
+        "stream": false
+      }
+    ]
+  },
+  "revived_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:revived_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "revived_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:revived_death",
+        "stream": false
+      }
+    ]
+  },
+  "zeropatient_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:zero_patien_idle",
+        "stream": false
+      }
+    ]
+  },
+  "zeropatient_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:zero_patient_step",
+        "stream": false
+      }
+    ]
+  },
+  "zeropatient_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:zero_patien_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "zeropatient_hurt_1": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:zero_patien_hurt_alt",
+        "stream": false
+      }
+    ]
+  },
+  "zeropatient_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:zero_patien_death",
+        "stream": false
+      }
+    ]
+  },
+  "assasin_b_o_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:assasin_black_ops_step",
+        "stream": false
+      }
+    ]
+  },
+  "assasin_b_o__hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:assasin_black_ops_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "assasin_b_o__death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:assasin_black_ops_death",
+        "stream": false
+      }
+    ]
+  },
+  "open_military_cargo": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:military_cargo_open",
+        "stream": false
+      }
+    ]
+  },
+  "military_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:soldier_gasmask_idle",
+        "stream": false
+      }
+    ]
+  },
+  "military_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:soldier_gasmask_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "military_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:soldier_gasmask_death",
+        "stream": false
+      }
+    ]
+  },
+  "infected_hazmat_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_hazmat_idle",
+        "stream": false
+      }
+    ]
+  },
+  "infected_hazmat_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_hazmat_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "infected_hazmat_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_hazmat_death",
+        "stream": false
+      }
+    ]
+  },
+  "infected_military_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_military_idle",
+        "stream": false
+      }
+    ]
+  },
+  "infected_military_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_military_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "infected_military_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_military_step",
+        "stream": false
+      }
+    ]
+  },
+  "infected_military_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_military_death",
+        "stream": false
+      }
+    ]
+  },
+  "openbackpack": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:openbkacpack",
+        "stream": false
+      }
+    ]
+  },
+  "opencloth": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:opencloth",
+        "stream": false
+      }
+    ]
+  },
+  "opencupboard": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:opencupboard",
+        "stream": false
+      }
+    ]
+  },
+  "opentrashbucket": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:opentashbucket",
+        "stream": false
+      }
+    ]
+  },
+  "openvendingmachine": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:openvendingmachine",
+        "stream": false
+      }
+    ]
+  },
+  "beartrapactive": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:beartrapactive",
+        "stream": false
+      }
+    ]
+  },
+  "personalmineactive": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:personalmineactive",
+        "stream": false
+      }
+    ]
+  },
+  "opentoolbox": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:opentoolbox",
+        "stream": false
+      }
+    ]
+  },
+  "openfridge": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:openfridge",
+        "stream": false
+      }
+    ]
+  },
+  "nightstandopen": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:night_stand_open",
+        "stream": false
+      }
+    ]
+  },
+  "infected_police_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_police_idle",
+        "stream": false
+      }
+    ]
+  },
+  "infected_police_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_police_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "infected_police_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:infected_police_death",
+        "stream": false
+      }
+    ]
+  },
+  "ram_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:ram_idle",
+        "stream": false
+      }
+    ]
+  },
+  "ram_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:ram_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "ram_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:ram_step",
+        "stream": false
+      }
+    ]
+  },
+  "ram_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:ram_death",
+        "stream": false
+      }
+    ]
+  },
+  "goon_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:goon_idle",
+        "stream": false
+      }
+    ]
+  },
+  "goon_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:goon_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "goon_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:goon_death",
+        "stream": false
+      }
+    ]
+  },
+  "divided_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:divided_idle",
+        "stream": false
+      }
+    ]
+  },
+  "divided_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:divided_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "divided_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:divided_step",
+        "stream": false
+      }
+    ]
+  },
+  "divided_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:divided_death",
+        "stream": false
+      }
+    ]
+  },
+  "fetus_idle": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fetus_idle",
+        "stream": false
+      }
+    ]
+  },
+  "fetus_hurt": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fetus_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fetus_step": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fetus_step",
+        "stream": false
+      }
+    ]
+  },
+  "fetus_death": {
+    "sounds": [
+      {
+        "name": "zombie_extreme:fetus_death",
+        "stream": false
+      }
+    ]
+  }
+}

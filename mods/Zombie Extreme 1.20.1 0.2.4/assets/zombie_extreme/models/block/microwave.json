@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/microwave",
+  "textures": {
+    "all": "zombie_extreme:block/microwave",
+    "particle": "zombie_extreme:block/microwave",
+    "0": "zombie_extreme:block/microwave"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/last_hope",
+  "textures": {
+    "0": "zombie_extreme:block/last_hope",
+    "particle": "zombie_extreme:item/placeholder_melee"
+  }
+}

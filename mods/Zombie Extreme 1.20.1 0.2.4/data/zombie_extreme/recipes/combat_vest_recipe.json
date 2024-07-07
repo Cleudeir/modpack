@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "4": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "5": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "6": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "7": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "8": {
+      "item": "zombie_extreme:ignotsteel"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:combat_armor_chestplate",
+    "count": 1
+  }
+}
