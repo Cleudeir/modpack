@@ -17,7 +17,7 @@
     }
   },    
   {
-    "mob": ["wrd:undead_spider","minecraft:skeleton","minecraft:zombie","alexsmobs:rocky_roller","wrd:ender_miner","wrd:buff_zombie","alexsmobs:underminder","alexsmobs:dropbear"],
+    "mob": ["wrd:undead_spider","minecraft:skeleton","minecraft:zombie","alexsmobs:rocky_roller","wrd:ender_miner","wrd:buff_zombie","alexsmobs:underminder"],
     "persecond": 90,
     "attempts": 3,
     "amount": {

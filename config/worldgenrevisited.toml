@@ -32,7 +32,7 @@
 	#a value above that frequency will cap the frequency to that feature's maximum automatically. Only works on 
 	#ore/underground features at this time. Might not work on modded ores. 
 	#Default=[]
-	feature_frequencies = ["minecraft:ore_iron_small=0.3", "minecraft:ore_iron_middle=0.5", "minecraft:ore_iron_upper=0.2", "minecraft:ore_copper_large=0", "minecraft:ore_copper=0.3", "zombie_extreme:ore_steel=0.4", "zombie_extreme:deepslate_steel=0.8", "zombie_extreme:ore_titan=0.8", "zombie_extreme:deepslate_titan=0.8", "zombie_extreme:ruin_2=0.02"]
+	feature_frequencies = ["minecraft:ore_iron_small=0.3", "minecraft:ore_iron_middle=0.5", "minecraft:ore_iron_upper=0.2", "minecraft:ore_copper_large=0", "minecraft:ore_copper=0.3", "zombie_extreme:ore_steel=0.4", "zombie_extreme:deepslate_steel=0.8", "zombie_extreme:ore_titan=0.8", "zombie_extreme:deepslate_titan=0.8", "zombie_extreme:ruin_3=0.02"]
 	#
 	#Change carver/cave frequencies. Use /listallcarvers to get a list of active carvers.
 	#This option does not impact the frequencies of large/organic looking caves. This option only affects canyons and tunnels. Acts like feature frequency multipliers, will 3x or 0.5x the default carver rate. Can be used to customize worldgen type carver frequencies. Default=[]
