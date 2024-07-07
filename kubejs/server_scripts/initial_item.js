@@ -89,7 +89,7 @@ const rankB = [
     'celestial_artifacts:magic_arrow_bag',
     'celestial_artifacts:spirit_crown',
     'celestial_artifacts:flame_arrow_bag',
-    'celestial_artifacts:spirit_arrow_bag',
+    //'celestial_artifacts:spirit_arrow_bag',
     'celestial_artifacts:iron_scabbard',
     'celestial_artifacts:leech_scabbard',
     'celestial_artifacts:repent_mirror',
