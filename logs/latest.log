@@ -1,328 +1,934 @@
-[20:12:32] [main/INFO]: ModLauncher running: args [--username, cliffpk, --version, modpack, --gameDir, C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack, --assetsDir, C:\Users\Carli\AppData\Roaming\.minecraft\assets, --assetIndex, 5, --uuid, 9c1fe7b90300413687cee10945d0cfc5, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, null, --xuid, null, --userType, mojang, --versionType, release, --width, 1440, --height, 900, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, java, -server, -Xms6G, -Xmx6G]
-[20:12:32] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[20:12:34] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[20:12:34] [main/INFO]: Trying GL version 4.6
-[20:12:35] [main/INFO]: Requested GL version 4.6 got version 4.6
-[20:12:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Carli/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23100!/ Service=ModLauncher Env=CLIENT
-[20:12:35] [pool-2-thread-1/INFO]: GL info: AMD Radeon RX 5700 GL version 4.6.0 Core Profile Context 24.5.1.240502, ATI Technologies Inc.
-[20:12:36] [main/INFO]: Found mod file 1.20.1-damage_number-1.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file [MC-1.20.1] Key Binding Patch v1.3.2.1 - 2024-5-26.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file aggroindicator-1.20.x-1.0.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file AI-Improvements-1.20-0.5.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file alexscaves-1.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file alexsmobs-1.22.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file amendments-1.20-1.1.27.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file ApothicAttributes-1.20.1-1.3.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file appleskin-forge-mc1.20.1-2.5.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file armorpointspp-forge-1.20-3.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file artifacts-forge-9.5.9.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Atlas Lib-1.20.1-1.1.12.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file AttributeFix-Forge-1.20.1-21.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file avatar_blockrestoration-1.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file BadMobs-1.20.1-19.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file balm-forge-1.20.1-7.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file bettercombat-forge-1.8.5+1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file betterdays-1.20.1-3.1.0.4-FORGE.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file betterfpsdist-1.20.1-4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file biggerstacks-1.20.1-1.0.0-all.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file blocky_siege-6.1.92-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Bookshelf-Forge-1.20.1-20.1.10.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file burninthesun-forge-1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file catalogue-forge-1.20.1-1.8.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file cc1_20_1-0.7 - 1.20.1-forge-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file celestial_artifacts-1.4.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file celestial_core-1.3.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file cfm-forge-1.20.1-7.0.0-pre36.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file CGM-Unofficial-1.4.17+Forge+1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file chunksending-1.20.1-2.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file citadel-2.5.4-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file cloth-config-11.1.118-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file collective-1.20.1-7.57.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file configurableextramobdrops-1.20.1-3.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file configured-forge-1.20.1-2.2.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Connectible Chains-forge-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Controlling-forge-1.20.1-12.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file corail_woodcutter-1.20.1-3.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file coroutil-forge-1.20.1-1.3.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file CraftTweaker-forge-1.20.1-14.0.40.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file crashutilities-8.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file create-1.20.1-0.5.1.f.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file create-stuff-additions1.20.1_v2.0.4a.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file createaddition-1.20.1-1.2.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file createdeco-2.0.2-1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file CreativeCore_FORGE_v2.11.30_mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file creeperoverhaul-3.0.2-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file cristellib-1.1.5-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file cupboard-1.20.1-2.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file curios-forge-5.9.0+1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file CuriosQuarkOBP-1.20.1-1.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file customvillagertrades-forge-20.25.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file damageindicator-1.0.0-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file damagenumbers-1.3.0-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file DarkModeEverywhere-1.20.1-1.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file design_decor-0.4-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Divine_Weaponry_v1.7_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file dummmmmmy-1.20-1.8.17b.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file DungeonsArise-1.20.x-2.1.58-release.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file dynamiclightsreforged-1.20.1_v1.6.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file EasyMagic-v8.0.1-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file eatinganimation-1.20-5.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file ecologics-forge-1.20.1-2.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file effortlessbuilding-1.20.1-3.8-all.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file embeddium-0.3.18+mc1.20.1-all.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file embeddiumextras-1.20.1-v2.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file EnchantmentDescriptions-Forge-1.20.1-17.0.14.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file EnhancedAI-2.4.7-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file EnhancedVisuals_FORGE_v1.7.2_mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file entity_texture_features_forge_1.20.1-6.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file entityculling-forge-1.6.2-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file entropy-1.2.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file EquipmentCompare-1.20.1-forge-1.3.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file everycomp-1.20-2.6.57.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file expandability-9.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file expanded_ecosphere-3.2.4-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file experimentalsettingsdisabler-1.20.1-3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Extra+Zombie+Drops+1.20.1+v4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file extragore-1.20.1-5.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file FallingTree-1.20.1-4.3.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file fancymenu_forge_3.2.3_MC_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file FarmersDelight-1.20.1-1.2.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file farsight-1.20.1-3.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file farsighted-mobs-forge-1.1-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file fastasyncworldsave-1.20.1-2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file Fastload-Reforged-mc1.20.1-3.4.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:36] [main/INFO]: Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file FiltPick-forge-mc1.20.1-0.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file flib-1.20.1-0.0.13.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file framework-forge-1.20.1-0.6.27.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ftb-library-forge-2001.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ftb-quests-forge-2001.4.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ftb-teams-forge-2001.3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ftb-xmod-compat-forge-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file fusion-1.1.1-forge-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file GameStages-Forge-1.20.1-15.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file geckolib-forge-1.20.1-4.4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file GlobalGameRules-1.20-8.0.0.11.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file gml-4.0.9-all.jar of type LANGPROVIDER with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file goblins_tyranny-1.1.0-forge-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file gpumemleakfix-1.20.1-1.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file grappling_hook_mod-1.20.1-1.20.1-v13.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file gravestone-forge-1.20.1-1.0.15.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file guardvillagers-1.20.1-1.6.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Guide-API-VP-1.20.1-2.2.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file handcrafted-forge-1.20.1-3.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file healthcommand-forge-1.20.1-1.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file hiddenrecipebook-1.20.1-4.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Iceberg-1.20.1-forge-1.1.21.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file iChunUtil-1.20.1-Forge-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file improvedmobs-1.20.1-1.12.4-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Incendium_1.20.x_v5.3.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file incontrol-1.20-9.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file InsaneLib-1.13.4-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file interiors-0.5.3+forge-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file inventorio-mc1.20.1-forge-v1.10.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file inventoryhud.forge.1.20.1-3.4.22.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file InventoryProfilesNext-forge-1.20-1.10.10.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ironchest-1.20.1-14.4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ItemNBTViewer-Forge-1.20-1.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Jade-1.20.1-forge-11.9.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file JadeAddons-1.20.1-forge-5.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file jeed-1.20-2.1.12.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file jei-1.20.1-forge-15.3.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file JustEnoughResources-1.20.1-1.4.0.247.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file justzoom_forge_1.0.2_MC_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file konkrete_forge_1.8.0_MC_1.20-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file kotlinforforge-4.10.0-all.jar of type LIBRARY with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file lanserverproperties-1.11.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file leawind_third_person-v2.0.8-beta.5-mc1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file letmedespawn-forge-1.20.x-1.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file libIPN-forge-1.20-4.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file libraryferret-forge-1.20.1-4.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file limitedchunks-1.20.1-4.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Log-Begone-Forge-1.20.1-1.0.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file looot-1.20.1-1.2.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file lootintegrations-1.20.1-3.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file lrarmor-1.20.1-0.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file marbledsapi-1.20.1-1.0.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file marbledsarsenal-1.20.1-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file melody_forge_1.0.3_MC_1.20.1-1.20.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file memorysettings-1.20.1-5.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MerchantMarkers-1.20.1-forge-1.3.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MobsPropertiesRandomness-4.10.8-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file modernfix-forge-5.17.0+mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file moonlight-1.20-2.11.17-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MoreMobGriefingOptions-1.20.1-2.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MorePlayerModels-1.20.1.20240409.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MouseTweaks-forge-mc1.20.1-2.25.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file multimine-1.20.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MultiplayerServerPause-1.20.1-Forge-1.3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file MutantMonsters-v8.0.7-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Mutants Buff 1.5.3 - 1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Nameless Trinkets-1.20.1-1.7.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Necronomicon-Forge-1.4.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file notenoughanimations-forge-1.7.3-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file notenoughcrashes-4.4.7+1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file nyfsspiders-forge-1.20.1-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file observable-4.4.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file octolib-1.20.1-0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file oculus-mc1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file packetfixer-forge-1.4.2-1.19-to-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file ParCool-1.20.1-3.2.1.2-R.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Patchouli-1.20.1-84-FORGE.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Paxi-1.20-Forge-4.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file PickUpNotifier-v8.0.0-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Placebo-1.20.1-8.6.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file player-animation-lib-forge-1.0.2-rc1+1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file PlayerMobs-1.20-4.0.0.33.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file polytone-1.20-1.18.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file PresenceFootsteps-1.20.1-1.9.1-beta.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Public GUI Announcement-neoforge-1.20.1-5.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file puffish_skills-0.12.2-1.20-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file PuzzlesLib-v8.1.18-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file Quark-4.0-455.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file QuarkOddities-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file redstonepen-1.20.1-forge-1.3.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file repair_kits-2.0-forge-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file repurposed_structures-7.1.15+1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:37] [main/INFO]: Found mod file resourcefulconfig-forge-1.20.1-2.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file resourcefullib-forge-1.20.1-2.1.25.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file rhino-forge-2001.2.2-build.18.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file riskofrain_items-0.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file riskofrain_mobs-1.20.1-1.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file screenshot-to-clipboard-1.0.9-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Searchables-forge-1.20.1-1.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Shut Up GL Error-forge-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file silent-lib-1.20.1-8.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file slotify-1.20-1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file smoothchunk-1.20.1-3.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file sound-physics-remastered-forge-1.20.1-1.4.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file spark-1.10.53-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Special Drops 1.0.0 - 1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file spelunkers_charm-3.6.0-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file structureessentials-1.20.1-3.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file SuggestionProviderFix-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file supplementaries-1.20-2.8.10.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file tenshilib-1.20.1-1.7.6-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file TerraBlender-forge-1.20.1-3.0.1.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file The-Hordes-1.20.1-1.5.3a.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file torchmaster-20.1.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file torohealth-1.20-forge-4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Towns-and-Towers-1.12-Fabric+Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Trajectory Preview-6.0.3-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file trashslot-forge-1.20-15.1.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file TravelersTitles-1.20-Forge-4.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file twilightforest-1.20.1-4.3.2145-universal.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Unhealthy-Dying-1.20-2.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file villagersrespawn-1.20-46.7.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file VTweaks-1.20.1-4.0.13.fix1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file waystones-forge-1.20-14.1.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Wegotrunners0.6b1.20.1[CONFIG FILE UPDATE].jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Wesley's+Roguelike+Dungeons+1.20.1-2.3.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file wits-1.1.0+1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file woodenhopper-1.20.1-1.6.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file World Stripper-1.20-3.3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file world_of_rot-0.1.3-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file worldgenrevisited-experimental-forge-1.20.1-0.4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file XaeroPlus-2.14+forge-1.20.1-WM1.38.8-MM24.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Xaeros_Minimap_24.2.0_Forge_1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file XaerosWorldMap_1.38.8_Forge_1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsApi-1.20-Forge-4.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterDesertTemples-1.20-Forge-3.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterDungeons-1.20-Forge-4.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterEndIsland-1.20-Forge-2.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterJungleTemples-1.20-Forge-2.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterMineshafts-1.20-Forge-4.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterStrongholds-1.20-Forge-4.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBetterWitchHuts-1.20-Forge-3.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsBridges-1.20-Forge-4.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file YungsExtras-1.20-Forge-4.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Zeta-1.0-16.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file Zombie Extreme 1.20.1 0.2.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/INFO]: Found mod file zombieawareness-1.20.1-1.13.1_custom.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
-[20:12:38] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[20:12:38] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[20:12:38] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[20:12:38] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[20:12:38] [main/INFO]: Found mod file fmlcore-1.20.1-47.3.0.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
-[20:12:38] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
-[20:12:38] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
-[20:12:38] [main/INFO]: Found mod file mclanguage-1.20.1-47.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
-[20:12:38] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
-[20:12:38] [main/INFO]: Found mod file forge-1.20.1-47.3.0-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
-[20:12:39] [main/WARN]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[20:12:39] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods\resourcefullib-forge-1.20.1-2.1.25.jar
-[20:12:39] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods\expandability-9.0.4.jar
-[20:12:39] [main/INFO]: Found 58 dependencies adding them to mods collection
-[20:12:39] [main/INFO]: Found mod file jackson-dataformat-toml-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file MixinExtras-0.3.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file BiggerStacksTransformerLib-1.4.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file caffeine-3.1.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file l2tabs-0.3.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-macro-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file xstream-1.4.20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file BiggerStacksConfigLib-1.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file mclib-20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file jackson-core-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-templates-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-fat-4.0.9.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-nio-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-dateutil-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-xml-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file MixinSquared-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-toml-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file l2screentracker-0.1.4.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file mixinextras-forge-0.3.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file jackson-databind-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file jankson-1.2.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-ginq-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file animated-gif-lib-for-java-animated-gif-lib-1.7.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file kfflang-4.10.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file puzzlesaccessapi-forge-8.0.7.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file l2damagetracker-0.3.8.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-datetime-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file jctools-core-4.0.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file json-path-2.9.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-json-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file srgutils-0.5.4.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file mod-4.0.9.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file mixinsquared-forge-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file LambdaEvents-2.4.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file Registrate-MC1.20-1.3.11.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file spectrelib-forge-0.13.15+1.20.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file httpmime-4.5.10.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file jackson-annotations-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file script-mods-4.0.9-all.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file kffmod-4.10.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file flywheel-forge-1.20.1-0.6.10-7.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file bytecodecs-1.0.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-typecheckers-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file cgl-1.20-forge-0.3.3.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file jcpp-1.4.14.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file MinecraftForgeAPI-1.20.1-1.0.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-macro-library-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file yabn-1.0.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file conditional-mixin-forge-0.6.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file l2itemselector-0.1.7.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file l2serial-1.2.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file groovy-contracts-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file l2library-2.4.23-slim.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file exp4j-0.4.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file kfflib-4.10.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file japng-0.5.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:39] [main/INFO]: Found mod file SimpleLoggerWrapper-1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
-[20:12:40] [main/INFO]: Starting runtime mappings setup...
-[20:12:40] [main/INFO]: Injecting ScriptModLocator candidates...
-[20:12:40] [main/INFO]: Injected Jimfs file system
-[20:12:40] [main/INFO]: Skipped loading script mods from directory C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods\scripts as it did not exist.
-[20:12:40] [main/INFO]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
-[20:12:40] [main/ERROR]: Missing or unsupported mandatory dependencies:
+[20:15:46] [main/INFO]: ModLauncher running: args [--username, cliffpk, --version, modpack, --gameDir, C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack, --assetsDir, C:\Users\Carli\AppData\Roaming\.minecraft\assets, --assetIndex, 5, --uuid, 9c1fe7b90300413687cee10945d0cfc5, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, null, --xuid, null, --userType, mojang, --versionType, release, --width, 1440, --height, 900, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, java, -server, -Xms6G, -Xmx6G]
+[20:15:46] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[20:15:47] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[20:15:47] [main/INFO]: Trying GL version 4.6
+[20:15:47] [main/INFO]: Requested GL version 4.6 got version 4.6
+[20:15:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Carli/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23100!/ Service=ModLauncher Env=CLIENT
+[20:15:48] [pool-2-thread-1/INFO]: GL info: AMD Radeon RX 5700 GL version 4.6.0 Core Profile Context 24.5.1.240502, ATI Technologies Inc.
+[20:15:48] [main/INFO]: Found mod file 1.20.1-damage_number-1.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file [MC-1.20.1] Key Binding Patch v1.3.2.1 - 2024-5-26.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file aggroindicator-1.20.x-1.0.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file AI-Improvements-1.20-0.5.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file alexscaves-1.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file alexsmobs-1.22.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file amendments-1.20-1.1.27.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ApothicAttributes-1.20.1-1.3.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file appleskin-forge-mc1.20.1-2.5.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file armorpointspp-forge-1.20-3.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file artifacts-forge-9.5.9.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Atlas Lib-1.20.1-1.1.12.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file AttributeFix-Forge-1.20.1-21.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file avatar_blockrestoration-1.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file BadMobs-1.20.1-19.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file balm-forge-1.20.1-7.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file bettercombat-forge-1.8.5+1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file betterdays-1.20.1-3.1.0.4-FORGE.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file betterfpsdist-1.20.1-4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file biggerstacks-1.20.1-1.0.0-all.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file blocky_siege-6.1.92-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Bookshelf-Forge-1.20.1-20.1.10.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file burninthesun-forge-1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file catalogue-forge-1.20.1-1.8.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file cc1_20_1-0.7 - 1.20.1-forge-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file celestial_artifacts-1.4.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file celestial_core-1.3.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file cfm-forge-1.20.1-7.0.0-pre36.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file CGM-Unofficial-1.4.17+Forge+1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file chunksending-1.20.1-2.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file citadel-2.5.4-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file cloth-config-11.1.118-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file collective-1.20.1-7.57.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file configurableextramobdrops-1.20.1-3.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file configured-forge-1.20.1-2.2.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Connectible Chains-forge-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Controlling-forge-1.20.1-12.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file corail_woodcutter-1.20.1-3.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file coroutil-forge-1.20.1-1.3.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file CraftTweaker-forge-1.20.1-14.0.40.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file crashutilities-8.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file create-1.20.1-0.5.1.f.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file create-stuff-additions1.20.1_v2.0.4a.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file createaddition-1.20.1-1.2.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file createdeco-2.0.2-1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file CreativeCore_FORGE_v2.11.30_mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file creeperoverhaul-3.0.2-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file cristellib-1.1.5-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file cupboard-1.20.1-2.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file curios-forge-5.9.0+1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file CuriosQuarkOBP-1.20.1-1.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file customvillagertrades-forge-20.25.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file damageindicator-1.0.0-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file damagenumbers-1.3.0-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file DarkModeEverywhere-1.20.1-1.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file design_decor-0.4-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Divine_Weaponry_v1.7_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file dummmmmmy-1.20-1.8.17b.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file DungeonsArise-1.20.x-2.1.58-release.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file dynamiclightsreforged-1.20.1_v1.6.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file EasyMagic-v8.0.1-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file eatinganimation-1.20-5.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ecologics-forge-1.20.1-2.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file effortlessbuilding-1.20.1-3.8-all.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file embeddium-0.3.18+mc1.20.1-all.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file embeddiumextras-1.20.1-v2.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file EnchantmentDescriptions-Forge-1.20.1-17.0.14.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file EnhancedAI-2.4.7-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file EnhancedVisuals_FORGE_v1.7.2_mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file entity_texture_features_forge_1.20.1-6.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file entityculling-forge-1.6.2-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file entropy-1.2.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file EquipmentCompare-1.20.1-forge-1.3.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file everycomp-1.20-2.6.57.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file expandability-9.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file expanded_ecosphere-3.2.4-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file experimentalsettingsdisabler-1.20.1-3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Extra+Zombie+Drops+1.20.1+v4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file extragore-1.20.1-5.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file FallingTree-1.20.1-4.3.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file fancymenu_forge_3.2.3_MC_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file FarmersDelight-1.20.1-1.2.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file farsight-1.20.1-3.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file farsighted-mobs-forge-1.1-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file fastasyncworldsave-1.20.1-2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Fastload-Reforged-mc1.20.1-3.4.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file FiltPick-forge-mc1.20.1-0.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file flib-1.20.1-0.0.13.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file framework-forge-1.20.1-0.6.27.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ftb-library-forge-2001.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ftb-quests-forge-2001.4.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ftb-teams-forge-2001.3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ftb-xmod-compat-forge-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file fusion-1.1.1-forge-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file GameStages-Forge-1.20.1-15.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file geckolib-forge-1.20.1-4.4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file GlobalGameRules-1.20-8.0.0.11.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file gml-4.0.9-all.jar of type LANGPROVIDER with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file goblins_tyranny-1.1.0-forge-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file gpumemleakfix-1.20.1-1.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file grappling_hook_mod-1.20.1-1.20.1-v13.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file gravestone-forge-1.20.1-1.0.15.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file guardvillagers-1.20.1-1.6.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Guide-API-VP-1.20.1-2.2.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file handcrafted-forge-1.20.1-3.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file healthcommand-forge-1.20.1-1.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file hiddenrecipebook-1.20.1-4.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Iceberg-1.20.1-forge-1.1.21.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file iChunUtil-1.20.1-Forge-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file improvedmobs-1.20.1-1.12.4-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Incendium_1.20.x_v5.3.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file incontrol-1.20-9.2.5.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file InsaneLib-1.13.4-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file interiors-0.5.3+forge-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file inventorio-mc1.20.1-forge-v1.10.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file inventoryhud.forge.1.20.1-3.4.22.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file InventoryProfilesNext-forge-1.20-1.10.10.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ironchest-1.20.1-14.4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ItemNBTViewer-Forge-1.20-1.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Jade-1.20.1-forge-11.9.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file JadeAddons-1.20.1-forge-5.2.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file jeed-1.20-2.1.12.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file jei-1.20.1-forge-15.3.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file JustEnoughResources-1.20.1-1.4.0.247.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file justzoom_forge_1.0.2_MC_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file konkrete_forge_1.8.0_MC_1.20-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file kotlinforforge-4.10.0-all.jar of type LIBRARY with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file kubejs-forge-2001.6.5-build.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file lanserverproperties-1.11.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file leawind_third_person-v2.0.8-beta.5-mc1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file letmedespawn-forge-1.20.x-1.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file libIPN-forge-1.20-4.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file libraryferret-forge-1.20.1-4.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file limitedchunks-1.20.1-4.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Log-Begone-Forge-1.20.1-1.0.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file looot-1.20.1-1.2.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file lootintegrations-1.20.1-3.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file lrarmor-1.20.1-0.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file marbledsapi-1.20.1-1.0.7.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file marbledsarsenal-1.20.1-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file melody_forge_1.0.3_MC_1.20.1-1.20.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file memorysettings-1.20.1-5.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MerchantMarkers-1.20.1-forge-1.3.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MobsPropertiesRandomness-4.10.8-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file modernfix-forge-5.17.0+mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file moonlight-1.20-2.11.17-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MoreMobGriefingOptions-1.20.1-2.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MorePlayerModels-1.20.1.20240409.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MouseTweaks-forge-mc1.20.1-2.25.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file multimine-1.20.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MultiplayerServerPause-1.20.1-Forge-1.3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file MutantMonsters-v8.0.7-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Mutants Buff 1.5.3 - 1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Nameless Trinkets-1.20.1-1.7.8.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Necronomicon-Forge-1.4.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file notenoughanimations-forge-1.7.3-mc1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file notenoughcrashes-4.4.7+1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file nyfsspiders-forge-1.20.1-2.1.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file observable-4.4.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file octolib-1.20.1-0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file oculus-mc1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file packetfixer-forge-1.4.2-1.19-to-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file ParCool-1.20.1-3.2.1.2-R.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Patchouli-1.20.1-84-FORGE.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Paxi-1.20-Forge-4.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file PickUpNotifier-v8.0.0-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Placebo-1.20.1-8.6.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file player-animation-lib-forge-1.0.2-rc1+1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file PlayerMobs-1.20-4.0.0.33.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file polytone-1.20-1.18.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file PresenceFootsteps-1.20.1-1.9.1-beta.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Public GUI Announcement-neoforge-1.20.1-5.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file puffish_skills-0.12.2-1.20-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file PuzzlesLib-v8.1.18-1.20.1-Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Quark-4.0-455.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file QuarkOddities-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file redstonepen-1.20.1-forge-1.3.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file repair_kits-2.0-forge-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file repurposed_structures-7.1.15+1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file resourcefulconfig-forge-1.20.1-2.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file resourcefullib-forge-1.20.1-2.1.25.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file rhino-forge-2001.2.2-build.18.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file riskofrain_items-0.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file riskofrain_mobs-1.20.1-1.1.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file screenshot-to-clipboard-1.0.9-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Searchables-forge-1.20.1-1.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Shut Up GL Error-forge-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file silent-lib-1.20.1-8.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file slotify-1.20-1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file smoothchunk-1.20.1-3.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file sound-physics-remastered-forge-1.20.1-1.4.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file spark-1.10.53-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Special Drops 1.0.0 - 1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file spelunkers_charm-3.6.0-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file structureessentials-1.20.1-3.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file SuggestionProviderFix-1.20.1-1.0.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file supplementaries-1.20-2.8.10.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file tenshilib-1.20.1-1.7.6-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file TerraBlender-forge-1.20.1-3.0.1.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file The-Hordes-1.20.1-1.5.3a.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file torchmaster-20.1.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file torohealth-1.20-forge-4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Towns-and-Towers-1.12-Fabric+Forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Trajectory Preview-6.0.3-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file trashslot-forge-1.20-15.1.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file TravelersTitles-1.20-Forge-4.0.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file twilightforest-1.20.1-4.3.2145-universal.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Unhealthy-Dying-1.20-2.1.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file villagersrespawn-1.20-46.7.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file VTweaks-1.20.1-4.0.13.fix1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file waystones-forge-1.20-14.1.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Wegotrunners0.6b1.20.1[CONFIG FILE UPDATE].jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Wesley's+Roguelike+Dungeons+1.20.1-2.3.2.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file wits-1.1.0+1.20.1-forge.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file woodenhopper-1.20.1-1.6.0.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file World Stripper-1.20-3.3.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file world_of_rot-0.1.3-1.20.1.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file worldgenrevisited-experimental-forge-1.20.1-0.4.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file XaeroPlus-2.14+forge-1.20.1-WM1.38.8-MM24.2.0.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Xaeros_Minimap_24.2.0_Forge_1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file XaerosWorldMap_1.38.8_Forge_1.20.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsApi-1.20-Forge-4.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterDesertTemples-1.20-Forge-3.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterDungeons-1.20-Forge-4.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterEndIsland-1.20-Forge-2.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterJungleTemples-1.20-Forge-2.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterMineshafts-1.20-Forge-4.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterStrongholds-1.20-Forge-4.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBetterWitchHuts-1.20-Forge-3.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsBridges-1.20-Forge-4.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file YungsExtras-1.20-Forge-4.0.3.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Zeta-1.0-16.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file Zombie Extreme 1.20.1 0.2.4.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/INFO]: Found mod file zombieawareness-1.20.1-1.13.1_custom.jar of type MOD with provider {mods folder locator at C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods}
+[20:15:48] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[20:15:48] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[20:15:48] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[20:15:48] [main/WARN]: Mod file C:\Users\Carli\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[20:15:48] [main/INFO]: Found mod file fmlcore-1.20.1-47.3.0.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
+[20:15:48] [main/INFO]: Found mod file javafmllanguage-1.20.1-47.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
+[20:15:48] [main/INFO]: Found mod file lowcodelanguage-1.20.1-47.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
+[20:15:48] [main/INFO]: Found mod file mclanguage-1.20.1-47.3.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
+[20:15:48] [main/INFO]: Found mod file client-1.20.1-20230612.114412-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
+[20:15:48] [main/INFO]: Found mod file forge-1.20.1-47.3.0-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@3d49fd31
+[20:15:49] [main/WARN]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[20:15:49] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods\resourcefullib-forge-1.20.1-2.1.25.jar
+[20:15:49] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods\expandability-9.0.4.jar
+[20:15:49] [main/INFO]: Found 58 dependencies adding them to mods collection
+[20:15:49] [main/INFO]: Found mod file jackson-dataformat-toml-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file MixinExtras-0.3.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file BiggerStacksTransformerLib-1.4.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file caffeine-3.1.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file l2tabs-0.3.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-macro-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file xstream-1.4.20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file BiggerStacksConfigLib-1.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file mclib-20.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file jackson-core-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-templates-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-fat-4.0.9.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-nio-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-dateutil-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-xml-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file MixinSquared-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-toml-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file l2screentracker-0.1.4.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file mixinextras-forge-0.3.6.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file jackson-databind-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file jankson-1.2.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-ginq-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file animated-gif-lib-for-java-animated-gif-lib-1.7.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file kfflang-4.10.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file puzzlesaccessapi-forge-8.0.7.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file l2damagetracker-0.3.8.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-datetime-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file jctools-core-4.0.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file json-path-2.9.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-json-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file srgutils-0.5.4.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file mod-4.0.9.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file mixinsquared-forge-0.1.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file LambdaEvents-2.4.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file Registrate-MC1.20-1.3.11.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file spectrelib-forge-0.13.15+1.20.1.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file httpmime-4.5.10.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file jackson-annotations-2.15.2.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file script-mods-4.0.9-all.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file kffmod-4.10.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file flywheel-forge-1.20.1-0.6.10-7.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file bytecodecs-1.0.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-typecheckers-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file cgl-1.20-forge-0.3.3.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file jcpp-1.4.14.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file MinecraftForgeAPI-1.20.1-1.0.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-macro-library-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file yabn-1.0.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file conditional-mixin-forge-0.6.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file l2itemselector-0.1.7.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file l2serial-1.2.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file groovy-contracts-4.0.13.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file l2library-2.4.23-slim.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file exp4j-0.4.8.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file kfflib-4.10.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file japng-0.5.3.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:49] [main/INFO]: Found mod file SimpleLoggerWrapper-1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@20a7953c
+[20:15:50] [main/INFO]: Starting runtime mappings setup...
+[20:15:50] [main/INFO]: Injecting ScriptModLocator candidates...
+[20:15:50] [main/INFO]: Injected Jimfs file system
+[20:15:50] [main/INFO]: Skipped loading script mods from directory C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\mods\scripts as it did not exist.
+[20:15:50] [main/INFO]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[20:15:50] [main/ERROR]: Missing or unsupported mandatory dependencies:
 	Mod ID: 'textrues_embeddium_options', Requested by: 'embeddiumextras', Expected range: '*', Actual version: '[MISSING]'
+[20:15:51] [main/INFO]: Launching target 'forgeclient' with arguments [--version, modpack, --gameDir, C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack, --assetsDir, C:\Users\Carli\AppData\Roaming\.minecraft\assets, --uuid, 9c1fe7b90300413687cee10945d0cfc5, --username, cliffpk, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, null, --xuid, null, --userType, mojang, --versionType, release, --width, 1440, --height, 900, java, -server, -Xms6G, -Xmx6G]
+[20:15:52] [GML Mappings Thread/INFO]: Loaded runtime mappings in 1851ms
+[20:15:52] [GML Mappings Thread/INFO]: Finished runtime mappings setup.
+[20:15:55] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 130 milliseconds
+[20:15:56] [Render thread/WARN]: Assets URL 'union:/C:/Users/Carli/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23646!/assets/.mcassetsroot' uses unexpected schema
+[20:15:56] [Render thread/WARN]: Assets URL 'union:/C:/Users/Carli/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23646!/data/.mcassetsroot' uses unexpected schema
+[20:15:56] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:15:57] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.1.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:147) ~[authlib-4.0.43.1.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:63) ~[authlib-4.0.43.1.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.1.jar%23111!/:?]
+	at net.minecraft.client.Minecraft.m_193585_(Minecraft.java:649) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:413) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[modpack.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.1.jar%23111!/:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.1.jar%23111!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:122) ~[authlib-4.0.43.1.jar%23111!/:?]
+	... 20 more
+[20:15:57] [Render thread/INFO]: Setting user: cliffpk
+[20:15:57] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
+[20:15:57] [Render thread/FATAL]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §eembeddiumextras§r requires §6textrues_embeddium_options§r §oany§r
+§7Currently, §6textrues_embeddium_options§r§7 is §o§nnot installed
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.3.0.jar%23647!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.3.0.jar%23647!/:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.3.0.jar%23647!/:?]
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:69) ~[forge-1.20.1-47.3.0-universal.jar%23651!/:?]
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:89) ~[forge-1.20.1-47.3.0-universal.jar%23651!/:?]
+	at net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:69) ~[forge-1.20.1-47.3.0-universal.jar%23651!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:459) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[modpack.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[20:15:57] [Render thread/WARN]: Removed resource pack mod_resources from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack Moonlight Mods Dynamic Assets from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack hordes-config from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack feature/cgm_pbr_textures from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack mandala from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack zombieextreme from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack PlayerMobs-1.20-4.0.0.33 from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack TZP_1.20.1_2.7 from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack rlartificats from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/WARN]: Removed resource pack zombieawareness from options because it doesn't seem to exist anymore
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterTextureAtlasSpriteLoadersEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterGuiOverlaysEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[20:15:57] [Render thread/INFO]: Reloading ResourceManager: vanilla, file/Chaotix Gun Models v1.0.zip, file/Icon Xaero's 1.14HF1 -1.19.2.zip, file/TZP+Mutant+1.20.1-1.3.zip, file/TZP_1.20.1_2.7.zip, file/Extra Xaero's Minimap Icons - 1.20.1 - 1.4.zip, file/FreshAnimations_v1.9.zip
+[20:15:57] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death10.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death2.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death3.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death4.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death5.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death6.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death7.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death8.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/death9.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt10.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt11.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt12.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt13.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt14.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt15.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt16.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt17.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt18.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt19.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt20.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt21.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt22.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt23.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt24.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt25.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt26.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt27.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt28.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt29.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt3.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt30.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt31.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt32.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt33.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt34.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt35.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt36.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt37.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt38.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt39.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt4.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt40.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt41.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt42.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt43.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt44.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt45.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt46.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt47.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt48.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt49.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt5.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt50.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt51.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt52.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt53.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt54.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt55.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt56.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt57.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt58.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt59.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt6.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt60.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt61.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt62.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt63.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt64.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt65.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt66.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt67.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt68.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt69.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt7.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt70.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt71.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt72.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt73.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt74.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt75.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt76.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt77.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt78.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt79.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt8.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt80.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt81.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt82.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt83.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt84.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt85.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt86.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt87.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt88.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt89.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt9.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt90.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt91.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt92.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt93.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt94.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt95.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt96.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt97.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/hurt98.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say10.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say100.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say101.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say102.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say103.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say104.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say105.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say106.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say107.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say108.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say109.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say11.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say110.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say111.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say112.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say113.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say114.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say115.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say116.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say117.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say118.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say119.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say12.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say120.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say121.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say122.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say123.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say124.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say125.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say129.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say13.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say132.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say133.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say134.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say135.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say136.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say137.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say139.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say14.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say140.ogg, ignoring
+[20:15:57] [Worker-Main-8/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say141.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say142.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say146.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say147.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say148.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say149.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say15.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say150.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say151.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say152.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say153.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say154.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say155.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say156.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say157.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say158.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say159.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say16.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say160.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say161.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say162.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say163.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say164.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say165.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say166.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say167.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say168.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say169.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say17.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say170.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say171.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say172.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say173.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say174.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say175.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say176.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say177.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say178.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say179.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say18.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say180.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say181.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say182.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say183.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say184.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say185.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say186.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say187.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say188.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say189.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say19.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say190.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say191.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say192.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say193.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say194.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say195.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say196.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say197.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say198.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say199.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say20.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say200.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say201.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say202.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say203.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say204.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say21.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say22.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say23.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say24.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say25.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say26.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say27.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say28.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say29.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say30.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say31.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say32.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say33.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say34.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say35.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say36.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say37.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say38.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say39.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say4.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say40.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say41.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say42.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say43.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say44.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say45.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say46.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say47.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say48.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say49.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say5.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say50.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say51.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say52.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say53.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say54.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say55.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say56.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say57.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say58.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say59.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say6.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say60.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say61.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say62.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say63.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say64.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say65.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say66.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say67.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say68.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say69.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say7.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say70.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say71.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say72.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say73.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say74.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say75.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say76.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say77.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say78.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say79.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say8.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say80.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say81.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say82.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say83.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say84.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say85.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say86.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say87.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say88.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say89.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say9.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say90.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say91.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say92.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say93.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say94.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say95.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say96.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say97.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say98.ogg, ignoring
+[20:15:57] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:sounds/moreZsounds/say99.ogg, ignoring
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/creeper_minion_egg_hatch.ogg does not exist, cannot add it to event minecraft:entity.creeper_minion_egg.hatch
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/ambient1.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/ambient2.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/ambient3.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/ambient4.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/charge.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.charge
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/death.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/hurt1.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_creeper/hurt2.ogg does not exist, cannot add it to event minecraft:entity.mutant_creeper.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/ambient1.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/ambient2.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/death.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/hurt1.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/hurt2.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/hurt3.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/scream.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.scream
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_enderman/stare.ogg does not exist, cannot add it to event minecraft:entity.mutant_enderman.stare
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/ambient1.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/ambient2.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/ambient3.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/death.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/hurt1.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/hurt2.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/hurt3.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/hurt4.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/step1.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.step
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/step2.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.step
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/step3.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.step
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_skeleton/step4.ogg does not exist, cannot add it to event minecraft:entity.mutant_skeleton.step
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient1.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient9.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient10.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient11.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient12.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient13.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient14.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient15.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient16.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient17.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient18.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient19.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient20.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient21.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient22.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient23.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/ambient24.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.ambient
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack9.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/attack10.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.attack
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt1.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt9.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt10.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.death
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/grunt9.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.grunt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt1.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt9.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/hurt10.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.hurt
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar1.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar9.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar10.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar11.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roar12.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow1.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow2.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow3.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow4.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow5.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow6.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow7.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: File mutantbeasts:sounds/entity/mutant_zombie/roarslow8.ogg does not exist, cannot add it to event minecraft:entity.mutant_zombie.roar
+[20:15:58] [Worker-Main-1/WARN]: Invalid sounds.json in resourcepack: 'file/TZP_1.20.1_2.7.zip'
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:moreZsounds/say4
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.resources.sounds.Sound.<init>(Sound.java:25) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.resources.sounds.SoundEventRegistrationSerializer.m_119830_(SoundEventRegistrationSerializer.java:42) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.resources.sounds.SoundEventRegistrationSerializer.deserialize(SoundEventRegistrationSerializer.java:27) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.resources.sounds.SoundEventRegistrationSerializer.deserialize(SoundEventRegistrationSerializer.java:18) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23107!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23107!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar%23107!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23107!/:?]
+	at net.minecraft.util.GsonHelper.m_13771_(GsonHelper.java:543) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.util.GsonHelper.m_263457_(GsonHelper.java:550) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.util.GsonHelper.m_13767_(GsonHelper.java:572) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.sounds.SoundManager.m_5944_(SoundManager.java:81) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.client.sounds.SoundManager.m_5944_(SoundManager.java:40) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[client-1.20.1-20230612.114412-srg.jar%23646!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20:15:58] [Worker-Main-4/WARN]: Texture cgm:item/light_grip with size 8x8 limits mip level from 4 to 3
+[20:15:58] [Worker-Main-11/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+[20:15:59] [Worker-Main-11/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$ModifyBakingResult to a broken mod state
+[20:15:59] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[20:15:59] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20:15:59] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
+[20:15:59] [Render thread/INFO]: Sound engine started
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[20:15:59] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterShadersEvent to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:15:59] [Render thread/ERROR]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[20:15:59] [Render thread/FATAL]: Crash report saved to C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\crash-reports\crash-2024-07-08_20.15.59-fml.txt
+[20:16:02] [Render thread/INFO]: Stopping!
