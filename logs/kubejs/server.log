@@ -1,24 +1,21 @@
-[17:32:54] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
-[17:32:54] [INIT] Loaded plugins:
-[17:32:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[17:32:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[17:32:54] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[17:32:54] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[17:32:54] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[17:32:54] [INFO] Loaded script server_scripts:block_replace.js in 0.0 s
-[17:32:54] [INFO] Loaded script server_scripts:custom_equipment.js in 0.003 s
-[17:32:54] [INFO] Loaded script server_scripts:custom_equipment_effect.js in 0.0 s
-[17:32:54] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[17:32:54] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[17:32:54] [INFO] Loaded script server_scripts:game_over.js in 0.001 s
-[17:32:54] [INFO] Loaded script server_scripts:initial_item.js in 0.001 s
-[17:32:54] [INFO] Loaded script server_scripts:inventory.js in 0.0 s
-[17:32:54] [INFO] Loaded script server_scripts:item_category.js in 0.002 s
-[17:32:54] [INFO] Loaded script server_scripts:rewards.js in 0.0 s
-[17:32:54] [INFO] Loaded script server_scripts:way_sign.js in 0.001 s
-[17:32:54] [INFO] Loaded 10/10 KubeJS server scripts in 0.016 s with 0 errors and 0 warnings
-[17:32:54] [INFO] Scripts loaded
-[17:32:54] [INFO] Initializing recipe event...
-[17:32:54] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
-[17:32:54] [WARN] You can still see the full log (including past reloads) in your latest.log file.
-[17:33:17] [INFO] Server resource reload complete!
+[18:11:51] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[18:11:51] [INIT] Loaded plugins:
+[18:11:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:11:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:11:51] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[18:11:51] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[18:11:51] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[18:11:51] [INFO] Loaded script server_scripts:block_replace.js in 0.001 s
+[18:11:51] [INFO] Loaded script server_scripts:custom_equipment.js in 0.009 s
+[18:11:51] [INFO] Loaded script server_scripts:custom_equipment_effect.js in 0.0 s
+[18:11:51] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[18:11:51] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[18:11:51] [INFO] Loaded script server_scripts:game_over.js in 0.005 s
+[18:11:51] [INFO] Loaded script server_scripts:initial_item.js in 0.004 s
+[18:11:51] [INFO] Loaded script server_scripts:inventory.js in 0.0 s
+[18:11:51] [INFO] Loaded script server_scripts:item_category.js in 0.006 s
+[18:11:51] [INFO] Loaded script server_scripts:rewards.js in 0.0 s
+[18:11:51] [INFO] Loaded script server_scripts:way_sign.js in 0.001 s
+[18:11:51] [INFO] Loaded 10/10 KubeJS server scripts in 0.041 s with 0 errors and 0 warnings
+[18:11:51] [INFO] Scripts loaded
+[18:11:51] [INFO] Initializing recipe event...
