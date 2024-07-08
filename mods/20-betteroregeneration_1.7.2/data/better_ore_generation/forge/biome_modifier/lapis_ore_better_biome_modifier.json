@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "better_ore_generation:lapis_ore_better",
+  "step": "underground_ores"
+}

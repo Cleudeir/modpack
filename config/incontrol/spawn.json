@@ -1,5 +1,9 @@
 [
-  //Tornar monstros com menos armaduras e velocidade nos primeiros dias
+  {
+    "hostile": true,
+    "when": "onjoin",
+    "result": "default"
+  },  
   {
     "phase": "first",
     "hostile": true,
@@ -16,6 +20,16 @@
     "damagemultiply": 1.6,
 	  "followrangemultiply": 1.2,
     "speedmultiply": 0.8
+  },  
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "mincount": {
+      "amount": 60,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
   },  
   {
     "phase": "after_day7",

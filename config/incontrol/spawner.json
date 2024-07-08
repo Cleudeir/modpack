@@ -10,7 +10,7 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 30,
-      "maxdist": 80, 
+      "maxdist": 60, 
       "maxheight": 60,
       "minheight": 20,	  	       
       "maxthis": 10
@@ -27,7 +27,7 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 30,
-      "maxdist": 80, 
+      "maxdist": 60, 
       "maxheight": 20,
       "minheight": -10,	  	       
       "maxthis": 15
@@ -44,7 +44,7 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 40,
-      "maxdist": 80,
+      "maxdist": 60,
       "maxheight": -10,
       "minheight": -64,      
       "maxthis": 8
@@ -78,7 +78,7 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 40,
-      "maxdist": 80,	  
+      "maxdist": 60,	  
       "maxheight": -30,
       "minheight": -64,      
       "maxthis": 3
@@ -95,9 +95,9 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "mindist": 30,
-      "maxdist": 80,
-      "maxheight": -30,	  
-	    "minheight": -64,	        
+      "maxdist": 60,
+      "maxheight": -30,
+	    "minheight": -64,
       "maxthis": 1
     }
   }   

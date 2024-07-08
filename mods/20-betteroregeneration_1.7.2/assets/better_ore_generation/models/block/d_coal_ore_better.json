@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "better_ore_generation:block/texture_default_error",
+    "particle": "better_ore_generation:block/texture_default_error"
+  },
+  "render_type": "solid"
+}

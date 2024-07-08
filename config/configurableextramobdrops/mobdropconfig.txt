@@ -275,8 +275,8 @@
 'zombie_extreme:night_hunter' : '',
 'zombie_extreme:parasite' : '',
 'zombie_extreme:ram' : '',
-'zombie_extreme:rat_king' : '{Count:1b,id:"enchanted_book{StoredEnchantments:[{id:"minecraft:unbreaking",lvl:5}]}",tag:{dropchance:0.4d}}',
+'zombie_extreme:rat_king' : '{Count:1b,id:"enchanted_book",tag:{StoredEnchantments:[{id:"minecraft:unbreaking",lvl:5}],dropchance:0.4d}}'
 'zombie_extreme:revived' : '{Count:1b,id:"minecraft:coal",tag:{dropchance:0.4d}}',
 'zombie_extreme:runner' : '{Count:1b,id:"minecraft:gunpowder",tag:{dropchance:0.1d}}',
 'zombie_extreme:zero_patient' : '',
-'world_of_rot:crawler' : '{Count:1b,id:"minecraft:coal",tag:{dropchance:0.4d}}|||{Count:1b,id:"minecraft:potion",tag:{dropchance:0.2d}}'
+'world_of_rot:crawler' : '{Count:1b,id:"minecraft:coal",tag:{dropchance:0.4d}}|||{Count:1b,id:"minecraft:potion",tag:{Potion:"minecraft:strong_healing",dropchance:0.1d}}'

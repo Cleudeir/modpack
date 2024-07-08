@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "zombie_extreme:block/barbed_wire",
-    "particle": "zombie_extreme:block/barbed_wire"
-  },
-  "render_type": "solid"
-}

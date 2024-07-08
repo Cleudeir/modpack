@@ -76,7 +76,7 @@ const rankB = [
     'artifacts:steadfast_spikes',
     'artifacts:rooted_boots',
     'celestial_artifacts:gold_ring',
-    'celestial_artifacts:flight_ring',
+    //'celestial_artifacts:flight_ring',
     'celestial_artifacts:holy_sword',
     'celestial_artifacts:sands_talisman',
     'celestial_artifacts:skywalker_scroll',

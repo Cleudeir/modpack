@@ -1,27 +1,9 @@
 //WorldgenEvents.remove(event => {
 //  // print all features for a given biome filter
-//  event.printFeatures('', 'minecraft:overworld')
-//
-//  event.removeOres(props => {
-//    // much like ADDING ores, this supports filtering by worldgen layer...
-////    props.worldgenLayer = 'underground_ores'
-////    // ...and by biome
-////    props.biomes = [
-////      { category: 'icy' },
-////      { category: 'savanna' },
-////      { category: 'mesa' }
-////    ]
-//
-//    // BlockStatePredicate to remove iron and copper ores from the given biomes
-//    // Note tags may NOT be used here, unfortunately...
-//    props.blocks = ['minecraft:iron_ore', 'minecraft:copper_ore']
-//  })
-//
-//  // remove features by their id (first argument is a generation step)
-////  event.removeFeatureById('underground_ores', ['minecraft:ore_coal_upper', 'minecraft:ore_coal_lower'])
+//  event.removeFeatureById(['zombie_extreme:ruin_1", "zombie_extreme:ruin_2", "zombie_extreme:ruin_4", "zombie_extreme:ruin_5", "zombie_extreme:build_1'])
 //})
-//
-//WorldgenEvents.add(event => {
+////
+////WorldgenEvents.add(event => {
 //  // use the anchors helper from the event
 //  const { anchors } = event
 //

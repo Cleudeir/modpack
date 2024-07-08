@@ -36,7 +36,7 @@
 	watcher_possession = true
 	#How long (in game ticks) between watcher possession attempts.
 	#Range: 20 ~ 24000
-	watcher_possession_cooldown = 300
+	watcher_possession_cooldown = 400
 
 [block-behavior]
 	#True if players wearing boots can walk on any scarlet neodymium surface.

@@ -14830,6 +14830,72 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -132536795889800,
+          "name": "Pehkui-3.8.2+1.20.1-forge",
+          "favorite": false,
+          "version": {
+            "id": -132536807153000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4bc816efdd8e5e2a97423313674401351710e403",
+              "size": 671605,
+              "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar",
+              "url": "mods/Pehkui-3.8.2+1.20.1-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -132536807938999,
+          "name": "Shut Up GL Error-forge-1.20.1-1.0.0",
+          "favorite": false,
+          "version": {
+            "id": -132536812985500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "99a47ef4dcb152f276a69e2e2c16e6bae9f10155",
+              "size": 119569,
+              "path": "mods/Shut Up GL Error-forge-1.20.1-1.0.0.jar",
+              "url": "mods/Shut Up GL Error-forge-1.20.1-1.0.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -132536813910400,
+          "name": "World Stripper-1.20-3.3.0",
+          "favorite": false,
+          "version": {
+            "id": -132536816138300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "930df1b6fd2ef3440807609b39e8cb8ed54409aa",
+              "size": 79293,
+              "path": "mods/World Stripper-1.20-3.3.0.jar",
+              "url": "mods/World Stripper-1.20-3.3.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
