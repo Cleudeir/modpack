@@ -5,6 +5,19 @@
       "name": "cliffpk",
       "uniqueId": "9c1fe7b9-0300-4136-87ce-e10945d0cfc5"
     },
+    "time": 1720475099630,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/df3aNdTdET"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "cliffpk",
+      "uniqueId": "9c1fe7b9-0300-4136-87ce-e10945d0cfc5"
+    },
     "time": 1720406847438,
     "type": "Profiler (live)",
     "data": {

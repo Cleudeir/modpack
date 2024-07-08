@@ -23,7 +23,7 @@
 	CFShowModifierNames = true
 	#Changes the rarity of naturally generated dungeons if enabled (amount of structures per 1.000.000 chunks)
 	#Range: 0 ~ 10000
-	CFDungeonRarity = 250
+	CFDungeonRarity = 1000
 	#Changes the rarity of naturally generated nether dungeons if enabled (amount of structures per 1.000.000 chunks)
 	#Range: 0 ~ 10000
 	CFNetherDungeonRarity = 300

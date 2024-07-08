@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "better_ore_generation:ancien_debris",
-  "step": "underground_ores"
-}

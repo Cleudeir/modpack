@@ -436,8 +436,8 @@
         "value": 0
       },
       "max": {
-        "default": 64,
-        "value": 64
+        "default": 32,
+        "value": 32
       }
     },
     "puffish_attributes:player.stamina": {

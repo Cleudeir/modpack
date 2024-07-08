@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "better_ore_generation:d_dold_ore_better",
-  "step": "underground_ores"
-}

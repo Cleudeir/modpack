@@ -8905,20 +8905,6 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 
-#Options for the whispering_spirits mod.
-[whispering_spirits]
-
-	#Spawning options for whispering_spirits:whispering_spirit
-	[whispering_spirits.whispering_spirit]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
 #Options for the zombie_extreme mod.
 [zombie_extreme]
 
