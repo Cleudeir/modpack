@@ -19,7 +19,7 @@
 	#Range: > 0
 	max_render_distance = 48
 	#Show plaques from mobs obstructed by walls the player cannot see through, similar to the nameplates of other players.
-	behind_walls = true
+	behind_walls = false
 	#Dynamically increase plaque size the further away the camera is to simplify readability.
 	scale_with_distance = true
 	#Height offset from default position.
@@ -32,29 +32,29 @@
 	mob_blacklist = ["minecraft:armor_stand"]
 	#Custom scale for rendering plaques.
 	#Range: 0.05 ~ 2.0
-	plaque_scale = 1.0
+	plaque_scale = 0.6
 	#Always render plaques with full brightness to be most visible, ignoring local lighting conditions.
 	#Allowed Values: ALWAYS, UNOBSTRUCTED, NEVER
 	full_brightness = "UNOBSTRUCTED"
 	#Hide all plaques when mob has full health.
 	hide_at_full_health = false
 	#Are mob plaques enabled, toggleable in-game using the 'J' key by default.
-	allow_rendering = false
+	allow_rendering = true
 
 [health]
 	#Allow for rendering this type of plaque.
 	allow_rendering = true
 	#Transition text colors depending on current percentage.
-	shift_colors = true
+	shift_colors = false
 	#Show current amount either as percentage or as absolute value.
 	#Allowed Values: ABSOLUTE, ABSOLUTE_WITH_MAX, RELATIVE
 	plaque_value = "ABSOLUTE_WITH_MAX"
 
 [air]
 	#Allow for rendering this type of plaque.
-	allow_rendering = true
+	allow_rendering = false
 	#Transition text colors depending on current percentage.
-	shift_colors = false
+	shift_colors = true
 	#Show current amount either as percentage or as absolute value.
 	#Allowed Values: ABSOLUTE, ABSOLUTE_WITH_MAX, RELATIVE
 	plaque_value = "RELATIVE"

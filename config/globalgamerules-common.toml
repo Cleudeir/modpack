@@ -46,8 +46,6 @@
 		mutant_enderman_regenerate = true
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 		reduced_debug_info = false
-		#Non Vanilla gamerule: 'mpmAllowEntityModels'
-		mpm_allow_entity_models = true
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.

@@ -1,40 +1,157 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:tag",
-            "name": "kubejs:ranks",
-            "expand": true,
-            "weight": 2
-          },
-          {
-            "type": "minecraft:tag",
-            "name": "kubejs:ranka",
-            "expand": true,
-            "weight": 4
-          },
-          {
-            "type": "minecraft:tag",
-            "name": "kubejs:rankb",
-            "expand": true,
-            "weight": 4
-          },
-          {
-            "type": "minecraft:tag",
-            "name": "kubejs:rankc",
-            "expand": true,
-            "weight": 3
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranks",
+          "expand": true,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranka",
+          "expand": true,
+          "weight": 2          
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankb",
+          "expand": true,
+          "weight": 20  
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankc",
+          "expand": true,
+          "weight": 20  
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": ["ironchest:iron_chest"]
+            }
           }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.15
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranks",
+          "expand": true,
+          "weight": 5
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranka",
+          "expand": true,
+          "weight": 20          
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankb",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankc",
+          "expand": true,
+          "weight": 2   
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": ["ironchest:gold_chest"]
+            }
           }
-        ]
-      }
-    ],
-    "random_sequence": "minecraft:chests/artifacts"
-  }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranks",
+          "expand": true,
+          "weight": 15
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranka",
+          "expand": true,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankb",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankc",
+          "expand": true,
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": ["ironchest:diamond_chest"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranks",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranka",
+          "expand": true,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankb",
+          "expand": true,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankc",
+          "expand": true,
+          "weight": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ]
+    }    
+  ],
+  "random_sequence": "minecraft:chests/artifacts"
+}

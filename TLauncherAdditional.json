@@ -14896,6 +14896,94 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -262857310724199,
+          "name": "dynamiclightsreforged-1.20.1_v1.6.0",
+          "favorite": false,
+          "version": {
+            "id": -262857322277600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "323498a94ba91e24417c0ae1bc34bb4b461c0a3a",
+              "size": 94614,
+              "path": "mods/dynamiclightsreforged-1.20.1_v1.6.0.jar",
+              "url": "mods/dynamiclightsreforged-1.20.1_v1.6.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -262857322491200,
+          "name": "embeddium-0.3.24+mc1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -262857333358299,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "db8a6483911e85850e0c8031c570d80db3137c97",
+              "size": 1310398,
+              "path": "mods/embeddium-0.3.24+mc1.20.1.jar",
+              "url": "mods/embeddium-0.3.24+mc1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -262857335043800,
+          "name": "lootjs-forge-1.20.1-2.12.0",
+          "favorite": false,
+          "version": {
+            "id": -262857339821900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5e0d8b4d398780946f295b31b7b65bf201d7dcc7",
+              "size": 241907,
+              "path": "mods/lootjs-forge-1.20.1-2.12.0.jar",
+              "url": "mods/lootjs-forge-1.20.1-2.12.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -262857340244500,
+          "name": "MouseTweaks-forge-mc1.20.1-2.25.1",
+          "favorite": false,
+          "version": {
+            "id": -262857341853500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+              "size": 76237,
+              "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+              "url": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

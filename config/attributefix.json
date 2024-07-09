@@ -430,14 +430,14 @@
       }
     },
     "forge:nametag_distance": {
-      "enabled": false,
+      "enabled": true,
       "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
         "default": 32,
         "value": 32
+      },
+      "max": {
+        "default": 64,
+        "value": 64
       }
     },
     "puffish_attributes:player.stamina": {

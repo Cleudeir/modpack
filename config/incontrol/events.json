@@ -11,6 +11,7 @@
       },
       "spawn": {
         "mob": "zombie_extreme:parasite",
+        "angry": true,
         "mindistance": 3,
         "maxdistance": 5,
         "mincount": 1,
@@ -30,8 +31,9 @@
       },
       "spawn": {
         "mob": "twilightforest:swarm_spider",
-        "mindistance": 3,
-        "maxdistance": 5,
+        "inair": true,
+        "mindistance": 1,
+        "maxdistance": 2,
         "mincount": 2,
         "maxcount": 5,
         "attempts": 20
@@ -49,6 +51,7 @@
       },
       "spawn": {
         "mob": "world_of_rot:crawler",
+        "angry":true,
         "mindistance": 3,
         "maxdistance": 5,
         "mincount": 1,

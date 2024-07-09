@@ -2,6 +2,19 @@ ServerEvents.recipes(event => {
     // Remove a receita existente
     event.remove({mod:'marbledsarsenal'});
     event.remove({mod:'zombie_extreme'});
+	event.remove({mod:'zombie_extreme'});
+	event.remove({id: 'quark:torch_arrow'});
+	
+	//Torch Arrow 
+	event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            { item: 'minecraft:torch' },
+            { item: 'minecraft:arrow' },
+            { item: 'minecraft:string' }			
+        ],
+        result: { item: 'quark:torch_arrow' }
+    });
 
     // Furnace Recipes
     event.custom({
