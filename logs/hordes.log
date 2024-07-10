@@ -1,3 +1,723 @@
 Trying to load common config
 Trying to load client config
 Config files are up to date, skipping data/asset generation
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
+Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
+Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
+loaded horde table hordes:default
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 10, min day 0 and max day 14
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 15, min day 0 and max day 14
+Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 10, min day 0 and max day 14
+Loaded entity wrd:mummy_stage_1 as entity.wrd.mummy_stage_1 with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:hoglin as entity.minecraft.hoglin with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:loyal_zombie as entity.twilightforest.loyal_zombie with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 21 and max day 28
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:crawler as entity.zombie_extreme.crawler with weight 15, min day 21 and max day 28
+Loaded entity wrd:mummy_stage_3 as entity.wrd.mummy_stage_3 with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 21 and max day 28
+Loaded entity wrd:frost_guard as entity.wrd.frost_guard with weight 15, min day 21 and max day 28
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 21 and max day 28
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 21 and max day 28
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 21 and max day 28
+Loaded entity wrd:corrupted_zombie as entity.wrd.corrupted_zombie with weight 15, min day 21 and max day 28
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 10, min day 28 and max day 35
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:soul_vulture as entity.alexsmobs.soul_vulture with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:rattlesnake as entity.alexsmobs.rattlesnake with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:winter_wolf as entity.twilightforest.winter_wolf with weight 15, min day 28 and max day 35
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 28 and max day 35
+Loaded entity quark:forgotten as entity.quark.forgotten with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 28 and max day 35
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 35 and max day 42
+Loaded entity quark:foxhound as entity.quark.foxhound with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_police as entity.zombie_extreme.infected_police with weight 15, min day 35 and max day 42
+Loaded entity wrd:undead_spider as entity.wrd.undead_spider with weight 15, min day 35 and max day 42
+Loaded entity wrd:mutated_brute as entity.wrd.mutated_brute with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:redcap as entity.twilightforest.redcap with weight 15, min day 35 and max day 42
+Loaded entity wrd:dungeon_explosive_drowned as entity.wrd.dungeon_explosive_drowned with weight 15, min day 35 and max day 42
+Loaded entity wrd:crimson_piglin as entity.wrd.crimson_piglin with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 35 and max day 42
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 42 and max day 49
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:naga as entity.twilightforest.naga with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:adherent as entity.twilightforest.adherent with weight 15, min day 42 and max day 49
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 42 and max day 49
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:clicker as entity.zombie_extreme.clicker with weight 15, min day 42 and max day 49
+Loaded entity twilightforest:alpha_yeti as entity.twilightforest.alpha_yeti with weight 2, min day 42 and max day 49
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 42 and max day 49
+Loaded entity minecraft:ghast as entity.minecraft.ghast with weight 10, min day 42 and max day 49
+Loaded entity zombie_extreme:chainsaw as entity.zombie_extreme.chainsaw with weight 15, min day 42 and max day 49
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:lower_goblin_knight as entity.twilightforest.lower_goblin_knight with weight 15, min day 49 and max day 56
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 49 and max day 56
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 49 and max day 56
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:troll as entity.twilightforest.troll with weight 15, min day 49 and max day 56
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:redcap_sapper as entity.twilightforest.redcap_sapper with weight 15, min day 49 and max day 56
+Loaded entity quark:wraith as entity.quark.wraith with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 49 and max day 56
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 56 and max day 63
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:minotaur as entity.twilightforest.minotaur with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:hydra as entity.twilightforest.hydra with weight 2, min day 56 and max day 63
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 56 and max day 63
+Loaded entity realmrpg_demons:chort as entity.realmrpg_demons.chort with weight 15, min day 56 and max day 63
+Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 56 and max day 63
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 10, min day 63 and max day 70
+Loaded entity alexsmobs:mimicube as entity.alexsmobs.mimicube with weight 15, min day 63 and max day 70
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 63 and max day 70
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_creeper as entity.mutantmonsters.mutant_creeper with weight 2, min day 63 and max day 70
+Loaded entity wrd:cursed_cultist as entity.wrd.cursed_cultist with weight 15, min day 63 and max day 70
+Loaded entity twilightforest:ur_ghast as entity.twilightforest.ur_ghast with weight 2, min day 63 and max day 70
+Loaded entity wrd:frost_exploder as entity.wrd.frost_exploder with weight 15, min day 63 and max day 70
+Loaded entity wrd:ender_stinger as entity.wrd.ender_stinger with weight 15, min day 63 and max day 70
+Loaded entity zombie_extreme:night_hunter as entity.zombie_extreme.night_hunter with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_snow_golem as entity.mutantmonsters.mutant_snow_golem with weight 2, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity wrd:burnt_zombie_pharao as entity.wrd.burnt_zombie_pharao with weight 15, min day 70 and max day 77
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 15, min day 70 and max day 77
+Loaded entity alexsmobs:warped_mosco as entity.alexsmobs.warped_mosco with weight 15, min day 70 and max day 77
+Loaded entity twilightforest:roving_cube as entity.twilightforest.roving_cube with weight 15, min day 70 and max day 77
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 0
+loaded horde table hordes:mixed_mobs
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+loaded horde table hordes:custom
+Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
+Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
+Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
+Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
+Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
+loaded horde table hordes:illagers
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+loaded horde table hordes:fallback
+loaded horde script hordes:default
+Loading conversion tables
+Loading conversion table hordes:infection_conversions
+Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
+Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
+Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
+Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
+Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
+Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
+Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
+Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
+Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
+Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
+Loading immunity item list
+Loading immunity item list hordes:immunity_items
+Loaded immunity item minecraft:enchanted_golden_apple with duration 150
+Loaded immunity item zombie_extreme:syringe_drug with duration 150
+Loading wearables protection list
+Loading wearables protection list hordes:immune_wearables
+Loaded wearable protection minecraft:leather_boots with modifier 0.95
+Loaded wearable protection minecraft:leather_leggings with modifier 0.95
+Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
+Loaded wearable protection minecraft:leather_helmet with modifier 0.95
+Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
+Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
+Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
+Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
+Loaded wearable protection minecraft:iron_boots with modifier 0.9
+Loaded wearable protection minecraft:iron_leggings with modifier 0.9
+Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
+Loaded wearable protection minecraft:iron_helmet with modifier 0.9
+Loaded wearable protection minecraft:golden_boots with modifier 0.9
+Loaded wearable protection minecraft:golden_leggings with modifier 0.9
+Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
+Loaded wearable protection minecraft:golden_helmet with modifier 0.9
+Loaded wearable protection minecraft:diamond_boots with modifier 0.86
+Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
+Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
+Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
+Loaded wearable protection minecraft:netherite_boots with modifier 0.82
+Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
+Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
+Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
+Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
+Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
+Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
+loaded horde table hordes:default
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 10, min day 0 and max day 14
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 15, min day 0 and max day 14
+Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 10, min day 0 and max day 14
+Loaded entity wrd:mummy_stage_1 as entity.wrd.mummy_stage_1 with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:hoglin as entity.minecraft.hoglin with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:loyal_zombie as entity.twilightforest.loyal_zombie with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 21 and max day 28
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:crawler as entity.zombie_extreme.crawler with weight 15, min day 21 and max day 28
+Loaded entity wrd:mummy_stage_3 as entity.wrd.mummy_stage_3 with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 21 and max day 28
+Loaded entity wrd:frost_guard as entity.wrd.frost_guard with weight 15, min day 21 and max day 28
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 21 and max day 28
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 21 and max day 28
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 21 and max day 28
+Loaded entity wrd:corrupted_zombie as entity.wrd.corrupted_zombie with weight 15, min day 21 and max day 28
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 10, min day 28 and max day 35
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:soul_vulture as entity.alexsmobs.soul_vulture with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:rattlesnake as entity.alexsmobs.rattlesnake with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:winter_wolf as entity.twilightforest.winter_wolf with weight 15, min day 28 and max day 35
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 28 and max day 35
+Loaded entity quark:forgotten as entity.quark.forgotten with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 28 and max day 35
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 35 and max day 42
+Loaded entity quark:foxhound as entity.quark.foxhound with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_police as entity.zombie_extreme.infected_police with weight 15, min day 35 and max day 42
+Loaded entity wrd:undead_spider as entity.wrd.undead_spider with weight 15, min day 35 and max day 42
+Loaded entity wrd:mutated_brute as entity.wrd.mutated_brute with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:redcap as entity.twilightforest.redcap with weight 15, min day 35 and max day 42
+Loaded entity wrd:dungeon_explosive_drowned as entity.wrd.dungeon_explosive_drowned with weight 15, min day 35 and max day 42
+Loaded entity wrd:crimson_piglin as entity.wrd.crimson_piglin with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 35 and max day 42
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 42 and max day 49
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:naga as entity.twilightforest.naga with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:adherent as entity.twilightforest.adherent with weight 15, min day 42 and max day 49
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 42 and max day 49
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:clicker as entity.zombie_extreme.clicker with weight 15, min day 42 and max day 49
+Loaded entity twilightforest:alpha_yeti as entity.twilightforest.alpha_yeti with weight 2, min day 42 and max day 49
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 42 and max day 49
+Loaded entity minecraft:ghast as entity.minecraft.ghast with weight 10, min day 42 and max day 49
+Loaded entity zombie_extreme:chainsaw as entity.zombie_extreme.chainsaw with weight 15, min day 42 and max day 49
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:lower_goblin_knight as entity.twilightforest.lower_goblin_knight with weight 15, min day 49 and max day 56
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 49 and max day 56
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 49 and max day 56
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:troll as entity.twilightforest.troll with weight 15, min day 49 and max day 56
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:redcap_sapper as entity.twilightforest.redcap_sapper with weight 15, min day 49 and max day 56
+Loaded entity quark:wraith as entity.quark.wraith with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 49 and max day 56
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 56 and max day 63
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:minotaur as entity.twilightforest.minotaur with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:hydra as entity.twilightforest.hydra with weight 2, min day 56 and max day 63
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 56 and max day 63
+Loaded entity realmrpg_demons:chort as entity.realmrpg_demons.chort with weight 15, min day 56 and max day 63
+Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 56 and max day 63
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 10, min day 63 and max day 70
+Loaded entity alexsmobs:mimicube as entity.alexsmobs.mimicube with weight 15, min day 63 and max day 70
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 63 and max day 70
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_creeper as entity.mutantmonsters.mutant_creeper with weight 2, min day 63 and max day 70
+Loaded entity wrd:cursed_cultist as entity.wrd.cursed_cultist with weight 15, min day 63 and max day 70
+Loaded entity twilightforest:ur_ghast as entity.twilightforest.ur_ghast with weight 2, min day 63 and max day 70
+Loaded entity wrd:frost_exploder as entity.wrd.frost_exploder with weight 15, min day 63 and max day 70
+Loaded entity wrd:ender_stinger as entity.wrd.ender_stinger with weight 15, min day 63 and max day 70
+Loaded entity zombie_extreme:night_hunter as entity.zombie_extreme.night_hunter with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_snow_golem as entity.mutantmonsters.mutant_snow_golem with weight 2, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity wrd:burnt_zombie_pharao as entity.wrd.burnt_zombie_pharao with weight 15, min day 70 and max day 77
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 15, min day 70 and max day 77
+Loaded entity alexsmobs:warped_mosco as entity.alexsmobs.warped_mosco with weight 15, min day 70 and max day 77
+Loaded entity twilightforest:roving_cube as entity.twilightforest.roving_cube with weight 15, min day 70 and max day 77
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 0
+loaded horde table hordes:mixed_mobs
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+loaded horde table hordes:custom
+Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
+Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
+Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
+Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
+Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
+loaded horde table hordes:illagers
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+loaded horde table hordes:fallback
+loaded horde script hordes:default
+Loading conversion tables
+Loading conversion table hordes:infection_conversions
+Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
+Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
+Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
+Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
+Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
+Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
+Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
+Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
+Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
+Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
+Loading immunity item list
+Loading immunity item list hordes:immunity_items
+Loaded immunity item minecraft:enchanted_golden_apple with duration 150
+Loaded immunity item zombie_extreme:syringe_drug with duration 150
+Loading wearables protection list
+Loading wearables protection list hordes:immune_wearables
+Loaded wearable protection minecraft:leather_boots with modifier 0.95
+Loaded wearable protection minecraft:leather_leggings with modifier 0.95
+Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
+Loaded wearable protection minecraft:leather_helmet with modifier 0.95
+Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
+Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
+Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
+Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
+Loaded wearable protection minecraft:iron_boots with modifier 0.9
+Loaded wearable protection minecraft:iron_leggings with modifier 0.9
+Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
+Loaded wearable protection minecraft:iron_helmet with modifier 0.9
+Loaded wearable protection minecraft:golden_boots with modifier 0.9
+Loaded wearable protection minecraft:golden_leggings with modifier 0.9
+Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
+Loaded wearable protection minecraft:golden_helmet with modifier 0.9
+Loaded wearable protection minecraft:diamond_boots with modifier 0.86
+Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
+Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
+Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
+Loaded wearable protection minecraft:netherite_boots with modifier 0.82
+Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
+Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
+Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
+Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
+Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
+Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
+loaded horde table hordes:default
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 10, min day 0 and max day 14
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 15, min day 0 and max day 14
+Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 10, min day 0 and max day 14
+Loaded entity wrd:mummy_stage_1 as entity.wrd.mummy_stage_1 with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:hoglin as entity.minecraft.hoglin with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:loyal_zombie as entity.twilightforest.loyal_zombie with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 21 and max day 28
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:crawler as entity.zombie_extreme.crawler with weight 15, min day 21 and max day 28
+Loaded entity wrd:mummy_stage_3 as entity.wrd.mummy_stage_3 with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 21 and max day 28
+Loaded entity wrd:frost_guard as entity.wrd.frost_guard with weight 15, min day 21 and max day 28
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 21 and max day 28
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 21 and max day 28
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 21 and max day 28
+Loaded entity wrd:corrupted_zombie as entity.wrd.corrupted_zombie with weight 15, min day 21 and max day 28
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 10, min day 28 and max day 35
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:soul_vulture as entity.alexsmobs.soul_vulture with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:rattlesnake as entity.alexsmobs.rattlesnake with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:winter_wolf as entity.twilightforest.winter_wolf with weight 15, min day 28 and max day 35
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 28 and max day 35
+Loaded entity quark:forgotten as entity.quark.forgotten with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 28 and max day 35
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 35 and max day 42
+Loaded entity quark:foxhound as entity.quark.foxhound with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_police as entity.zombie_extreme.infected_police with weight 15, min day 35 and max day 42
+Loaded entity wrd:undead_spider as entity.wrd.undead_spider with weight 15, min day 35 and max day 42
+Loaded entity wrd:mutated_brute as entity.wrd.mutated_brute with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:redcap as entity.twilightforest.redcap with weight 15, min day 35 and max day 42
+Loaded entity wrd:dungeon_explosive_drowned as entity.wrd.dungeon_explosive_drowned with weight 15, min day 35 and max day 42
+Loaded entity wrd:crimson_piglin as entity.wrd.crimson_piglin with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 35 and max day 42
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 42 and max day 49
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:naga as entity.twilightforest.naga with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:adherent as entity.twilightforest.adherent with weight 15, min day 42 and max day 49
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 42 and max day 49
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:clicker as entity.zombie_extreme.clicker with weight 15, min day 42 and max day 49
+Loaded entity twilightforest:alpha_yeti as entity.twilightforest.alpha_yeti with weight 2, min day 42 and max day 49
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 42 and max day 49
+Loaded entity minecraft:ghast as entity.minecraft.ghast with weight 10, min day 42 and max day 49
+Loaded entity zombie_extreme:chainsaw as entity.zombie_extreme.chainsaw with weight 15, min day 42 and max day 49
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:lower_goblin_knight as entity.twilightforest.lower_goblin_knight with weight 15, min day 49 and max day 56
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 49 and max day 56
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 49 and max day 56
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:troll as entity.twilightforest.troll with weight 15, min day 49 and max day 56
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:redcap_sapper as entity.twilightforest.redcap_sapper with weight 15, min day 49 and max day 56
+Loaded entity quark:wraith as entity.quark.wraith with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 49 and max day 56
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 56 and max day 63
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:minotaur as entity.twilightforest.minotaur with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:hydra as entity.twilightforest.hydra with weight 2, min day 56 and max day 63
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 56 and max day 63
+Loaded entity realmrpg_demons:chort as entity.realmrpg_demons.chort with weight 15, min day 56 and max day 63
+Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 56 and max day 63
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 10, min day 63 and max day 70
+Loaded entity alexsmobs:mimicube as entity.alexsmobs.mimicube with weight 15, min day 63 and max day 70
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 63 and max day 70
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_creeper as entity.mutantmonsters.mutant_creeper with weight 2, min day 63 and max day 70
+Loaded entity wrd:cursed_cultist as entity.wrd.cursed_cultist with weight 15, min day 63 and max day 70
+Loaded entity twilightforest:ur_ghast as entity.twilightforest.ur_ghast with weight 2, min day 63 and max day 70
+Loaded entity wrd:frost_exploder as entity.wrd.frost_exploder with weight 15, min day 63 and max day 70
+Loaded entity wrd:ender_stinger as entity.wrd.ender_stinger with weight 15, min day 63 and max day 70
+Loaded entity zombie_extreme:night_hunter as entity.zombie_extreme.night_hunter with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_snow_golem as entity.mutantmonsters.mutant_snow_golem with weight 2, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity wrd:burnt_zombie_pharao as entity.wrd.burnt_zombie_pharao with weight 15, min day 70 and max day 77
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 15, min day 70 and max day 77
+Loaded entity alexsmobs:warped_mosco as entity.alexsmobs.warped_mosco with weight 15, min day 70 and max day 77
+Loaded entity twilightforest:roving_cube as entity.twilightforest.roving_cube with weight 15, min day 70 and max day 77
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 0
+loaded horde table hordes:mixed_mobs
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+loaded horde table hordes:custom
+Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
+Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
+Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
+Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
+Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
+loaded horde table hordes:illagers
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+loaded horde table hordes:fallback
+loaded horde script hordes:default
+Loading conversion tables
+Loading conversion table hordes:infection_conversions
+Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
+Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
+Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
+Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
+Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
+Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
+Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
+Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
+Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
+Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
+Loading immunity item list
+Loading immunity item list hordes:immunity_items
+Loaded immunity item minecraft:enchanted_golden_apple with duration 150
+Loaded immunity item zombie_extreme:syringe_drug with duration 150
+Loading wearables protection list
+Loading wearables protection list hordes:immune_wearables
+Loaded wearable protection minecraft:leather_boots with modifier 0.95
+Loaded wearable protection minecraft:leather_leggings with modifier 0.95
+Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
+Loaded wearable protection minecraft:leather_helmet with modifier 0.95
+Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
+Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
+Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
+Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
+Loaded wearable protection minecraft:iron_boots with modifier 0.9
+Loaded wearable protection minecraft:iron_leggings with modifier 0.9
+Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
+Loaded wearable protection minecraft:iron_helmet with modifier 0.9
+Loaded wearable protection minecraft:golden_boots with modifier 0.9
+Loaded wearable protection minecraft:golden_leggings with modifier 0.9
+Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
+Loaded wearable protection minecraft:golden_helmet with modifier 0.9
+Loaded wearable protection minecraft:diamond_boots with modifier 0.86
+Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
+Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
+Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
+Loaded wearable protection minecraft:netherite_boots with modifier 0.82
+Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
+Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
+Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
+Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
+Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
+Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
+Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
+loaded horde table hordes:default
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 10, min day 0 and max day 14
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 15, min day 0 and max day 14
+Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 0 and max day 14
+Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 10, min day 0 and max day 14
+Loaded entity wrd:mummy_stage_1 as entity.wrd.mummy_stage_1 with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:spider as entity.minecraft.spider with weight 10, min day 14 and max day 21
+Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 10, min day 14 and max day 21
+Loaded entity minecraft:hoglin as entity.minecraft.hoglin with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 10, min day 14 and max day 21
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:loyal_zombie as entity.twilightforest.loyal_zombie with weight 15, min day 14 and max day 21
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 21 and max day 28
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:crawler as entity.zombie_extreme.crawler with weight 15, min day 21 and max day 28
+Loaded entity wrd:mummy_stage_3 as entity.wrd.mummy_stage_3 with weight 15, min day 21 and max day 28
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 21 and max day 28
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 21 and max day 28
+Loaded entity wrd:frost_guard as entity.wrd.frost_guard with weight 15, min day 21 and max day 28
+Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 21 and max day 28
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 21 and max day 28
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 21 and max day 28
+Loaded entity wrd:corrupted_zombie as entity.wrd.corrupted_zombie with weight 15, min day 21 and max day 28
+Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 10, min day 28 and max day 35
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:soul_vulture as entity.alexsmobs.soul_vulture with weight 15, min day 28 and max day 35
+Loaded entity alexsmobs:rattlesnake as entity.alexsmobs.rattlesnake with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:winter_wolf as entity.twilightforest.winter_wolf with weight 15, min day 28 and max day 35
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 28 and max day 35
+Loaded entity quark:forgotten as entity.quark.forgotten with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 28 and max day 35
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:plateau_boss as entity.twilightforest.plateau_boss with weight 15, min day 28 and max day 35
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 35 and max day 42
+Loaded entity quark:foxhound as entity.quark.foxhound with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_police as entity.zombie_extreme.infected_police with weight 15, min day 35 and max day 42
+Loaded entity wrd:undead_spider as entity.wrd.undead_spider with weight 15, min day 35 and max day 42
+Loaded entity wrd:mutated_brute as entity.wrd.mutated_brute with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:redcap as entity.twilightforest.redcap with weight 15, min day 35 and max day 42
+Loaded entity wrd:dungeon_explosive_drowned as entity.wrd.dungeon_explosive_drowned with weight 15, min day 35 and max day 42
+Loaded entity wrd:crimson_piglin as entity.wrd.crimson_piglin with weight 15, min day 35 and max day 42
+Loaded entity wrd:supreme_blackstone_blaze as entity.wrd.supreme_blackstone_blaze with weight 15, min day 35 and max day 42
+Loaded entity twilightforest:minoshroom as entity.twilightforest.minoshroom with weight 15, min day 35 and max day 42
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 35 and max day 42
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 42 and max day 49
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:naga as entity.twilightforest.naga with weight 2, min day 42 and max day 49
+Loaded entity twilightforest:adherent as entity.twilightforest.adherent with weight 15, min day 42 and max day 49
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 42 and max day 49
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 42 and max day 49
+Loaded entity zombie_extreme:clicker as entity.zombie_extreme.clicker with weight 15, min day 42 and max day 49
+Loaded entity twilightforest:alpha_yeti as entity.twilightforest.alpha_yeti with weight 2, min day 42 and max day 49
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 42 and max day 49
+Loaded entity minecraft:ghast as entity.minecraft.ghast with weight 10, min day 42 and max day 49
+Loaded entity zombie_extreme:chainsaw as entity.zombie_extreme.chainsaw with weight 15, min day 42 and max day 49
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:lower_goblin_knight as entity.twilightforest.lower_goblin_knight with weight 15, min day 49 and max day 56
+Loaded entity quark:crusader as entity.minecraft.pig with weight 15, min day 49 and max day 56
+Loaded entity wrd:pharao_wraith as entity.wrd.pharao_wraith with weight 15, min day 49 and max day 56
+Loaded entity alexsmobs:guster as entity.alexsmobs.guster with weight 15, min day 49 and max day 56
+Loaded entity wrd:super_ender_enforcer as entity.wrd.super_ender_enforcer with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:troll as entity.twilightforest.troll with weight 15, min day 49 and max day 56
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 49 and max day 56
+Loaded entity twilightforest:redcap_sapper as entity.twilightforest.redcap_sapper with weight 15, min day 49 and max day 56
+Loaded entity quark:wraith as entity.quark.wraith with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 49 and max day 56
+Loaded entity zombie_extreme:parasite as entity.zombie_extreme.parasite with weight 15, min day 49 and max day 56
+Loaded entity wrd:ancient_guardian as entity.wrd.ancient_guardian with weight 15, min day 56 and max day 63
+Loaded entity wrd:blackstone_blaze as entity.wrd.blackstone_blaze with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:minotaur as entity.twilightforest.minotaur with weight 15, min day 56 and max day 63
+Loaded entity twilightforest:hydra as entity.twilightforest.hydra with weight 2, min day 56 and max day 63
+Loaded entity twilightforest:yeti as entity.twilightforest.yeti with weight 15, min day 56 and max day 63
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 56 and max day 63
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 56 and max day 63
+Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 15, min day 56 and max day 63
+Loaded entity realmrpg_demons:chort as entity.realmrpg_demons.chort with weight 15, min day 56 and max day 63
+Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 56 and max day 63
+Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 10, min day 63 and max day 70
+Loaded entity alexsmobs:mimicube as entity.alexsmobs.mimicube with weight 15, min day 63 and max day 70
+Loaded entity alexsmobs:farseer as entity.alexsmobs.farseer with weight 15, min day 63 and max day 70
+Loaded entity wrd:the_giant_king as entity.wrd.the_giant_king with weight 2, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_creeper as entity.mutantmonsters.mutant_creeper with weight 2, min day 63 and max day 70
+Loaded entity wrd:cursed_cultist as entity.wrd.cursed_cultist with weight 15, min day 63 and max day 70
+Loaded entity twilightforest:ur_ghast as entity.twilightforest.ur_ghast with weight 2, min day 63 and max day 70
+Loaded entity wrd:frost_exploder as entity.wrd.frost_exploder with weight 15, min day 63 and max day 70
+Loaded entity wrd:ender_stinger as entity.wrd.ender_stinger with weight 15, min day 63 and max day 70
+Loaded entity zombie_extreme:night_hunter as entity.zombie_extreme.night_hunter with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_zombie as entity.mutantmonsters.mutant_zombie with weight 15, min day 63 and max day 70
+Loaded entity mutantmonsters:mutant_snow_golem as entity.mutantmonsters.mutant_snow_golem with weight 2, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity wrd:burnt_zombie_pharao as entity.wrd.burnt_zombie_pharao with weight 15, min day 70 and max day 77
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 10, min day 70 and max day 77
+Loaded entity wrd:king_wraith as entity.wrd.king_wraith with weight 15, min day 70 and max day 77
+Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 15, min day 70 and max day 77
+Loaded entity alexsmobs:warped_mosco as entity.alexsmobs.warped_mosco with weight 15, min day 70 and max day 77
+Loaded entity twilightforest:roving_cube as entity.twilightforest.roving_cube with weight 15, min day 70 and max day 77
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 0
+loaded horde table hordes:mixed_mobs
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
+Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
+loaded horde table hordes:custom
+Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
+Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
+Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
+Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
+Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
+Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
+loaded horde table hordes:illagers
+Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+loaded horde table hordes:fallback
+loaded horde script hordes:default
+Loading conversion tables
+Loading conversion table hordes:infection_conversions
+Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
+Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
+Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
+Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
+Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
+Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
+Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
+Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
+Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
+Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
+Loading immunity item list
+Loading immunity item list hordes:immunity_items
+Loaded immunity item minecraft:enchanted_golden_apple with duration 150
+Loaded immunity item zombie_extreme:syringe_drug with duration 150
+Loading wearables protection list
+Loading wearables protection list hordes:immune_wearables
+Loaded wearable protection minecraft:leather_boots with modifier 0.95
+Loaded wearable protection minecraft:leather_leggings with modifier 0.95
+Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
+Loaded wearable protection minecraft:leather_helmet with modifier 0.95
+Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
+Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
+Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
+Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
+Loaded wearable protection minecraft:iron_boots with modifier 0.9
+Loaded wearable protection minecraft:iron_leggings with modifier 0.9
+Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
+Loaded wearable protection minecraft:iron_helmet with modifier 0.9
+Loaded wearable protection minecraft:golden_boots with modifier 0.9
+Loaded wearable protection minecraft:golden_leggings with modifier 0.9
+Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
+Loaded wearable protection minecraft:golden_helmet with modifier 0.9
+Loaded wearable protection minecraft:diamond_boots with modifier 0.86
+Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
+Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
+Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
+Loaded wearable protection minecraft:netherite_boots with modifier 0.82
+Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
+Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
+Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
+Loaded wearable protection minecraft:turtle_helmet with modifier 0.75

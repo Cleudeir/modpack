@@ -15094,6 +15094,50 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8146129695600,
+          "name": "fight_or_die-1.20.1-1.1.4",
+          "favorite": false,
+          "version": {
+            "id": -8146132402900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f45879aed86295f8f41e8b95898358bbe4f67c08",
+              "size": 2482122,
+              "path": "mods/fight_or_die-1.20.1-1.1.4.jar",
+              "url": "mods/fight_or_die-1.20.1-1.1.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -8146135220500,
+          "name": "TFTH 1.1b",
+          "favorite": false,
+          "version": {
+            "id": -8146236484400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7d157b87a9eb29a2e5bcb8cde35e0eaab1e60f2f",
+              "size": 23621440,
+              "path": "mods/TFTH 1.1b.jar",
+              "url": "mods/TFTH 1.1b.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

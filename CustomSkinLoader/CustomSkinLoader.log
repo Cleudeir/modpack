@@ -1,101 +1,536 @@
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.20
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 10 (amd64) version 10.0
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 17.0.8, Microsoft
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.20.1
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Config File: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\CustomSkinLoader.json
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Config file not found, use default instead.
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Successfully create config.
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.20
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 27
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
-[2024-07-10 09:41:59] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
-[2024-07-10 09:41:59] [cliffpk/INFO] [CustomSkinLoader Core]: Loading cliffpk's profile.
-[2024-07-10 09:41:59] [cliffpk/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
-[2024-07-10 09:41:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
-[2024-07-10 09:41:59] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
-[2024-07-10 09:41:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
-[2024-07-10 09:41:59] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.(cliffpk's profile not found.)
-[2024-07-10 09:41:59] [cliffpk/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
-[2024-07-10 09:41:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/cliffpk.json'.
-[2024-07-10 09:42:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
-[2024-07-10 09:42:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\8f00e82ee7b095b6d86cd30fdeea224e5722a10b' , Expire: 1720615415)
-[2024-07-10 09:42:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {}
-[2024-07-10 09:42:01] [cliffpk/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
-[2024-07-10 09:42:01] [cliffpk/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
-[2024-07-10 09:42:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/cliffpk.json'.
-[2024-07-10 09:42:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
-[2024-07-10 09:42:02] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
-[2024-07-10 09:42:02] [cliffpk/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
-[2024-07-10 09:42:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/cliffpk'.
-[2024-07-10 09:42:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 204 , Content Length: -1)
-[2024-07-10 09:42:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 0 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533' , Expire: 1720618927)
-[2024-07-10 09:42:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: 
-[2024-07-10 09:42:07] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
-[2024-07-10 09:42:07] [cliffpk/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
-[2024-07-10 09:42:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/cliffpk.json'.
-[2024-07-10 09:42:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/cliffpk.json (Exception: java.net.UnknownHostException: www.skinme.cc)
-[2024-07-10 09:42:07] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
-[2024-07-10 09:42:07] [cliffpk/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
-[2024-07-10 09:42:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/cliffpk'.
-[2024-07-10 09:42:08] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
-[2024-07-10 09:42:08] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 84 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\4fc30e5b055c00df27e275128b37db19832918d0' , Expire: 1720615422)
-[2024-07-10 09:42:08] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png"}}
-[2024-07-10 09:42:08] [cliffpk/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
-[2024-07-10 09:42:08] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=cliffpk'.
-[2024-07-10 09:42:09] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
-[2024-07-10 09:42:09] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
-[2024-07-10 09:42:09] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: Profile url not found.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
-[2024-07-10 09:42:09] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/cliffpk.png'.
-[2024-07-10 09:42:09] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
-[2024-07-10 09:42:09] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
-[2024-07-10 09:42:09] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/cliffpk.png'.
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
-[2024-07-10 09:42:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
-[2024-07-10 09:42:10] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
-[2024-07-10 09:42:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
-[2024-07-10 09:42:11] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
-[2024-07-10 09:42:11] [cliffpk/INFO] [CustomSkinLoader Core]: cliffpk's profile loaded.
-[2024-07-10 09:42:11] [cliffpk/INFO] [CustomSkinLoader Core]: (SkinUrl: http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png , Model: default , CapeUrl: null  , Expiry: 1720615361)
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.20
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 10 (amd64) version 10.0
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 17.0.8, Microsoft
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.20.1
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Config File: C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\CustomSkinLoader.json
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.20
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 27
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2024-07-10 17:15:13] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2024-07-10 17:15:13] [cliffpk/INFO] [CustomSkinLoader Core]: Loading cliffpk's profile.
+[2024-07-10 17:15:13] [cliffpk/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:15:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:15:13] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:15:14] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:15:14] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.(cliffpk's profile not found.)
+[2024-07-10 17:15:14] [cliffpk/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:15:14] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/cliffpk.json'.
+[2024-07-10 17:15:15] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-07-10 17:15:15] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\8f00e82ee7b095b6d86cd30fdeea224e5722a10b' , Expire: 1720642609)
+[2024-07-10 17:15:15] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:15:15] [cliffpk/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:15:15] [cliffpk/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:15:15] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/cliffpk.json'.
+[2024-07-10 17:15:15] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:15:15] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:15:15] [cliffpk/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:15:15] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/cliffpk'.
+[2024-07-10 17:15:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 204 , Content Length: -1)
+[2024-07-10 17:15:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 0 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533' , Expire: 1720646117)
+[2024-07-10 17:15:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: 
+[2024-07-10 17:15:16] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:15:16] [cliffpk/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:15:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/cliffpk.json'.
+[2024-07-10 17:15:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/cliffpk.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:15:16] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:15:16] [cliffpk/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:15:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/cliffpk'.
+[2024-07-10 17:15:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-07-10 17:15:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 84 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\4fc30e5b055c00df27e275128b37db19832918d0' , Expire: 1720642610)
+[2024-07-10 17:15:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png"}}
+[2024-07-10 17:15:17] [cliffpk/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:15:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=cliffpk'.
+[2024-07-10 17:15:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:15:17] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:15:17] [cliffpk/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:15:17] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:15:17] [cliffpk/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:15:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:15:17] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/cliffpk.png'.
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:15:18] [cliffpk/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:15:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/cliffpk.png'.
+[2024-07-10 17:15:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:15:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:15:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:15:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:15:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: cliffpk's profile loaded.
+[2024-07-10 17:15:19] [cliffpk/INFO] [CustomSkinLoader Core]: (SkinUrl: http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png , Model: default , CapeUrl: null  , Expiry: 1720642549)
+[2024-07-10 17:16:58] [cliffpk/INFO] [CustomSkinLoader Core]: Loading cliffpk's profile.
+[2024-07-10 17:16:58] [cliffpk/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:16:58] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:16:58] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:16:58] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:16:58] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.(cliffpk's profile not found.)
+[2024-07-10 17:16:58] [cliffpk/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:16:58] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/cliffpk.json'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\8f00e82ee7b095b6d86cd30fdeea224e5722a10b' , Expire: 1720642714)
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/cliffpk.json'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/cliffpk'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 0 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533' , Expire: 1720646117)
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: 
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:16:59] [cliffpk/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:16:59] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/cliffpk.json'.
+[2024-07-10 17:17:00] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/cliffpk.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:17:00] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:17:00] [cliffpk/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:17:00] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/cliffpk'.
+[2024-07-10 17:17:00] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-07-10 17:17:00] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 84 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\4fc30e5b055c00df27e275128b37db19832918d0' , Expire: 1720642711)
+[2024-07-10 17:17:00] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png"}}
+[2024-07-10 17:17:00] [cliffpk/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:17:00] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=cliffpk'.
+[2024-07-10 17:17:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:17:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:17:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2024-07-10 17:17:01] [cliffpk/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:17:01] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/cliffpk.png'.
+[2024-07-10 17:17:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:17:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:17:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:17:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/cliffpk.png'.
+[2024-07-10 17:17:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:17:02] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:17:02] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:17:03] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:17:03] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:17:03] [cliffpk/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:17:03] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:17:03] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:17:03] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2024-07-10 17:17:03] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2024-07-10 17:17:03] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:17:03] [cliffpk/INFO] [CustomSkinLoader Core]: cliffpk's profile loaded.
+[2024-07-10 17:17:03] [cliffpk/INFO] [CustomSkinLoader Core]: (SkinUrl: http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png , Model: default , CapeUrl: null  , Expiry: 1720642653)
+[2024-07-10 17:18:07] [mazen/INFO] [CustomSkinLoader Core]: Loading mazen's profile.
+[2024-07-10 17:18:07] [mazen/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:18:07] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:07] [mazen/INFO] [CustomSkinLoader Core]: Payload: ["mazen"]
+[2024-07-10 17:18:07] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:07] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.(mazen's profile not found.)
+[2024-07-10 17:18:07] [mazen/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:18:07] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/mazen.json'.
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\c3831d9e037403996b80355a3e27e3fb26708d71' , Expire: 1720642779)
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:18:09] [mazen/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:18:09] [mazen/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/mazen.json'.
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:09] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:09] [mazen/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/mazen'.
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 83)
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 83 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\bbe7428ec80be4b342618789c36d72739a8a82e1' , Expire: 1720642783)
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://ely.by/storage/skins/1da81712ce69da102cd65a057f691719.png"}}
+[2024-07-10 17:18:09] [mazen/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:18:09] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/mazen.json'.
+[2024-07-10 17:18:10] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/mazen.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:18:10] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:10] [mazen/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:18:10] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/mazen'.
+[2024-07-10 17:18:10] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-07-10 17:18:10] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 82 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\d689fb972e7452dd05315cc07d351797e8ec5dc4' , Expire: 1720642781)
+[2024-07-10 17:18:10] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_mazen.png"}}
+[2024-07-10 17:18:10] [mazen/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:18:10] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=mazen'.
+[2024-07-10 17:18:11] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:18:11] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: Payload: ["mazen"]
+[2024-07-10 17:18:11] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2024-07-10 17:18:11] [mazen/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:18:11] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/mazen.png'.
+[2024-07-10 17:18:12] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:12] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:12] [mazen/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:18:12] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:12] [mazen/INFO] [CustomSkinLoader Core]: Payload: ["mazen"]
+[2024-07-10 17:18:12] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:12] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:12] [mazen/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:18:12] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/mazen.png'.
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:13] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:13] [mazen/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:13] [mazen/INFO] [CustomSkinLoader Core]: Payload: ["mazen"]
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:13] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:13] [mazen/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:13] [mazen/INFO] [CustomSkinLoader Core]: Payload: ["mazen"]
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 71)
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Content: [ {
+  "id" : "6c430f5f27424b738850b19bc561902a",
+  "name" : "Mazen"
+} ]
+[2024-07-10 17:18:13] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=mazen&uuid=6c430f5f-2742-4b73-8850-b19bc561902a&nothirdparty'.
+[2024-07-10 17:18:14] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:14] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:14] [mazen/INFO] [CustomSkinLoader Core]: mazen's profile loaded.
+[2024-07-10 17:18:14] [mazen/INFO] [CustomSkinLoader Core]: (SkinUrl: http://ely.by/storage/skins/1da81712ce69da102cd65a057f691719.png , Model: default , CapeUrl: null  , Expiry: 1720642724)
+[2024-07-10 17:18:16] [cliffpk/INFO] [CustomSkinLoader Core]: Loading cliffpk's profile.
+[2024-07-10 17:18:16] [cliffpk/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:18:16] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:16] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.(cliffpk's profile not found.)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/cliffpk.json'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\8f00e82ee7b095b6d86cd30fdeea224e5722a10b' , Expire: 1720642714)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\8f00e82ee7b095b6d86cd30fdeea224e5722a10b'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/cliffpk.json'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/cliffpk'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 0 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533' , Expire: 1720646117)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: 
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/cliffpk.json'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/cliffpk.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/cliffpk'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 84 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\4fc30e5b055c00df27e275128b37db19832918d0' , Expire: 1720642711)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\4fc30e5b055c00df27e275128b37db19832918d0'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png"}}
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=cliffpk'.
+[2024-07-10 17:18:17] [mazen/INFO] [CustomSkinLoader Core]: Cached profile will be used.
+[2024-07-10 17:18:17] [mazen/INFO] [CustomSkinLoader Core]: (SkinUrl: http://ely.by/storage/skins/1da81712ce69da102cd65a057f691719.png , Model: default , CapeUrl: null  , Expiry: 1720642724)
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:18:17] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:17] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:18:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2024-07-10 17:18:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2024-07-10 17:18:18] [cliffpk/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2024-07-10 17:18:18] [cliffpk/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:18:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/cliffpk.png'.
+[2024-07-10 17:18:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:18] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:18] [cliffpk/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:18:18] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:18] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:18:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:18:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/cliffpk.png'.
+[2024-07-10 17:18:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:18:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:18:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:18:19] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:18:19] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:18:20] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:18:20] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:18:20] [cliffpk/INFO] [CustomSkinLoader Core]: cliffpk's profile loaded.
+[2024-07-10 17:18:20] [cliffpk/INFO] [CustomSkinLoader Core]: (SkinUrl: http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png , Model: default , CapeUrl: null  , Expiry: 1720642730)
+[2024-07-10 17:21:11] [recent infected's skull/INFO] [CustomSkinLoader Core]: Loading recent infected's profile.
+[2024-07-10 17:21:11] [recent infected's skull/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:21:11] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:21:11] [recent infected's skull/INFO] [CustomSkinLoader Core]: Payload: ["recent infected"]
+[2024-07-10 17:21:11] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:21:11] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile not found.(recent infected's profile not found.)
+[2024-07-10 17:21:11] [recent infected's skull/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:21:11] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/recent infected.json'.
+[2024-07-10 17:21:11] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: https://littleskin.cn/csl/recent%20infected.json
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\5686621e3607722658576faf2cc8c3b09202065b' , Expire: 1720642967)
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/recent infected.json'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: https://skin.prinzeugen.net/recent%20infected.json
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/recent infected'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: http://skinsystem.ely.by/textures/recent%20infected
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 204 , Content Length: -1)
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 0 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\425b960a44a5856df589808b73a3c6f268adcc60' , Expire: 1720646478)
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Content: 
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/recent infected.json'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: http://www.skinme.cc/uniskin/recent%20infected.json
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/recent infected.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:21:13] [recent infected's skull/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/recent infected'.
+[2024-07-10 17:21:13] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: https://auth.tlauncher.org/skin/profile/texture/login/recent%20infected
+[2024-07-10 17:21:14] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-07-10 17:21:14] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\bda0a233a6338052be68f25f4f3914392abc742e' , Expire: 1720642967)
+[2024-07-10 17:21:14] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:21:14] [recent infected's skull/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:21:14] [recent infected's skull/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:21:14] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=recent infected'.
+[2024-07-10 17:21:14] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=recent%20infected
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: Payload: ["recent infected"]
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/recent infected.png'.
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: https://optifine.net/capes/recent%20infected.png
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:21:15] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:21:15] [recent infected's skull/INFO] [CustomSkinLoader Core]: Payload: ["recent infected"]
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/recent infected.png'.
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Encoded URL: http://161.35.130.99/capes/recent%20infected.png
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: Payload: ["recent infected"]
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:21:16] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:21:16] [recent infected's skull/INFO] [CustomSkinLoader Core]: Payload: ["recent infected"]
+[2024-07-10 17:21:17] [recent infected's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:21:17] [recent infected's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:21:17] [recent infected's skull/INFO] [CustomSkinLoader Core]: recent infected's profile not found in load list.
+[2024-07-10 17:35:07] [cliffpk/INFO] [CustomSkinLoader Core]: Loading cliffpk's profile.
+[2024-07-10 17:35:07] [cliffpk/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:35:07] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:35:07] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:35:08] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:35:08] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.(cliffpk's profile not found.)
+[2024-07-10 17:35:08] [cliffpk/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:35:08] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/cliffpk.json'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\8f00e82ee7b095b6d86cd30fdeea224e5722a10b' , Expire: 1720643804)
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/cliffpk.json'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/cliffpk'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 0 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533' , Expire: 1720646117)
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\19a7c35ec2d63b5d12b9740a701f8357d6a54533'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: 
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/cliffpk.json'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/cliffpk.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:10] [cliffpk/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:35:10] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/cliffpk'.
+[2024-07-10 17:35:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-07-10 17:35:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 84 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\4fc30e5b055c00df27e275128b37db19832918d0' , Expire: 1720643804)
+[2024-07-10 17:35:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png"}}
+[2024-07-10 17:35:11] [cliffpk/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:35:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=cliffpk'.
+[2024-07-10 17:35:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:11] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:11] [cliffpk/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:35:11] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:11] [cliffpk/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:35:11] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:35:11] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:35:12] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: Profile url not found.
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:35:12] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/cliffpk.png'.
+[2024-07-10 17:35:12] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:35:12] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:35:12] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:12] [cliffpk/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:35:12] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/cliffpk.png'.
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: Payload: ["cliffpk"]
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 3)
+[2024-07-10 17:35:13] [cliffpk/DEBUG] [CustomSkinLoader Core]: Content: [ ]
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: cliffpk's profile loaded.
+[2024-07-10 17:35:13] [cliffpk/INFO] [CustomSkinLoader Core]: (SkinUrl: http://auth.tlauncher.org/skin/fileservice/skins/skin_cliffpk.png , Model: default , CapeUrl: null  , Expiry: 1720643743)
+[2024-07-10 17:35:37] [mazen/INFO] [CustomSkinLoader Core]: Loading mazen's profile.
+[2024-07-10 17:35:37] [mazen/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2024-07-10 17:35:37] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/6c430f5f27424b738850b19bc561902a'.
+[2024-07-10 17:35:37] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 531)
+[2024-07-10 17:35:37] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 531 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\815d3af2d0636612477c3c4c65a706d1ef265fb0' , Expire: 1720643767)
+[2024-07-10 17:35:37] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "6c430f5f27424b738850b19bc561902a",
+  "name" : "Mazen",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTcyMDY0MzcyMjk0NCwKICAicHJvZmlsZUlkIiA6ICI2YzQzMGY1ZjI3NDI0YjczODg1MGIxOWJjNTYxOTAyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXplbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOThjMTNjYTFjYWVmY2NjNWQ5YzczYWJjMzlhMjhmZmYxMzA0NDQwZDQwOGFhOTJhMjFmMTMwZjdlNzNjOTY3IgogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}
+[2024-07-10 17:35:37] [mazen/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2024-07-10 17:35:37] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/mazen.json'.
+[2024-07-10 17:35:38] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2024-07-10 17:35:38] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\c3831d9e037403996b80355a3e27e3fb26708d71' , Expire: 1720643832)
+[2024-07-10 17:35:38] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2024-07-10 17:35:38] [mazen/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:35:38] [mazen/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2024-07-10 17:35:38] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/mazen.json'.
+[2024-07-10 17:35:38] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:38] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:38] [mazen/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2024-07-10 17:35:38] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/mazen'.
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 83)
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 83 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\bbe7428ec80be4b342618789c36d72739a8a82e1' , Expire: 1720643831)
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://ely.by/storage/skins/1da81712ce69da102cd65a057f691719.png"}}
+[2024-07-10 17:35:39] [mazen/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/mazen.json'.
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/mazen.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2024-07-10 17:35:39] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:39] [mazen/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/mazen'.
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 82 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\d689fb972e7452dd05315cc07d351797e8ec5dc4' , Expire: 1720643833)
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://auth.tlauncher.org/skin/fileservice/skins/skin_mazen.png"}}
+[2024-07-10 17:35:39] [mazen/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2024-07-10 17:35:39] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=mazen'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/6c430f5f27424b738850b19bc561902a'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 304 , Content Length: -1)
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 96 , Path: 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\bbf6fdfb6185838f02f20b649a09f8685e9c8f76' , Expire: 0)
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: Try to load from cache 'C:\Users\Carli\AppData\Roaming\.minecraft\versions\modpack\CustomSkinLoader\caches\bbf6fdfb6185838f02f20b649a09f8685e9c8f76'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"textures":{"cape":null,"ears":null}}
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/mazen.png'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2024-07-10 17:35:40] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2024-07-10 17:35:40] [mazen/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"6c430f5f-2742-4b73-8850-b19bc561902a"}
+[2024-07-10 17:35:44] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:44] [mazen/INFO] [CustomSkinLoader Core]: Profile not found.
+[2024-07-10 17:35:44] [mazen/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2024-07-10 17:35:44] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/mazen.png'.
+[2024-07-10 17:35:45] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2024-07-10 17:35:45] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/6c430f5f-2742-4b73-8850-b19bc561902a'.
+[2024-07-10 17:35:45] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2024-07-10 17:35:45] [mazen/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=mazen&uuid=6c430f5f-2742-4b73-8850-b19bc561902a&nothirdparty'.
+[2024-07-10 17:35:45] [mazen/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: mazen's profile loaded.
+[2024-07-10 17:35:45] [mazen/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/f98c13ca1caefccc5d9c73abc39a28fff1304440d408aa92a21f130f7e73c967 , Model: default , CapeUrl: null  , Expiry: 1720643775)

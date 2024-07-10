@@ -590,7 +590,7 @@
 		"Equip Fishing Rod Chance" = 0.15
 		#Chance for a fisher mob to steal an item from the players' inventory instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Inventory Chance" = 0.25
+		"Hook Inventory Chance" = 0.02
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
