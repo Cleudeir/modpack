@@ -459,7 +459,7 @@
 		#Chance for a mob in the entity type tag enhancedai:can_be_pearler to spawn with Ender Pearls in the offhand.
 		#I recommend Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
-		"Equip Ender Pearl Chance" = 0.05
+		"Equip Ender Pearl Chance" = 0.15
 		#How many ender pearls will Mobs spawn with.
 		#Range: 0 ~ 16
 		"Ender Pearl Amount" = 3
@@ -587,17 +587,17 @@
 		#Chance for a mob in the entity type tag enhancedai:can_be_fisher to spawn with a Fishing Rod in the offhand.
 		#I recommend Mobs Properties Randomness to have more control over mobs equipment.
 		#Range: 0.0 ~ 1.0
-		"Equip Fishing Rod Chance" = 0.07
+		"Equip Fishing Rod Chance" = 0.15
 		#Chance for a fisher mob to steal an item from the players' inventory instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Inventory Chance" = 0.05
+		"Hook Inventory Chance" = 0.25
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			"Easy/Peaceful" = 40.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-			Normal = 30.0
+			Normal = 40.0
 			#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 			Hard = 20.0
 

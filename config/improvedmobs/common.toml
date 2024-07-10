@@ -13,7 +13,7 @@
 	#Example ["0-0.01","10-0.1","30-0"]
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
-	"Difficulty Increase" = ["0-0.01", "14-0.1", "30-0"]
+	"Difficulty Increase" = ["0-0.05", "14-0.1", "30-0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = true
 	#If true will increase difficulty by the amount of time skipped. Else will only increase difficulty once.
@@ -176,7 +176,7 @@
 	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
 	#Base chance that a mob can have one piece of armor
 	#Range: 0.0 ~ 1.0
-	"Equipment Chance" = 0.05
+	"Equipment Chance" = 0.1
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
 	"Additional Equipment Chance" = 0.3

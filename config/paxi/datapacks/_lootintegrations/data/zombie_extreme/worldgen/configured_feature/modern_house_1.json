@@ -1,4 +1,7 @@
 {
   "type": "zombie_extreme:modern_house_1",
-  "config": {}
+  "config": {
+    "spacing": 64,  
+    "separation": 32 
+  }
 }

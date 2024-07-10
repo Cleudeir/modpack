@@ -22,16 +22,6 @@
     "speedmultiply": 0.8
   },  
   {
-    "dimension": "minecraft:overworld",
-    "hostile": true,
-    "mincount": {
-      "amount": 60,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },  
-  {
     "phase": "after_day7",
     "hostile": true,
     "when": "onjoin",
