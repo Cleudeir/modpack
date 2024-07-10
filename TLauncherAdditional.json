@@ -14984,6 +14984,116 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -346695127594300,
+          "name": "Better Mob Combat-forge-1.20.1-1.1.1-all",
+          "favorite": false,
+          "version": {
+            "id": -346695128277700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7a3227d2243a2f144057ee74d6d02595448d99ad",
+              "size": 244099,
+              "path": "mods/Better Mob Combat-forge-1.20.1-1.1.1-all.jar",
+              "url": "mods/Better Mob Combat-forge-1.20.1-1.1.1-all.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -346695128944000,
+          "name": "CustomSkinLoader_ForgeV2-14.20",
+          "favorite": false,
+          "version": {
+            "id": -346695129318200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aaa14f86ad6b6f3b2edd923238ba972b6f2599cc",
+              "size": 147002,
+              "path": "mods/CustomSkinLoader_ForgeV2-14.20.jar",
+              "url": "mods/CustomSkinLoader_ForgeV2-14.20.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -346695130755600,
+          "name": "infernalmobs-1.20.1.3",
+          "favorite": false,
+          "version": {
+            "id": -346695131566400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "52eec19b90a755d1d9f7d687367bdc02b0e609af",
+              "size": 142170,
+              "path": "mods/infernalmobs-1.20.1.3.jar",
+              "url": "mods/infernalmobs-1.20.1.3.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -346695132231800,
+          "name": "Mob Player Animator-forge-1.20.1-1.1.0-all",
+          "favorite": false,
+          "version": {
+            "id": -346695132614900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b97c248ed16f92fed4f3d0f5ffb9245769c5a2a2",
+              "size": 191877,
+              "path": "mods/Mob Player Animator-forge-1.20.1-1.1.0-all.jar",
+              "url": "mods/Mob Player Animator-forge-1.20.1-1.1.0-all.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -346695133660400,
+          "name": "rubidium_extras-1.20.1_v1.4.3",
+          "favorite": false,
+          "version": {
+            "id": -346695134216100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2762712e8730ed1d377219b5c7f4a3095e580777",
+              "size": 63231,
+              "path": "mods/rubidium_extras-1.20.1_v1.4.3.jar",
+              "url": "mods/rubidium_extras-1.20.1_v1.4.3.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
