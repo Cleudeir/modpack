@@ -89,6 +89,8 @@
 		mob_griefing = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
+		#Non Vanilla gamerule: 'oneOfUsMobs'
+		one_of_us_mobs = false
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
@@ -111,6 +113,8 @@
 		tf_enforced_progression = true
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
+		#Non Vanilla gamerule: 'constantZeroEvolutionPoints'
+		constant_zero_evolution_points = false
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.
