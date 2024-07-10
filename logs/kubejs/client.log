@@ -1,11 +1,11 @@
-[11:11:59] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
-[11:11:59] [INIT] Loaded plugins:
-[11:11:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:11:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:11:59] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[11:11:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[11:11:59] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[11:11:59] [INFO] example.js#5: Hello, World! (Loaded client scripts)
-[11:11:59] [INFO] Loaded script client_scripts:example.js in 0.001 s
-[11:11:59] [INFO] Loaded 1/1 KubeJS client scripts in 0.021 s with 0 errors and 0 warnings
-[11:12:14] [INFO] Client resource reload complete!
+[11:14:10] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[11:14:10] [INIT] Loaded plugins:
+[11:14:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[11:14:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[11:14:10] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[11:14:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[11:14:10] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[11:14:10] [INFO] example.js#5: Hello, World! (Loaded client scripts)
+[11:14:10] [INFO] Loaded script client_scripts:example.js in 0.0 s
+[11:14:10] [INFO] Loaded 1/1 KubeJS client scripts in 0.021 s with 0 errors and 0 warnings
+[11:14:26] [INFO] Client resource reload complete!

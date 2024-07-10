@@ -1,13 +1,9 @@
-[11:11:56.116][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
-[11:11:56.136][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[11:11:56.256][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[11:11:56.258][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[11:11:56.262][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[11:11:57.963][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[11:11:57.965][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
-[11:11:57.965][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
-[11:11:57.965][INFO][CraftTweaker]: - 'gamestages' at version '15.0.1'
-[11:12:17.689][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[11:12:18.116][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[11:12:18.159][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[11:12:18.309][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[11:14:07.456][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[11:14:07.475][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[11:14:07.531][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[11:14:07.533][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[11:14:07.536][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[11:14:09.001][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[11:14:09.002][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
+[11:14:09.002][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
+[11:14:09.002][INFO][CraftTweaker]: - 'gamestages' at version '15.0.1'
