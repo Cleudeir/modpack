@@ -2,6 +2,6 @@ type = last_world
 
 last_world {
   is_server = false
-  world = C:/Users/Carli/AppData/Roaming/.minecraft/versions/modpack/saves/SOLO20240711
+  world = C:/Users/Carli/AppData/Roaming/.minecraft/versions/modpack/saves/lan_20240711
 }
 

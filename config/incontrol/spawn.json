@@ -1,34 +1,4 @@
 [
-    {
-      "mob": "minecraft:player",
-      "result": "deny",
-      "block": [
-        {
-          "block": "minecraft:oak_leaves",
-          "offsetY": -1
-        },
-        {
-          "block": "minecraft:spruce_leaves",
-          "offsetY": -1
-        },
-        {
-          "block": "minecraft:birch_leaves",
-          "offsetY": -1
-        },
-        {
-          "block": "minecraft:jungle_leaves",
-          "offsetY": -1
-        },
-        {
-          "block": "minecraft:acacia_leaves",
-          "offsetY": -1
-        },
-        {
-          "block": "minecraft:dark_oak_leaves",
-          "offsetY": -1
-        }
-      ]
-    },
   {
     "hostile": true,
     "when": "onjoin",

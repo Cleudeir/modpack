@@ -39,8 +39,8 @@
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {
-        "displayHeight": 2.0,
         "displayed": false,
+        "displayHeight": 2.0,
         "renderOrder": 2.0,
         "color": 14.0,
         "displayNameWhenIconFails": false,
@@ -57,8 +57,8 @@
           "name": "gui.xaero_entity_category_players",
           "protection": true,
           "settingOverrides": {
-            "displayHeight": 2.0,
             "displayed": true,
+            "displayHeight": 2.0,
             "renderOrder": 7.0,
             "heightLimit": 2050.0,
             "color": 15.0,
@@ -89,8 +89,8 @@
               "name": "gui.xaero_entity_category_tracked",
               "protection": true,
               "settingOverrides": {
-                "displayHeight": 2.0,
                 "displayed": true,
+                "displayHeight": 2.0,
                 "heightBasedFade": true,
                 "dotSize": 4.0,
                 "renderOverMinimapFrame": 2.0,
@@ -108,8 +108,8 @@
               "name": "gui.xaero_entity_category_same_team",
               "protection": true,
               "settingOverrides": {
-                "displayHeight": 2.0,
                 "displayed": true,
+                "displayHeight": 2.0,
                 "displayNameWhenIconFails": false,
                 "renderOverMinimapFrame": 2.0,
                 "icons": 2.0
@@ -142,8 +142,8 @@
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "displayHeight": 2.0,
             "displayed": true,
+            "displayHeight": 2.0,
             "heightBasedFade": false,
             "renderOrder": 3.0,
             "heightLimit": 30.0,
@@ -202,8 +202,8 @@
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
           "settingOverrides": {
-            "displayHeight": 2.0,
             "displayed": false,
+            "displayHeight": 2.0,
             "heightBasedFade": true,
             "heightLimit": 10.0,
             "names": 1.0,
@@ -239,8 +239,8 @@
       "name": "gui.xaero_entity_category_items",
       "protection": true,
       "settingOverrides": {
-        "displayHeight": 0.0,
         "displayed": false,
+        "displayHeight": 0.0,
         "heightBasedFade": false,
         "renderOrder": 1.0,
         "names": 0.0,
