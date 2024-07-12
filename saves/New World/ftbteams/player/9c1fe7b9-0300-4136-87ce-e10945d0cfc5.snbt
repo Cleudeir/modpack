@@ -8,7 +8,7 @@
 	properties: {
 		"ftbteams:display_name": "cliffpk"
 		"ftbteams:description": ""
-		"ftbteams:color": "#74FF59"
+		"ftbteams:color": "#5979FF"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 	}

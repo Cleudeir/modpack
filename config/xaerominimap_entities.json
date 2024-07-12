@@ -10,21 +10,21 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayed": true,
     "displayHeight": 2.0,
+    "displayed": true,
     "heightBasedFade": true,
     "renderOrder": 0.0,
     "color": 13.0,
     "displayNameWhenIconFails": true,
     "entityNumber": 100.0,
     "alwaysDisplayNametags": false,
-    "dotSize": 2.0,
+    "dotSize": 3.0,
     "startFadingAt": 0.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 0.0,
-    "heightLimit": 10.0,
     "names": 0.0,
-    "iconScale": 1.0
+    "heightLimit": 10.0,
+    "iconScale": 2.0
   },
   "subCategories": [
     {
@@ -40,6 +40,7 @@
       "protection": true,
       "settingOverrides": {
         "displayHeight": 2.0,
+        "displayed": false,
         "renderOrder": 2.0,
         "color": 14.0,
         "displayNameWhenIconFails": false,
@@ -56,15 +57,15 @@
           "name": "gui.xaero_entity_category_players",
           "protection": true,
           "settingOverrides": {
-            "displayed": true,
             "displayHeight": 2.0,
+            "displayed": true,
             "renderOrder": 7.0,
-            "heightLimit": 2050.0,
             "color": 15.0,
             "displayNameWhenIconFails": true,
             "dotSize": 4.0,
             "renderOverMinimapFrame": 2.0,
             "icons": 2.0,
+            "heightLimit": 2050.0,
             "iconScale": 1.1
           },
           "subCategories": [
@@ -88,8 +89,8 @@
               "name": "gui.xaero_entity_category_tracked",
               "protection": true,
               "settingOverrides": {
-                "displayed": true,
                 "displayHeight": 2.0,
+                "displayed": true,
                 "heightBasedFade": true,
                 "dotSize": 4.0,
                 "renderOverMinimapFrame": 2.0,
@@ -106,7 +107,13 @@
               "excludeList": [],
               "name": "gui.xaero_entity_category_same_team",
               "protection": true,
-              "settingOverrides": {},
+              "settingOverrides": {
+                "displayHeight": 2.0,
+                "displayed": true,
+                "displayNameWhenIconFails": false,
+                "renderOverMinimapFrame": 2.0,
+                "icons": 2.0
+              },
               "subCategories": []
             },
             {
@@ -128,22 +135,23 @@
           "hardInclude": "hostile",
           "includeList": [],
           "includeListInSuperCategory": true,
-          "excludeMode": "ONLY",
+          "excludeMode": "ALL_BUT",
           "excludeList": [
-            "artifacts:mimic"
+            "the_flesh_that_hates:plaqueincubatorstart"
           ],
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "displayed": true,
             "displayHeight": 2.0,
+            "displayed": true,
             "heightBasedFade": false,
             "renderOrder": 3.0,
-            "heightLimit": 10.0,
-            "names": 1.0,
             "color": 4.0,
-            "dotSize": 2.0,
-            "icons": 1.0
+            "dotSize": 4.0,
+            "icons": 1.0,
+            "names": 1.0,
+            "heightLimit": 30.0,
+            "iconScale": 1.0
           },
           "subCategories": [
             {
@@ -163,11 +171,10 @@
               "name": "Pillagers",
               "protection": true,
               "settingOverrides": {
-                "displayed": true,
                 "displayHeight": 2.0,
                 "renderOrder": 1.0,
-                "heightLimit": 30.0,
-                "icons": 2.0
+                "icons": 2.0,
+                "heightLimit": 30.0
               },
               "subCategories": []
             },
@@ -195,15 +202,15 @@
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
           "settingOverrides": {
-            "displayed": true,
             "displayHeight": 2.0,
+            "displayed": false,
             "heightBasedFade": true,
-            "heightLimit": 10.0,
-            "names": 1.0,
             "color": 6.0,
             "startFadingAt": 10.0,
             "renderOverMinimapFrame": 0.0,
-            "icons": 1.0
+            "icons": 1.0,
+            "names": 1.0,
+            "heightLimit": 10.0
           },
           "subCategories": [
             {
@@ -232,13 +239,13 @@
       "name": "gui.xaero_entity_category_items",
       "protection": true,
       "settingOverrides": {
-        "displayed": true,
         "displayHeight": 0.0,
+        "displayed": false,
         "heightBasedFade": false,
         "renderOrder": 1.0,
-        "names": 0.0,
         "color": 2.0,
-        "icons": 0.0
+        "icons": 0.0,
+        "names": 0.0
       },
       "subCategories": []
     },

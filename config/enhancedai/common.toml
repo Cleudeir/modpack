@@ -389,10 +389,10 @@
 	"Enable Targeting" = true
 	#Use enhancedai:can_open_doors to add more mobs that can open doors.
 	"Enable Open Doors" = true
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid Explosions" = true
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
-	"Enable Item Disruption" = true
+	"Enable Item Disruption" = false
 	#Let mobs use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the target they will use it. Only mobs in enhancedai:can_be_fisher entity type tag are affected by this feature.
 	"Enable Fisher Mobs" = true
 	#Mobs can flee or attack Wardens. Use the entity type tag enhancedai:ignore_warden_interaction to blacklist mobs.
@@ -559,7 +559,7 @@
 			#Range: 0.0 ~ 1.0
 			Hard = 0.04
 
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	[Mobs."Avoid Explosions"]
 		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
 		#Range: 0.0 ~ 10.0
@@ -590,7 +590,7 @@
 		"Equip Fishing Rod Chance" = 0.15
 		#Chance for a fisher mob to steal an item from the players' inventory instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Inventory Chance" = 0.02
+		"Hook Inventory Chance" = 0.01
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
