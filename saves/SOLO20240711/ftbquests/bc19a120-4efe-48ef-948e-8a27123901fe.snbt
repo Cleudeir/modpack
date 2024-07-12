@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "bc19a1204efe48ef948e8a27123901fe"
+	name: "cliffpk_s_Party#bc19a120"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

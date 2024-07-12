@@ -4,8 +4,19 @@
 	#Default period weave
 	default = "7"
 
-	#Mobs Per Weave
-	[periodWeave.mobsPerWeave]
-		#Default mobs per weave table data, example: "minecraft:zombie,1,0,0" = "mobName,startWeave,endWeave,endWeave,quantity" if 0 = infinity
-		default = ["minecraft:zombie,1,10,4", "minecraft:skeleton,1,11,4", "minecraft:spider,3,12,4", "minecraft:creeper,4,13,4", "minecraft:cave_spider,5,14,3", "minecraft:slime,6,15,3", "minecraft:endermite,7,16,3", "minecraft:husk,8,17,2", "minecraft:stray,9,18,2", "minecraft:drowned,10,19,2", "minecraft:witch,11,20,2", "minecraft:phantom,12,21,2", "minecraft:vindicator,13,22,2", "minecraft:evoker,14,23,1", "minecraft:illusioner,15,24,1", "minecraft:pillager,16,25,1", "minecraft:vex,17,26,1", "minecraft:blaze,18,27,1", "minecraft:magma_cube,19,28,1", "minecraft:guardian,20,29,1", "minecraft:ghast,21,30,1", "minecraft:shulker,22,31,1", "minecraft:ravager,23,32,1", "minecraft:enderman,24,33,1", "minecraft:elder_guardian,25,34,1"]
+#Max mobs per player
+[maxMobsPerPlayer]
+	#Max mobs per player
+	default = "15"
+
+#Mobs Per Weave
+[mobsPerWeave]
+	#Default mobs per weave table data, example: "minecraft:zombie,1,0,0" = "mobName,startWeave,endWeave,endWeave,weightOfMob"
+	# if endWeave = 0 = infinity
+	# Quantity mob type per weave per player:
+	# A= Max mobs
+	#B= Weight of mob
+	# C= Sum of all Weight mobs this weave
+	# Calc: A * B / C
+	default = ["minecraft:zombie,1,0,10", "minecraft:skeleton,2,0,4", "minecraft:spider,3,0,4", "minecraft:creeper,4,0,4", "minecraft:cave_spider,5,0,3", "minecraft:slime,6,0,3", "minecraft:endermite,7,0,3", "minecraft:husk,8,0,2", "minecraft:stray,9,0,2", "minecraft:drowned,0,19,2", "minecraft:witch,11,0,2", "minecraft:phantom,12,0,2", "minecraft:vindicator,13,0,2", "minecraft:evoker,14,0,1", "minecraft:illusioner,15,0,1", "minecraft:pillager,16,0,1", "minecraft:vex,17,0,1", "minecraft:blaze,18,0,1", "minecraft:magma_cube,19,0,1", "minecraft:guardian,20,0,1", "minecraft:ghast,21,0,1", "minecraft:shulker,22,0,1", "minecraft:ravager,23,0,1", "minecraft:enderman,24,0,1", "minecraft:elder_guardian,25,0,1"]
 
