@@ -1,21 +1,21 @@
-[19:19:17] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
-[19:19:17] [INIT] Loaded plugins:
-[19:19:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:19:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:19:17] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
-[19:19:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[19:19:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[19:19:17] [INFO] Loaded script server_scripts:block_replace.js in 0.0 s
-[19:19:17] [INFO] Loaded script server_scripts:custom_equipment.js in 0.01 s
-[19:19:17] [INFO] Loaded script server_scripts:custom_equipment_effect.js in 0.0 s
-[19:19:17] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[19:19:17] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[19:19:17] [INFO] Loaded script server_scripts:game_over.js in 0.002 s
-[19:19:17] [INFO] Loaded script server_scripts:initial_item.js in 0.006 s
-[19:19:17] [INFO] Loaded script server_scripts:inventory.js in 0.0 s
-[19:19:18] [INFO] Loaded script server_scripts:item_category.js in 0.005 s
-[19:19:18] [INFO] Loaded script server_scripts:rewards.js in 0.0 s
-[19:19:18] [INFO] Loaded script server_scripts:way_sign.js in 0.0 s
-[19:19:18] [INFO] Loaded 10/10 KubeJS server scripts in 0.036 s with 0 errors and 0 warnings
-[19:19:18] [INFO] Scripts loaded
-[19:19:18] [INFO] Initializing recipe event...
+[19:36:46] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[19:36:46] [INIT] Loaded plugins:
+[19:36:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:36:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:36:46] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[19:36:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:36:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:36:46] [INFO] Loaded script server_scripts:block_replace.js in 0.0 s
+[19:36:46] [INFO] Loaded script server_scripts:custom_equipment.js in 0.011 s
+[19:36:46] [INFO] Loaded script server_scripts:custom_equipment_effect.js in 0.0 s
+[19:36:46] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[19:36:46] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[19:36:46] [INFO] Loaded script server_scripts:game_over.js in 0.002 s
+[19:36:46] [INFO] Loaded script server_scripts:initial_item.js in 0.006 s
+[19:36:46] [INFO] Loaded script server_scripts:inventory.js in 0.0 s
+[19:36:46] [INFO] Loaded script server_scripts:item_category.js in 0.006 s
+[19:36:46] [INFO] Loaded script server_scripts:rewards.js in 0.0 s
+[19:36:46] [INFO] Loaded script server_scripts:way_sign.js in 0.0 s
+[19:36:46] [INFO] Loaded 10/10 KubeJS server scripts in 0.038 s with 0 errors and 0 warnings
+[19:36:46] [INFO] Scripts loaded
+[19:36:46] [INFO] Initializing recipe event...
