@@ -13,6 +13,14 @@
     "speedmultiply": 0.9    
   },  
   {
+    "seesky": true,
+    "hostile": true,
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 0.8,
+    "speedmultiply": 0.6
+  },    
+  {
     "mod": "zombie_extreme",
     "when": "onjoin",
     "result": "allow",	

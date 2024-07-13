@@ -1,39 +1,25 @@
-[16:40:39.683][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
-[16:40:39.703][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[16:40:39.813][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[16:40:39.816][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[16:40:39.819][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[16:40:40.999][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[16:40:41.004][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
-[16:40:41.004][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
-[16:40:41.005][INFO][CraftTweaker]: - 'gamestages' at version '15.0.1'
-[16:41:01.604][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[16:41:01.996][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[16:41:02.087][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[16:41:02.180][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
-[16:42:22.236][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[16:42:22.255][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[16:42:22.272][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[16:42:22.281][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[16:42:22.992][INFO][CraftTweaker]: CraftTweaker reload starting!
-[16:42:22.998][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[16:42:23.015][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[16:42:23.367][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
-[16:42:23.367][INFO][CraftTweaker-ZenCode]: Loading file 'world_naming.zs' with priority 0
-[16:42:23.375][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[16:42:23.377][INFO][CraftTweaker]: CraftTweaker reload complete!
-[16:42:23.377][INFO][CraftTweaker]: This reload was made possible by NickT and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[16:52:14.942][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[16:52:14.942][INFO][CraftTweaker-ZenCode]: Undoing previous actions
-[16:52:14.958][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[16:52:14.961][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[16:52:14.967][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[16:52:15.386][INFO][CraftTweaker]: CraftTweaker reload starting!
-[16:52:15.391][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[16:52:15.391][INFO][CraftTweaker-ZenCode]: Undoing previous actions
-[16:52:15.407][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[16:52:15.496][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
-[16:52:15.496][INFO][CraftTweaker-ZenCode]: Loading file 'world_naming.zs' with priority 0
-[16:52:15.503][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[16:52:15.504][INFO][CraftTweaker]: CraftTweaker reload complete!
-[16:52:15.504][INFO][CraftTweaker]: This reload was made possible by DreamThorn and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[12:19:47.588][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[12:19:47.607][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[12:19:47.707][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[12:19:47.708][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[12:19:47.711][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[12:19:49.072][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[12:19:49.074][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
+[12:19:49.074][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
+[12:19:49.074][INFO][CraftTweaker]: - 'gamestages' at version '15.0.1'
+[12:20:10.253][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[12:20:10.692][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[12:20:10.736][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[12:20:10.835][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[12:20:46.168][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[12:20:46.187][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[12:20:46.204][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[12:20:46.213][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[12:20:47.004][INFO][CraftTweaker]: CraftTweaker reload starting!
+[12:20:47.010][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[12:20:47.030][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[12:20:47.384][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[12:20:47.385][INFO][CraftTweaker-ZenCode]: Loading file 'world_naming.zs' with priority 0
+[12:20:47.394][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[12:20:47.396][INFO][CraftTweaker]: CraftTweaker reload complete!
+[12:20:47.396][INFO][CraftTweaker]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

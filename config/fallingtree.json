@@ -10,7 +10,7 @@
     "maxScanSize": 800,
     "maxSize": 800,
     "maxLeafDistanceFromLog": 15,
-    "maxSizeAction": "ABORT",
+    "maxSizeAction": "CUT",
     "breakOrder": "FURTHEST_FIRST",
     "minimumLeavesAroundRequired": 1,
     "includePersistentLeavesInRequiredCount": true,

@@ -1,4 +1,16 @@
 [
+  {
+    "mob": ["minecraft:zombie"],    
+    "persecond": 5,
+    "attempts": 12,
+    "conditions": {  
+      "dimension": "minecraft:overworld",      
+      "norestrictions": true,      
+      "mindist": 25,
+      "maxdist": 40,      
+      "maxthis": 20
+    }        
+  },  
     {
     "mob": ["minecraft:spider","minecraft:skeleton","minecraft:zombie","realmrpg_demons:chort"],
     "persecond": 60,
