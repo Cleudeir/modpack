@@ -15138,6 +15138,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -289645670005000,
+          "name": "mobsunscreen-forge-1.20.1-3.1.1",
+          "favorite": false,
+          "version": {
+            "id": -289645670607600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8da962e6d1776d52a04aab5a8b3509e1ccfb8007",
+              "size": 11361,
+              "path": "mods/mobsunscreen-forge-1.20.1-3.1.1.jar",
+              "url": "mods/mobsunscreen-forge-1.20.1-3.1.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

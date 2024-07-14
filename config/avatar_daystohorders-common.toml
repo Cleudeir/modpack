@@ -1,0 +1,22 @@
+
+#Max mobs per player
+[maxMobsPerPlayer]
+	#Max mobs per player
+	default = "15"
+
+#Period Weave
+[periodWeave]
+	#Default period weave
+	default = "4"
+
+#Mobs Per Weave
+[mobsPerWeave]
+	#Default mobs per weave table data, example: "minecraft:zombie,1,0,0" = "mobName,startWeave,endWeave,endWeave,weightOfMob"
+	# if endWeave = 0 = infinity
+	# Quantity mob type per weave per player:
+	# A= Max mobs
+	#B= Weight of mob
+	# C= Sum of all Weight mobs this weave
+	# Calc: A * B / C
+	default = []
+
