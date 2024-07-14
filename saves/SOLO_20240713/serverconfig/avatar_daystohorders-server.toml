@@ -1,0 +1,11 @@
+
+#Current wave mobs per player
+[currentWaveMobsPerPlayer]
+	#Current wave mobs per player
+	default = []
+
+#Portal blocks destroyed when create new wave
+[portalBlocks]
+	#Portal blocks destroyed when create new wave
+	default = []
+
