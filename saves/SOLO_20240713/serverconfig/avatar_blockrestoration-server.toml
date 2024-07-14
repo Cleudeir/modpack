@@ -1,0 +1,21 @@
+
+#Broken Blocks Data
+[brokenBlocks]
+	#Default broken blocks data
+	default = []
+
+#Around Blocks MainBlock Data
+[aroundBlocksMainBlock]
+	#Default around blocks table data
+	default = []
+
+#Perimeter Blocks MainBlock Data
+[perimeterBlocksMainBlock]
+	#Default perimeter blocks table data
+	default = []
+
+#Main Block Position
+[mainBlockPos]
+	#Default main block position
+	default = "0,0,0"
+
