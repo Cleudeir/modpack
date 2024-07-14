@@ -20,7 +20,7 @@
 #Settings for ArmorStatus HUD
 [armorhud]
 	#Is Armor Damage HUD enabled
-	ArmorDamage = false
+	ArmorDamage = true
 	#Hide if durability is above this (in percentage):
 	#Range: 0 ~ 100
 	armAbove = 100
@@ -92,7 +92,7 @@
 	xPos = 0
 	#Inventory HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPos = 101
+	yPos = 100
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	armValign = "BOTTOM"
@@ -217,7 +217,7 @@
 #Notification settings
 [notification]
 	#Last notified mod version
-	lastNotifiedVersion = "3.4.23"
+	lastNotifiedVersion = "3.4.22"
 	#Notify more than once
 	keepNotifying = true
 

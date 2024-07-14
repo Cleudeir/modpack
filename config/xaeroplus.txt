@@ -46,8 +46,8 @@
 [XP] PortalSkip Search Delay:10.0
 [XP] PortalSkip NewChunks:true
 [XP] PortalSkip OldChunks Inverse:true
-[XP] Show Render Distance:true
-[XP] Show Render Distance WorldMap:true
+[XP] Show Render Distance:false
+[XP] Show Render Distance WorldMap:false
 [XP] Always Render Player Name:true
 [XP] Always Render Player Icon:true
 [XP] Fix Main Entity Dot:true

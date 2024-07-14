@@ -36,7 +36,7 @@
 	watcher_possession = true
 	#How long (in game ticks) between watcher possession attempts.
 	#Range: 20 ~ 24000
-	watcher_possession_cooldown = 400
+	watcher_possession_cooldown = 300
 
 [block-behavior]
 	#True if players wearing boots can walk on any scarlet neodymium surface.
@@ -51,7 +51,7 @@
 
 [item-behavior]
 	#True if one Cave Codex is all that is needed to unlock every Cave Compendium entry.
-	only_one_research_needed = true
+	only_one_research_needed = false
 	#How many attempts to find a biome a cave map engages in when used. Increase this to increase the search radius, or decrease it to make them faster.
 	#Range: > 64
 	cave_map_search_attempts = 128000

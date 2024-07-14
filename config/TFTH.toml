@@ -13,7 +13,7 @@
 	#Time (in ticks) after which the incubator will first emerge
 	#Default values: 1800 (20 seconds)
 	#Range: > 0
-	incubatorSleepTime = 1800
+	incubatorSleepTime = 36000
 	#Time after killing Incubator until next appearance
 	#Default values: 18000 (5 minutes)
 	#Range: > 1

@@ -46,6 +46,8 @@
 		mutant_enderman_regenerate = true
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 		reduced_debug_info = false
+		#Non Vanilla gamerule: 'mpmAllowEntityModels'
+		mpm_allow_entity_models = true
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
@@ -89,8 +91,6 @@
 		mob_griefing = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
-		#Non Vanilla gamerule: 'oneOfUsMobs'
-		one_of_us_mobs = false
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
@@ -113,8 +113,6 @@
 		tf_enforced_progression = true
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
-		#Non Vanilla gamerule: 'constantZeroEvolutionPoints'
-		constant_zero_evolution_points = false
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.

@@ -2,7 +2,7 @@
 ignoreUpdate:0
 settingsButton:false
 allowWrongWorldTeleportation:false
-differentiateByServerAddress:false
+differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
@@ -53,7 +53,7 @@ waypointOpacityIngame:80
 waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
-alwaysShowDistance:true
+alwaysShowDistance:false
 renderLayerIndex:1
 crossDimensionalTp:true
 biomeColorsVanillaMode:false
@@ -83,7 +83,7 @@ minimapFrameColor:0
 compassColor:9
 northCompassColor:-1
 displayMultipleWaypointInfo:1
-entityRadar:true
+entityRadar:false
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1

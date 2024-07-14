@@ -1,0 +1,103 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "cgm:basic_bullet",
+        "amount": 64
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_basic_bullet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "cgm:advanced_bullet",
+        "amount": 32
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_advanced_bullet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "cgm:shell",
+        "amount": 24
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_shell_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 6
+        "advancedNBTData": "{Potion:\"minecraft:healing\"}"		
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 3
+        "advancedNBTData": "{Potion:\"minecraft:long_healing\"}"		
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "quark:backpack",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_backpack_for_emerald"
+    },	
+  ]
+}

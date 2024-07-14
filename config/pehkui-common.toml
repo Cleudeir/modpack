@@ -3,14 +3,14 @@
 [general]
 	scaledFallDamage = true
 	scaledMotion = false
-	scaledReach = false
+	scaledReach = true
 	scaledAttack = true
 	scaledDefense = true
 	scaledHealth = true
 	scaledItemDrops = true
 	scaledProjectiles = true
 	scaledExplosions = true
-	keepAllScalesOnRespawn = false
+	keepAllScalesOnRespawn = true
 	accurateNetherPortals = true
 	scalesKeptOnRespawn = []
 	enableCommands = true

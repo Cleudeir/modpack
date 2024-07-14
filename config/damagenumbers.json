@@ -1,6 +1,6 @@
 {
   "isEnabled": true,
-  "isPlayerDamageShown": true,
+  "isPlayerDamageShown": false,
   "colorSm": "#FFAA00",
   "colorMd": "#FF0000",
   "colorLg": "#AA0000"

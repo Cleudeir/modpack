@@ -11,7 +11,7 @@
 	#Range: 0 ~ 100
 	CFModifierChance = 5
 	#Allow for mobs to spawn with modifiers
-	CFAllowModifiers = false
+	CFAllowModifiers = true
 	#If the dungeon dimension timer is too fast, you can slow it down here
 	#Range: 0 ~ 200
 	CFSlowerDungeonCounter = 100
@@ -23,7 +23,7 @@
 	CFShowModifierNames = true
 	#Changes the rarity of naturally generated dungeons if enabled (amount of structures per 1.000.000 chunks)
 	#Range: 0 ~ 10000
-	CFDungeonRarity = 1000
+	CFDungeonRarity = 250
 	#Changes the rarity of naturally generated nether dungeons if enabled (amount of structures per 1.000.000 chunks)
 	#Range: 0 ~ 10000
 	CFNetherDungeonRarity = 300

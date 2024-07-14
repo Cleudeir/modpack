@@ -1,0 +1,12 @@
+[
+  {
+    "block": "#forge:ores/quartz",
+    "entity": "minecraft:zombified_piglin",
+    "range": 32.0
+  },
+  {
+    "block": "#forge:ores/gold",
+    "entity": "minecraft:zombie",
+    "range": 32.0
+  }  
+]

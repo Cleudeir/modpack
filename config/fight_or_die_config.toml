@@ -48,7 +48,7 @@
 	"Dictates in what biome the parasites spawn" = ["minecraft:is_overworld"]
 
 ["Targeting Tasks"]
-	"Mobs Not Targeted" = ["minecraft:squid", "minecraft:bat", "minecraft:armor_stand", "minecraft:creeper", "minecraft:ghast", "minecraft:falling_block", "minecraft:abstract_arrow", "minecraft:arrow", "minecraft:spectral_arrow", "minecraft:trident"]
+	"Mobs Not Targeted" = ["spelunkers_charm:tremor_handler", "spelunkers_charm:sound_entity", "spelunkers_charm:projectile_rock_projectile", "spelunkers_charm:projectile_deepslate_rock_projectile", "spelunkers_charm:projectile_basalt_rock_projectile", "spelunkers_charm:projectile_rock_projectile", "spelunkers_charm:projectile_rock_projectile", "minecraft:squid", "minecraft:bat", "minecraft:armor_stand", "minecraft:creeper", "minecraft:ghast", "minecraft:falling_block", "minecraft:abstract_arrow", "minecraft:arrow", "minecraft:spectral_arrow", "minecraft:trident"]
 
 [Horde]
 	#Default 36000

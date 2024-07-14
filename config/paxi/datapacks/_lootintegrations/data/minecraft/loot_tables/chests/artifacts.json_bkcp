@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranks",
+          "expand": true,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:ranka",
+          "expand": true,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankb",
+          "expand": true,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:rankc",
+          "expand": true,
+          "weight": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/artifacts"
+}
