@@ -1,0 +1,5 @@
+
+[Features]
+	# Allow all arrows from multishot crossbows to place torchflowers. This allows players to light up areas easier but also allows for easy "duplication" of torchflowers.
+	"Allow Multishot Torchflowers" = true
+

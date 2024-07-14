@@ -1,0 +1,118 @@
+[
+  {
+    "mob": ["minecraft:zombie"],    
+    "persecond": 5,
+    "attempts": 12,
+    "conditions": {  
+      "dimension": "minecraft:overworld",      
+      "norestrictions": true,      
+      "mindist": 25,
+      "maxdist": 40,      
+      "maxthis": 20
+    }        
+  },  
+    {
+    "mob": ["minecraft:spider","minecraft:skeleton","minecraft:zombie","realmrpg_demons:chort"],
+    "persecond": 60,
+    "attempts": 3,
+    "amount": {
+      "minimum": 2,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 60, 
+      "maxheight": 60,
+      "minheight": 20,	  	       
+      "maxthis": 10
+    }
+  },    
+  {
+    "mob": ["wrd:undead_spider","minecraft:skeleton","minecraft:zombie","alexsmobs:rocky_roller","wrd:ender_miner","wrd:buff_zombie","alexsmobs:underminder"],
+    "persecond": 90,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 60, 
+      "maxheight": 20,
+      "minheight": -10,	  	       
+      "maxthis": 15
+    }
+  },  
+  {
+    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten","realmrpg_demons:imp","realmrpg_demons:demon_minion","realmrpg_demons:imp_guard"],
+    "persecond": 90,
+    "attempts": 3,
+    "amount": {
+      "minimum": 0,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 60,
+      "maxheight": -10,
+      "minheight": -64,      
+      "maxthis": 8
+    }
+  },
+  {
+    "mob": ["wrd:bait_snapper"],
+    "persecond": 160,
+    "attempts": 2,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 60,  
+      "maxheight": -20,
+      "minheight": -64,	  	      
+      "maxthis": 3
+    }
+  },    
+  {
+    "mob": ["alexscaves:watcher","wrd:buff_zombie","zombie_extreme:ram","zombie_extreme:night_hunter","zombie_extreme:demolisher","zombie_extreme:divided"],
+    "persecond": 60,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 60,	  
+      "maxheight": -30,
+      "minheight": -64,      
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": ["mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_zombie", "realmrpg_demons:demon_lord","zombie_extreme:zero_patient"],
+    "persecond": 80,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 60,
+      "maxheight": -30,
+	    "minheight": -64,
+      "maxthis": 1
+    }
+  }   
+]
+
+

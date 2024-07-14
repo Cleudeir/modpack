@@ -1,0 +1,22 @@
+
+#Max mobs per player
+[maxMobsPerPlayer]
+	#Max mobs per player
+	default = "15"
+
+#Period Weave
+[periodWeave]
+	#Default period weave
+	default = "4"
+
+#Mobs Per Weave
+[mobsPerWeave]
+	#Default mobs per weave table data, example: "minecraft:zombie,1,0,0" = "mobName,startWeave,endWeave,endWeave,weightOfMob"
+	# if endWeave = 0 = infinity
+	# Quantity mob type per weave per player:
+	# A= Max mobs
+	#B= Weight of mob
+	# C= Sum of all Weight mobs this weave
+	# Calc: A * B / C
+	default = ["minecraft:zombie,1,0,10", "minecraft:skeleton,2,0,4", "minecraft:spider,3,0,4", "minecraft:creeper,4,0,4", "minecraft:cave_spider,5,0,3", "minecraft:slime,6,0,3", "minecraft:endermite,7,0,3", "minecraft:husk,8,0,2", "minecraft:stray,9,0,2", "minecraft:drowned,0,19,2", "minecraft:witch,11,0,2", "minecraft:phantom,12,0,2", "minecraft:vindicator,13,0,2", "minecraft:evoker,14,0,1", "minecraft:illusioner,15,0,1", "minecraft:pillager,16,0,1", "minecraft:vex,17,0,1", "minecraft:blaze,18,0,1", "minecraft:magma_cube,19,0,1", "minecraft:guardian,20,0,1", "minecraft:ghast,21,0,1", "minecraft:shulker,22,0,1", "minecraft:ravager,23,0,1", "minecraft:enderman,24,0,1", "minecraft:elder_guardian,25,0,1"]
+

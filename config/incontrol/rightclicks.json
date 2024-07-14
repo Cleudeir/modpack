@@ -1,0 +1,32 @@
+[
+    {
+      "playerhelditem": "wrd:keystrongholdchest_iron",
+      "block": "ironchest:iron_chest",
+      "result": "allow"
+    },
+    {
+      "block": "ironchest:iron_chest",
+      "message": "The chest is locked, you need a key to open it!",
+      "result": "deny"
+    },
+    {
+      "playerhelditem": "wrd:keystrongholdchest_gold",
+      "block": "ironchest:gold_chest",
+      "result": "allow"
+    },
+    {
+      "block": "ironchest:gold_chest",
+      "message": "The chest is locked, you need a key to open it!",
+      "result": "deny"
+    },
+    {
+      "playerhelditem": "wrd:keystrongholdchest_diamond",
+      "block": "ironchest:diamond_chest",
+      "result": "allow"
+    },
+    {
+      "block": "ironchest:diamond_chest",
+      "message": "The chest is locked, you need a key to open it!",
+      "result": "deny"
+    }
+]
