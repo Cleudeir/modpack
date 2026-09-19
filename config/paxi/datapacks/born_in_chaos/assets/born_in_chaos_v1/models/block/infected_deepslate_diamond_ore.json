@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "born_in_chaos_v1:block/deepslated",
+    "up": "born_in_chaos_v1:block/deepslated",
+    "north": "born_in_chaos_v1:block/deepslated",
+    "east": "born_in_chaos_v1:block/deepslated",
+    "south": "born_in_chaos_v1:block/deepslated",
+    "west": "born_in_chaos_v1:block/deepslated",
+    "particle": "born_in_chaos_v1:block/deepslated"
+  },
+  "render_type": "solid"
+}

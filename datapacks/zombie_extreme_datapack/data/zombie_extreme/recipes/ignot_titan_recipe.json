@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "1": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "2": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "3": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "4": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "5": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "6": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "7": {
+      "item": "zombie_extreme:titan_nugget"
+    },
+    "8": {
+      "item": "zombie_extreme:titan_nugget"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:ignot_titan",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "zombie_extreme:saw_blade"
+    },
+    "2": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "3": {
+      "item": "zombie_extreme:energy_battery"
+    },
+    "4": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "5": {
+      "item": "zombie_extreme:saw_blade"
+    },
+    "6": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "7": {
+      "item": "zombie_extreme:bronze_wire"
+    },
+    "8": {
+      "item": "zombie_extreme:blueprint_legendary"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:buzz_killer",
+    "count": 1
+  }
+}

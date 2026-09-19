@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:the_end",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_barrens",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_highlands",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_midlands",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_end",
+      "required": false
+    },
+    {
+      "id": "#forge:is_end",
+      "required": false
+    }
+  ]
+}
+    

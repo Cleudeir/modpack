@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/radio_installation",
+  "textures": {
+    "all": "zombie_extreme:block/radioinstallation",
+    "particle": "zombie_extreme:block/radioinstallation",
+    "0": "zombie_extreme:block/radioinstallation"
+  },
+  "render_type": "solid"
+}

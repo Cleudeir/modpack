@@ -1,0 +1,7 @@
+{
+  "parent": "born_in_chaos_v1:custom/hayfork",
+  "textures": {
+    "0": "born_in_chaos_v1:block/hayfork",
+    "particle": "born_in_chaos_v1:item/hayforkit"
+  }
+}

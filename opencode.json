@@ -1,0 +1,38 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "username": "modpack-dev",
+  "default_agent": "modder",
+  "logLevel": "INFO",
+  "instructions": ["AGENTS.md"],
+  "agent": {
+    "modder": {
+      "description": "Minecraft Forge mod developer. Creates, modifies and debugs mods for 1.20.1.",
+      "mode": "all",
+      "model": "anthropic/claude-sonnet-4-6",
+      "permission": {
+        "edit": "allow",
+        "bash": {
+          "git *": "allow",
+          "gradle *": "allow",
+          "dir *": "allow",
+          "copy *": "allow",
+          "del *": "ask",
+          "*": "ask"
+        }
+      }
+    }
+  },
+  "references": {
+    "forge-docs": {
+      "path": "https://docs.minecraftforge.net",
+      "description": "Forge MDK documentation for 1.20.1"
+    },
+    "kubejs-docs": {
+      "path": "kubejs/",
+      "description": "KubeJS scripts for custom items, blocks and recipes"
+    }
+  },
+  "skills": {
+    "paths": [".opencode/skills"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "badlands",
+    "bamboo_jungle",
+    "forest",
+    "zombie_extreme:scorched_earth",
+    "snowy_plains",
+    "dark_forest",
+    "taiga",
+    "plains",
+    "jungle",
+    "desert",
+    "snowy_taiga"
+  ],
+  "features": "zombie_extreme:caff",
+  "step": "surface_structures"
+}

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Attach to Minecraft (F5)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005,
+      "timeout": 60000
+    }
+  ]
+}

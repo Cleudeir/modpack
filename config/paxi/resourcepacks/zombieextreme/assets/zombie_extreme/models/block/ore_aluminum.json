@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zombie_extreme:block/ore_aluminium",
+    "up": "zombie_extreme:block/ore_aluminium",
+    "north": "zombie_extreme:block/ore_aluminium",
+    "east": "zombie_extreme:block/ore_aluminium",
+    "south": "zombie_extreme:block/ore_aluminium",
+    "west": "zombie_extreme:block/ore_aluminium",
+    "particle": "zombie_extreme:block/ore_aluminium"
+  },
+  "render_type": "solid"
+}

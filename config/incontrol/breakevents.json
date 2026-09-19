@@ -1,0 +1,7 @@
+[
+    {
+      "block": ["ironchest:iron_chest","ironchest:gold_chest","ironchest:diamond_chest"],
+      "message": "You cannot break this!",
+      "result": "deny"
+    }
+]

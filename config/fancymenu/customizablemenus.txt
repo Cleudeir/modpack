@@ -1,0 +1,14 @@
+type = customizablemenus
+
+org.violetmoon.quark.addons.oddities.client.screen.BackpackInventoryScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreenV2 {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreen {
+}
+
+de.rubixdev.inventorio.client.ui.InventorioScreen {
+}
+

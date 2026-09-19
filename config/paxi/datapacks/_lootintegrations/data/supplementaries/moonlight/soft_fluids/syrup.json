@@ -1,0 +1,32 @@
+{
+  "color": "#8e3f26",
+  "containers": [
+    {
+      "filled": [
+        "autumnity:syrup_bottle"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    },
+    {
+      "filled": [
+        "create_central_kitchen:syrup_bucket"
+      ],
+      "empty": "minecraft:bucket",
+      "capacity": 4
+    }
+  ],
+  "equivalent_fluids": [
+    "thermal:syrup",
+    "create_central_kitchen:syrup"
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "autumnity:syrup_bottle"
+  },
+  "from_mod": "autumnity",
+  "still_texture": "moonlight:block/soft_fluids/honey_liquid",
+  "translation_key": "item.autumnity.syrup",
+  "use_texture_from": "create:honey"
+}

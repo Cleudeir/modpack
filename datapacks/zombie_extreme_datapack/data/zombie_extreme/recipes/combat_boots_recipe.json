@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "5": {
+      "item": "zombie_extreme:ignotsteel"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:combat_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+=CONCATENAR("{""entity"": ";"""";
+ÍNDICE($B:$B;$R3);":";
+ÍNDICE($A:$A;$R3);
+""", ""weight"": ";Y3;
+", ""first_day"": ";$P3;
+", ""last_day"": ";$Q3;
+SE(U3=1;
+		", ""nbt"": ""{Passengers:[{id:drowned";
+												se(aleatórioentre(0;1)=1;
+													"{HandItems:[{id:trident,Count:1}]}";
+													"");
+												"}]}""},";
+"},"))

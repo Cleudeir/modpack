@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignot_bronze"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:bronze_nugget",
+    "count": 9
+  }
+}

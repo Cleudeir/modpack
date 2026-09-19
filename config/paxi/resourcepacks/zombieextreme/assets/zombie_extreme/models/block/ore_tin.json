@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zombie_extreme:block/ore_tin",
+    "up": "zombie_extreme:block/ore_tin",
+    "north": "zombie_extreme:block/ore_tin",
+    "east": "zombie_extreme:block/ore_tin",
+    "south": "zombie_extreme:block/ore_tin",
+    "west": "zombie_extreme:block/ore_tin",
+    "particle": "zombie_extreme:block/ore_tin"
+  },
+  "render_type": "solid"
+}

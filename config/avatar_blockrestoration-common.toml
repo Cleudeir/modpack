@@ -1,0 +1,11 @@
+
+#Broken Blocks Data
+[mainBlock]
+	#Default block get effect restore
+	default = "minecraft:black_banner"
+
+#Around main block radius scan
+[radiusScan]
+	#Default radius scan
+	default = "20"
+

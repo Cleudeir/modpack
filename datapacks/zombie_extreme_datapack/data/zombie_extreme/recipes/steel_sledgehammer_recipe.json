@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "2": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "3": {
+      "item": "zombie_extreme:cloth"
+    },
+    "4": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "5": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "6": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "7": {
+      "item": "zombie_extreme:blueprint_rare"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:steel_sledgehammer",
+    "count": 1
+  }
+}

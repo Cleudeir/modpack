@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 38,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 24,
+      "item": "zombie_extreme:ignot_titan"
+    }    
+  ],
+  "result": {
+    "item": "cgm:mini_gun"
+  }
+}

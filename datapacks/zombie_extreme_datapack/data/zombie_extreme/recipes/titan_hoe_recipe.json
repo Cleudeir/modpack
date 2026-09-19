@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "zombie_extreme:ignot_titan"
+    },
+    "2": {
+      "item": "zombie_extreme:ignot_titan"
+    },
+    "3": {
+      "item": "zombie_extreme:plastic"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "zombie_extreme:plastic"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:titan_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/fridge"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/fridge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/fridge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/fridge",
+      "y": 270
+    }
+  }
+}

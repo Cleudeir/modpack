@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 280,
+  "ingredient": {
+    "item": "zombie_extreme:raw_titan"
+  },
+  "result": "zombie_extreme:ignot_titan"
+}

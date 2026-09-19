@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/decomposing_backpack",
+  "textures": {
+    "all": "zombie_extreme:block/decomposing_backpack",
+    "particle": "zombie_extreme:block/decomposing_backpack",
+    "0": "zombie_extreme:block/decomposing_backpack"
+  },
+  "render_type": "solid"
+}

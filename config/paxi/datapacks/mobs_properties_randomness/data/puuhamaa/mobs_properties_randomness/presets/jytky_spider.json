@@ -1,0 +1,65 @@
+{
+    "potion_effects": [
+		{
+            "id": "minecraft:speed",
+            "hide_particles": true,
+			"amplifier": 1
+        },
+		{
+            "id": "minecraft:resistance",
+            "hide_particles": true,
+			"amplifier": 1
+        },
+		{
+            "id": "minecraft:strength",
+            "hide_particles": true,
+			"amplifier": 1
+        }
+    ],
+	"scale_pehkui": [
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:hitbox_height",
+                "pehkui:eye_height"
+            ],
+            "operation": "set"
+        },
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+	"attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Health",
+            "amount": {
+                "min": 6.5,
+                "max": 6.5
+            },
+            "operation": "multiply_base"
+        },
+		{
+			"id": "minecraft:generic.knockback_resistance",
+            "modifier_name": "Knockback Res",
+            "amount": {
+                "min": 0.75,
+                "max": 0.75
+            },
+            "operation": "addition"
+		}
+    ],
+	"boss_bar": {
+        "color": "red",
+        "type": "notched_10"
+    },
+	"loot_table": "puuhamaa:spiderloot",
+    "custom_name": {
+        "overrides": [ "Chicot" ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "itemGroup.inmis.backpack": "\u00a7r\u00a7fInmis",
+
+  "ui.inmis.backpack": "Plecak",
+
+  "item.inmis.baby_backpack": "\u00a7r\u00a7fPlecaczek",
+  "item.inmis.ender_pouch": "\u00a7r\u00a7fSakiewka Endu",
+
+  "item.inmis.frayed_backpack": "\u00a7r\u00a7fPostrzępiony plecak",
+  "item.inmis.plated_backpack": "\u00a7r\u00a7fOpancerzony plaecak",
+  "item.inmis.gilded_backpack": "\u00a7r\u00a7fPozłacany plecak",
+  "item.inmis.bejeweled_backpack": "\u00a7r\u00a7fPlecak ozdobiony klejnotami",
+  "item.inmis.withered_backpack": "\u00a7r\u00a7fWitherowy plecak",
+  "item.inmis.endless_backpack": "\u00a7r\u00a7fNieskończony plecak"
+}

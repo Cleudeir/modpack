@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:bloody_gadfly_eye"
+    },
+    {
+      "item": "born_in_chaos_v1:nightmare_claw"
+    },
+    {
+      "item": "born_in_chaos_v1:lifestealer_bone"
+    },
+    {
+      "item": "born_in_chaos_v1:bottle_of_magical_energy"
+    }
+  ],
+  "result": {
+    "item": "born_in_chaos_v1:elixir_of_vampirism",
+    "count": 1
+  }
+}

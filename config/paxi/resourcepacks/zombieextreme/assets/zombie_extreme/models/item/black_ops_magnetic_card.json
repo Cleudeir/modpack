@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/military_card_red",
+  "textures": {
+    "1": "zombie_extreme:block/military_card_red",
+    "particle": "zombie_extreme:item/item_magnetic_card_red"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+  "cgm:assault_rifle",
+  "cgm:grenade_launcher",
+  "cgm:bazooka",
+  "cgm:shotgun",
+  "cgm:mini_gun",
+  "cgm:pistol",
+  "cgm:heavy_rifle"
+  ]
+}

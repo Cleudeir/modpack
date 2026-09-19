@@ -1,0 +1,255 @@
+{
+  "profession": "spelunkers_charm:spelunker",
+  "removeOtherTrades": true,
+  "maxTrades": 16,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:coal",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spelunkers_charm:spelunker_coal_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:stone_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:stone_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 2,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spelunkers_charm:spelunker_gold_nugget_for_stone_pickaxe_and_stone_shovel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:cobblestone",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spelunkers_charm:spelunker_gold_nugget_for_cobblestone"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 800,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spelunkers_charm:spelunker_iron_ingot_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "spelunkers_charm:candle_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spelunkers_charm:spelunker_candle_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:minecart",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 600,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spelunkers_charm:spelunker_minecart_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "spelunkers_charm:geode",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spelunkers_charm:spelunker_emerald_for_geode"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spelunkers_charm:spelunker_gold_ingot_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:tnt",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 24,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spelunkers_charm:spelunker_tnt_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:amethyst_shard",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spelunkers_charm:spelunker_gold_nugget_for_amethyst_shard"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:emerald",
+        "amount": 42,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 2,
+      "priceMultiplier": 0.012,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spelunkers_charm:spelunker_diamond_for_emerald_and_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "spelunkers_charm:mining_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 28,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spelunkers_charm:spelunker_mining_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:disc_fragment_5",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spelunkers_charm:spelunker_disc_fragment_5_for_emerald"
+    }
+  ]
+}

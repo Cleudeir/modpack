@@ -1,0 +1,67 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 3.8,
+      "zOffset": -4.0
+    },
+    "muzzleFlashType": "flash_type_1"
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "scguns:semi_automatic",
+    "gripType": "scguns:two_handed",
+    "projectileAmount": 18,
+    "rate": 12,
+    "recoilAngle": 10.0,
+    "recoilKick": 2.5,
+    "spread": 19.0,
+    "meleeDamage": 2.5,
+    "meleeCooldownTicks": 20
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 2.75,
+        "zOffset": -4.9
+      },
+      "stock": {
+        "scale": 0.0
+      },
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 4.6,
+      "zOffset": 2.0
+    }
+  },
+  "projectile": {
+    "advantage": "scguns:none",
+    "damage": 16.5,
+    "ejectsCasing": true,
+    "item": "scguns:shotgun_shell",
+    "casingType": "scguns:small_copper_casing",
+    "life": 12,
+    "size": 0.5,
+    "speed": 5.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 0,
+    "maxAmmo": 2,
+    "reloadItem": "scguns:shotgun_shell",
+    "reloadTimer": 20,
+    "reloadType": "scguns:manual"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns:item.boomstick.fire",
+    "fire": "scguns:item.boomstick.fire",
+    "silencedFire": "scguns:item.combat_shotgun.silenced_fire",
+    "reload": "scguns:item.pistol.reload"
+  }
+}

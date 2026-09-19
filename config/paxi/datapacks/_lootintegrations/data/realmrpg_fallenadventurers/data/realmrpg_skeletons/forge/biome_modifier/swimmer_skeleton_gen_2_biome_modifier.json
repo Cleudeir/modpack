@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "realmrpg_skeletons:swimmer_skeleton_gen_2",
+  "step": "surface_structures"
+}

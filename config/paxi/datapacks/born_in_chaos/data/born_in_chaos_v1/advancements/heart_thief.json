@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "born_in_chaos_v1:elixir_of_vampirism"
+    },
+    "title": {
+      "translate": "advancements.heart_thief.title"
+    },
+    "description": {
+      "translate": "advancements.heart_thief.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heart_thief_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "born_in_chaos_v1:horror_underthe_mantle"
+}

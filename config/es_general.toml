@@ -1,0 +1,35 @@
+
+["Weight (Epic Fight)"]
+	#The weight system is responsible for limiting the weight using the Epic Fight mod
+	"Weight System" = false
+	#The bonus weight value added for each level
+	"Weight for Level" = 1.0
+	#The amount of Weight to start 
+	"Weight Base" = 40.0
+	#Which stat does the addition to weight (Allowed values: 1-8)
+	"Weight Stat" = 3.0
+	#The limit for weight, don't modify unless if you know what are you doing 
+	"Weight Limit" = 50.0
+
+["Exp Management"]
+	#This is a custom bonus of exp for each killed mob
+	"Exp Bonus" = 0.0
+	"Exp Min Limit" = 1000.0
+	#Dark Souls Mode (disable it for get levels more easily, edit it at the start instead of in mid gameplay)
+	"Old Exp Format" = false
+	# (Only edit if you know what you're doing)
+	"Divisible Exp" = false
+	"Divisible Exp Value" = 1.0
+	#This value will be used as the basis for the level up formula
+	"Exp Base" = 2.0
+	#Defines whether Minecraft experience can be exchanged for Epic Stats experience
+	"Exchange Exp" = true
+	#The amount of Exp for each vanilla level
+	"Exchange Value" = 80.0
+	#The max level allowed for a player. Accept any integer value > 0
+	"Max level for players" = 200.0
+
+["Mod support"]
+	#This value assigns a custom multiplier per mobs
+	autolevelingfix = 1.0
+

@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/shelf",
+  "textures": {
+    "all": "zombie_extreme:block/shelf",
+    "particle": "zombie_extreme:block/shelf",
+    "0": "zombie_extreme:block/shelf"
+  },
+  "render_type": "solid"
+}

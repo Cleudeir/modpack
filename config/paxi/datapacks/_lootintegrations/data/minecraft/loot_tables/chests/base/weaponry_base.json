@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "kubejs:tools",
+          "expand": true,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "forge:tools",
+          "expand": true,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "forge:armors",
+          "expand": true,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "forge:weapons",
+          "expand": true,
+          "weight": 10
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/base/weaponry_base"
+}

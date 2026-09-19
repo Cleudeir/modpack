@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron"
+	group: "156F81D1189E2A4A"
+	id: "2F002E1D3B0323EE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Iron Set"]
+			id: "0789AF7AEFC14DB6"
+			rewards: [{
+				id: "1D04812F9CCA4E3B"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Iron Set"
+			tasks: [
+				{
+					id: "6B444D13F7C179C8"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD7E9906EF175B0"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64F16CEA34C885C8"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B0A62161E9A1EC3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Set"
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0789AF7AEFC14DB6"]
+			id: "17363D5803560E56"
+			rewards: [{
+				id: "3FE50E5B08B78310"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0F537905DEFA1BF3"
+					item: {
+						Count: 1
+						id: "zombie_extreme:combat_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E06B86811D12487"
+					item: {
+						Count: 1
+						id: "zombie_extreme:combat_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AC1B26BDBBF504"
+					item: {
+						Count: 1
+						id: "zombie_extreme:combat_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0438D5DB449AB767"
+					item: {
+						Count: 1
+						id: "zombie_extreme:combat_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Combat Set"
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["17363D5803560E56"]
+			id: "6838EA867E6327B0"
+			rewards: [{
+				id: "0AAD78B43E21E4D1"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "15681CA9606FC931"
+					item: {
+						Count: 1
+						id: "zombie_extreme:juggernaut_suit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05A9D93FFC427D4D"
+					item: {
+						Count: 1
+						id: "zombie_extreme:juggernaut_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C0539E94839D8AC"
+					item: {
+						Count: 1
+						id: "zombie_extreme:juggernaut_suit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35A9450CFE525585"
+					item: {
+						Count: 1
+						id: "zombie_extreme:juggernaut_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Juggernaut Suit"
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["17363D5803560E56"]
+			id: "7CEB2BD30C162069"
+			rewards: [{
+				id: "282AE9605D9BC9FF"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "41789D40CC0FD789"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_juggernaut_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F8471B7EE2325B6"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_juggernaut_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76F6E5ACFFCBB874"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_juggernaut_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57C3D2615708FBAF"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_juggernaut_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Black Juggernaut Set"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6838EA867E6327B0"]
+			id: "4CFC607EEE35ED12"
+			rewards: [{
+				count: 3
+				id: "5674DAADC063780F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35A580FF04967D3A"
+					item: {
+						Count: 1
+						id: "zombie_extreme:exo_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "059B675855F77A5F"
+					item: {
+						Count: 1
+						id: "zombie_extreme:exo_suit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34A58B2E9F16D131"
+					item: {
+						Count: 1
+						id: "zombie_extreme:exo_suit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "230B8D5951447DD6"
+					item: {
+						Count: 1
+						id: "zombie_extreme:exo_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7CEB2BD30C162069"]
+			dependency_requirement: "all_started"
+			id: "1B4B4093111DDCB2"
+			rewards: [{
+				count: 3
+				id: "452837C7A10B6748"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10073C9A8B5B0434"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:riot_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DD701E043823699"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:riot_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "506EB14649DBA64D"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:riot_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30A60F282238A49F"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:riot_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Riot Armor Set"
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B4B4093111DDCB2"]
+			id: "3D5835F2A84CE34E"
+			tasks: [{
+				id: "2A9E3AB4FE40592B"
+				item: {
+					Count: 1
+					id: "zombie_extreme:night_vision_glasses_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+	]
+	title: "Armors"
+}

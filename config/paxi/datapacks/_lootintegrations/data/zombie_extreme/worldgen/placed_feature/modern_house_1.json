@@ -1,0 +1,7 @@
+{
+  "feature": "zombie_extreme:modern_house_1",
+      "placement": [{
+      "type": "minecraft:rarity_filter",
+      "chance": 20
+    }]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "born_in_chaos_v1:custom/molotoc",
+  "textures": {
+    "0": "born_in_chaos_v1:block/molott2",
+    "particle": "born_in_chaos_v1:item/molott"
+  }
+}

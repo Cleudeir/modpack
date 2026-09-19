@@ -1,0 +1,85 @@
+{
+    "potion_effects": [
+        {
+            "id": "minecraft:resistance",
+            "hide_particles": true,
+			"amplifier": 1
+        },
+		{
+            "id": "minecraft:strength",
+            "hide_particles": true,
+			"amplifier": 1
+        }
+    ],
+	"scale_pehkui": [
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:hitbox_height",
+                "pehkui:eye_height"
+            ],
+            "operation": "set"
+        },
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+	"equipment": {
+		"main_hand": {
+            "chance": 1.0,
+            "items": [
+                {
+                    "id": "minecraft:netherite_sword",
+					"drop_chance": 0,
+					"enchantments": [
+						{
+							"id": "minecraft:sharpness",
+							"level": 5
+						},
+						{
+							"id": "minecraft:knockback",
+							"level": 2
+						},
+						{
+							"id": "minecraft:fire_aspect",
+							"level": 2
+						}
+					]
+				}
+			]
+		}
+	},
+	"attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "Health",
+            "amount": {
+                "min": 5.0,
+                "max": 5.0
+            },
+            "operation": "multiply_base"
+        },
+		{
+			"id": "minecraft:generic.knockback_resistance",
+            "modifier_name": "Knockback Res",
+            "amount": {
+                "min": 0.75,
+                "max": 0.75
+            },
+            "operation": "addition"
+		}
+    ],
+	"boss_bar": {
+        "color": "white",
+        "type": "notched_10"
+    },
+	"loot_table": "puuhamaa:witherloot",
+    "custom_name": {
+        "overrides": [ "Decarabia" ]
+    }
+}

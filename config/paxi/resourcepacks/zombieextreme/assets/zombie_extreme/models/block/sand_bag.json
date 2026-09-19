@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/sand_bag",
+  "textures": {
+    "all": "zombie_extreme:block/sand_bag",
+    "particle": "zombie_extreme:block/sand_bag",
+    "0": "zombie_extreme:block/sand_bag"
+  },
+  "render_type": "solid"
+}

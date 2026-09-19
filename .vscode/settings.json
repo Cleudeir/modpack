@@ -1,0 +1,39 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.hotCodeReplace": "automatic",
+  "java.debug.settings.enableRunDebugCodeLens": true,
+  "java.debug.settings.showHex": true,
+  "java.debug.settings.showQualifiedNames": true,
+  "java.debug.settings.enableMemoryView": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.class": true,
+    "**/*.jar": {
+      "when": "${basename} != modpack.jar"
+    }
+  },
+  "files.associations": {
+    "*.toml": "toml",
+    "*.cfg": "properties",
+    "*.zs": "javascript"
+  },
+  "editor.formatOnSave": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "java.import.exclusions": [
+    "**/build/**",
+    "**/gradle/**",
+    "**/.gradle/**"
+  ],
+  "java.project.sourcePaths": [],
+  "java.project.referencedLibraries": [
+    "mods/**/*.jar"
+  ]
+}

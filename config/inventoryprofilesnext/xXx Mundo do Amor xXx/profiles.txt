@@ -1,0 +1,24 @@
+
+
+
+
+profile Saved activate HOT3
+	HOT1
+		"minecraft:stone_pickaxe"
+	HOT2
+		"minecraft:stone_axe"
+	HOT3
+		"minecraft:stone_shovel"
+	HOT4
+		"minecraft:stone_sword"
+	HOT5
+		"minecraft:apple"
+	HOT6
+		"minecraft:bread"
+	HOT7
+		"minecraft:oak_log"
+	HOT8
+		"minecraft:bundle"
+	HOT9
+		"minecraft:bundle"
+

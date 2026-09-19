@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/ammo_base",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/artifacts_base",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/foods_base",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/materials_base",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/specialdrops_base",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/weaponry_base",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/utility_base",
+          "weight": 6
+        },        
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/base/generic_base",
+          "weight": 6
+        }               
+      ]
+    }
+  ]
+}

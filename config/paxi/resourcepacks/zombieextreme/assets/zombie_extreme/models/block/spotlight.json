@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/spotlight",
+  "textures": {
+    "all": "zombie_extreme:block/spotlight",
+    "particle": "zombie_extreme:block/spotlight",
+    "0": "zombie_extreme:block/spotlight"
+  },
+  "render_type": "solid"
+}

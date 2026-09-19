@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/golf_club",
+  "textures": {
+    "0": "zombie_extreme:block/golf_club",
+    "particle": "zombie_extreme:item/item_golfclub"
+  }
+}

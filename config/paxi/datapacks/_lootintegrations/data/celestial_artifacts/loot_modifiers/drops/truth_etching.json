@@ -1,0 +1,26 @@
+{
+  "type": "celestial_core:add_item",
+  "chance": "celestial_configs/celestial_artifacts-common.toml/materials.truthEtchingDropChance",
+  "conditions": [
+    {
+      "condition": "celestial_artifacts:enabled",
+      "item": "celestial_artifacts:truth_etching"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:wither"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "#minecraft:raiders"
+      }
+    }
+  ],
+  "fail": "celestial_artifacts:nebula_cube",
+  "item": "celestial_artifacts:truth_etching"
+}
