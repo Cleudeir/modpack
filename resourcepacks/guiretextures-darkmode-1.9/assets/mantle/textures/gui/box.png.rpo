@@ -1,0 +1,5 @@
+{
+    "condition":  "dark_mode",
+    "fallback": "assets/mantle/textures/gui/box_light_mode.png"
+}
+

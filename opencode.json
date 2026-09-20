@@ -4,6 +4,36 @@
   "default_agent": "modder",
   "logLevel": "INFO",
   "instructions": ["AGENTS.md"],
+  "provider": {
+    "llamacpp": {
+      "name": "LlamaCPP (tec.br)",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://api.apps.tec.br/llamacpp/v1"
+      },
+      "models": {
+        "Ornith-1.5-9B": {
+          "name": "Ornith 1.5 9B (Vision)",
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "interleaved": "reasoning_content",
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 32768,
+            "output": 8192
+          },
+          "cost": {
+            "input": 0,
+            "output": 0
+          }
+        }
+      }
+    }
+  },
   "agent": {
     "modder": {
       "description": "Minecraft Forge mod developer. Creates, modifies and debugs mods for 1.20.1.",

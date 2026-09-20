@@ -152,13 +152,6 @@ const rankC = [
 PlayerEvents.loggedIn(event => {
     let player = event.player;
 
-    // ============================================
-    // ADMIN REMOTE - Dado a todos ao entrar
-    // ============================================
-    player.give(Item.of('kubejs:admin_remote'));
-    player.tell('§6§l📦 Admin Remote recebido! Clique direito para usar.')
-    player.tell('§eComandos: /panel, /mods, /admin help')
-
     // Verifique se o jogador está entrando pela primeira vez
     if (!event.player.stages.has('first_join')) {
         // Conceda as recompensas de primeira entrada ao jogador

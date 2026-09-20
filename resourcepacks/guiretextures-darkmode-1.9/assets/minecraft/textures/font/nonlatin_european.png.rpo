@@ -1,0 +1,5 @@
+{
+    "conditions": { "not": "guiretextures_darkmode:use_custom_font" },
+    "fallback": "assets/minecraft/textures/font/nonlatin_european_custom.png"
+}
+

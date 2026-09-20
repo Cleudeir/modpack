@@ -1,0 +1,36 @@
+{
+  "screen": {
+    "name": "open-to-lan",
+    "width": 941,
+    "height": 569,
+    "lastVerified": "2026-09-20T10:xx"
+  },
+  "window": {
+    "rect": { "L": 489, "T": 244, "R": 1430, "B": 813 },
+    "centerX": 959,
+    "centerY": 528,
+    "pid": 0
+  },
+  "menu": {
+    "current": "open-to-lan",
+    "previous": "in-game",
+    "pause": true,
+    "panelOpen": false,
+    "cheatsEnabled": true,
+    "allowCommands": 0
+  },
+  "currentScreen": {
+    "buttons": [
+      { "label": "Start LAN World", "image": { "x": 570, "y": 524 }, "offset": { "x": 100, "y": 240 } },
+      { "label": "Cancel", "image": { "x": 718, "y": 524 }, "offset": { "x": 248, "y": 240 } },
+      { "label": "Allow Cheats toggle", "image": { "x": 630, "y": 250 }, "offset": { "x": 160, "y": -34 } }
+    ]
+  },
+  "notes": [
+    "allowCommands byte was 0 in level.dat -> cheats OFF in singleplayer",
+    "LAN screen reports Allow Cheats: ON already",
+    "After clicking Start LAN World, game returns to gameplay with cheats enabled",
+    "Need to verify: action bar feedback from previous Diamond x64 / Heal clicks",
+    "healthcommand mod registers /health not /heal"
+  ]
+}

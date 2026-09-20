@@ -9,7 +9,7 @@
 	[Settings.Misc]
 		"Render Fog" = true
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		"Use Borderless Fullscreen" = "FULLSCREEN"
+		"Use Borderless Fullscreen" = "WINDOWED"
 		"Cloud Height [Raw, Default 256]" = 256
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
 		"Hide JEI Until Searching" = true
