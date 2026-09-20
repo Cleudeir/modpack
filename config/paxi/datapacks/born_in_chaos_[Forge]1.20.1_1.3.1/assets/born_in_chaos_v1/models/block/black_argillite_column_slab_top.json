@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "born_in_chaos_v1:block/tiemnyikirpich9",
-    "top": "born_in_chaos_v1:block/tiemnyikirpich9",
-    "side": "born_in_chaos_v1:block/tiemnyikirpich8"
-  },
-  "render_type": "solid"
-}

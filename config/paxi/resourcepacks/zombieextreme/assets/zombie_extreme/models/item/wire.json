@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "zombie_extreme:item/wire_hand"
-  },
-  "render_type": "translucent"
-}

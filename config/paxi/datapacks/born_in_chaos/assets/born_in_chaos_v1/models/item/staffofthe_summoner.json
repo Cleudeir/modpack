@@ -1,7 +1,0 @@
-{
-  "parent": "born_in_chaos_v1:custom/boncolerstaf",
-  "textures": {
-    "0": "born_in_chaos_v1:block/boncolerstaf",
-    "particle": "born_in_chaos_v1:item/bonecallerstaf"
-  }
-}

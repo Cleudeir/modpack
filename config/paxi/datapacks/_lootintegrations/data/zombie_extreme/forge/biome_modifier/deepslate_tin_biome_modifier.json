@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "zombie_extreme:deepslate_tin",
-  "step": "underground_ores"
-}

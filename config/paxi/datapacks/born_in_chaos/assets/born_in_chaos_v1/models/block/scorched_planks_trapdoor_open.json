@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "born_in_chaos_v1:block/luk",
-    "particle": "born_in_chaos_v1:block/luk"
-  },
-  "render_type": "solid"
-}

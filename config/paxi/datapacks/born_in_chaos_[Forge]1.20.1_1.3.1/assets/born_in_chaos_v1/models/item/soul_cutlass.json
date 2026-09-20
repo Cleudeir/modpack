@@ -1,7 +1,0 @@
-{
-  "parent": "born_in_chaos_v1:custom/soulsaber",
-  "textures": {
-    "0": "born_in_chaos_v1:block/soulsaber",
-    "particle": "born_in_chaos_v1:item/soulsaber"
-  }
-}

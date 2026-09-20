@@ -1,3 +1,0 @@
-allowCaveModeOnServer:true
-allowNetherCaveModeOnServer:false
-registerStatusEffects:true

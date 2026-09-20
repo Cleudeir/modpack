@@ -1,7 +1,0 @@
-{
-  "parent": "born_in_chaos_v1:custom/pumpkinheadsaber",
-  "textures": {
-    "1": "born_in_chaos_v1:block/pumpkinheadsaber",
-    "particle": "born_in_chaos_v1:item/pumpkinheadsaber"
-  }
-}

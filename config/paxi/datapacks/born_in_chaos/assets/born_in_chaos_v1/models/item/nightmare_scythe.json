@@ -1,7 +1,0 @@
-{
-  "parent": "born_in_chaos_v1:custom/scythe",
-  "textures": {
-    "0": "born_in_chaos_v1:block/scythe",
-    "particle": "born_in_chaos_v1:item/nitcos"
-  }
-}

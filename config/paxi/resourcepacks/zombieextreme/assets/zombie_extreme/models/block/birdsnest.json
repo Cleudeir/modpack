@@ -1,9 +1,0 @@
-{
-  "parent": "zombie_extreme:custom/birdnest",
-  "textures": {
-    "all": "zombie_extreme:block/birdnest",
-    "particle": "zombie_extreme:block/birdnest",
-    "0": "zombie_extreme:block/birdnest"
-  },
-  "render_type": "solid"
-}

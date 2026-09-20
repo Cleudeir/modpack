@@ -1,7 +1,0 @@
-{
-  "parent": "born_in_chaos_v1:custom/greatdarksword",
-  "textures": {
-    "0": "born_in_chaos_v1:block/greatdarksword",
-    "particle": "born_in_chaos_v1:item/greatdarksword"
-  }
-}

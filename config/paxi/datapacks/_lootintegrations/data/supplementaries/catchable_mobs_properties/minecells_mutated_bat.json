@@ -1,8 +1,0 @@
-{
-  "animation": "floating",
-  "height_increment": -0.25,
-  "owners": [
-    "minecells:mutated_bat"
-  ],
-  "width_increment": 0.75
-}

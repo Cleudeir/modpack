@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "zombie_extreme:item/steel_pickaxe"
-  }
-}

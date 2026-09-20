@@ -1,7 +1,0 @@
-{
-  "feature": "zombie_extreme:ruin_5",
-        "placement": [{
-      "type": "minecraft:rarity_filter",
-      "chance": 20
-    }]
-}

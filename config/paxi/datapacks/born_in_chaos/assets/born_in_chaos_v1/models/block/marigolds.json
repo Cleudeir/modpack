@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "born_in_chaos_v1:block/marigolds",
-    "particle": "born_in_chaos_v1:block/marigolds"
-  },
-  "render_type": "cutout"
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "block/pressure_plate_down",
-  "textures": {
-    "texture": "born_in_chaos_v1:block/tiemnyikirpich6"
-  },
-  "render_type": "solid"
-}

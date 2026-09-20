@@ -1,4 +1,0 @@
-{
-  "condition": "crosshair_style.pointer",
-  "fallback": "assets/minecraft/textures/gui/crosshairs/launcher.png"
-}
