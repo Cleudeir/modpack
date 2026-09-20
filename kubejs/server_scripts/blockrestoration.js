@@ -16,6 +16,8 @@
 //    restaurado (fica sob controle do jogador).
 //  - Se o bloco principal for quebrado → a zona é cancelada.
 //  - Estado persistido em kubejs/config/blockrestoration.dat (NBTIO).
+//  - Ao ENTRAR no servidor, cada jogador recebe 1x a bandeira (bloco
+//    principal) para ativar sua própria área de restauração.
 //
 //  CONFIG: kubejs/config/blockrestoration.json
 //    { "mainBlock": "mod:id_do_bloco", "radius": 20 }
@@ -425,5 +427,31 @@ ServerEvents.customCommand('blockrestore_status', event => {
         }
     } catch (e) {
         log('ERRO em command: ' + e);
+    }
+});
+
+// ----------------- BANDEIRA NO INÍCIO (1 por jogador) ---------------
+// Ao entrar no servidor, o jogador recebe 1 bandeira (o bloco principal),
+// que é o item usado para ativar a "área de restauração de blocos".
+// Usa um stage próprio -> todos os jogadores (novos e antigos) recebem 1x.
+PlayerEvents.loggedIn(event => {
+    try {
+        const player = event.player;
+
+        if (!player.stages.has('blockrestoration_flag')) {
+            // item de acordo com a config (default: minecraft:black_banner)
+            const flag = Item.of(config.mainBlock);
+
+            if (!flag.isEmpty()) {
+                player.give(flag);
+                player.stages.add('blockrestoration_flag');
+                player.tell('§6§lVocê recebeu a BANDEIRA! §r§7Coloque-a no chão para §bativar a área de restauração de blocos§7 ao redor.');
+            } else {
+                player.tell('§cBandeira não encontrada: §o' + config.mainBlock + '§r§c. Verifique kubejs/config/blockrestoration.json');
+                log('Bandeira do config não é um item válido: ' + config.mainBlock);
+            }
+        }
+    } catch (e) {
+        log('ERRO em loggedIn (bandeira): ' + e);
     }
 });
