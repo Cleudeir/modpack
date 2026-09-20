@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "born_in_chaos_v1:seedof_chaos"
+    },
+    "title": {
+      "translate": "advancements.pieceof_chaos.title"
+    },
+    "description": {
+      "translate": "advancements.pieceof_chaos.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pieceof_chaos_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "born_in_chaos_v1:seedof_chaos"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "born_in_chaos_v1:bornin_chaos"
+}

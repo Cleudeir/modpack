@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "born_in_chaos_v1:block/nightmare_stalker_skull"
+    },
+    "facing=east": {
+      "model": "born_in_chaos_v1:block/nightmare_stalker_skull",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "born_in_chaos_v1:block/nightmare_stalker_skull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "born_in_chaos_v1:block/nightmare_stalker_skull",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "born_in_chaos_v1:block/nightmare_stalker_skull",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "born_in_chaos_v1:block/nightmare_stalker_skull",
+      "x": 90
+    }
+  }
+}

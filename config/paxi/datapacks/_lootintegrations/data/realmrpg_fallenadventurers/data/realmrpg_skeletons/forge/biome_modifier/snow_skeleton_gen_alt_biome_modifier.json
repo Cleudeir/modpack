@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "realmrpg_skeletons:snow_skeleton_gen_alt",
+  "step": "surface_structures"
+}

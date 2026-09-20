@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/police_baton",
+  "textures": {
+    "0": "zombie_extreme:block/police_baton",
+    "particle": "zombie_extreme:item/item_policebaton"
+  }
+}

@@ -1,0 +1,19 @@
+
+
+
+
+profile Saved activate HOT1
+	
+
+profile Saved activate HOT4
+	HOT1
+		"cgm:shotgun"
+	HOT2
+		"minecraft:diamond"
+	HOT3
+		"minecraft:enchanted_golden_apple"
+	HOT4
+		"alexsmobs:squid_grapple"
+	HOT5
+		"grapplemod:grapplinghook"
+

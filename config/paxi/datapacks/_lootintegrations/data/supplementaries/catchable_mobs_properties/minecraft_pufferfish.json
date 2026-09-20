@@ -1,0 +1,8 @@
+{
+  "force_fluid": "minecraft:water","fish_index": 5,
+  "height_increment": 0.0,
+  "owners": [
+    "minecraft:pufferfish"
+  ],
+  "width_increment": 0.125
+}

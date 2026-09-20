@@ -1,0 +1,160 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.leaves_type]
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
+
+		[types.leaves_type.twilightforest]
+			beanstalk = true
+			thorn = true
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			rainbow_oak = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+	[types.wood_type]
+
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.twilightforest]
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+	[types.cake]
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
+#Disables specific entries
+[entries]
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
+		[entries.leaves_type.cfm]
+			hedge = true
+
+	[entries.wood_type]
+
+		[entries.wood_type.cfm]
+			stripped_kitchen_sink_light = true
+			table = true
+			coffee_table = true
+			park_bench = true
+			stripped_kitchen_counter = true
+			stripped_cabinet = true
+			kitchen_drawer = true
+			desk = true
+			stripped_bedside_cabinet = true
+			desk_cabinet = true
+			stripped_kitchen_drawer = true
+			upgraded_fence = true
+			kitchen_sink_dark = true
+			stripped_desk_cabinet = true
+			kitchen_counter = true
+			upgraded_gate = true
+			stripped_park_bench = true
+			cabinet = true
+			stripped_table = true
+			mail_box = true
+			blinds = true
+			stripped_chair = true
+			crate = true
+			chair = true
+			stripped_mail_box = true
+			stripped_blinds = true
+			stripped_kitchen_sink_dark = true
+			bedside_cabinet = true
+			stripped_upgraded_fence = true
+			stripped_desk = true
+			kitchen_sink_light = true
+			stripped_coffee_table = true
+			stripped_crate = true
+			stripped_upgraded_gate = true
+
+		[entries.wood_type.handcrafted]
+			counter = true
+			corner_trim = true
+			fancy_bed = true
+			desk = true
+			shelf = true
+			cupboard = true
+			dining_bench = true
+			bench = true
+			drawer = true
+			pillar_trim = true
+			side_table = true
+			nightstand = true
+			couch = true
+			table = true
+			chair = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			chest = true
+			ladder = true
+			hollow_log = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			stripped_post = true
+
+		[entries.wood_type.twilightforest]
+			banister = true
+			hollow_log_climbable = true
+			hollow_log_horizontal = true
+			hollow_log_vertical = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+

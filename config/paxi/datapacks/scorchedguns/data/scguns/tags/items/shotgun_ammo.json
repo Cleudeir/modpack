@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "scguns:shotgun_shell",
+    "scguns:bearpack_shell",
+    "scguns:shulkshot"
+  ]
+}

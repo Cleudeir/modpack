@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "1": {
+      "item": "zombie_extreme:circuit_diagram"
+    },
+    "2": {
+      "item": "zombie_extreme:steel_plate"
+    },
+    "3": {
+      "item": "zombie_extreme:uranium_rod"
+    },
+    "4": {
+      "item": "zombie_extreme:combat_armor_helmet"
+    },
+    "5": {
+      "item": "zombie_extreme:uranium_rod"
+    },
+    "6": {
+      "item": "zombie_extreme:titan_plate"
+    },
+    "7": {
+      "item": "zombie_extreme:energy_battery"
+    },
+    "8": {
+      "item": "zombie_extreme:titan_plate"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:exo_suit_helmet",
+    "count": 1
+  }
+}

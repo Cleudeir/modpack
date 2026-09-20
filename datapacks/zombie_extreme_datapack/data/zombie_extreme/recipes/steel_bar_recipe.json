@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "zombie_extreme:ignotsteel"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "zombie_extreme:ignotsteel"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:steel_bar",
+    "count": 2
+  }
+}

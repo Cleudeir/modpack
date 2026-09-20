@@ -1,0 +1,1 @@
+execute as @p[nbt={SelectedItem:{id:"supplementaries:key"}}] run clear @s supplementaries:key 1

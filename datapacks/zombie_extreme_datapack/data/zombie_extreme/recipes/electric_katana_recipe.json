@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "zombie_extreme:steel_blade"
+    },
+    "3": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "4": {
+      "item": "zombie_extreme:steel_blade"
+    },
+    "5": {
+      "item": "zombie_extreme:bronze_wire"
+    },
+    "6": {
+      "item": "zombie_extreme:steel_bar"
+    },
+    "7": {
+      "item": "zombie_extreme:energy_battery"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:electric_katana",
+    "count": 1
+  }
+}

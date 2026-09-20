@@ -1,0 +1,209 @@
+{
+	"create I": {
+		"title": "Create I",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "create:wrench"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:create1"
+				}
+			}
+		]
+	},
+	"create II": {
+		"title": "Create II",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "create:fluid_tank"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:create2"
+				}
+			}
+		]
+	},
+	"siege I": {
+		"title": "Siege I",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "siege:cannon"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:siege1"
+				}
+			}
+		]
+	},
+	"siege II": {
+		"title": "Siege II",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "siege:block_of_cast_iron"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:siege2"
+				}
+			}
+		]
+	},
+	"redstone I": {
+		"title": "Redstone I",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:redstonemaster"
+				}
+			}
+		]
+	},
+	"weapons I": {
+		"title": "weapons I",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "divine_weaponry:netherite_scythe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:weapons1"
+				}
+			}
+		]
+	},
+	"weapons II": {
+		"title": "weapons II",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "divine_weaponry:erebus_scythe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:weapons2"
+				}
+			}
+		]
+	},
+	"guns I": {
+		"title": "guns I",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cgm:shotgun"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:guns1"
+				}
+			}
+		]
+	},
+	"guns II": {
+		"title": "guns II",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cgm:bazooka"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function firstload:guns2"
+				}
+			}
+		]
+	}
+}

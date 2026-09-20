@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+issueTrackerURL = ""
+
+[[mods]]
+modId = "adminpanel"
+version = "1.0.0"
+displayName = "Admin Panel"
+description = '''
+Real clickable admin GUI panel.
+Open with Right Control key.
+'''
+
+[[dependencies.adminpanel]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.adminpanel]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"

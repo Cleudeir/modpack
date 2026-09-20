@@ -1,0 +1,126 @@
+[
+//LISTA DE EFEITOS VISUAIS
+//minecraft:glowing
+//minecraft:invisibility
+//minecraft:levitation
+//minecraft:hero_of_the_village
+//minecraft:bad_omen
+//minecraft:haste
+//minecraft:mining_fatigue
+//minecraft:speed
+//minecraft:slowness
+//minecraft:strength
+//minecraft:weakness
+//minecraft:health_boost
+//minecraft:absorption
+//minecraft:regeneration
+//minecraft:resistance
+//minecraft:fire_resistance
+//minecraft:water_breathing
+//minecraft:luck
+//minecraft:unluck
+
+//Mobs Bloqueados
+    {
+        "dimension": "minecraft:overworld",
+        "hostile":true,
+        "mob": ["zombie_extreme:boomer", //Retirado pois retorna erro no console
+        "scguns:projectile",
+        "scguns:bearpack_shell_projectile",
+        "scguns:osborne_slug_projectile",
+        "scguns:plasma_projectile",
+        "scguns:ramrod_projectile",
+        "scguns:hog_round_projectile",
+        "scguns:beowulf_projectile",
+        "scguns:fire_round_projectile",
+        "scguns:grenade",
+        "scguns:rocket",
+        "scguns:microjet",
+        "scguns:shulkshot_projectile",
+        "scguns:sculk_cell",
+        "scguns:krahg_round_projectile",
+        "scguns:advanced_round_projectile",
+        "scguns:throwable_grenade",
+        "scguns:throwable_stun_grenade",
+        "scguns:throwable_molotov_cocktail",
+        "scguns:throwable_choke_bomb",
+        "scguns:throwable_swarm_bomb",
+        "scguns:cog_minion",
+        "scguns:cog_knight",
+        "scguns:sky_carrier",
+        "scguns:hive",
+        "scguns:swarm",
+        "scguns:redcoat",
+        "scguns:supply_scamp",
+        "scguns:dissident",
+        "scguns:hornlin",
+        "scguns:blunderer",
+        "scguns:brass_bolt",
+        "mutantmonsters:mutant_enderman",
+        "mutantmonsters:mutant_skeleton",
+        "mutantmonsters:mutant_zombie",
+        "mutantmonsters:mutant_creeper"
+    ], 
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "hostile":true,
+        "mod": "zombie_extreme",
+        "incity": false,
+        "result": "deny"
+    },    
+
+//Spawns Customizados
+    {
+        "dimension": "minecraft:overworld",
+        "hostile":true,
+        "mod": "zombie_extreme",
+        "incity": true,
+        "result": "allow"
+    },
+
+//Alteração de Atributos
+    {
+        "phase":"first",
+        "random": 0.5,    
+        "seesky": true,
+        "hostile": true,
+        "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul","realmrpg_demons"],
+        "when":"onjoin",
+        "healthmultiply": 0.8,
+        "speedmultiply": 0.8,
+        "armormultiply": 0.4,
+        "damagemultiply": 0.8,
+        "result":"default",
+        "potion": "minecraft:bad_omen,3600,1"        
+    },
+    {
+        "phase":"first",
+        "random": 0.3,    
+        "seesky": true,
+        "hostile": true,
+        "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul","realmrpg_demons"],
+        "when":"onjoin",
+        "healthmultiply": 0.6,
+        "speedmultiply": 0.6,
+        "armormultiply": 0.4,
+        "damagemultiply": 0.6,
+        "result":"default",
+        "potion": "minecraft:nausea,3600,1"              
+    },    
+    {
+        "mob":"born_in_chaos_v1:maggot",
+        "when":"onjoin",
+        "damagemultiply": 0.5,
+        "healthmultiply": 0.5,        
+        "result":"default"
+    },
+    {
+        "mob":"world_of_rot:crawler",
+        "when":"onjoin",
+        "speedmultiply": 0.5,
+        "healthmultiply": 0.5,        
+        "result":"default"
+    }    
+]

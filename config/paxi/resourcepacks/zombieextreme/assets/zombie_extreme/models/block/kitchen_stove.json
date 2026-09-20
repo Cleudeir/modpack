@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/kitchen_stove",
+  "textures": {
+    "all": "zombie_extreme:block/kitchen_stove",
+    "particle": "zombie_extreme:block/kitchen_stove",
+    "0": "zombie_extreme:block/kitchen_stove"
+  },
+  "render_type": "solid"
+}

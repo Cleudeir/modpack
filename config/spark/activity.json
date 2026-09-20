@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "cliffpk",
+      "uniqueId": "9c1fe7b9-0300-4136-87ce-e10945d0cfc5"
+    },
+    "time": 1718315192445,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Carli\\AppData\\Roaming\\.minecraft\\versions\\20240509\\config\\spark\\heap-2024-06-13_18.46.18.hprof"
+    }
+  }
+]

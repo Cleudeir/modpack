@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "realmrpg_skeletons:vines_tangled_skeleton_gen",
+  "step": "top_layer_modification"
+}

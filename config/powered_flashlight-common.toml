@@ -1,0 +1,45 @@
+
+[Energy]
+	## The amount of energy drained by an active flashlight per tick.
+	# If set to 0 the energy requirement for the flashlight is disabled
+	# completely and other values for energy related settings don't matter.
+	#Default: 1 (~ 8min/10000fe)
+	#Range: 0 ~ 2147483646
+	energy_drain_per_tick = 1
+	## The maximum rate at which a flashlight is charged per tick.
+	# Might be limited by the maximum charge rate of the charging device.
+	#Default: 128 (~ 10000fe/4s)
+	#Range: 0 ~ 2147483646
+	energy_charge_per_tick = 128
+	## The energy capacity of a flashlight.
+	#Default: 10000
+	#Range: 1 ~ 2147483646
+	energy_capacity = 10000
+
+[Light]
+	## Spacing inbetween light blocks placed by lightrays.
+	#Default: 1
+	#Range: 0 ~ 2147483646
+	light_spacing = 1
+	## Number of ticks a light block stays in the world before it removes itself.
+	#Default: 2
+	#Range: 0 ~ 2147483646
+	light_time_to_live = 2
+	## Max block distance of lightrays.
+	#Default: 20
+	#Range: 0 ~ 2147483646
+	max_light_distance = 20
+	## Maximum light level of light blocks placed by lightrays.
+	#Default: 14
+	#Range: 1 ~ 15
+	max_light_level = 14
+	## Minimum light level of light blocks placed by lightrays. The further 
+	# a light block is placed from its source the lower its light level.
+	#Default: 1
+	#Range: 1 ~ 15
+	min_light_level = 1
+	## Factor to specify the angle of outgoing lightrays (up to 90°).
+	#Default: 0,125
+	#Range: 0.0 ~ 1.0
+	ray_angle = 0.125
+

@@ -1,0 +1,313 @@
+{
+  "hardInclude": "anything",
+  "includeList": [],
+  "includeListInSuperCategory": true,
+  "excludeMode": "ONLY",
+  "excludeList": [
+    "minecraft:glow_item_frame",
+    "minecraft:item_frame"
+  ],
+  "name": "gui.xaero_entity_category_root",
+  "protection": true,
+  "settingOverrides": {
+    "displayHeight": 2.0,
+    "displayed": false,
+    "heightBasedFade": true,
+    "renderOrder": 0.0,
+    "color": 13.0,
+    "displayNameWhenIconFails": true,
+    "entityNumber": 100.0,
+    "alwaysDisplayNametags": false,
+    "dotSize": 3.0,
+    "startFadingAt": 0.0,
+    "renderOverMinimapFrame": 1.0,
+    "icons": 0.0,
+    "names": 0.0,
+    "heightLimit": 10.0,
+    "iconScale": 2.0
+  },
+  "subCategories": [
+    {
+      "hardInclude": "living",
+      "includeList": [],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [
+        "artifacts:mimic",
+        "minecraft:armor_stand"
+      ],
+      "name": "gui.xaero_entity_category_living",
+      "protection": true,
+      "settingOverrides": {
+        "displayHeight": 2.0,
+        "displayed": false,
+        "renderOrder": 2.0,
+        "color": 14.0,
+        "displayNameWhenIconFails": false,
+        "alwaysDisplayNametags": false,
+        "renderOverMinimapFrame": 0.0
+      },
+      "subCategories": [
+        {
+          "hardInclude": "nothing",
+          "includeList": [
+            "avatar_daystohorders_mob",
+            "tag:avatar_daystohorders_mob"
+          ],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "Avatar",
+          "protection": false,
+          "settingOverrides": {},
+          "subCategories": []
+        },
+        {
+          "hardInclude": "players",
+          "includeList": [],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_players",
+          "protection": true,
+          "settingOverrides": {
+            "displayHeight": 2.0,
+            "displayed": true,
+            "renderOrder": 7.0,
+            "heightLimit": 2050.0,
+            "color": 15.0,
+            "displayNameWhenIconFails": true,
+            "dotSize": 4.0,
+            "renderOverMinimapFrame": 2.0,
+            "icons": 2.0,
+            "iconScale": 1.1
+          },
+          "subCategories": [
+            {
+              "hardInclude": "nothing",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friend",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "tracked",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_tracked",
+              "protection": true,
+              "settingOverrides": {
+                "displayHeight": 2.0,
+                "displayed": true,
+                "heightBasedFade": true,
+                "dotSize": 4.0,
+                "renderOverMinimapFrame": 2.0,
+                "icons": 2.0,
+                "iconScale": 1.5
+              },
+              "subCategories": []
+            },
+            {
+              "hardInclude": "same-team",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_same_team",
+              "protection": true,
+              "settingOverrides": {
+                "displayHeight": 2.0,
+                "displayed": true,
+                "displayNameWhenIconFails": false,
+                "renderOverMinimapFrame": 2.0,
+                "icons": 2.0
+              },
+              "subCategories": []
+            },
+            {
+              "hardInclude": "anything",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_other_teams",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 7.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "hostile",
+          "includeList": [],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ALL_BUT",
+          "excludeList": [
+            "the_flesh_that_hates:bruteplaquecreatureone",
+            "the_flesh_that_hates:flesh_boomer",
+            "the_flesh_that_hates:flesh_cocoon",
+            "the_flesh_that_hates:flesh_community",
+            "the_flesh_that_hates:flesh_cow",
+            "the_flesh_that_hates:flesh_dog",
+            "the_flesh_that_hates:flesh_howler",
+            "the_flesh_that_hates:flesh_human",
+            "the_flesh_that_hates:flesh_human_head",
+            "the_flesh_that_hates:flesh_hunter_three",
+            "the_flesh_that_hates:flesh_hunter_two",
+            "the_flesh_that_hates:flesh_justice",
+            "the_flesh_that_hates:flesh_piece",
+            "the_flesh_that_hates:flesh_pig",
+            "the_flesh_that_hates:flesh_pillager",
+            "the_flesh_that_hates:flesh_servant",
+            "the_flesh_that_hates:flesh_sheep",
+            "the_flesh_that_hates:flesh_suffer",
+            "the_flesh_that_hates:flesh_villager",
+            "the_flesh_that_hates:flesh_vindicator",
+            "the_flesh_that_hates:image_holder",
+            "the_flesh_that_hates:plaquecontaminator",
+            "the_flesh_that_hates:plaquecreaturebaseone",
+            "the_flesh_that_hates:plaquecreatureone",
+            "the_flesh_that_hates:plaquecreaturetwo",
+            "the_flesh_that_hates:plaqueincubatorone",
+            "the_flesh_that_hates:plaqueincubatorstart",
+            "the_flesh_that_hates:plaquethreelegcreature",
+            "the_flesh_that_hates:projectile_clay_bomb",
+            "the_flesh_that_hates:projectile_flesh_crossbow"
+          ],
+          "name": "gui.xaero_entity_category_hostile",
+          "protection": true,
+          "settingOverrides": {
+            "displayHeight": 2.0,
+            "displayed": true,
+            "heightBasedFade": false,
+            "renderOrder": 3.0,
+            "names": 1.0,
+            "heightLimit": 150.0,
+            "color": 4.0,
+            "dotSize": 3.0,
+            "renderOverMinimapFrame": 2.0,
+            "icons": 1.0,
+            "iconScale": 1.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "nothing",
+              "includeList": [
+                "minecraft:evoker",
+                "minecraft:illusioner",
+                "minecraft:pillager",
+                "minecraft:ravager",
+                "minecraft:vex",
+                "minecraft:vindicator",
+                "minecraft:witch"
+              ],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "Pillagers",
+              "protection": true,
+              "settingOverrides": {
+                "displayHeight": 2.0,
+                "renderOrder": 1.0,
+                "heightLimit": 30.0,
+                "icons": 2.0
+              },
+              "subCategories": []
+            },
+            {
+              "hardInclude": "tamed",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_hostile_tamed",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 5.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "anything",
+          "includeList": [],
+          "includeListInSuperCategory": true,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_friendly",
+          "protection": true,
+          "settingOverrides": {
+            "displayHeight": 2.0,
+            "displayed": false,
+            "heightBasedFade": true,
+            "names": 1.0,
+            "heightLimit": 10.0,
+            "color": 6.0,
+            "startFadingAt": 10.0,
+            "renderOverMinimapFrame": 0.0,
+            "icons": 1.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "tamed",
+              "includeList": [],
+              "includeListInSuperCategory": true,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friendly_tamed",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 4.0
+              },
+              "subCategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hardInclude": "items",
+      "includeList": [],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ONLY",
+      "excludeList": [],
+      "name": "gui.xaero_entity_category_items",
+      "protection": true,
+      "settingOverrides": {
+        "displayHeight": 0.0,
+        "displayed": false,
+        "heightBasedFade": false,
+        "renderOrder": 1.0,
+        "names": 0.0,
+        "color": 2.0,
+        "icons": 0.0
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "anything",
+      "includeList": [],
+      "includeListInSuperCategory": true,
+      "excludeMode": "ALL_BUT",
+      "excludeList": [
+        "item;minecraft:acacia_log"
+      ],
+      "name": "gui.xaero_entity_category_other_entities",
+      "protection": true,
+      "settingOverrides": {
+        "displayed": true,
+        "color": 5.0
+      },
+      "subCategories": []
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "profession": "minecraft:cleric",
+  "removeOtherTrades": true,
+  "maxTrades": 16,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:rotten_flesh",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_gold_nugget_for_rotten_flesh"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:redstone",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_redstone_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_gold_nugget_for_gold_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:lapis_lazuli",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_lapis_lazuli_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:rabbit_foot",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_gold_nugget_for_rabbit_foot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:glowstone",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_glowstone_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:scute",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_gold_nugget_for_scute"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:glass_bottle",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_gold_nugget_for_glass_bottle"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:ender_pearl",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_ender_pearl_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:nether_wart",
+        "amount": 22,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_gold_nugget_for_nether_wart"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:experience_bottle",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_experience_bottle_for_gold_nugget"
+    }
+  ]
+}

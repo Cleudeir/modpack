@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:bronze_wire"
+    },
+    "3": {
+      "item": "zombie_extreme:machete"
+    },
+    "4": {
+      "item": "zombie_extreme:blueprint_epic"
+    },
+    "6": {
+      "item": "zombie_extreme:energy_battery"
+    },
+    "7": {
+      "item": "zombie_extreme:bronze_wire"
+    },
+    "8": {
+      "item": "zombie_extreme:rubber_sheet"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:electro_machete",
+    "count": 1
+  }
+}

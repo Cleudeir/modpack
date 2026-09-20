@@ -1,0 +1,58 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:dark_forest",
+      "required": false
+    },
+    {
+      "id": "minecraft:mushroom_fields",
+      "required": false
+    },
+    {
+      "id": "minecraft:old_growth_spruce_taiga",
+      "required": false
+    },
+    {
+      "id": "minecraft:old_growth_pine_taiga",
+      "required": false
+    },
+    {
+     "id": "#forge:is_mushroom",
+      "required": false
+    },
+    {
+     "id": "#forge:is_taiga",
+      "required": false
+    },
+    {
+      "id": "twilightforest:dense_mushroom_forest",
+      "required": false
+    },
+    {
+      "id": "twilightforest:mushroom_forest",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fungal_jungle",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:glowing_grotto",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blackwood_taiga",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:bioshroom_caves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:fungal_fen",
+      "required": false
+    }
+  ]
+}
+    

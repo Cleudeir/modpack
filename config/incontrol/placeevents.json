@@ -1,0 +1,98 @@
+[
+    {
+        "block":"create:cogwheel",
+        "gamestage":"create1",
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"create:shaft",
+        "gamestage":"create1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"create:large_cogwheel",
+        "gamestage":"create1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"create:steam_engine",
+        "gamestage":"create2",
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"create:fluid_tank",
+        "gamestage":"create2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:mortar",
+        "gamestage":"siege1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:cannon",
+        "gamestage":"siege1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:giant_cannon",
+        "gamestage":"siege1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:crusher",
+        "gamestage":"siege1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:giant_saw_block_off",
+        "gamestage":"siege1",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:block_of_cast_iron",
+        "gamestage":"siege2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:block_of_cast_iron_pillar",
+        "gamestage":"siege2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:block_of_cast_iron_scaffolding",
+        "gamestage":"siege2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:block_of_cast_iron_stairs",
+        "gamestage":"siege2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:block_of_cast_iron_slab",
+        "gamestage":"siege2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    },
+    {
+        "block":"blocky_siege:block_of_cast_iron_wall",
+        "gamestage":"siege2",        
+        "message": "You lack the ability to use this feature",
+        "result":"deny"
+    }                                         
+]

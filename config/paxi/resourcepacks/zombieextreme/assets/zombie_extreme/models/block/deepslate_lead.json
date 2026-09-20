@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zombie_extreme:block/ore_lead_deepslate",
+    "up": "zombie_extreme:block/ore_lead_deepslate",
+    "north": "zombie_extreme:block/ore_lead_deepslate",
+    "east": "zombie_extreme:block/ore_lead_deepslate",
+    "south": "zombie_extreme:block/ore_lead_deepslate",
+    "west": "zombie_extreme:block/ore_lead_deepslate",
+    "particle": "zombie_extreme:block/ore_lead_deepslate"
+  },
+  "render_type": "solid"
+}

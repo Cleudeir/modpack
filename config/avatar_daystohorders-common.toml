@@ -1,0 +1,27 @@
+
+#Max mobs per player
+[maxMobsPerPlayer]
+	#Max mobs per player
+	default = "10"
+
+#Period wave
+[periodWave]
+	#Default period wave
+	default = "4"
+
+#Mobs Per wave
+[mobsPerWave]
+	#Default mobs per wave table data, example: "minecraft:zombie,1,0,0" = "mobName,startWave,endWave,endWave,weightOfMob"
+	# if endWave = 0 = infinity
+	# Quantity mob type per wave per player:
+	# A= Max mobs
+	#B= Weight of mob
+	# C= Sum of all Weight mobs this wave
+	# Calc: A * B / C
+	default = ["minecraft:zombie,1,0,10", "minecraft:skeleton,2,0,4", "minecraft:spider,3,0,4", "minecraft:creeper,4,0,4", "minecraft:cave_spider,5,0,3", "minecraft:slime,6,0,3", "minecraft:endermite,7,0,3", "minecraft:husk,8,0,2", "minecraft:stray,9,0,2", "minecraft:drowned,0,19,2", "minecraft:witch,11,0,2", "minecraft:phantom,12,0,2", "minecraft:vindicator,13,0,2", "minecraft:evoker,14,0,1", "minecraft:illusioner,15,0,1", "minecraft:pillager,16,0,1", "minecraft:vex,17,0,1", "minecraft:blaze,18,0,1", "minecraft:magma_cube,19,0,1", "minecraft:guardian,20,0,1", "minecraft:ghast,21,0,1", "minecraft:shulker,22,0,1", "minecraft:ravager,23,0,1", "minecraft:enderman,24,0,1", "minecraft:elder_guardian,25,0,1"]
+
+#Rare Items List
+[rareItems]
+	#List of rare items that can be given to players. Example: "minecraft:diamond,1" = "itemName,quantity"
+	default = ["minecraft:diamond,1", "minecraft:golden_apple,1", "minecraft:enchanted_golden_apple,1", "minecraft:nether_star,1", "minecraft:elytra,1", "minecraft:totem_of_undying,1", "minecraft:beacon,1", "minecraft:dragon_egg,1", "minecraft:heart_of_the_sea,1", "minecraft:shulker_shell,1"]
+

@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/knife_m9",
+  "textures": {
+    "0": "zombie_extreme:block/knife_m9",
+    "particle": "zombie_extreme:item/placeholder_melee"
+  }
+}

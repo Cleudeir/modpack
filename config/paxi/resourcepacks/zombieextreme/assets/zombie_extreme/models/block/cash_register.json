@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/cash_register",
+  "textures": {
+    "all": "zombie_extreme:block/cash_register",
+    "particle": "zombie_extreme:block/cash_register",
+    "0": "zombie_extreme:block/cash_register"
+  },
+  "render_type": "solid"
+}

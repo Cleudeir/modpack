@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:cloth"
+    },
+    "1": {
+      "item": "zombie_extreme:vodka"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:bandage",
+    "count": 2
+  }
+}

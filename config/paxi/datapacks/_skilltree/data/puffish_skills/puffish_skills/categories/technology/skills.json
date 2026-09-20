@@ -1,0 +1,50 @@
+{
+	"ni76zq425t3sysqo": {
+		"definition": "guns I",
+		"x": 0,
+		"y": -32,
+		"root": true
+	},
+	"bcby67gm47zg46d5": {
+		"definition": "guns II",
+		"x": 0,
+		"y": -96,
+		"root": false
+	},
+	"8b4pqxs1ua7et40y": {
+		"definition": "weapons I",
+		"x": 32,
+		"y": 0,
+		"root": true
+	},
+	"lj1g8elb9u1bf9on": {
+		"definition": "weapons II",
+		"x": 96,
+		"y": 0,
+		"root": false
+	},
+	"lw9iavrla3q40p6a": {
+		"definition": "siege I",
+		"x": 0,
+		"y": 32,
+		"root": true
+	},
+	"5wwcr9m4yhemgnz6": {
+		"definition": "siege II",
+		"x": 0,
+		"y": 96,
+		"root": false
+	},
+	"fthp2d06bsdwrmmt": {
+		"definition": "create I",
+		"x": -32,
+		"y": 0,
+		"root": true
+	},
+	"9timez0ju1z452x0": {
+		"definition": "create II",
+		"x": -96,
+		"y": 0,
+		"root": false
+	}
+}

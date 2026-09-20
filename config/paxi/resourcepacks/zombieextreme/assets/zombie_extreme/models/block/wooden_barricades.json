@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/wooden_barricades",
+  "textures": {
+    "all": "zombie_extreme:block/wooden_barricades",
+    "particle": "zombie_extreme:block/wooden_barricades",
+    "0": "zombie_extreme:block/wooden_barricades"
+  },
+  "render_type": "solid"
+}

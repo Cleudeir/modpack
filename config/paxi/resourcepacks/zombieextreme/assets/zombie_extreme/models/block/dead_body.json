@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/dead_body",
+  "textures": {
+    "all": "zombie_extreme:block/dead_body",
+    "particle": "zombie_extreme:block/dead_body",
+    "0": "zombie_extreme:block/dead_body"
+  },
+  "render_type": "solid"
+}

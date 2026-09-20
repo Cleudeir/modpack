@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/wooden_chair",
+  "textures": {
+    "all": "zombie_extreme:block/wooden_chair",
+    "particle": "zombie_extreme:block/wooden_chair",
+    "0": "zombie_extreme:block/wooden_chair"
+  },
+  "render_type": "solid"
+}

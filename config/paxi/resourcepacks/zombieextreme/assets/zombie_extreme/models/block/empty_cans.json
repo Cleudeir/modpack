@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/empty_cans",
+  "textures": {
+    "all": "zombie_extreme:block/empty_cans",
+    "particle": "zombie_extreme:block/empty_cans",
+    "0": "zombie_extreme:block/empty_cans"
+  },
+  "render_type": "solid"
+}

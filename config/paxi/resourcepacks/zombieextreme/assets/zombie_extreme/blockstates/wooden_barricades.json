@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/wooden_barricades"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/wooden_barricades",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/wooden_barricades",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/wooden_barricades",
+      "y": 270
+    }
+  }
+}

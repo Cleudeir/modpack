@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zombie_extreme:block/ore_thorium",
+    "up": "zombie_extreme:block/ore_thorium",
+    "north": "zombie_extreme:block/ore_thorium",
+    "east": "zombie_extreme:block/ore_thorium",
+    "south": "zombie_extreme:block/ore_thorium",
+    "west": "zombie_extreme:block/ore_thorium",
+    "particle": "zombie_extreme:block/ore_thorium"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/iron_table"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/iron_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/iron_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/iron_table",
+      "y": 270
+    }
+  }
+}

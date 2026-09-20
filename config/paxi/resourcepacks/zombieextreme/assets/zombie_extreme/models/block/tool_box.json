@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/tool_box",
+  "textures": {
+    "all": "zombie_extreme:block/tool_box",
+    "particle": "zombie_extreme:block/tool_box",
+    "0": "zombie_extreme:block/tool_box"
+  },
+  "render_type": "solid"
+}

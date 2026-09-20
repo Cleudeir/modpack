@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignotlead"
+    },
+    "1": {
+      "item": "zombie_extreme:ignotlead"
+    },
+    "2": {
+      "item": "zombie_extreme:ignotlead"
+    },
+    "3": {
+      "item": "zombie_extreme:ignotlead"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:lead_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "zombie_extreme:burning_land_oil_shale",
+  "config": {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "zombie_extreme:radiation_block",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        "state": {
+          "Name": "zombie_extreme:burning_land_oil_shale"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/katana",
+  "textures": {
+    "0": "zombie_extreme:block/katana",
+    "particle": "zombie_extreme:item/placeholder_melee"
+  }
+}

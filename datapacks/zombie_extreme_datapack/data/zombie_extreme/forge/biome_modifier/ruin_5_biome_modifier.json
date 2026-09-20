@@ -1,0 +1,28 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "savanna_plateau",
+    "forest",
+    "zombie_extreme:scorched_earth",
+    "snowy_plains",
+    "taiga",
+    "birch_forest",
+    "flower_forest",
+    "snowy_slopes",
+    "mangrove_swamp",
+    "snowy_taiga",
+    "swamp",
+    "badlands",
+    "dark_forest",
+    "plains",
+    "beach",
+    "savanna",
+    "wooded_badlands",
+    "jungle",
+    "desert",
+    "meadow",
+    "snowy_beach"
+  ],
+  "features": "zombie_extreme:ruin_5",
+  "step": "surface_structures"
+}

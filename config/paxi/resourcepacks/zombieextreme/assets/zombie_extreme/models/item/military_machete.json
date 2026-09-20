@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/military_machete",
+  "textures": {
+    "0": "zombie_extreme:block/military_machete",
+    "particle": "zombie_extreme:item/placeholder_melee"
+  }
+}

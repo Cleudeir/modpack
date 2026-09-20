@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/fridge",
+  "textures": {
+    "all": "zombie_extreme:block/fridge",
+    "particle": "zombie_extreme:block/fridge",
+    "0": "zombie_extreme:block/fridge"
+  },
+  "render_type": "solid"
+}

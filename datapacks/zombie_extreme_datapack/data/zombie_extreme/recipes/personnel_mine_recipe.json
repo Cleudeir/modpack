@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:plastic"
+    },
+    "1": {
+      "item": "zombie_extreme:tin_plate"
+    },
+    "2": {
+      "item": "zombie_extreme:plastic"
+    },
+    "3": {
+      "item": "minecraft:gunpowder"
+    },
+    "4": {
+      "item": "minecraft:gunpowder"
+    },
+    "5": {
+      "item": "minecraft:gunpowder"
+    },
+    "6": {
+      "item": "zombie_extreme:plastic"
+    },
+    "7": {
+      "item": "zombie_extreme:plastic"
+    },
+    "8": {
+      "item": "zombie_extreme:plastic"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:personnel_mine",
+    "count": 1
+  }
+}

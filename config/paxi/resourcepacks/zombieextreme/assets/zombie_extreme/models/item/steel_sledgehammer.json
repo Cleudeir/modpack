@@ -1,0 +1,7 @@
+{
+  "parent": "zombie_extreme:custom/steel_sledgehammer",
+  "textures": {
+    "0": "zombie_extreme:block/steel_sledgehammer",
+    "particle": "zombie_extreme:item/placeholder_hammer"
+  }
+}

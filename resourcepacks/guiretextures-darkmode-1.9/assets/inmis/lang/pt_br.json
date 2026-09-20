@@ -1,0 +1,22 @@
+{
+  "itemGroup.inmis.backpack": "\u00a7r\u00a7fInmis",
+
+  "ui.inmis.backpack": "Mochila",
+
+  "item.inmis.baby_backpack": "\u00a7r\u00a7fMinimochila",
+  "item.inmis.ender_pouch": "\u00a7r\u00a7fPochete de ender",
+
+  "item.inmis.frayed_backpack": "\u00a7r\u00a7fMochila barata",
+  "item.inmis.plated_backpack": "\u00a7r\u00a7fMochila laminada",
+  "item.inmis.gilded_backpack": "\u00a7r\u00a7fMochila dourada",
+  "item.inmis.bejeweled_backpack": "\u00a7r\u00a7fMochila ornada",
+  "item.inmis.blazing_backpack": "\u00a7r\u00a7fMochila ardente",
+  "item.inmis.withered_backpack": "\u00a7r\u00a7fMochila do Nether",
+  "item.inmis.endless_backpack": "\u00a7r\u00a7fMochila do fim",
+
+  "inmis.advancement.baby_backpack.title": "Já é um começo",
+  "inmis.advancement.baby_backpack.description": "Perfeita para dar de presente!",
+
+  "category.inmis.keybindings": "Inmis",
+  "key.inmis.open_backpack": "Abrir mochila"
+}

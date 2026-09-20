@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/kitchen_stove"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/kitchen_stove",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/kitchen_stove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/kitchen_stove",
+      "y": 270
+    }
+  }
+}

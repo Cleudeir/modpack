@@ -1,0 +1,76 @@
+{
+  "screen": {
+    "name": "main-menu-or-gameplay",
+    "width": 941,
+    "height": 569,
+    "guiScaleHint": 2,
+    "lastVerified": "2026-09-20T11:xx"
+  },
+  "window": {
+    "rect": { "L": 489, "T": 244, "R": 1430, "B": 813 },
+    "centerX": 959,
+    "centerY": 528,
+    "pid": 0,
+    "titleMatch": "Minecraft Forge"
+  },
+  "menu": {
+    "current": "none",
+    "previous": "none",
+    "pause": false,
+    "panelOpen": false,
+    "cheatsEnabled": false,
+    "allowCommands": 0
+  },
+  "debug": {
+    "flow": "F5 uses 'Debug Modpack (Script + Attach)' -> preLaunchTask runs run-debug.ps1 -Suspend (JVM waits on port 5005) -> attach resumes",
+    "port": 5005,
+    "script": ".vscode\\run-debug.ps1 -NoFollow -Suspend -Port 5005 -Username Dev -Xmx 8G"
+  },
+  "adminPanel": {
+    "NOTE_IMPORTANT": "Panel is rendered at GUI scale 2. Coordinates below are FULL IMAGE pixels (941x569). Panel px*2 positions earlier were wrong.",
+    "tabY": 60,
+    "tabs": {
+      "Player": { "image": { "x": 260, "y": 60 }, "offset": { "x": -210, "y": -224 } },
+      "Items":  { "image": { "x": 370, "y": 60 }, "offset": { "x": -100, "y": -224 } },
+      "World":  { "image": { "x": 470, "y": 60 }, "offset": { "x": 0, "y": -224 } },
+      "Mobs":   { "image": { "x": 570, "y": 60 }, "offset": { "x": 100, "y": -224 } },
+      "Mods":   { "image": { "x": 670, "y": 60 }, "offset": { "x": 200, "y": -224 } }
+    },
+    "buttonCol0": { "centerX": 341, "offsetX": -129 },
+    "buttonCol1": { "centerX": 597, "offsetX": 127 },
+    "buttonRowsY": [115, 157, 199, 241, 283, 325, 367, 409],
+    "playerTabButtons": [
+      ["Heal", "heal"], ["Feed", "feed"], ["Fly", "fly"], ["God Mode", "god"],
+      ["God Gear", "godgear"], ["Give All", "giveall"], ["Creative", "creative"],
+      ["Survival", "survival"], ["Speed 2x", "speed 2"], ["Night Vision", "nv"],
+      ["Fire Resist", "fire"], ["Strength", "strength"], ["Regen", "regen"],
+      ["Haste", "haste"], ["Invisible", "invis"], ["Clear Effects", "cleareffects"]
+    ],
+    "itemsTabButtons": [
+      ["Diamond x64", "give minecraft:diamond 64"], ["Netherite x64", "give minecraft:netherite_ingot 64"],
+      ["Emerald x64", "give minecraft:emerald 64"], ["DiamondBlock x64", "give minecraft:diamond_block 64"],
+      ["EnchApple x64", "give minecraft:enchanted_golden_apple 64"], ["EnderPearl x16", "give minecraft:ender_pearl 16"],
+      ["XPBottle x64", "give minecraft:experience_bottle 64"], ["Elytra", "give minecraft:elytra"],
+      ["Totem", "give minecraft:totem_of_undying"], ["Backpack", "give quark:backpack"],
+      ["Iron Chest", "give ironchest:iron_chest"], ["Repair All", "repair"], ["Clear Inv", "clearinv"]
+    ],
+    "worldTabButtons": [
+      ["Set Day", "time day"], ["Set Night", "time night"], ["Clear Sky", "weather clear"],
+      ["Rain", "weather rain"], ["Thunder", "weather thunder"], ["Peaceful", "difficulty peaceful"],
+      ["Hard", "difficulty hard"], ["Skip +1000", "tickwarp 1000"], ["Skip +10000", "tickwarp 10000"],
+      ["Spawn", "spawn"], ["Top", "top"], ["TP All", "tpall"]
+    ],
+    "mobsTabButtons": [["Kill All", "killall"], ["Player List", "plist"]],
+    "modsTabButtons": [["Mod List", "modlist"], ["Mods Info", "mods"], ["Help", "admin help"]]
+  },
+  "notes": [
+    "open-to-lan path abandoned: clicking Start LAN World returned to pause (both buttons tested) - modded LAN screen is unreliable in debug mode",
+    "Game closed cleanly at 10:46 (Stopping singleplayer server) - no crash",
+    "F5 root cause: 'Debug Modpack (Launch)' uses hardcoded stale classpath + Android Studio JBR -> OOM/crash",
+    "F5 fix: 'Debug Modpack (Script + Attach)' = preLaunchTask 'Launch Modpack (Debug Script)' (run-debug.ps1 -Suspend) + attach port 5005",
+    "script launch works: run-debug.ps1 -NoFollow opens game fine (PID confirmed, title 'Minecraft Forge* 1.20.1 - Singleplayer')",
+    "crash-09:37 was OutOfMemoryError with -Xmx3G; script now uses -Xmx8G",
+    "Player tab button grid: 2 cols x 8 rows = 16 buttons; rows at y 115..409 step 42",
+    "Pixel probe: panel open = R17 G22 B57 at (470,120); buttons gray 131"
+  ]
+}

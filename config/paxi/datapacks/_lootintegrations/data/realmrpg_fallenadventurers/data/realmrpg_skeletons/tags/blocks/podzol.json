@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:podzol",
+      "required": false
+    },
+	{
+      "id": "minecraft:mycelium",
+      "required": false
+    },
+	{
+      "id": "twilightforest:uberous_soil",
+      "required": false
+    }
+  ]
+}

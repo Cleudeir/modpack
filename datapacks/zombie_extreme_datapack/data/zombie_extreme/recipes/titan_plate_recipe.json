@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:ignot_titan"
+    },
+    "1": {
+      "item": "zombie_extreme:ignot_titan"
+    },
+    "2": {
+      "item": "zombie_extreme:ignot_titan"
+    },
+    "3": {
+      "item": "zombie_extreme:ignot_titan"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:titan_plate",
+    "count": 1
+  }
+}

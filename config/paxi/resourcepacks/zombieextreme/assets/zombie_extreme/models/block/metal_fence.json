@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/metal_fence",
+  "textures": {
+    "all": "zombie_extreme:block/metal_fence",
+    "particle": "zombie_extreme:block/metal_fence",
+    "0": "zombie_extreme:block/metal_fence"
+  },
+  "render_type": "solid"
+}

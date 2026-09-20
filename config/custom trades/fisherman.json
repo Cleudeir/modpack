@@ -1,0 +1,252 @@
+{
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 16,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_gold_nugget_for_string"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_gold_nugget_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_cod",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:cod",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_cooked_cod_for_gold_nugget_and_cod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cod_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_cod_bucket_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:cod",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_gold_nugget_for_cod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_salmon",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:salmon",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_cooked_salmon_for_gold_nugget_and_salmon"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:campfire",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 200,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_campfire_for_gold_nugget"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "alexsmobs:ambergris",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_emerald_for_ambergris"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:salmon",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_gold_nugget_for_salmon"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:fishing_rod",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_fishing_rod_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:tropical_fish",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_gold_nugget_for_tropical_fish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "quark:crab_leg",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_gold_nugget_for_crab_leg"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:pufferfish",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_gold_nugget_for_pufferfish"
+    }
+  ]
+}

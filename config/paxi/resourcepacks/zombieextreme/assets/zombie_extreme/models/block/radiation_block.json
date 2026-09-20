@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zombie_extreme:block/burning_land",
+    "up": "zombie_extreme:block/burning_land",
+    "north": "zombie_extreme:block/burning_land",
+    "east": "zombie_extreme:block/burning_land",
+    "south": "zombie_extreme:block/burning_land",
+    "west": "zombie_extreme:block/burning_land",
+    "particle": "zombie_extreme:block/burning_land"
+  },
+  "render_type": "solid"
+}

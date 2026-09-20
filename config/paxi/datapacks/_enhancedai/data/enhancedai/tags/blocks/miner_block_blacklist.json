@@ -1,0 +1,23 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:netherite_brick",
+		"minecraft:netherite_brick_slab",
+		"minecraft:netherite_brick_stairs",
+		"minecraft:netherite_brick_wall",
+		"minecraft:netherite_brick_fence",
+		"minecraft:netherite_brick_fence_gate",
+		"minecraft:netherite_brick_pressure_plate",
+		"minecraft:netherite_brick_button",
+		"minecraft:netherite_brick_chiseled",
+		"minecraft:netherite_brick_pillar",
+		"minecraft:netherite_brick_cracked",
+		"minecraft:netherite_brick_mossy",
+		"minecraft:netherite_brick_polished",
+		"minecraft:netherite_brick_polished_slab",
+		"minecraft:netherite_brick_polished_stairs",
+		"minecraft:netherite_brick_polished_wall",
+		"minecraft:iron_block",
+		"minecraft:diamond_block"	
+    ]
+}

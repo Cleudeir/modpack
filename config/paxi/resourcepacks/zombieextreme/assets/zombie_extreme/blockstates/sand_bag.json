@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "zombie_extreme:block/sand_bag"
+    },
+    "facing=east": {
+      "model": "zombie_extreme:block/sand_bag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "zombie_extreme:block/sand_bag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "zombie_extreme:block/sand_bag",
+      "y": 270
+    }
+  }
+}

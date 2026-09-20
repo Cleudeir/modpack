@@ -1,0 +1,9 @@
+{
+  "parent": "zombie_extreme:custom/medicine_box",
+  "textures": {
+    "all": "zombie_extreme:block/medicine_box",
+    "particle": "zombie_extreme:block/medicine_box",
+    "0": "zombie_extreme:block/medicine_box"
+  },
+  "render_type": "solid"
+}

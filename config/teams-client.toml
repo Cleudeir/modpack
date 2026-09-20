@@ -1,0 +1,8 @@
+
+[visual]
+	enable_compass_hud = true
+	enable_status_hud = true
+	#How long teams toast notifications should last
+	#Range: 0 ~ 100000000
+	toast_duration = 5
+

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "2": {
+      "item": "zombie_extreme:rubber_sheet"
+    },
+    "3": {
+      "item": "zombie_extreme:lead_plate"
+    },
+    "5": {
+      "item": "zombie_extreme:lead_plate"
+    }
+  },
+  "result": {
+    "item": "zombie_extreme:hazmat_suit_boots",
+    "count": 1
+  }
+}

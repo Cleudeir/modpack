@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 210,
+  "ingredient": {
+    "item": "zombie_extreme:raw_aluminum"
+  },
+  "result": "zombie_extreme:ignot_aluminum"
+}
