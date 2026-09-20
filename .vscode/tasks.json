@@ -2,19 +2,76 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Generate Modpack Launch Config",
+      "label": "Debug: Isolar mods (so KubeJS)",
       "type": "shell",
       "command": "powershell",
       "args": [
+        "-NoProfile",
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "${workspaceFolder}\\.vscode\\gen-launch.ps1"
+        "${workspaceFolder}/isolate-mods.ps1"
       ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": []
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "Debug: Restaurar mods (modpack completo)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/restore-mods.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "Debug: Abrir jogo (TLauncher - metodo normal)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "if (Get-Process -Name 'TLauncher' -ErrorAction SilentlyContinue) { Write-Host 'TLauncher ja esta aberto. Clique em PLAY na janela do TLauncher (versao modpack) para subir o jogo com debug na porta 5005.' } else { Start-Process 'C:\\Users\\user\\AppData\\Roaming\\.minecraft\\TLauncher.exe' }"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "Debug: [FALLBACK] Abrir jogo direto (sem TLauncher)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/launch-direct.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
     }
   ]
 }

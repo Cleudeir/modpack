@@ -1,4 +1,5 @@
 {
   "mainBlock": "minecraft:black_banner",
-  "radius": 20
+  "radius": 8,
+  "debug": true
 }

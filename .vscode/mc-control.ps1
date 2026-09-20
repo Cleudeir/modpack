@@ -22,7 +22,8 @@ param(
     [switch]$Screenshot,
     [string]$Out = "",
     [switch]$Foreground,
-    [string]$Key = "",
+[string]$Key = "",
+    [string]$SendText = "",
     [switch]$MouseClick,
     [int]$X = 0,
     [int]$Y = 0,
@@ -198,9 +199,8 @@ if ($Screenshot) {
     }
     $g.Dispose()
 
-    $outPath = if ($Out -ne "") { $Out } else { "$PSScriptRoot\mc-window.png" }
-    $dir = [System.IO.Path]::GetDirectoryName((Resolve-Path $outPath.Split('\')[0]).Path) -join $null
-    # ensure absolute path
+$outPath = if ($Out -ne "") { $Out } else { "$PSScriptRoot\mc-window.png" }
+    # ensure absolute path (o resolve antigo quebrava com paths com contra-barra)
     $full = [System.IO.Path]::GetFullPath($outPath)
     $fullDir = [System.IO.Path]::GetDirectoryName($full)
     if (-not (Test-Path $fullDir)) { New-Item -ItemType Directory -Path $fullDir -Force | Out-Null }
@@ -208,6 +208,33 @@ if ($Screenshot) {
     $bmp.Dispose()
     Write-Output "SAVED=$full"
     Write-Output "SIZE=${w}x${h}"
+}
+
+if ($SendText -ne "") {
+    if (Find-McWindow -match $TitleMatch -procIdTarget $TargetPid) {
+        [Win32MC]::SetForegroundWindow($script:foundHandle) | Out-Null
+        Start-Sleep -Milliseconds 400
+        $ws = New-Object -ComObject WScript.Shell
+        # digita caractere por caractere para evitar conflito com chars especiais
+        foreach ($ch in $SendText.ToCharArray()) {
+            $special = ""
+            switch ($ch) {
+                '{' { $special = "{{}" }
+                '}' { $special = "{}}" }
+                '+' { $special = "{+}" }
+                '^' { $special = "{^}" }
+                '%' { $special = "{%}" }
+                '~' { $special = "{~}" }
+                '(' { $special = "{(}" }
+                ')' { $special = "{)}" }
+                default { $special = [string]$ch }
+            }
+            $ws.SendKeys($special)
+            Start-Sleep -Milliseconds 20
+        }
+        Write-Output "SENT_TEXT=$SendText"
+    }
+    exit
 }
 
 if (-not ($GetWindow -or $Screenshot -or $Foreground -or $Key -ne "" -or $MouseClick)) {

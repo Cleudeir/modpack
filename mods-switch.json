@@ -1,0 +1,5 @@
+{
+  "backupPath": "mods_full",
+  "state": "restored",
+  "note": "Pack completo restaurado em mods/ (304 jars). Isolamento KubeJS desfeito. Lançar via TLauncher como de costume, ou via launch-direct.ps1 sem debug."
+}

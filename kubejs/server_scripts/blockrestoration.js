@@ -18,48 +18,73 @@
 //  - Estado persistido em kubejs/config/blockrestoration.dat (NBTIO).
 //  - Ao ENTRAR no servidor, cada jogador recebe 1x a bandeira (bloco
 //    principal) para ativar sua própria área de restauração.
+//  - Ao INICIAR o servidor, o bloco principal é colocado no SPAWN do
+//    mundo (se ainda não estiver lá), ativando a zona no spawn.
 //
 //  CONFIG: kubejs/config/blockrestoration.json
-//    { "mainBlock": "mod:id_do_bloco", "radius": 20 }
+//    { "mainBlock": "mod:id_do_bloco", "radius": 20, "debug": true }
 //
 //  DEBUG: /kubejs custom_command blockrestore_status
+//         /kubejs custom_command blockrestore_debug   (liga/desliga debug ao vivo)
+//
+//  MODO DEBUG (config "debug": true) — para TESTES ISOLADOS mais rápidos:
+//   - Ignora a regra de "só restaura de dia";
+//   - Restaura até 30 blocos por passada (normal: 1);
+//   - Tick acelerado (2/10/40/100 em vez de 20/80/300/600);
+//   - Logs detalhados [DEBUG] de cada ação;
+//   - No carregamento, verifica que o mod original NÃO está instalado
+//     (isolamento: apenas o KubeJS executa a restauração).
+//
+//  NOTAS TÉCNICAS (Rhino/KubeJS 1.20.1):
+//  - NUNCA usar const/let no topo nem dentro de funções: o Rhino reavalia
+//    o script no mesmo contexto ao entrar no mundo e lança
+//    "redeclaration of var X". Sempre usar VAR.
+//  - java.nio.file.Path/Paths/Files SÃO BLOQUEADOS pelo ClassFilter do KubeJS.
+//  - Path.resolve("string") eh ambiguo no Rhino => usar UtilsJS.getPath().
+//  - event.server.getLevel(ResourceKey) eh ambiguo no Rhino =>
+//    usar event.server.overworld() (sem argumentos, sem sobrecarga).
 // ================================================================
 
-const CONFIG_PATH = Java.loadClass('java.nio.file.Paths').get('kubejs/config/blockrestoration.json').toAbsolutePath();
-const SAVE_PATH   = Java.loadClass('java.nio.file.Paths').get('kubejs/config/blockrestoration.dat').toAbsolutePath();
+var $KubeJSPaths = Java.loadClass('dev.latvian.mods.kubejs.KubeJSPaths');
+var $UtilsJS     = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS');
+var CONFIG_PATH  = $UtilsJS.getPath('kubejs/config/blockrestoration.json'); // kubejs/config/
+var SAVE_PATH    = $UtilsJS.getPath('kubejs/config/blockrestoration.dat');
 
-const $Files      = Java.loadClass('java.nio.file.Files');
-const $JsonParser = Java.loadClass('com.google.gson.JsonParser');
-const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag');
-const $BlockPos    = Java.loadClass('net.minecraft.core.BlockPos');
-const $BlockStateParser = Java.loadClass('net.minecraft.commands.arguments.blocks.BlockStateParser');
-const $CollisionContext = Java.loadClass('net.minecraft.world.phys.shapes.CollisionContext');
-const $Heightmap  = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-const $Blocks     = Java.loadClass('net.minecraft.world.level.block.Blocks');
-const $ParticleTypes = Java.loadClass('net.minecraft.core.particles.ParticleTypes');
-const $Registries = Java.loadClass('net.minecraft.core.registries.Registries');
-const $ForgeRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
-const $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
-const $Entity     = Java.loadClass('net.minecraft.world.entity.Entity');
-const $Level      = Java.loadClass('net.minecraft.world.level.Level');
+var $JsonIO      = Java.loadClass('dev.latvian.mods.kubejs.util.JsonIO');
+var $NBTIO       = Java.loadClass('dev.latvian.mods.kubejs.util.NBTIOWrapper');
+var $HeightmapTypes = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap$Types');
+var $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag');
+var $BlockPos    = Java.loadClass('net.minecraft.core.BlockPos');
+var $BlockStateParser = Java.loadClass('net.minecraft.commands.arguments.blocks.BlockStateParser');
+var $CollisionContext = Java.loadClass('net.minecraft.world.phys.shapes.CollisionContext');
+var $Blocks     = Java.loadClass('net.minecraft.world.level.block.Blocks');
+var $ParticleTypes = Java.loadClass('net.minecraft.core.particles.ParticleTypes');
+var $Registries = Java.loadClass('net.minecraft.core.registries.Registries');
+var $ForgeRegistries = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
+var $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
+var $Entity     = Java.loadClass('net.minecraft.world.entity.Entity');
+var $Level      = Java.loadClass('net.minecraft.world.level.Level');
 
 // ------------------------------------------------------------------
 // CONFIG (lida do arquivo kubejs/config/blockrestoration.json)
 // ------------------------------------------------------------------
-let config = {
+var config = {
     mainBlock: 'minecraft:black_banner',
-    radius: 20
+    radius: 20,
+    debug: false
 };
 
 function loadConfig() {
     try {
-        if ($Files.exists(CONFIG_PATH)) {
-            const obj = $JsonParser.parseString($Files.readString(CONFIG_PATH)).getAsJsonObject();
-            if (obj.has('mainBlock')) config.mainBlock = obj.get('mainBlock').getAsString();
-            if (obj.has('radius'))    config.radius    = obj.get('radius').getAsInt();
+        var cfgJson = $JsonIO.readJson(CONFIG_PATH); // JsonElement ou null
+        if (cfgJson != null && cfgJson.isJsonObject()) {
+            var cfgObj = cfgJson.getAsJsonObject();
+            if (cfgObj.has('mainBlock')) config.mainBlock = cfgObj.get('mainBlock').getAsString();
+            if (cfgObj.has('radius'))    config.radius    = cfgObj.get('radius').getAsInt();
+            if (cfgObj.has('debug'))     config.debug     = cfgObj.get('debug').getAsBoolean();
         }
         config.radius = Math.max(1, Math.min(100, config.radius));
-        console.log('[blockrestoration] Config: mainBlock=' + config.mainBlock + ' radius=' + config.radius);
+        console.log('[blockrestoration] Config: mainBlock=' + config.mainBlock + ' radius=' + config.radius + ' debug=' + config.debug);
     } catch (e) {
         console.log('[blockrestoration] ERRO lendo config, usando padrões: ' + e);
     }
@@ -72,7 +97,7 @@ function loadConfig() {
 //   brokenBlocks      : Map "x,y,z" -> {stateString}
 //   perimeterBlocks   : Map "x,y,z" -> {stateString}
 // ------------------------------------------------------------------
-let state = {
+var state = {
     mainBlockPos: null,
     aroundBlocks: new Map(),
     brokenBlocks: new Map(),
@@ -86,12 +111,33 @@ function log(msg) {
     console.log('[blockrestoration] ' + msg);
 }
 
+// Log apenas quando o modo DEBUG está ativo
+function logDebug(msg) {
+    if (config.debug) log('[DEBUG] ' + msg);
+}
+
+// Isolamento: garante que NENHUM outro mod executa a mesma lógica.
+// Se o mod original estiver instalado, avisa para remover o .jar.
+function checkIsolation() {
+    try {
+        var $Platform = Java.loadClass('dev.architectury.platform.Platform');
+        if ($Platform.isModLoaded('avatar_blockrestoration')) {
+            log('ATENÇÃO: o mod avatar_blockrestoration está INSTALADO!');
+            log('Remova o .jar de mods/ para o teste isolado funcionar (só KubeJS).');
+        } else {
+            log('Isolamento OK: mod original NÃO instalado — só o KubeJS executa a restauração.');
+        }
+    } catch (e) {
+        logDebug('Aviso: não foi possível verificar isolamento: ' + e);
+    }
+}
+
 function keyOf(pos) {
     return pos.getX() + ',' + pos.getY() + ',' + pos.getZ();
 }
 
 function posFromKey(k) {
-    const p = String(k).split(',');
+    var p = String(k).split(',');
     return new $BlockPos(parseInt(p[0]), parseInt(p[1]), parseInt(p[2]));
 }
 
@@ -111,13 +157,13 @@ function stateStr(state) {
 // string serializada -> BlockState (restauração fiel de propriedades)
 function parseState(rawLevel, str) {
     try {
-        const lookup = rawLevel.registryAccess().lookupOrThrow($Registries.BLOCK);
+        var lookup = rawLevel.registryAccess().lookupOrThrow($Registries.BLOCK);
         return $BlockStateParser.parseForBlock(lookup, String(str), false).blockState();
     } catch (e) {
         // fallback: tenta só o id do bloco -> estado padrão
         try {
-            const id = String(str).split('[')[0];
-            const block = $ForgeRegistries.BLOCKS.getValue($ResourceLocation.tryParse(id));
+            var id = String(str).split('[')[0];
+            var block = $ForgeRegistries.BLOCKS.getValue($ResourceLocation.tryParse(id));
             return block != null ? block.defaultBlockState() : null;
         } catch (e2) {
             return null;
@@ -128,8 +174,8 @@ function parseState(rawLevel, str) {
 // O bloco tal está dentro do volume cúbico (±raio) do bloco principal?
 function inVolume(pos) {
     if (!state.mainBlockPos) return false;
-    const r = config.radius;
-    const a = state.mainBlockPos;
+    var r = config.radius;
+    var a = state.mainBlockPos;
     return Math.abs(pos.getX() - a.getX()) <= r
         && Math.abs(pos.getY() - a.getY()) <= r
         && Math.abs(pos.getZ() - a.getZ()) <= r;
@@ -138,30 +184,30 @@ function inVolume(pos) {
 // ------------------------------------------------------------------
 // PERSISTÊNCIA (NBTIO)
 // ------------------------------------------------------------------
-function putMap(tag, name, map) {
-    const inner = new $CompoundTag();
-    map.forEach((value, k) => inner.putString(k, value.stateString));
-    tag.put(name, inner);
+function putMap(parentTag, name, map) {
+    var inner = new $CompoundTag();
+    map.forEach(function (value, k) { inner.putString(k, value.stateString); });
+    parentTag.put(name, inner);
 }
 
-function readMap(tag, name, target) {
-    const keys = tag.getCompound(name).getAllKeys().toArray();
-    const inner = tag.getCompound(name);
-    for (let i = 0; i < keys.length; i++) {
-        const k = keys[i];
+function readMap(parentTag, name, target) {
+    var keys = parentTag.getCompound(name).getAllKeys().toArray();
+    var inner = parentTag.getCompound(name);
+    for (var i = 0; i < keys.length; i++) {
+        var k = keys[i];
         target.set(k, { stateString: inner.getString(k) });
     }
 }
 
 function saveState() {
     try {
-        $Files.createDirectories(SAVE_PATH.getParent());
-        const tag = new $CompoundTag();
-        tag.putString('mainBlockPos', state.mainBlockPos ? keyOf(state.mainBlockPos) : '');
-        putMap(tag, 'aroundBlocks', state.aroundBlocks);
-        putMap(tag, 'brokenBlocks', state.brokenBlocks);
-        putMap(tag, 'perimeterBlocks', state.perimeterBlocks);
-        NBTIO.write(SAVE_PATH, tag);
+        // SAVE_PATH fica dentro de KubeJSPaths.CONFIG, que já existe
+        var stateTag = new $CompoundTag();
+        stateTag.putString('mainBlockPos', state.mainBlockPos ? keyOf(state.mainBlockPos) : '');
+        putMap(stateTag, 'aroundBlocks', state.aroundBlocks);
+        putMap(stateTag, 'brokenBlocks', state.brokenBlocks);
+        putMap(stateTag, 'perimeterBlocks', state.perimeterBlocks);
+        $NBTIO.write(SAVE_PATH, stateTag);
         log('Estado salvo.');
     } catch (e) {
         log('ERRO ao salvar estado: ' + e);
@@ -170,17 +216,16 @@ function saveState() {
 
 function loadState() {
     try {
-        if (!$Files.exists(SAVE_PATH)) {
+        var loadedTag = $NBTIO.read(SAVE_PATH); // null se não existir
+        if (loadedTag == null) {
             log('Sem arquivo de estado salvo (primeira vez).');
             return;
         }
-        const tag = NBTIO.read(SAVE_PATH);
-        if (tag == null) return;
-        const posStr = tag.getString('mainBlockPos');
+        var posStr = loadedTag.getString('mainBlockPos');
         state.mainBlockPos = (posStr && posStr.length > 0) ? posFromKey(posStr) : null;
-        readMap(tag, 'aroundBlocks', state.aroundBlocks);
-        readMap(tag, 'brokenBlocks', state.brokenBlocks);
-        readMap(tag, 'perimeterBlocks', state.perimeterBlocks);
+        readMap(loadedTag, 'aroundBlocks', state.aroundBlocks);
+        readMap(loadedTag, 'brokenBlocks', state.brokenBlocks);
+        readMap(loadedTag, 'perimeterBlocks', state.perimeterBlocks);
         log('Estado carregado: main=' + (state.mainBlockPos ? keyOf(state.mainBlockPos) : 'nenhum')
             + ' around=' + state.aroundBlocks.size
             + ' broken=' + state.brokenBlocks.size
@@ -196,13 +241,13 @@ function loadState() {
 
 // Snapshot cúbico ±raio ao redor do bloco principal
 function setBlockStatesAroundMainBlock(rawLevel, center) {
-    const r = config.radius;
-    for (let x = -r; x <= r; x++) {
-        for (let y = -r; y <= r; y++) {
-            for (let z = -r; z <= r; z++) {
-                const pos = center.offset(x, y, z);
-                const s = rawLevel.getBlockState(pos);
-                const key = keyOf(pos);
+    var r = config.radius;
+    for (var x = -r; x <= r; x++) {
+        for (var y = -r; y <= r; y++) {
+            for (var z = -r; z <= r; z++) {
+                var pos = center.offset(x, y, z);
+                var s = rawLevel.getBlockState(pos);
+                var key = keyOf(pos);
                 if (!s.isAir() && !s.is($Blocks.FIRE) && !state.aroundBlocks.has(key)) {
                     state.aroundBlocks.set(key, { stateString: stateStr(s) });
                 }
@@ -215,27 +260,27 @@ function setBlockStatesAroundMainBlock(rawLevel, center) {
 
 // Perímetro: as 4 bordas do quadrado (±raio) na altura do terreno +2
 function getPerimeterBlocks(rawLevel, center) {
-    const r = config.radius;
-    const h = $Heightmap.Types.MOTION_BLOCKING_NO_LEAVES;
-    const put = (x, z) => {
-        const y = rawLevel.getHeight(h, x, z) + 2;
-        const pos = new $BlockPos(x, y, z);
+    var r = config.radius;
+    var h = $HeightmapTypes.MOTION_BLOCKING_NO_LEAVES;
+    function put(x, z) {
+        var y = rawLevel.getHeight(h, x, z) + 2;
+        var pos = new $BlockPos(x, y, z);
         state.perimeterBlocks.set(keyOf(pos), { stateString: stateStr(rawLevel.getBlockState(pos)) });
-    };
-    for (let i = -r; i <= r; i++) {
+    }
+    for (var i = -r; i <= r; i++) {
         put(center.getX() + i, center.getZ() + r);
         put(center.getX() + i, center.getZ() - r);
     }
-    for (let i = -r; i <= r; i++) {
-        put(center.getX() + r, center.getZ() + i);
-        put(center.getX() - r, center.getZ() + i);
+    for (var j = -r; j <= r; j++) {
+        put(center.getX() + r, center.getZ() + j);
+        put(center.getX() - r, center.getZ() + j);
     }
 }
 
 // Colocou o bloco principal: destrói a zona antiga e escaneia a nova
 function removeBlockAroundMainBlock(rawLevel, newMainPos) {
     if (state.mainBlockPos) {
-        const old = state.mainBlockPos;
+        var old = state.mainBlockPos;
         if (!old.equals(newMainPos)) {
             rawLevel.destroyBlock(old, true); // dropa o bloco principal antigo
         }
@@ -248,7 +293,7 @@ function removeBlockAroundMainBlock(rawLevel, newMainPos) {
 // Jogador colocou bloco DENTRO do volume → vira parte do snapshot
 function updatePutBlockAroundBlocks(rawLevel, pos) {
     if (inVolume(pos)) {
-        const key = keyOf(pos);
+        var key = keyOf(pos);
         state.brokenBlocks.delete(key);
         state.aroundBlocks.set(key, { stateString: stateStr(rawLevel.getBlockState(pos)) });
     }
@@ -257,7 +302,7 @@ function updatePutBlockAroundBlocks(rawLevel, pos) {
 // Jogador quebrou bloco dentro do volume → NÃO restaura
 function updatePlayerBreakBlockAroundBlocks(pos) {
     if (inVolume(pos)) {
-        const key = keyOf(pos);
+        var key = keyOf(pos);
         state.aroundBlocks.delete(key);
         state.brokenBlocks.delete(key);
     }
@@ -274,7 +319,7 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
         log('Bloco principal removido — zona cancelada.');
     }
 
-    state.aroundBlocks.forEach((value, k) => {
+    state.aroundBlocks.forEach(function (value, k) {
         if (rawLevel.getBlockState(posFromKey(k)).isAir() && !state.brokenBlocks.has(k)) {
             state.brokenBlocks.set(k, value);      // guarda o estado ORIGINAL
             state.aroundBlocks.delete(k);           // fiel ao mod original (é removido do around)
@@ -282,45 +327,101 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
     });
 }
 
-// A cada 1s (dia): restaura 1 bloco quebrado por vez, se vazio de entidades
-function getRestoreBlocks(rawLevel) {
-    if (state.brokenBlocks.size === 0) return;
+// A cada X ticks: restaura N blocos quebrados por vez, se vazios de entidades.
+// Normal: 1 bloco/seg só de dia. DEBUG: até 30 blocos por passada, dia e noite.
+function getRestoreBlocks(rawLevel, maxBlocks) {
+    if (state.brokenBlocks.size === 0 || maxBlocks <= 0) return;
 
-    let restored = false;
-    state.brokenBlocks.forEach((value, k) => {
-        if (restored) return;
-        const pos = posFromKey(k);
-        const blockState = parseState(rawLevel, value.stateString);
+    var restored = 0;
+    state.brokenBlocks.forEach(function (value, k) {
+        if (restored >= maxBlocks) return;
+        var pos = posFromKey(k);
+        var blockState = parseState(rawLevel, value.stateString);
         if (blockState == null) { state.brokenBlocks.delete(k); return; } // bloco não existe mais
 
-        const shape = blockState.getShape(rawLevel, pos, $CollisionContext.empty());
-        let clear = true;
+        var shape = blockState.getShape(rawLevel, pos, $CollisionContext.empty());
+        var clear = true;
         if (!shape.isEmpty()) {
-            const aabb = shape.bounds().move(pos.getX(), pos.getY(), pos.getZ());
+            var aabb = shape.bounds().move(pos.getX(), pos.getY(), pos.getZ());
             clear = rawLevel.getEntitiesOfClass($Entity, aabb).isEmpty();
         }
         if (clear) {
             rawLevel.setBlock(pos, blockState, 3);
             state.brokenBlocks.delete(k);
-            restored = true;
+            restored++;
+            logDebug('restaurado ' + k + ' <- ' + value.stateString);
         }
     });
+    if (restored > 0) log('Restaurados ' + restored + ' bloco(s) (faltam ' + state.brokenBlocks.size + ').');
 }
 
 // A cada 4s: partículas nos quebrados e no perímetro
 function getAnimate(rawLevel) {
-    state.brokenBlocks.forEach((value, k) => {
-        const pos = posFromKey(k);
+    state.brokenBlocks.forEach(function (value, k) {
+        var pos = posFromKey(k);
         if (rawLevel.getBlockState(pos).isAir()) {
             rawLevel.sendParticles($ParticleTypes.HAPPY_VILLAGER,
                 pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, 5, 0.2, 0.2, 0.2, 0.5);
         }
     });
-    state.perimeterBlocks.forEach((value, k) => {
-        const pos = posFromKey(k);
+    state.perimeterBlocks.forEach(function (value, k) {
+        var pos = posFromKey(k);
         rawLevel.sendParticles($ParticleTypes.FALLING_OBSIDIAN_TEAR,
             pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, 5, 0.2, 0.2, 0.2, 0.1);
     });
+}
+
+// ---------------------------------------------------------------
+// BANDEIRA NO SPAWN — coloca o bloco principal no ponto de spawn
+// do mundo quando o servidor inicia.
+// Regras:
+//  - Só age se o bloco no spawn NÃO for a bandeira (não força nada
+//    de novo se a bandeira já está lá);
+//  - Ativa a zona de proteção NO SPAWN apenas se não existir outra
+//    zona ativa (não rouba a zona de um jogador);
+//  - Se a bandeira do spawn for destruída, o servidor reposiciona.
+// ---------------------------------------------------------------
+function placeSpawnFlag(rawLevel) {
+    try {
+        var spawnPos = rawLevel.getSharedSpawnPos();
+        var x = spawnPos.getX();
+        var z = spawnPos.getZ();
+        var y = rawLevel.getHeight($HeightmapTypes.MOTION_BLOCKING_NO_LEAVES, x, z);
+        var targetPos = new $BlockPos(x, y, z);
+
+        var current = rawLevel.getBlockState(targetPos);
+        var rl = $ResourceLocation.tryParse(config.mainBlock);
+        var flagBlock = (rl != null) ? $ForgeRegistries.BLOCKS.getValue(rl) : null;
+
+        if (flagBlock == null || flagBlock === $Blocks.AIR) {
+            log('BANDEIRA NO SPAWN: bloco principal inválido (' + config.mainBlock + '), nada a fazer.');
+            return;
+        }
+
+        // já existe a bandeira exatamente no spawn → respeita o estado atual
+        if (current.getBlock() === flagBlock) {
+            log('BANDEIRA NO SPAWN: já existe em ' + keyOf(targetPos) + ', nada a fazer.');
+            return;
+        }
+
+        log('BANDEIRA NO SPAWN: colocando ' + config.mainBlock + ' em ' + keyOf(targetPos));
+        rawLevel.setBlock(targetPos, flagBlock.defaultBlockState(), 3);
+
+        // só ativa a zona no spawn se NÃO existir outra zona ativa
+        // (não rouba a zona de um jogador quando ele reloca a bandeira)
+        if (state.mainBlockPos == null) {
+            log('BANDEIRA NO SPAWN: ativando zona no spawn.');
+            state.aroundBlocks.clear();
+            state.perimeterBlocks.clear();
+            state.mainBlockPos = targetPos;
+            setBlockStatesAroundMainBlock(rawLevel, targetPos);
+            getPerimeterBlocks(rawLevel, targetPos);
+            getAnimate(rawLevel);
+        }
+        saveState();
+    } catch (e) {
+        log('ERRO em placeSpawnFlag: ' + e);
+    }
 }
 
 // ------------------------------------------------------------------
@@ -328,23 +429,35 @@ function getAnimate(rawLevel) {
 // ------------------------------------------------------------------
 loadConfig();
 loadState();
+checkIsolation();
 
 // ------------------------------------------------------------------
 // EVENTOS
 // ------------------------------------------------------------------
 
 // QUANDO O SERVIDOR DESLIGA: salva tudo
-ServerEvents.unloaded(event => {
+ServerEvents.unloaded(function () {
     saveState();
 });
 
-// ------------------------- COLOCAR BLOCO --------------------------
-BlockEvents.placed(event => {
+// QUANDO O SERVIDOR INICIA: garante a bandeira no spawn do mundo
+ServerEvents.loaded(function (event) {
     try {
-        const rawLevel = event.level;       // Level cru (ServerLevel em servidor)
-        const block = event.block;          // BlockContainerJS
-        const pos = block.getPos();
-        const id = block.getId();           // já é String ("mod:id")
+        var rawLevel = event.server.overworld(); // ServerLevel (sem ambiguidade de getLevel)
+        if (!rawLevel) return;
+        placeSpawnFlag(rawLevel);
+    } catch (e) {
+        log('ERRO em loaded: ' + e);
+    }
+});
+
+// ------------------------- COLOCAR BLOCO --------------------------
+BlockEvents.placed(function (event) {
+    try {
+        var rawLevel = event.level;       // Level cru (ServerLevel em servidor)
+        var block = event.block;          // BlockContainerJS
+        var pos = block.getPos();
+        var id = block.getId();           // já é String ("mod:id")
 
         if (id === config.mainBlock) {
             log('Bloco principal colocado em ' + keyOf(pos));
@@ -352,8 +465,12 @@ BlockEvents.placed(event => {
             setBlockStatesAroundMainBlock(rawLevel, pos);
             getPerimeterBlocks(rawLevel, pos);
             getAnimate(rawLevel);
+            logDebug('DEBUG placed: zona ativa em ' + keyOf(pos)
+                + ' around=' + state.aroundBlocks.size
+                + ' perimeter=' + state.perimeterBlocks.size);
         } else {
             updatePutBlockAroundBlocks(rawLevel, pos);
+            logDebug('DEBUG placed: ' + id + ' em ' + keyOf(pos));
         }
     } catch (e) {
         log('ERRO em placed: ' + e);
@@ -361,14 +478,14 @@ BlockEvents.placed(event => {
 });
 
 // ------------------------- QUEBRAR BLOCO --------------------------
-BlockEvents.broken(event => {
+BlockEvents.broken(function (event) {
     try {
-        const rawLevel = event.level;       // Level cru
-        const block = event.block;
-        const pos = block.getPos();
+        var rawLevel = event.level;       // Level cru
+        var block = event.block;
+        var pos = block.getPos();
 
         // Se a posição quebrada é o bloco principal → cancela a zona
-        const isMain = state.mainBlockPos && state.mainBlockPos.equals(pos);
+        var isMain = state.mainBlockPos && state.mainBlockPos.equals(pos);
         if (isMain) {
             log('Bloco principal quebrado em ' + keyOf(pos) + ' — zona cancelada.');
             state.aroundBlocks.clear();
@@ -376,6 +493,8 @@ BlockEvents.broken(event => {
             state.mainBlockPos = pos;
         } else {
             updatePlayerBreakBlockAroundBlocks(pos);
+            logDebug('DEBUG broken: ' + block.getId() + ' em ' + keyOf(pos)
+                + ' (marcado como controle do jogador, não restaura)');
         }
     } catch (e) {
         log('ERRO em broken: ' + e);
@@ -383,29 +502,35 @@ BlockEvents.broken(event => {
 });
 
 // --------------------------- TICK LOOP ----------------------------
-let tickCounter = 0;
-ServerEvents.tick(event => {
+var tickCounter = 0;
+ServerEvents.tick(function (event) {
     try {
-        const rawLevel = event.server.getLevel($Level.OVERWORLD); // ServerLevel
+        var rawLevel = event.server.overworld(); // ServerLevel (sem ambiguidade de getLevel)
         if (!rawLevel) return;
 
         tickCounter++;
 
-        if (tickCounter % 20 === 0) {            // a cada 1 segundo
-            // restaura apenas durante o dia (fiel ao mod original)
-            const timeOfDay = rawLevel.getDayTime() % 24000;
-            if (timeOfDay < 13000) {
-                getRestoreBlocks(rawLevel);
+        // Intervalos acelerados no modo DEBUG (teste isolado rápido)
+        var restoreEvery = config.debug ? 2  : 20;   // normal: a cada 1s
+        var renderEvery = config.debug ? 10 : 80;    // normal: a cada 4s
+        var scanEvery   = config.debug ? 40 : 300;   // normal: a cada 15s
+        var saveEvery   = config.debug ? 100: 600;   // normal: a cada 30s
+
+        if (tickCounter % restoreEvery === 0) {
+            var timeOfDay = rawLevel.getDayTime() % 24000;
+            // fiel ao mod original: restaura apenas de dia. DEBUG ignora isso.
+            if (timeOfDay < 13000 || config.debug) {
+                getRestoreBlocks(rawLevel, config.debug ? 30 : 1);
             }
         }
-        if (tickCounter % 80 === 0) {            // a cada 4 segundos
+        if (tickCounter % renderEvery === 0) {          // partículas
             getAnimate(rawLevel);
         }
-        if (tickCounter % 300 === 0) {           // a cada 15 segundos
+        if (tickCounter % scanEvery === 0) {            // escaneia quebrados (griefing)
             checkBlockStatesAroundMainBlock(rawLevel);
         }
-        if (tickCounter % 600 === 0) {           // a cada 30 segundos
-            saveState();                          // autosave (protege contra /reload)
+        if (tickCounter % saveEvery === 0) {            // autosave (protege contra /reload)
+            saveState();
         }
     } catch (e) {
         log('ERRO em tick: ' + e);
@@ -413,13 +538,14 @@ ServerEvents.tick(event => {
 });
 
 // ----------------------- COMANDO DE DEBUG -------------------------
-ServerEvents.customCommand('blockrestore_status', event => {
+ServerEvents.customCommand('blockrestore_status', function (event) {
     try {
-        const msg = '[BlockRestoration] principal=' + (state.mainBlockPos ? keyOf(state.mainBlockPos) : 'nenhum')
+        var msg = '[BlockRestoration] principal=' + (state.mainBlockPos ? keyOf(state.mainBlockPos) : 'nenhum')
             + ' aoRedor=' + state.aroundBlocks.size
             + ' quebrados=' + state.brokenBlocks.size
             + ' perimetro=' + state.perimeterBlocks.size
-            + ' | config: raio=' + config.radius + ' bloco=' + config.mainBlock;
+            + ' | config: raio=' + config.radius + ' bloco=' + config.mainBlock
+            + ' debug=' + config.debug;
         if (event.player) {
             event.player.tell(msg);
         } else {
@@ -430,17 +556,33 @@ ServerEvents.customCommand('blockrestore_status', event => {
     }
 });
 
+// LIGA/DESLIGA o modo debug em tempo real (sem editar a config e reiniciar).
+ServerEvents.customCommand('blockrestore_debug', function (event) {
+    try {
+        config.debug = !config.debug;
+        var msg = '[BlockRestoration] modo debug agora = ' + config.debug
+            + ' (debug: restaura 30 blocos/passada, ignora dia/noite)';
+        if (event.player) {
+            event.player.tell(msg);
+        } else {
+            log(msg);
+        }
+    } catch (e) {
+        log('ERRO em command debug: ' + e);
+    }
+});
+
 // ----------------- BANDEIRA NO INÍCIO (1 por jogador) ---------------
 // Ao entrar no servidor, o jogador recebe 1 bandeira (o bloco principal),
 // que é o item usado para ativar a "área de restauração de blocos".
 // Usa um stage próprio -> todos os jogadores (novos e antigos) recebem 1x.
-PlayerEvents.loggedIn(event => {
+PlayerEvents.loggedIn(function (event) {
     try {
-        const player = event.player;
+        var player = event.player;
 
         if (!player.stages.has('blockrestoration_flag')) {
             // item de acordo com a config (default: minecraft:black_banner)
-            const flag = Item.of(config.mainBlock);
+            var flag = Item.of(config.mainBlock);
 
             if (!flag.isEmpty()) {
                 player.give(flag);
