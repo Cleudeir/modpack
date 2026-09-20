@@ -248,7 +248,7 @@ function setBlockStatesAroundMainBlock(rawLevel, center) {
                 var pos = center.offset(x, y, z);
                 var s = rawLevel.getBlockState(pos);
                 var key = keyOf(pos);
-                if (!s.isAir() && !s.is($Blocks.FIRE) && !state.aroundBlocks.has(key)) {
+                if (!s.isAir() && !s.is($Blocks.FIRE) && !isExcludedBlock(stateStr(s)) && !state.aroundBlocks.has(key)) {
                     state.aroundBlocks.set(key, { stateString: stateStr(s) });
                 }
             }
@@ -294,8 +294,13 @@ function removeBlockAroundMainBlock(rawLevel, newMainPos) {
 function updatePutBlockAroundBlocks(rawLevel, pos) {
     if (inVolume(pos)) {
         var key = keyOf(pos);
+        var s = rawLevel.getBlockState(pos);
+        var ss = stateStr(s);
         state.brokenBlocks.delete(key);
-        state.aroundBlocks.set(key, { stateString: stateStr(rawLevel.getBlockState(pos)) });
+        // NAO adiciona TNT/fogo no snapshot
+        if (!isExcludedBlock(ss)) {
+            state.aroundBlocks.set(key, { stateString: ss });
+        }
     }
 }
 
@@ -306,6 +311,22 @@ function updatePlayerBreakBlockAroundBlocks(pos) {
         state.aroundBlocks.delete(key);
         state.brokenBlocks.delete(key);
     }
+}
+
+// Blocos que NUNCA devem ser restaurados (explosao, fogo, etc.)
+var EXCLUDED_BLOCKS = [
+    'minecraft:tnt',
+    'minecraft:fire',
+    'minecraft:soul_fire',
+    'minecraft:campfire',        // nao restaura campfire quebrado
+    'minecraft:soul_campfire'
+];
+
+function isExcludedBlock(stateString) {
+    for (var i = 0; i < EXCLUDED_BLOCKS.length; i++) {
+        if (stateString.indexOf(EXCLUDED_BLOCKS[i]) === 0) return true;
+    }
+    return false;
 }
 
 // A cada 15s: detecta blocos que viraram ar (griefing) → restauração
@@ -321,20 +342,31 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
 
     state.aroundBlocks.forEach(function (value, k) {
         if (rawLevel.getBlockState(posFromKey(k)).isAir() && !state.brokenBlocks.has(k)) {
+            // NAO adiciona TNT/fogo/blocos de explosao na fila de restauracao
+            if (isExcludedBlock(value.stateString)) {
+                state.aroundBlocks.delete(k);
+                logDebug('excluido da restauracao: ' + k + ' (' + value.stateString + ')');
+                return;
+            }
             state.brokenBlocks.set(k, value);      // guarda o estado ORIGINAL
             state.aroundBlocks.delete(k);           // fiel ao mod original (é removido do around)
         }
     });
 }
 
-// A cada X ticks: restaura N blocos quebrados por vez, se vazios de entidades.
-// Normal: 1 bloco/seg só de dia. DEBUG: até 30 blocos por passada, dia e noite.
+// A cada 1s: restaura 1 bloco quebrado por vez, se vazio de entidades.
+// TNT/fogo/blocos de explosao sao sempre excluidos.
 function getRestoreBlocks(rawLevel, maxBlocks) {
     if (state.brokenBlocks.size === 0 || maxBlocks <= 0) return;
 
     var restored = 0;
     state.brokenBlocks.forEach(function (value, k) {
         if (restored >= maxBlocks) return;
+        // pula blocos excluidos (TNT, fogo, etc.)
+        if (isExcludedBlock(value.stateString)) {
+            state.brokenBlocks.delete(k);
+            return;
+        }
         var pos = posFromKey(k);
         var blockState = parseState(rawLevel, value.stateString);
         if (blockState == null) { state.brokenBlocks.delete(k); return; } // bloco não existe mais
@@ -510,17 +542,17 @@ ServerEvents.tick(function (event) {
 
         tickCounter++;
 
-        // Intervalos acelerados no modo DEBUG (teste isolado rápido)
-        var restoreEvery = config.debug ? 2  : 20;   // normal: a cada 1s
+        // Sempre 1 bloco/segundo (20 ticks). Debug acelera scan/save mas NAO restore.
+        var restoreEvery = 20;                        // 1 bloco por segundo sempre
         var renderEvery = config.debug ? 10 : 80;    // normal: a cada 4s
         var scanEvery   = config.debug ? 40 : 300;   // normal: a cada 15s
         var saveEvery   = config.debug ? 100: 600;   // normal: a cada 30s
 
         if (tickCounter % restoreEvery === 0) {
             var timeOfDay = rawLevel.getDayTime() % 24000;
-            // fiel ao mod original: restaura apenas de dia. DEBUG ignora isso.
+            // restaura apenas de dia. DEBUG ignora isso.
             if (timeOfDay < 13000 || config.debug) {
-                getRestoreBlocks(rawLevel, config.debug ? 30 : 1);
+                getRestoreBlocks(rawLevel, 1); // sempre 1 bloco por passada
             }
         }
         if (tickCounter % renderEvery === 0) {          // partículas
@@ -572,28 +604,39 @@ ServerEvents.customCommand('blockrestore_debug', function (event) {
     }
 });
 
-// ----------------- BANDEIRA NO INÍCIO (1 por jogador) ---------------
-// Ao entrar no servidor, o jogador recebe 1 bandeira (o bloco principal),
-// que é o item usado para ativar a "área de restauração de blocos".
-// Usa um stage próprio -> todos os jogadores (novos e antigos) recebem 1x.
+// ----------------- BANDEIRA + ITENS DE TESTE (toda vez que entra) ----
+// Ao entrar no servidor, o jogador recebe:
+//  1x bandeira (bloco principal) para ativar a area de restauracao
+//  64x ovo de creeper para testar destruicao
+//  1x isqueiro para acender TNT
+//  64x TNT para testes
+// Modo DEBUG: sempre da os itens (ignora stage).
 PlayerEvents.loggedIn(function (event) {
     try {
         var player = event.player;
 
-        if (!player.stages.has('blockrestoration_flag')) {
-            // item de acordo com a config (default: minecraft:black_banner)
-            var flag = Item.of(config.mainBlock);
-
-            if (!flag.isEmpty()) {
-                player.give(flag);
-                player.stages.add('blockrestoration_flag');
-                player.tell('§6§lVocê recebeu a BANDEIRA! §r§7Coloque-a no chão para §bativar a área de restauração de blocos§7 ao redor.');
-            } else {
-                player.tell('§cBandeira não encontrada: §o' + config.mainBlock + '§r§c. Verifique kubejs/config/blockrestoration.json');
-                log('Bandeira do config não é um item válido: ' + config.mainBlock);
-            }
+        // dar bandeira (bloco principal da config)
+        var flag = Item.of(config.mainBlock);
+        if (!flag.isEmpty()) {
+            player.give(flag);
+            player.give(Item.of(config.mainBlock)); // 2 bandeiras
+            player.tell('§6§lVoce recebeu a BANDEIRA! §r§7Coloque-a no chao para §bativar a area de restauracao de blocos§7 ao redor.');
+        } else {
+            player.tell('§cBandeira nao encontrada: §o' + config.mainBlock + '§r§c.');
+            log('Bandeira do config nao e um item valido: ' + config.mainBlock);
         }
+
+        // itens de teste: creeper egg, isqueiro, TNT
+        player.give(Item.of('minecraft:creeper_spawn_egg', 64));
+        player.give(Item.of('minecraft:flint_and_steel'));
+        player.give(Item.of('minecraft:tnt', 64));
+        player.give(Item.of('minecraft:obsidian', 64));
+        player.give(Item.of('minecraft:diamond_pickaxe'));
+        player.give(Item.of('minecraft:cooked_beef', 64));
+        player.give(Item.of('minecraft:torch', 64));
+        player.tell('§a§lItens de teste: §r§764 Creeper Eggs, Isqueiro, 64 TNT, 64 Obsidian, Picareta de Diamante, Comida, Tochas.');
+        log('Itens de teste dados ao jogador: ' + player.getName());
     } catch (e) {
-        log('ERRO em loggedIn (bandeira): ' + e);
+        log('ERRO em loggedIn (itens): ' + e);
     }
 });
