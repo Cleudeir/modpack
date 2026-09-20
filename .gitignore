@@ -32,4 +32,7 @@ XaeroWaypoints/*
 XaeroWaypoints_BACKUP032021/*
 XaeroWorldMap/*
 
+# Large files exceeding GitHub limits (>50MB recommended, >100MB hard limit)
 mods_full/Wesley*+Roguelike*Dungeons*
+mods_full/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar
+mods_full/alexscaves-1.1.4.jar
