@@ -453,6 +453,14 @@ ServerEvents.tick(function (event) {
                     portalX = Math.floor(target.getX() + (Math.random() - 0.5) * 60);
                     portalZ = Math.floor(target.getZ() + (Math.random() - 0.5) * 60);
                     portalY = target.blockPosition().getY();
+
+                    // NaN guard: abort if coordinates are invalid
+                    if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
+                        log('ERROR: Calculated portal coords are NaN! Aborting horde.');
+                        phase = 'IDLE';
+                        return;
+                    }
+
                     log('Portal target Y set to ' + portalY + ' (player=' + target.getName() + ')');
 
                     // Spawn TNT primed entity at Y=200 — it will fall and explode naturally
