@@ -107,11 +107,7 @@ function getTimeOfDay(rawLevel) {
     return rawLevel.getDayTime() % 24000;
 }
 
-function getGameTime(rawLevel) {
-    // getGameTime() not available in KubeJS Nashorn for ServerLevel
-    // Use dayTime as substitute (dayTime wraps every 24000 ticks)
-    return rawLevel.getDayTime();
-}
+// getGameTime removed — use rawLevel.getDayTime() directly
 
 function getGroundY(rawLevel, x, z) {
     // Use heightmap first, fallback to sea level
@@ -343,6 +339,12 @@ function doSpawning(rawLevel, server, dayNumber) {
     var hordeSize = getHordeSize(dayNumber);
     var spawned = 0;
 
+    // NaN guard: if portal coordinates are invalid, abort spawning
+    if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
+        log('ERROR: Portal coordinates are NaN! portalX=' + portalX + ' portalY=' + portalY + ' portalZ=' + portalZ);
+        return 0;
+    }
+
     log('=== SPAWNING ' + hordeSize + ' monsters from portal ===');
     log('Portal at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
 
@@ -351,13 +353,12 @@ function doSpawning(rawLevel, server, dayNumber) {
     for (var i = 0; i < hordeSize; i++) {
         var sx = portalX + Math.floor((Math.random() - 0.5) * 10);  // ±5 blocks
         var sz = portalZ + Math.floor((Math.random() - 0.5) * 10);  // ±5 blocks
+        var sy = portalY + 1;
 
-        if (isNaN(sx) || isNaN(sz)) {
-            logDebug('Skipping NaN position: sx=' + sx + ' sz=' + sz);
+        if (isNaN(sx) || isNaN(sy) || isNaN(sz)) {
+            logDebug('Skipping NaN position: sx=' + sx + ' sy=' + sy + ' sz=' + sz);
             continue;
         }
-
-        var sy = portalY + 1;
 
         logDebug('Spawning at (' + Math.floor(sx) + ',' + Math.floor(sy) + ',' + Math.floor(sz) + ')');
 
@@ -408,7 +409,7 @@ ServerEvents.tick(function (event) {
         var dayNumber   = getDayNumber(rawLevel);
         var isNt        = isNight(rawLevel);
         var time        = getTimeOfDay(rawLevel);
-        var gameTime    = getGameTime(rawLevel);
+        var gameTime    = rawLevel.getDayTime();
         var nextHordeDay = lastHordeDay + hordeConfig.intervalDays;
 
         // --------------------------------------------------------
@@ -595,6 +596,13 @@ ServerEvents.customCommand('hordeforce', function (event) {
         portalX = Math.floor(target.getX() + (Math.random() - 0.5) * 60);
         portalZ = Math.floor(target.getZ() + (Math.random() - 0.5) * 60);
         portalY = target.blockPosition().getY();
+
+        // NaN guard: abort if coordinates are invalid
+        if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
+            log('ERROR: Calculated portal coords are NaN! Aborting force horde.');
+            return;
+        }
+
         log('Portal target Y set to ' + portalY + ' (player=' + target.getName() + ')');
 
         // Spawn TNT
@@ -610,7 +618,7 @@ ServerEvents.customCommand('hordeforce', function (event) {
         }
 
         phase         = 'METEOR';
-        phaseTick     = getGameTime(rawLevel);
+        phaseTick     = rawLevel.getDayTime();
         lastHordeDay  = day;
         warningSent   = false;
 
