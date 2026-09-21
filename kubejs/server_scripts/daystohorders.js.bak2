@@ -39,7 +39,7 @@ var CONFIG_PATH = $UtilsJS.getPath('kubejs/config/daystohorders.json');
 // ================================================================
 //  CONFIG
 // ================================================================
-var hordeConfig = {
+var config = {
     intervalDays: 3,
     baseSize: 5,
     maxSize: 30,
@@ -53,19 +53,19 @@ function loadConfig() {
         var cfgJson = $JsonIO.readJson(CONFIG_PATH);
         if (cfgJson != null && cfgJson.isJsonObject()) {
             var obj = cfgJson.getAsJsonObject();
-            if (obj.has('intervalDays'))   hordeConfig.intervalDays   = obj.get('intervalDays').getAsInt();
-            if (obj.has('baseSize'))       hordeConfig.baseSize       = obj.get('baseSize').getAsInt();
-            if (obj.has('maxSize'))        hordeConfig.maxSize        = obj.get('maxSize').getAsInt();
-            if (obj.has('warningMinutes')) hordeConfig.warningMinutes = obj.get('warningMinutes').getAsInt();
-            if (obj.has('radius'))         hordeConfig.radius         = obj.get('radius').getAsInt();
-            if (obj.has('debug'))          hordeConfig.debug          = obj.get('debug').getAsBoolean();
+            if (obj.has('intervalDays'))   config.intervalDays   = obj.get('intervalDays').getAsInt();
+            if (obj.has('baseSize'))       config.baseSize       = obj.get('baseSize').getAsInt();
+            if (obj.has('maxSize'))        config.maxSize        = obj.get('maxSize').getAsInt();
+            if (obj.has('warningMinutes')) config.warningMinutes = obj.get('warningMinutes').getAsInt();
+            if (obj.has('radius'))         config.radius         = obj.get('radius').getAsInt();
+            if (obj.has('debug'))          config.debug          = obj.get('debug').getAsBoolean();
         }
-        hordeConfig.intervalDays = Math.max(1, hordeConfig.intervalDays);
-        hordeConfig.baseSize = Math.max(1, Math.min(100, hordeConfig.baseSize));
-        hordeConfig.maxSize = Math.max(hordeConfig.baseSize, Math.min(200, hordeConfig.maxSize));
-        log('Config loaded: interval=' + hordeConfig.intervalDays + ' base=' + hordeConfig.baseSize
-            + ' max=' + hordeConfig.maxSize + ' warn=' + hordeConfig.warningMinutes
-            + ' radius=' + hordeConfig.radius + ' debug=' + hordeConfig.debug);
+        config.intervalDays = Math.max(1, config.intervalDays);
+        config.baseSize = Math.max(1, Math.min(100, config.baseSize));
+        config.maxSize = Math.max(config.baseSize, Math.min(200, config.maxSize));
+        log('Config loaded: interval=' + config.intervalDays + ' base=' + config.baseSize
+            + ' max=' + config.maxSize + ' warn=' + config.warningMinutes
+            + ' radius=' + config.radius + ' debug=' + config.debug);
     } catch (e) {
         log('ERROR reading config: ' + e);
     }
@@ -89,7 +89,7 @@ var spawnedMonsters  = [];
 //  LOGGING
 // ================================================================
 function log(msg)    { console.log('[DaysToHoarders] ' + msg); }
-function logDebug(msg) { if (hordeConfig.debug) log('[DEBUG] ' + msg); }
+function logDebug(msg) { if (config.debug) log('[DEBUG] ' + msg); }
 
 // ================================================================
 //  UTILITY
@@ -123,7 +123,7 @@ function getGroundY(rawLevel, x, z) {
 }
 
 function getHordeSize(dayNumber) {
-    return Math.min(hordeConfig.baseSize + Math.floor(dayNumber / 3), hordeConfig.maxSize);
+    return Math.min(config.baseSize + Math.floor(dayNumber / 3), config.maxSize);
 }
 
 function getHordeName(d) {
@@ -232,14 +232,14 @@ function equipArmor(monster, tier) {
 //  PORTAL
 // ================================================================
 function buildPortal(rawLevel, cx, cy, cz) {
-    var obsidian  = $Blocks.OBSIDIAN.defaultBlockState();
+    var soulSand  = $Blocks.SOUL_SAND.defaultBlockState();
     var cryingObs = $Blocks.CRYING_OBSIDIAN.defaultBlockState();
     var soulFire  = $Blocks.SOUL_FIRE.defaultBlockState();
 
-    // Bottom layer (y+0): 3 obsidian
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), obsidian);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), obsidian);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), obsidian);
+    // Bottom layer (y+0): 3 soul_sand
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), soulSand);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), soulSand);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), soulSand);
 
     // Middle layer (y+1): crying_obsidian | soul_fire | crying_obsidian
     rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy + 1, cz), cryingObs);
@@ -264,28 +264,6 @@ function isPortalIntact(rawLevel) {
         }
     }
     return false;
-}
-
-function removePortal(rawLevel) {
-    if (portalX === 0 && portalZ === 0) return;
-    try {
-        var count = 0;
-        for (var dx = -1; dx <= 1; dx++) {
-            for (var dy = 0; dy <= 2; dy++) {
-                var pos = new $BlockPos(portalX + dx, portalY + dy, portalZ);
-                var before = rawLevel.getBlockState(pos);
-                rawLevel.destroyBlock(pos, false);
-                var after = rawLevel.getBlockState(pos);
-                logDebug('Portal block (' + (portalX+dx) + ',' + (portalY+dy) + ',' + portalZ + '): ' + before + ' -> ' + after);
-                count++;
-            }
-        }
-        var firePos = new $BlockPos(portalX, portalY + 1, portalZ);
-        rawLevel.destroyBlock(firePos, false);
-        log('Portal removed: ' + count + ' blocks at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
-    } catch (e) {
-        log('Error removing portal: ' + e);
-    }
 }
 
 // ================================================================
@@ -409,7 +387,7 @@ ServerEvents.tick(function (event) {
         var isNt        = isNight(rawLevel);
         var time        = getTimeOfDay(rawLevel);
         var gameTime    = getGameTime(rawLevel);
-        var nextHordeDay = lastHordeDay + hordeConfig.intervalDays;
+        var nextHordeDay = lastHordeDay + config.intervalDays;
 
         // --------------------------------------------------------
         //  PHASE: IDLE
@@ -430,7 +408,7 @@ ServerEvents.tick(function (event) {
                         + '\u00a7c | \u00a77' + size + ' monstros'
                     );
                 }
-                log('Warning sent. METEOR in ' + hordeConfig.warningMinutes + ' minute(s).');
+                log('Warning sent. METEOR in ' + config.warningMinutes + ' minute(s).');
             }
         }
 
@@ -438,10 +416,8 @@ ServerEvents.tick(function (event) {
         //  PHASE: WARNING
         // --------------------------------------------------------
         else if (phase === 'WARNING') {
-            var warnTicks = hordeConfig.warningMinutes * 20 * 60;
+            var warnTicks = config.warningMinutes * 20 * 60;
             if (gameTime - phaseTick >= warnTicks) {
-                // Safety: only transition if still in WARNING
-                if (phase !== 'WARNING') return;
                 phase = 'METEOR';
                 phaseTick = gameTime;
 
@@ -487,8 +463,6 @@ ServerEvents.tick(function (event) {
                 log('Building portal at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
                 buildPortal(rawLevel, portalX, portalY, portalZ);
 
-                // Guard: only transition if still in METEOR
-                if (phase !== 'METEOR') return;
                 phase = 'CHASE';
                 phaseTick = gameTime;
                 portalBuiltTick = gameTime;
@@ -511,7 +485,6 @@ ServerEvents.tick(function (event) {
             var portalIntact = isPortalIntact(rawLevel);
             if (!portalIntact) {
                 clearMonsterTargets();
-                removePortal(rawLevel);
                 log('Portal broken! Monsters lose target and wander.');
             }
 
@@ -520,9 +493,6 @@ ServerEvents.tick(function (event) {
             var timeExpired = (gameTime - portalBuiltTick >= 1200);
 
             if (allDead || timeExpired) {
-                removePortal(rawLevel);
-                // Guard: only transition if still in CHASE
-                if (phase !== 'CHASE') return;
                 phase = 'IDLE';
                 spawnedMonsters = [];
                 log('CHASE ended. AllDead=' + allDead + ' TimeExpired=' + timeExpired);
@@ -553,7 +523,7 @@ ServerEvents.customCommand('hordestatus', function (event) {
     try {
         var rawLevel = event.server.overworld();
         var day = rawLevel ? getDayNumber(rawLevel) : 0;
-        var next = lastHordeDay + hordeConfig.intervalDays;
+        var next = lastHordeDay + config.intervalDays;
         var aliveCount = 0;
         for (var m = 0; m < spawnedMonsters.length; m++) {
             try {
@@ -582,13 +552,6 @@ ServerEvents.customCommand('hordeforce', function (event) {
         var day = getDayNumber(rawLevel);
         var playerList = event.server.getPlayerList().getPlayers().toArray();
         if (playerList.length === 0) { log('No players online.'); return; }
-
-        // Don't allow force if a horde is already active
-        if (phase !== 'IDLE') {
-            var msg = '[DaysToHoarders] Cannot force — phase is ' + phase + '. Wait for current horde to end.';
-            if (event.player) { event.player.tell(msg); } else { log(msg); }
-            return;
-        }
 
         // Pick random player position
         var target = playerList[Math.floor(Math.random() * playerList.length)];
@@ -640,10 +603,10 @@ ServerEvents.customCommand('hordenight', function (event) {
         var rawLevel = event.server.overworld();
         if (!rawLevel) return;
         var currentDay = getDayNumber(rawLevel);
-        var targetDay  = lastHordeDay + hordeConfig.intervalDays;
+        var targetDay  = lastHordeDay + config.intervalDays;
         var newTime    = targetDay * 24000 + 13500;
         rawLevel.setDayTime(newTime);
-        lastHordeDay = targetDay - hordeConfig.intervalDays;
+        lastHordeDay = targetDay - config.intervalDays;
         warningSent  = false;
         phase        = 'IDLE';
         var msg = '[DaysToHoarders] Time set: day ' + targetDay + ' night (13500). Meteor incoming!';

@@ -36,19 +36,15 @@
   },
   "agent": {
     "modder": {
-      "description": "Minecraft Forge mod developer. Creates, modifies and debugs mods for 1.20.1.",
+      "description": "Minecraft Forge mod developer. Orchestrates by understanding problems and delegating to planner subagent.",
       "mode": "all",
-      "model": "anthropic/claude-sonnet-4-6",
+      "model": "opencode-go/mimo-v2.5",
       "permission": {
-        "edit": "allow",
-        "bash": {
-          "git *": "allow",
-          "gradle *": "allow",
-          "dir *": "allow",
-          "copy *": "allow",
-          "del *": "ask",
-          "*": "ask"
-        }
+        "edit": "deny",
+        "bash": { "*": "deny" },
+        "read": "allow",
+        "glob": "allow",
+        "grep": "allow"
       }
     }
   },

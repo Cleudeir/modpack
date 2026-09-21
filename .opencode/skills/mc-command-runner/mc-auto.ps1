@@ -1,0 +1,472 @@
+﻿# ============================================================
+# mc-auto.ps1 - Auto-size-aware Minecraft controller + Learning
+# Uses SendInput (DPI-safe) for mouse clicks at any window size.
+# Auto-detects window rect before every click.
+# Saves learnings to persistent JSON for future sessions.
+#
+# Actions:
+#   -GetWindow         : Print handle, rect, size
+#   -Key "x"           : Send keystroke via SendInput
+#   -SendText "text"   : Type text character by character
+#   -Cmd "/command"    : Open chat, type command, send
+#   -ClickPct "60,58"  : Click at W%,H% of window
+#   -OpenLan           : Full Open to LAN flow
+#   -FullSequence      : Navigate + Open LAN + run command
+#   -Screenshot        : Capture window
+#   -Learn             : Save current window state
+#   -Status            : Show all learned data
+#   -VerifyClick       : Click + screenshot to verify
+# ============================================================
+
+[CmdletBinding()]
+param(
+    [switch]$GetWindow,
+    [switch]$Screenshot,
+    [string]$Out = "",
+    [switch]$Foreground,
+    [string]$Key = "",
+    [string]$SendText = "",
+    [string]$Cmd = "",
+    [string]$ClickPct = "",
+    [switch]$OpenLan,
+    [switch]$FullSequence,
+    [string]$Command = "",
+    [switch]$Learn,
+    [switch]$Status,
+    [string]$VerifyClick = "",
+    [int]$TargetPid = 0,
+    [string]$TitleMatch = "Minecraft"
+)
+
+$ErrorActionPreference = "Stop"
+$LEARN_FILE = Join-Path $PSScriptRoot "mc-learn.json"
+
+# --- Learning: Load/Save ---
+function Load-Learn {
+    if (Test-Path $LEARN_FILE) {
+        try { return Get-Content $LEARN_FILE -Raw | ConvertFrom-Json }
+        catch { return $null }
+    }
+    return [PSCustomObject]@{
+        lastWindow = $null
+        lastPid = 0
+        knownScreens = @{}
+        clickLog = @()
+        errors = @()
+        commandHistory = @()
+        verifiedClicks = @{}
+    }
+}
+
+function Save-Learn($data) {
+    $data | ConvertTo-Json -Depth 10 | Set-Content $LEARN_FILE -Encoding UTF8
+}
+
+function Save-LearnWindow {
+    if (-not $Learn) { return }
+    $data = Load-Learn
+    $data.lastWindow = [PSCustomObject]@{
+        handle = [long]$script:wh
+        rect = "$($script:wr.L),$($script:wr.T),$($script:wr.R),$($script:wr.B)"
+        size = "$($script:ww)x$($script:wh_px)"
+        pid = $script:targetPid
+        title = $script:winTitle
+        time = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+    }
+    $data.lastPid = $script:targetPid
+    Save-Learn $data
+}
+
+function Save-LearnClick($pctW, $pctH, $screen, $result) {
+    if (-not $Learn) { return }
+    $data = Load-Learn
+    $entry = [PSCustomObject]@{
+        time = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+        pctW = $pctW; pctH = $pctH; screen = $screen; result = $result
+        windowSize = "$($script:ww)x$($script:wh_px)"
+    }
+    $log = @($data.clickLog) + $entry
+    if ($log.Count -gt 200) { $log = $log[-200..-1] }
+    $data.clickLog = $log
+    $data.verifiedClicks["$($script:ww)x$($script:wh_px)_${pctW}_${pctH}_$screen"] = $result
+    Save-Learn $data
+}
+
+function Save-LearnCommand($cmd, $result) {
+    if (-not $Learn) { return }
+    $data = Load-Learn
+    $entry = [PSCustomObject]@{
+        time = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+        command = $cmd; result = $result
+    }
+    $hist = @($data.commandHistory) + $entry
+    if ($hist.Count -gt 100) { $hist = $hist[-100..-1] }
+    $data.commandHistory = $hist
+    Save-Learn $data
+}
+
+function Save-LearnError($msg) {
+    if (-not $Learn) { return }
+    $data = Load-Learn
+    $entry = [PSCustomObject]@{
+        time = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+        error = $msg
+    }
+    $errs = @($data.errors) + $entry
+    if ($errs.Count -gt 50) { $errs = $errs[-50..-1] }
+    $data.errors = $errs
+    Save-Learn $data
+}
+
+function Save-LearnScreen($name) {
+    if (-not $Learn) { return }
+    $data = Load-Learn
+    $key = "$($script:ww)x$($script:wh_px)_$name"
+    $data.knownScreens[$key] = [PSCustomObject]@{
+        name = $name; size = "$($script:ww)x$($script:wh_px)"
+        lastSeen = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+    }
+    Save-Learn $data
+}
+
+# --- Win32 types ---
+if (-not ("MCAuto" -as [type])) {
+    Add-Type -TypeDefinition @"
+using System;
+using System.Runtime.InteropServices;
+using System.Text;
+public static class MCAuto {
+    public delegate bool EnumProc(IntPtr h, IntPtr l);
+    [DllImport("user32.dll")] public static extern bool EnumWindows(EnumProc cb, IntPtr l);
+    [DllImport("user32.dll")] public static extern uint GetWindowThreadProcessId(IntPtr h, out uint pid);
+    [DllImport("user32.dll")] public static extern bool IsWindowVisible(IntPtr h);
+    [DllImport("user32.dll", CharSet=CharSet.Unicode)] public static extern int GetWindowText(IntPtr h, StringBuilder t, int max);
+    [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr h);
+    [DllImport("user32.dll")] public static extern bool SetWindowPos(IntPtr h, IntPtr a, int X, int Y, int cx, int cy, uint f);
+    [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr h, out RECT r);
+    [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr h, IntPtr hdc, uint flags);
+    [DllImport("user32.dll")] public static extern int GetSystemMetrics(int n);
+    [StructLayout(LayoutKind.Sequential)]
+    public struct INPUT { public uint type; public INU u; }
+    [StructLayout(LayoutKind.Explicit)]
+    public struct INU { [FieldOffset(0)] public MI mi; [FieldOffset(0)] public KI ki; }
+    [StructLayout(LayoutKind.Sequential)]
+    public struct MI { public int dx, dy, md; public uint fl, ti; public IntPtr ei; }
+    [StructLayout(LayoutKind.Sequential)]
+    public struct KI { public ushort wVk, wScan; public uint dwFlags, time; public IntPtr dwExtraInfo; }
+    public const uint INPUT_MOUSE = 0, INPUT_KEYBOARD = 1;
+    public const uint MOUSEEVENTF_LEFTDOWN = 0x0002, MOUSEEVENTF_LEFTUP = 0x0004;
+    public const uint MOUSEEVENTF_ABSOLUTE = 0x8000, MOUSEEVENTF_MOVE = 0x0001;
+    public const uint KEYEVENTF_KEYUP = 0x0002;
+    [DllImport("user32.dll")] public static extern uint SendInput(uint n, INPUT[] p, int cb);
+    [StructLayout(LayoutKind.Sequential)]
+    public struct RECT { public int L, T, R, B; }
+    public static void ClickPct(IntPtr wh, double pctW, double pctH) {
+        RECT r; GetWindowRect(wh, out r);
+        int winW = r.R - r.L, winH = r.B - r.T;
+        int sx = r.L + (int)(winW * pctW / 100.0);
+        int sy = r.T + (int)(winH * pctH / 100.0);
+        int smW = GetSystemMetrics(0), smH = GetSystemMetrics(1);
+        int ax = (int)((double)sx / smW * 65535.0);
+        int ay = (int)((double)sy / smH * 65535.0);
+        var inp = new INPUT[3];
+        inp[0].type = INPUT_MOUSE; inp[0].u.mi.dx = ax; inp[0].u.mi.dy = ay;
+        inp[0].u.mi.fl = MOUSEEVENTF_MOVE | MOUSEEVENTF_ABSOLUTE;
+        inp[1].type = INPUT_MOUSE; inp[1].u.mi.dx = ax; inp[1].u.mi.dy = ay;
+        inp[1].u.mi.fl = MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_ABSOLUTE;
+        inp[2].type = INPUT_MOUSE; inp[2].u.mi.dx = ax; inp[2].u.mi.dy = ay;
+        inp[2].u.mi.fl = MOUSEEVENTF_LEFTUP | MOUSEEVENTF_ABSOLUTE;
+        SendInput(3, inp, Marshal.SizeOf(typeof(INPUT)));
+    }
+    public static void SendVk(int vk) {
+        var inp = new INPUT[2];
+        inp[0].type = INPUT_KEYBOARD;
+        inp[0].u.ki.wVk = (ushort)vk;
+        inp[0].u.ki.dwFlags = 0;
+        inp[1].type = INPUT_KEYBOARD;
+        inp[1].u.ki.wVk = (ushort)vk;
+        inp[1].u.ki.dwFlags = KEYEVENTF_KEYUP;
+        SendInput(2, inp, Marshal.SizeOf(typeof(INPUT)));
+    }
+}
+"@ -ReferencedAssemblies System.Runtime.InteropServices
+}
+
+# --- Find Minecraft window ---
+function Find-MC {
+    $script:wh = [IntPtr]::Zero
+    $script:wr = New-Object MCAuto+RECT
+    $script:ww = 0; $script:wh_px = 0; $script:winTitle = ""
+    $targetPid = $TargetPid
+    if ($targetPid -eq 0) {
+        $procs = Get-CimInstance Win32_Process -Filter "Name='java.exe'" -ErrorAction SilentlyContinue |
+            Where-Object { $_.CommandLine -match "BootstrapLauncher|forgeclient|java-runtime-gamma" } |
+            Sort-Object WorkingSetSize -Descending | Select-Object -First 1
+        if ($procs) { $targetPid = [int]$procs.ProcessId }
+    }
+    if ($targetPid -eq 0) { Write-Output "NO_JAVA"; return $false }
+    $script:targetPid = $targetPid
+    $cb = [MCAuto+EnumProc]{
+        param($h, $l)
+        $p = [uint32]0
+        [MCAuto]::GetWindowThreadProcessId($h, [ref]$p) | Out-Null
+        if ([int]$p -eq $script:targetPid -and [MCAuto]::IsWindowVisible($h)) {
+            $sb = New-Object System.Text.StringBuilder 512
+            [MCAuto]::GetWindowText($h, $sb, 512) | Out-Null
+            if ($sb.ToString() -match $TitleMatch) {
+                $script:wh = $h; $script:winTitle = $sb.ToString()
+                [MCAuto]::GetWindowRect($h, [ref]$script:wr) | Out-Null
+                $script:ww = $script:wr.R - $script:wr.L
+                $script:wh_px = $script:wr.B - $script:wr.T
+                return $false
+            }
+        }
+        return $true
+    }
+    [MCAuto]::EnumWindows($cb, [IntPtr]::Zero) | Out-Null
+    if ($script:wh -eq [IntPtr]::Zero) { Write-Output "WINDOW_NOT_FOUND pid=$targetPid"; return $false }
+    return $true
+}
+
+function Focus-MC {
+    [MCAuto]::SetWindowPos($script:wh, [IntPtr]::new(-2), 0, 0, 0, 0, 0x0001 -bor 0x0002) | Out-Null
+    [MCAuto]::SetForegroundWindow($script:wh) | Out-Null
+    Start-Sleep -Milliseconds 150
+}
+
+function Type-Text($text) {
+    $ws = New-Object -ComObject WScript.Shell
+    foreach ($ch in $text.ToCharArray()) {
+        $s = switch ($ch) {
+            '{' { "{{}" } '}' { "{}}" } '+' { "{+}" } '^' { "{^}" }
+            '%' { "{%}" } '~' { "{~}" } '(' { "{(}" } ')' { "{)}" }
+            default { [string]$ch }
+        }
+        $ws.SendKeys($s); Start-Sleep -Milliseconds 20
+    }
+}
+
+function Send-VK($vk) { [MCAuto]::SendVk([int]$vk) }
+
+# === STATUS (show learned data) ===
+if ($Status) {
+    $data = Load-Learn
+    Write-Output "=== MC-AUTO LEARNED DATA ==="
+    if ($data.lastWindow) {
+        Write-Output "Last window: PID=$($data.lastWindow.pid) SIZE=$($data.lastWindow.size) RECT=$($data.lastWindow.rect)"
+        Write-Output "  Title: $($data.lastWindow.title)"
+        Write-Output "  Last seen: $($data.lastWindow.time)"
+    }
+    Write-Output "Known screens: $($data.knownScreens.Count)"
+    foreach ($k in $data.knownScreens.Keys) {
+        $v = $data.knownScreens[$k]
+        Write-Output "  ${k}: last=$($v.lastSeen)"
+    }
+    Write-Output "Click log entries: $($data.clickLog.Count)"
+    Write-Output "Verified clicks: $($data.verifiedClicks.Count)"
+    foreach ($k in $data.verifiedClicks.Keys) {
+        Write-Output "  ${k} = $($data.verifiedClicks[$k])"
+    }
+    Write-Output "Command history: $($data.commandHistory.Count)"
+    $data.commandHistory | Select-Object -Last 5 | ForEach-Object {
+        Write-Output "  [$($_.time)] $($_.command) -> $($_.result)"
+    }
+    Write-Output "Errors: $($data.errors.Count)"
+    $data.errors | Select-Object -Last 5 | ForEach-Object {
+        Write-Output "  [$($_.time)] $($_.error)"
+    }
+    exit
+}
+
+# === GET WINDOW ===
+if ($GetWindow) {
+    if (Find-MC) {
+        Save-LearnWindow
+        Write-Output "HANDLE=$($script:wh)"
+        Write-Output "RECT=$($script:wr.L),$($script:wr.T),$($script:wr.R),$($script:wr.B)"
+        Write-Output "SIZE=$($script:ww)x$($script:wh_px)"
+        Write-Output "PID=$($script:targetPid)"
+        Write-Output "TITLE=$($script:winTitle)"
+    }
+    exit
+}
+
+# === FOCUS ===
+if ($Foreground) {
+    if (Find-MC) { Focus-MC; Write-Output "FOCUSED" }
+    exit
+}
+
+# === KEY ===
+if ($Key -ne "") {
+    if (Find-MC) {
+        Focus-MC
+        $vkMap = @{
+            '{TAB}'=0x09; '{ENTER}'=0x0D; '{ESCAPE}'=0x1B; '{ESC}'=0x1B;
+            '{SPACE}'=0x20; '{DELETE}'=0x2E; '{BACKSPACE}'=0x08;
+            '{UP}'=0x26; '{DOWN}'=0x28; '{LEFT}'=0x25; '{RIGHT}'=0x27;
+        }
+        $vk = 0
+        if ($vkMap.ContainsKey($Key)) { $vk = $vkMap[$Key] }
+        elseif ($Key.Length -eq 1) { $vk = [ushort][char]$Key.ToUpper() }
+        if ($vk -gt 0) {
+            Send-VK $vk
+            Write-Output "SENT_KEY=$Key (vk=0x$('{0:X2}' -f $vk))"
+        } else {
+            $ws = New-Object -ComObject WScript.Shell
+            $ks = if ($Key -match '^\{.*\}$') { $Key } else { "{$Key}" }
+            $ws.SendKeys($ks); Write-Output "SENT_KEYS=$Key"
+        }
+    }
+    exit
+}
+
+# === SEND TEXT ===
+if ($SendText -ne "") {
+    if (Find-MC) { Focus-MC; Type-Text $SendText; Write-Output "SENT_TEXT=$SendText" }
+    exit
+}
+
+# === CMD ===
+if ($Cmd -ne "") {
+    if (Find-MC) {
+        Focus-MC
+        $ws = New-Object -ComObject WScript.Shell
+        $ws.SendKeys("t"); Start-Sleep -Milliseconds 300
+        Type-Text $Cmd
+        Start-Sleep -Milliseconds 200
+        Send-VK 0x0D
+        Save-LearnCommand $Cmd "sent"
+        Write-Output "CMD_SENT=$Cmd"
+    }
+    exit
+}
+
+# === CLICK PCT ===
+if ($ClickPct -ne "") {
+    if (Find-MC) {
+        Focus-MC
+        $parts = $ClickPct -split ','
+        $pctW = [double]$parts[0]; $pctH = [double]$parts[1]
+        [MCAuto]::ClickPct($script:wh, $pctW, $pctH)
+        Save-LearnClick $pctW $pctH "manual" "clicked"
+        Write-Output "CLICKED_PCT=${pctW}%,${pctH}% (window $($script:ww)x$($script:wh_px))"
+    }
+    exit
+}
+
+# === VERIFY CLICK ===
+if ($VerifyClick -ne "") {
+    if (Find-MC) {
+        Focus-MC
+        $parts = $VerifyClick -split ','
+        $pctW = [double]$parts[0]; $pctH = [double]$parts[1]
+        [MCAuto]::ClickPct($script:wh, $pctW, $pctH)
+        Start-Sleep -Milliseconds 500
+        # Screenshot after click
+        Add-Type -AssemblyName System.Drawing
+        $bmp = New-Object System.Drawing.Bitmap($script:ww, $script:wh_px)
+        $g = [System.Drawing.Graphics]::FromImage($bmp)
+        $hdc = $g.GetHdc()
+        [MCAuto]::PrintWindow($script:wh, $hdc, 2) | Out-Null
+        $g.ReleaseHdc($hdc); $g.Dispose()
+        $vpath = Join-Path $PSScriptRoot "verify-click.png"
+        $bmp.Save($vpath, [System.Drawing.Imaging.ImageFormat]::Png)
+        $bmp.Dispose()
+        Save-LearnClick $pctW $pctH "verified" "screenshot saved"
+        Write-Output "VERIFY_CLICKED=${pctW}%,${pctH}% -> $vpath"
+        Write-Output "SIZE=$($script:ww)x$($script:wh_px)"
+    }
+    exit
+}
+
+# === OPEN LAN ===
+if ($OpenLan) {
+    if (Find-MC) {
+        Focus-MC
+        Write-Output "=== OPEN TO LAN ==="
+        Write-Output "Window: $($script:ww)x$($script:wh_px)"
+        Send-VK 0x1B; Start-Sleep -Milliseconds 300
+        Write-Output "1: Game Menu"
+        [MCAuto]::ClickPct($script:wh, 75, 59); Start-Sleep -Milliseconds 400
+        Write-Output "2: Open to LAN"
+        [MCAuto]::ClickPct($script:wh, 65, 44); Start-Sleep -Milliseconds 300
+        Write-Output "3: Allow Cheats"
+        [MCAuto]::ClickPct($script:wh, 35, 93); Start-Sleep -Milliseconds 500
+        Write-Output "4: Start LAN World"
+        Send-VK 0x1B; Start-Sleep -Milliseconds 200
+        Send-VK 0x1B; Start-Sleep -Milliseconds 300
+        Write-Output "5: Back to game"
+        Save-LearnScreen "lan_started"
+        Save-LearnClick 75 59 "game_menu" "lan_clicked"
+    }
+    exit
+}
+
+# === FULL SEQUENCE ===
+if ($FullSequence) {
+    if (Find-MC) {
+        Focus-MC
+        Write-Output "=== FULL SEQUENCE ==="
+        Write-Output "Window: $($script:ww)x$($script:wh_px)"
+        # 1) ESC
+        Send-VK 0x1B; Start-Sleep -Milliseconds 300
+        Write-Output "Step 1: Game Menu"
+        # 2) Open to LAN
+        [MCAuto]::ClickPct($script:wh, 75, 59); Start-Sleep -Milliseconds 400
+        Write-Output "Step 2: Open to LAN"
+        # 3) Allow Cheats
+        [MCAuto]::ClickPct($script:wh, 65, 44); Start-Sleep -Milliseconds 300
+        Write-Output "Step 3: Allow Cheats"
+        # 4) Start LAN
+        [MCAuto]::ClickPct($script:wh, 35, 93); Start-Sleep -Milliseconds 500
+        Write-Output "Step 4: LAN started"
+        # 5) Back to game
+        Send-VK 0x1B; Start-Sleep -Milliseconds 200
+        Send-VK 0x1B; Start-Sleep -Milliseconds 400
+        Write-Output "Step 5: Back to game"
+        Save-LearnScreen "lan_started"
+        # 6) Command
+        if ($Command -ne "") {
+            $ws2 = New-Object -ComObject WScript.Shell
+            $ws2.SendKeys("t"); Start-Sleep -Milliseconds 300
+            Type-Text $Command
+            Start-Sleep -Milliseconds 200
+            Send-VK 0x0D; Start-Sleep -Milliseconds 500
+            Save-LearnCommand $Command "sent"
+            Write-Output "Step 6: Command: $Command"
+        }
+        Write-Output "=== DONE ==="
+    }
+    exit
+}
+
+# === SCREENSHOT ===
+if ($Screenshot) {
+    if (Find-MC) {
+        Add-Type -AssemblyName System.Drawing
+        $bmp = New-Object System.Drawing.Bitmap($script:ww, $script:wh_px)
+        $g = [System.Drawing.Graphics]::FromImage($bmp)
+        $hdc = $g.GetHdc()
+        $ok = [MCAuto]::PrintWindow($script:wh, $hdc, 2)
+        $g.ReleaseHdc($hdc)
+        if (-not $ok) {
+            [MCAuto]::SetForegroundWindow($script:wh) | Out-Null
+            Start-Sleep -Milliseconds 300
+            $g.CopyFromScreen($script:wr.L, $script:wr.T, 0, 0, $bmp.Size)
+        }
+        $g.Dispose()
+        $outPath = if ($Out -ne "") { $Out } else { "$PSScriptRoot\mc-window.png" }
+        $full = [System.IO.Path]::GetFullPath($outPath)
+        $dir = [System.IO.Path]::GetDirectoryName($full)
+        if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir -Force | Out-Null }
+        $bmp.Save($full, [System.Drawing.Imaging.ImageFormat]::Png)
+        $bmp.Dispose()
+        Save-LearnWindow
+        Write-Output "SAVED=$full"
+        Write-Output "SIZE=$($script:ww)x$($script:wh_px)"
+    }
+    exit
+}
+
+Write-Output "Usage: mc-auto.ps1 -GetWindow|-Key|-SendText|-Cmd|-ClickPct|-OpenLan|-FullSequence|-Screenshot|-Learn|-Status|-VerifyClick"

@@ -232,14 +232,14 @@ function equipArmor(monster, tier) {
 //  PORTAL
 // ================================================================
 function buildPortal(rawLevel, cx, cy, cz) {
-    var obsidian  = $Blocks.OBSIDIAN.defaultBlockState();
+    var soulSand  = $Blocks.SOUL_SAND.defaultBlockState();
     var cryingObs = $Blocks.CRYING_OBSIDIAN.defaultBlockState();
     var soulFire  = $Blocks.SOUL_FIRE.defaultBlockState();
 
-    // Bottom layer (y+0): 3 obsidian
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), obsidian);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), obsidian);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), obsidian);
+    // Bottom layer (y+0): 3 soul_sand
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), soulSand);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), soulSand);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), soulSand);
 
     // Middle layer (y+1): crying_obsidian | soul_fire | crying_obsidian
     rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy + 1, cz), cryingObs);

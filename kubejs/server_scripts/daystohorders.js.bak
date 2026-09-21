@@ -232,14 +232,14 @@ function equipArmor(monster, tier) {
 //  PORTAL
 // ================================================================
 function buildPortal(rawLevel, cx, cy, cz) {
-    var obsidian  = $Blocks.OBSIDIAN.defaultBlockState();
+    var soulSand  = $Blocks.SOUL_SAND.defaultBlockState();
     var cryingObs = $Blocks.CRYING_OBSIDIAN.defaultBlockState();
     var soulFire  = $Blocks.SOUL_FIRE.defaultBlockState();
 
-    // Bottom layer (y+0): 3 obsidian
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), obsidian);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), obsidian);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), obsidian);
+    // Bottom layer (y+0): 3 soul_sand
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), soulSand);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), soulSand);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), soulSand);
 
     // Middle layer (y+1): crying_obsidian | soul_fire | crying_obsidian
     rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy + 1, cz), cryingObs);
@@ -269,20 +269,17 @@ function isPortalIntact(rawLevel) {
 function removePortal(rawLevel) {
     if (portalX === 0 && portalZ === 0) return;
     try {
-        var count = 0;
+        var air = $Blocks.AIR.defaultBlockState();
         for (var dx = -1; dx <= 1; dx++) {
             for (var dy = 0; dy <= 2; dy++) {
                 var pos = new $BlockPos(portalX + dx, portalY + dy, portalZ);
-                var before = rawLevel.getBlockState(pos);
-                rawLevel.destroyBlock(pos, false);
-                var after = rawLevel.getBlockState(pos);
-                logDebug('Portal block (' + (portalX+dx) + ',' + (portalY+dy) + ',' + portalZ + '): ' + before + ' -> ' + after);
-                count++;
+                rawLevel.setBlockAndUpdate(pos, air);
             }
         }
+        // Also clear the center fire
         var firePos = new $BlockPos(portalX, portalY + 1, portalZ);
-        rawLevel.destroyBlock(firePos, false);
-        log('Portal removed: ' + count + ' blocks at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
+        rawLevel.setBlockAndUpdate(firePos, air);
+        log('Portal removed at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
     } catch (e) {
         log('Error removing portal: ' + e);
     }

@@ -84,9 +84,9 @@ function loadConfig() {
             if (cfgObj.has('debug'))     config.debug     = cfgObj.get('debug').getAsBoolean();
         }
         config.radius = Math.max(1, Math.min(100, config.radius));
-        console.log('[blockrestoration] Config loaded: mainBlock=' + config.mainBlock + ' radius=' + config.radius + ' debug=' + config.debug);
+        console.log('[blockrestoration] Config: mainBlock=' + config.mainBlock + ' radius=' + config.radius + ' debug=' + config.debug);
     } catch (e) {
-        console.log('[blockrestoration] ERRO lendo config, usando padrao: mainBlock=' + config.mainBlock);
+        console.log('[blockrestoration] ERRO lendo config, usando padrões: ' + e);
     }
 }
 
@@ -486,17 +486,11 @@ ServerEvents.loaded(function (event) {
 // ------------------------- COLOCAR BLOCO --------------------------
 BlockEvents.placed(function (event) {
     try {
-        // Safety: ensure config.mainBlock is loaded (fixes /reload issue)
-        if (!config.mainBlock || config.mainBlock === 'undefined') {
-            loadConfig();
-            log('[DEBUG] Config reloaded in placed handler: mainBlock=' + config.mainBlock);
-        }
         var rawLevel = event.level;       // Level cru (ServerLevel em servidor)
         var block = event.block;          // BlockContainerJS
         var pos = block.getPos();
         var id = block.getId();           // já é String ("mod:id")
 
-        log('[DEBUG] Block placed: ' + id + ' config.mainBlock=' + config.mainBlock + ' match=' + (id === config.mainBlock));
         if (id === config.mainBlock) {
             log('Bloco principal colocado em ' + keyOf(pos));
             removeBlockAroundMainBlock(rawLevel, pos);
@@ -518,9 +512,6 @@ BlockEvents.placed(function (event) {
 // ------------------------- QUEBRAR BLOCO --------------------------
 BlockEvents.broken(function (event) {
     try {
-        if (!config.mainBlock || config.mainBlock === 'undefined') {
-            loadConfig();
-        }
         var rawLevel = event.level;       // Level cru
         var block = event.block;
         var pos = block.getPos();
