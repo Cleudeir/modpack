@@ -84,6 +84,8 @@ var portalZ          = 0;
 var targetDay        = 0;
 var portalBuiltTick  = 0;
 var spawnedMonsters  = [];
+var tickCounter      = 0;
+var hudCreated       = false;
 
 // ================================================================
 //  LOGGING
@@ -285,6 +287,87 @@ function removePortal(rawLevel) {
 }
 
 // ================================================================
+//  HUD OVERLAY (Painter API)
+// ================================================================
+function createHud(player, hordeName, total) {
+    try {
+        player.paint({
+            horde_text: {
+                type: 'text',
+                text: hordeName + ' | ' + total + '/' + total,
+                x: 0, y: 4,
+                alignX: 'center', alignY: 'top',
+                color: '#FFFFFF',
+                scale: 0.7,
+                shadow: true,
+                visible: true
+            },
+            horde_bar_bg: {
+                type: 'rectangle',
+                x: 0, y: 14,
+                w: 160, h: 6,
+                alignX: 'center', alignY: 'top',
+                color: '#1A0000',
+                visible: true
+            },
+            horde_bar: {
+                type: 'rectangle',
+                x: 0, y: 14,
+                w: 160, h: 6,
+                alignX: 'center', alignY: 'top',
+                color: '#CC0000',
+                visible: true
+            },
+            horde_bar_shine: {
+                type: 'rectangle',
+                x: 0, y: 14,
+                w: 160, h: 2,
+                alignX: 'center', alignY: 'top',
+                color: '#FF4444',
+                visible: true
+            },
+            horde_timer: {
+                type: 'text',
+                text: '',
+                x: 0, y: 22,
+                alignX: 'center', alignY: 'top',
+                color: '#AAAAAA',
+                scale: 0.5,
+                shadow: false,
+                visible: false
+            }
+        });
+    } catch (e) {
+        log('HUD create error: ' + e);
+    }
+}
+
+function updateHud(player, hordeName, alive, total, seconds) {
+    try {
+        var pct = total > 0 ? alive / total : 0;
+        var barW = Math.max(0, Math.floor(160 * pct));
+        var barColor = pct > 0.5 ? '#CC0000' : (pct > 0.25 ? '#FF5500' : '#FF0000');
+        var shineColor = pct > 0.5 ? '#FF4444' : (pct > 0.25 ? '#FF8800' : '#FF4400');
+
+        player.paint({
+            horde_bar: { w: barW, color: barColor },
+            horde_bar_shine: { w: barW, color: shineColor },
+            horde_text: { text: hordeName + ' | ' + alive + '/' + total + ' | ' + seconds + 's' }
+        });
+    } catch (e) {
+        log('HUD update error: ' + e);
+    }
+}
+
+function removeHud(player) {
+    try {
+        player.paint({
+            '*': { remove: true }
+        });
+    } catch (e) {}
+}
+
+// ================================================================
 //  MONSTER TARGETING
 // ================================================================
 function targetNearestPlayer(monster, server) {
@@ -389,6 +472,11 @@ loadConfig();
 // ================================================================
 ServerEvents.loaded(function (event) {
     try {
+        // Clean stale HUD on server start
+        var allPlayers = event.server.getPlayerList().getPlayers().toArray();
+        for (var i = 0; i < allPlayers.length; i++) {
+            removeHud(allPlayers[i]);
+        }
         var rawLevel = event.server.overworld();
         if (!rawLevel) return;
         lastHordeDay    = getDayNumber(rawLevel);
@@ -401,6 +489,13 @@ ServerEvents.loaded(function (event) {
     }
 });
 
+PlayerEvents.loggedIn(function (event) {
+    try {
+        // Clean any leftover HUD from previous session
+        removeHud(event.player);
+    } catch (e) {}
+});
+
 ServerEvents.tick(function (event) {
     try {
         var rawLevel = event.server.overworld();
@@ -411,6 +506,7 @@ ServerEvents.tick(function (event) {
         var time        = getTimeOfDay(rawLevel);
         var gameTime    = rawLevel.getDayTime();
         var nextHordeDay = lastHordeDay + hordeConfig.intervalDays;
+        tickCounter++;
 
         // --------------------------------------------------------
         //  PHASE: IDLE
@@ -443,6 +539,12 @@ ServerEvents.tick(function (event) {
             if (gameTime - phaseTick >= warnTicks) {
                 // Safety: only transition if still in WARNING
                 if (phase !== 'WARNING') return;
+                // Clean up any leftover HUD from previous hordes
+                var cleanPlayers = event.server.getPlayerList().getPlayers().toArray();
+                for (var cp = 0; cp < cleanPlayers.length; cp++) {
+                    removeHud(cleanPlayers[cp]);
+                }
+                hudCreated = false;
                 phase = 'METEOR';
                 phaseTick = gameTime;
 
@@ -508,6 +610,16 @@ ServerEvents.tick(function (event) {
                 lastHordeDay = dayNumber;
                 warningSent  = false;
 
+                if (!hudCreated) {
+                    hudCreated = true;
+                    var hudPlayers = event.server.getPlayerList().getPlayers().toArray();
+                    var hName = getHordeName(dayNumber);
+                    var hSize = getHordeSize(dayNumber);
+                    for (var hp = 0; hp < hudPlayers.length; hp++) {
+                        createHud(hudPlayers[hp], hName, hSize);
+                    }
+                }
+
                 log('CHASE phase started. Portal active for 60 seconds.');
             }
         }
@@ -528,12 +640,40 @@ ServerEvents.tick(function (event) {
             var allDead     = areAllMonstersDead();
             var timeExpired = (gameTime - portalBuiltTick >= 1200);
 
+            // HUD update — every second during CHASE
+            if (tickCounter % 20 === 0) {
+                var alive = 0;
+                for (var m = 0; m < spawnedMonsters.length; m++) {
+                    if (spawnedMonsters[m] != null && spawnedMonsters[m].isAlive()) alive++;
+                }
+                var total = spawnedMonsters.length;
+                var elapsed = gameTime - portalBuiltTick;
+                var remaining = Math.max(0, 1200 - elapsed);
+                var seconds = Math.ceil(remaining / 20);
+                var hName = getHordeName(dayNumber);
+
+                var hudPlayers = event.server.getPlayerList().getPlayers().toArray();
+                for (var hp = 0; hp < hudPlayers.length; hp++) {
+                    updateHud(hudPlayers[hp], hName, alive, total, seconds);
+                }
+            }
+
             if (allDead || timeExpired) {
                 removePortal(rawLevel);
                 // Guard: only transition if still in CHASE
                 if (phase !== 'CHASE') return;
+
+                // Remove HUD for all players
+                var endPlayers = event.server.getPlayerList().getPlayers().toArray();
+                for (var ep = 0; ep < endPlayers.length; ep++) {
+                    removeHud(endPlayers[ep]);
+                }
+
+                hudCreated = false;
+
                 phase = 'IDLE';
                 spawnedMonsters = [];
+
                 log('CHASE ended. AllDead=' + allDead + ' TimeExpired=' + timeExpired);
             } else if (portalIntact) {
                 // Emit portal particles while active

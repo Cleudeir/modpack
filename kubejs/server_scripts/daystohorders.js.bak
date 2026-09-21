@@ -84,6 +84,8 @@ var portalZ          = 0;
 var targetDay        = 0;
 var portalBuiltTick  = 0;
 var spawnedMonsters  = [];
+var tickCounter      = 0;
+var hudCreated       = false;
 
 // ================================================================
 //  LOGGING
@@ -107,11 +109,7 @@ function getTimeOfDay(rawLevel) {
     return rawLevel.getDayTime() % 24000;
 }
 
-function getGameTime(rawLevel) {
-    // getGameTime() not available in KubeJS Nashorn for ServerLevel
-    // Use dayTime as substitute (dayTime wraps every 24000 ticks)
-    return rawLevel.getDayTime();
-}
+// getGameTime removed — use rawLevel.getDayTime() directly
 
 function getGroundY(rawLevel, x, z) {
     // Use heightmap first, fallback to sea level
@@ -232,14 +230,14 @@ function equipArmor(monster, tier) {
 //  PORTAL
 // ================================================================
 function buildPortal(rawLevel, cx, cy, cz) {
-    var soulSand  = $Blocks.SOUL_SAND.defaultBlockState();
+    var obsidian  = $Blocks.OBSIDIAN.defaultBlockState();
     var cryingObs = $Blocks.CRYING_OBSIDIAN.defaultBlockState();
     var soulFire  = $Blocks.SOUL_FIRE.defaultBlockState();
 
-    // Bottom layer (y+0): 3 soul_sand
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), soulSand);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), soulSand);
-    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), soulSand);
+    // Bottom layer (y+0): 3 obsidian
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy, cz), obsidian);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx,     cy, cz), obsidian);
+    rawLevel.setBlockAndUpdate(new $BlockPos(cx + 1, cy, cz), obsidian);
 
     // Middle layer (y+1): crying_obsidian | soul_fire | crying_obsidian
     rawLevel.setBlockAndUpdate(new $BlockPos(cx - 1, cy + 1, cz), cryingObs);
@@ -269,19 +267,111 @@ function isPortalIntact(rawLevel) {
 function removePortal(rawLevel) {
     if (portalX === 0 && portalZ === 0) return;
     try {
-        var air = $Blocks.AIR.defaultBlockState();
+        var count = 0;
         for (var dx = -1; dx <= 1; dx++) {
             for (var dy = 0; dy <= 2; dy++) {
                 var pos = new $BlockPos(portalX + dx, portalY + dy, portalZ);
-                rawLevel.setBlockAndUpdate(pos, air);
+                var before = rawLevel.getBlockState(pos);
+                rawLevel.destroyBlock(pos, false);
+                var after = rawLevel.getBlockState(pos);
+                logDebug('Portal block (' + (portalX+dx) + ',' + (portalY+dy) + ',' + portalZ + '): ' + before + ' -> ' + after);
+                count++;
             }
         }
-        // Also clear the center fire
         var firePos = new $BlockPos(portalX, portalY + 1, portalZ);
-        rawLevel.setBlockAndUpdate(firePos, air);
-        log('Portal removed at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
+        rawLevel.destroyBlock(firePos, false);
+        log('Portal removed: ' + count + ' blocks at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
     } catch (e) {
         log('Error removing portal: ' + e);
+    }
+}
+
+// ================================================================
+//  HUD OVERLAY (Painter API)
+// ================================================================
+function createHud(player, hordeName, total) {
+    try {
+        player.paint({
+            horde_text: {
+                type: 'text',
+                text: hordeName + ' | ' + total + '/' + total,
+                x: 0, y: 4,
+                alignX: 'center', alignY: 'top',
+                color: '#FFFFFF',
+                scale: 0.7,
+                shadow: true,
+                visible: true
+            },
+            horde_bar_bg: {
+                type: 'rectangle',
+                x: 0, y: 14,
+                w: 160, h: 6,
+                alignX: 'center', alignY: 'top',
+                color: '#1A0000',
+                visible: true
+            },
+            horde_bar: {
+                type: 'rectangle',
+                x: 0, y: 14,
+                w: 160, h: 6,
+                alignX: 'center', alignY: 'top',
+                color: '#CC0000',
+                visible: true
+            },
+            horde_bar_shine: {
+                type: 'rectangle',
+                x: 0, y: 14,
+                w: 160, h: 2,
+                alignX: 'center', alignY: 'top',
+                color: '#FF4444',
+                visible: true
+            },
+            horde_timer: {
+                type: 'text',
+                text: '',
+                x: 0, y: 22,
+                alignX: 'center', alignY: 'top',
+                color: '#AAAAAA',
+                scale: 0.5,
+                shadow: false,
+                visible: false
+            }
+        });
+    } catch (e) {
+        log('HUD create error: ' + e);
+    }
+}
+
+function updateHud(player, hordeName, alive, total, seconds) {
+    try {
+        var pct = total > 0 ? alive / total : 0;
+        var barW = Math.max(0, Math.floor(160 * pct));
+        var barColor = pct > 0.5 ? '#CC0000' : (pct > 0.25 ? '#FF5500' : '#FF0000');
+        var shineColor = pct > 0.5 ? '#FF4444' : (pct > 0.25 ? '#FF8800' : '#FF4400');
+
+        player.paint({
+            horde_bar: { w: barW, color: barColor },
+            horde_bar_shine: { w: barW, color: shineColor },
+            horde_text: { text: hordeName + ' | ' + alive + '/' + total + ' | ' + seconds + 's' }
+        });
+    } catch (e) {
+        log('HUD update error: ' + e);
+    }
+}
+
+function removeHud(player) {
+    try {
+        player.paint({
+            horde_text: { remove: true },
+            horde_bar_bg: { remove: true },
+            horde_bar: { remove: true },
+            horde_bar_shine: { remove: true },
+            horde_timer: { remove: true },
+            horde_bar_border: { remove: true },
+            horde_icon: { remove: true }
+        });
+    } catch (e) {
+        log('HUD remove error: ' + e);
     }
 }
 
@@ -340,6 +430,12 @@ function doSpawning(rawLevel, server, dayNumber) {
     var hordeSize = getHordeSize(dayNumber);
     var spawned = 0;
 
+    // NaN guard: if portal coordinates are invalid, abort spawning
+    if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
+        log('ERROR: Portal coordinates are NaN! portalX=' + portalX + ' portalY=' + portalY + ' portalZ=' + portalZ);
+        return 0;
+    }
+
     log('=== SPAWNING ' + hordeSize + ' monsters from portal ===');
     log('Portal at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
 
@@ -348,13 +444,12 @@ function doSpawning(rawLevel, server, dayNumber) {
     for (var i = 0; i < hordeSize; i++) {
         var sx = portalX + Math.floor((Math.random() - 0.5) * 10);  // ±5 blocks
         var sz = portalZ + Math.floor((Math.random() - 0.5) * 10);  // ±5 blocks
+        var sy = portalY + 1;
 
-        if (isNaN(sx) || isNaN(sz)) {
-            logDebug('Skipping NaN position: sx=' + sx + ' sz=' + sz);
+        if (isNaN(sx) || isNaN(sy) || isNaN(sz)) {
+            logDebug('Skipping NaN position: sx=' + sx + ' sy=' + sy + ' sz=' + sz);
             continue;
         }
-
-        var sy = portalY + 1;
 
         logDebug('Spawning at (' + Math.floor(sx) + ',' + Math.floor(sy) + ',' + Math.floor(sz) + ')');
 
@@ -405,8 +500,9 @@ ServerEvents.tick(function (event) {
         var dayNumber   = getDayNumber(rawLevel);
         var isNt        = isNight(rawLevel);
         var time        = getTimeOfDay(rawLevel);
-        var gameTime    = getGameTime(rawLevel);
+        var gameTime    = rawLevel.getDayTime();
         var nextHordeDay = lastHordeDay + hordeConfig.intervalDays;
+        tickCounter++;
 
         // --------------------------------------------------------
         //  PHASE: IDLE
@@ -439,6 +535,12 @@ ServerEvents.tick(function (event) {
             if (gameTime - phaseTick >= warnTicks) {
                 // Safety: only transition if still in WARNING
                 if (phase !== 'WARNING') return;
+                // Clean up any leftover HUD from previous hordes
+                var cleanPlayers = event.server.getPlayerList().getPlayers().toArray();
+                for (var cp = 0; cp < cleanPlayers.length; cp++) {
+                    removeHud(cleanPlayers[cp]);
+                }
+                hudCreated = false;
                 phase = 'METEOR';
                 phaseTick = gameTime;
 
@@ -449,6 +551,14 @@ ServerEvents.tick(function (event) {
                     portalX = Math.floor(target.getX() + (Math.random() - 0.5) * 60);
                     portalZ = Math.floor(target.getZ() + (Math.random() - 0.5) * 60);
                     portalY = target.blockPosition().getY();
+
+                    // NaN guard: abort if coordinates are invalid
+                    if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
+                        log('ERROR: Calculated portal coords are NaN! Aborting horde.');
+                        phase = 'IDLE';
+                        return;
+                    }
+
                     log('Portal target Y set to ' + portalY + ' (player=' + target.getName() + ')');
 
                     // Spawn TNT primed entity at Y=200 — it will fall and explode naturally
@@ -496,6 +606,16 @@ ServerEvents.tick(function (event) {
                 lastHordeDay = dayNumber;
                 warningSent  = false;
 
+                if (!hudCreated) {
+                    hudCreated = true;
+                    var hudPlayers = event.server.getPlayerList().getPlayers().toArray();
+                    var hName = getHordeName(dayNumber);
+                    var hSize = getHordeSize(dayNumber);
+                    for (var hp = 0; hp < hudPlayers.length; hp++) {
+                        createHud(hudPlayers[hp], hName, hSize);
+                    }
+                }
+
                 log('CHASE phase started. Portal active for 60 seconds.');
             }
         }
@@ -516,12 +636,40 @@ ServerEvents.tick(function (event) {
             var allDead     = areAllMonstersDead();
             var timeExpired = (gameTime - portalBuiltTick >= 1200);
 
+            // HUD update — every second during CHASE
+            if (tickCounter % 20 === 0) {
+                var alive = 0;
+                for (var m = 0; m < spawnedMonsters.length; m++) {
+                    if (spawnedMonsters[m] != null && spawnedMonsters[m].isAlive()) alive++;
+                }
+                var total = spawnedMonsters.length;
+                var elapsed = gameTime - portalBuiltTick;
+                var remaining = Math.max(0, 1200 - elapsed);
+                var seconds = Math.ceil(remaining / 20);
+                var hName = getHordeName(dayNumber);
+
+                var hudPlayers = event.server.getPlayerList().getPlayers().toArray();
+                for (var hp = 0; hp < hudPlayers.length; hp++) {
+                    updateHud(hudPlayers[hp], hName, alive, total, seconds);
+                }
+            }
+
             if (allDead || timeExpired) {
                 removePortal(rawLevel);
                 // Guard: only transition if still in CHASE
                 if (phase !== 'CHASE') return;
+
+                // Remove HUD for all players
+                var endPlayers = event.server.getPlayerList().getPlayers().toArray();
+                for (var ep = 0; ep < endPlayers.length; ep++) {
+                    removeHud(endPlayers[ep]);
+                }
+
+                hudCreated = false;
+
                 phase = 'IDLE';
                 spawnedMonsters = [];
+
                 log('CHASE ended. AllDead=' + allDead + ' TimeExpired=' + timeExpired);
             } else if (portalIntact) {
                 // Emit portal particles while active
@@ -592,6 +740,13 @@ ServerEvents.customCommand('hordeforce', function (event) {
         portalX = Math.floor(target.getX() + (Math.random() - 0.5) * 60);
         portalZ = Math.floor(target.getZ() + (Math.random() - 0.5) * 60);
         portalY = target.blockPosition().getY();
+
+        // NaN guard: abort if coordinates are invalid
+        if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
+            log('ERROR: Calculated portal coords are NaN! Aborting force horde.');
+            return;
+        }
+
         log('Portal target Y set to ' + portalY + ' (player=' + target.getName() + ')');
 
         // Spawn TNT
@@ -607,7 +762,7 @@ ServerEvents.customCommand('hordeforce', function (event) {
         }
 
         phase         = 'METEOR';
-        phaseTick     = getGameTime(rawLevel);
+        phaseTick     = rawLevel.getDayTime();
         lastHordeDay  = day;
         warningSent   = false;
 

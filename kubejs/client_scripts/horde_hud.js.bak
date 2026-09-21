@@ -1,0 +1,97 @@
+﻿// priority: 10
+// Client-side HUD overlay for DaysToHoarders — Boss Bar style at top center
+
+var lastHudState = { active: false, name: '', alive: 0, total: 0, seconds: 0 };
+
+ClientEvents.tick(function (event) {
+    try {
+        var player = event.player;
+        if (!player || !player.minecraftLevel) return;
+
+        var pd = player.getPersistentData();
+        var isActive = pd.getBoolean('horde_active');
+
+        if (isActive) {
+            var name = pd.getString('horde_name');
+            var alive = pd.getInt('horde_alive');
+            var total = pd.getInt('horde_total');
+            var seconds = pd.getInt('horde_seconds');
+
+            if (name !== lastHudState.name || alive !== lastHudState.alive
+                || total !== lastHudState.total || seconds !== lastHudState.seconds
+                || !lastHudState.active) {
+
+                var pct = total > 0 ? alive / total : 0;
+                var barW = Math.floor(182 * pct);
+                var barColor = pct > 0.5 ? '#CC0000' : (pct > 0.25 ? '#FF5500' : '#FF0000');
+
+                player.paint({
+                    horde_icon: {
+                        type: 'rectangle',
+                        x: 0, y: 2,
+                        w: 26, h: 26,
+                        alignX: 'center', alignY: 'top',
+                        texture: 'minecraft:textures/item/nether_star.png',
+                        visible: true
+                    },
+                    horde_bar_bg: {
+                        type: 'rectangle',
+                        x: 0, y: 32,
+                        w: 186, h: 8,
+                        alignX: 'center', alignY: 'top',
+                        color: '#1A0000',
+                        visible: true
+                    },
+                    horde_bar_border: {
+                        type: 'rectangle',
+                        x: 0, y: 30,
+                        w: 190, h: 12,
+                        alignX: 'center', alignY: 'top',
+                        color: '#440000',
+                        visible: true
+                    },
+                    horde_bar: {
+                        type: 'rectangle',
+                        x: 0, y: 32,
+                        w: barW, h: 8,
+                        alignX: 'center', alignY: 'top',
+                        color: barColor,
+                        visible: true
+                    },
+                    horde_bar_shine: {
+                        type: 'rectangle',
+                        x: 0, y: 32,
+                        w: barW, h: 3,
+                        alignX: 'center', alignY: 'top',
+                        color: '#FF4444',
+                        visible: true
+                    },
+                    horde_text: {
+                        type: 'text',
+                        text: name + ' | ' + alive + '/' + total + ' | ' + seconds + 's',
+                        x: 0, y: 14,
+                        alignX: 'center', alignY: 'top',
+                        color: '#FFFFFF',
+                        scale: 1.0,
+                        shadow: true,
+                        visible: true
+                    }
+                });
+
+                lastHudState = { active: true, name: name, alive: alive, total: total, seconds: seconds };
+            }
+        } else if (lastHudState.active) {
+            player.paint({
+                horde_icon: { remove: true },
+                horde_bar_bg: { remove: true },
+                horde_bar_border: { remove: true },
+                horde_bar: { remove: true },
+                horde_bar_shine: { remove: true },
+                horde_text: { remove: true }
+            });
+            lastHudState = { active: false, name: '', alive: 0, total: 0, seconds: 0 };
+        }
+    } catch (e) {
+        // Silent fail
+    }
+});
