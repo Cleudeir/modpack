@@ -1,11 +1,11 @@
 ﻿{
     "lastWindow":  {
                        "handle":  17896140,
-                       "rect":  "150,120,1020,639",
+                       "rect":  "-898,202,-28,721",
                        "size":  "870x519",
                        "pid":  2960,
-                       "title":  "Minecraft Forge* 1.20.1 - Singleplayer",
-                       "time":  "2026-09-21 12:55:38"
+                       "title":  "Minecraft Forge* 1.20.1 - Multiplayer (LAN)",
+                       "time":  "2026-09-22 20:35:07"
                    },
     "lastPid":  2960,
     "knownScreens":  {
@@ -451,6 +451,26 @@
                            {
                                "time":  "2026-09-21 13:20:07",
                                "command":  "/kubejs custom_command hordeforce",
+                               "result":  "sent"
+                           },
+                           {
+                               "time":  "2026-09-21 18:58:38",
+                               "command":  "/kubejs reload",
+                               "result":  "sent"
+                           },
+                           {
+                               "time":  "2026-09-21 18:58:50",
+                               "command":  "/kubejs custom_command hordeforce",
+                               "result":  "sent"
+                           },
+                           {
+                               "time":  "2026-09-21 19:00:53",
+                               "command":  "/kubejs custom_command hordestatus",
+                               "result":  "sent"
+                           },
+                           {
+                               "time":  "2026-09-21 23:54:49",
+                               "command":  "/save-all",
                                "result":  "sent"
                            }
                        ],

@@ -140,27 +140,12 @@ function getTimeOfDay(rawLevel) {
 // getGameTime removed — use rawLevel.getDayTime() directly
 
 function getGroundY(rawLevel, x, z) {
+    // Use heightmap first, fallback to sea level
     try {
-        var ix = Math.floor(x);
-        var iz = Math.floor(z);
-        
-        // Scan from top of world down to find first air-above-solid pattern
-        for (var y = 320; y >= -60; y--) {
-            var pos = new $BlockPos(ix, y, iz);
-            var below = new $BlockPos(ix, y - 1, iz);
-            var state = rawLevel.getBlockState(pos);
-            var belowState = rawLevel.getBlockState(below);
-            
-            // Found ground: current block is air, block below is solid (not air, destroySpeed >= 0)
-            if (state.isAir() && !belowState.isAir() && belowState.getDestroySpeed(rawLevel, below) >= 0) {
-                return y;
-            }
-        }
-        // Fallback: sea level + 1
-        return rawLevel.getSeaLevel() + 1;
-    } catch (e) {
-        return rawLevel.getSeaLevel() + 1;
-    }
+        var y = rawLevel.getHeight($HeightmapTypes.MOTION_BLOCKING_NO_LEAVES, Math.floor(x), Math.floor(z));
+        if (y > -60 && y < 320) return y;
+    } catch (e) {}
+    return rawLevel.getSeaLevel() + 1;
 }
 
 function getHordeSize(dayNumber) {
@@ -214,7 +199,7 @@ function createMonster(rawLevel, x, y, z, dayNumber) {
             monster = new $Zombie($EntityType.ZOMBIE, rawLevel);
     }
 
-    monster.setPos(x, y, z);
+    monster.setPos(x, y + 1, z);
 
     // Armor: scales with days (leather -> iron -> diamond)
     var armorChance = Math.min(0.8, 0.2 + dayNumber * 0.02);
@@ -260,7 +245,7 @@ function createMonster(rawLevel, x, y, z, dayNumber) {
         }
     }
 
-    logDebug('Spawned ' + type + ' at (' + Math.floor(x) + ',' + Math.floor(y) + ',' + Math.floor(z) + ')');
+    logDebug('Spawned ' + type + ' at (' + Math.floor(x) + ',' + Math.floor(y + 1) + ',' + Math.floor(z) + ')');
     return { monster: monster, role: role };
 }
 
@@ -399,18 +384,17 @@ function createHud(player, hordeName, total) {
     }
 }
 
-function updateHud(player, hordeName, alive, total, seconds) {
+function updateHud(player, hordeName, alive, total) {
     try {
         var pct = total > 0 ? alive / total : 0;
         var barW = Math.max(0, Math.floor(160 * pct));
         var barColor = pct > 0.5 ? '#CC0000' : (pct > 0.25 ? '#FF5500' : '#FF0000');
         var shineColor = pct > 0.5 ? '#FF4444' : (pct > 0.25 ? '#FF8800' : '#FF4400');
-        var timeText = (seconds != null) ? ' | ' + seconds + 's' : '';
 
         player.paint({
             horde_bar: { w: barW, color: barColor },
             horde_bar_shine: { w: barW, color: shineColor },
-            horde_text: { text: hordeName + ' | ' + alive + '/' + total + timeText }
+            horde_text: { text: hordeName + ' | ' + alive + '/' + total }
         });
     } catch (e) {
         log('HUD update error: ' + e);
@@ -530,7 +514,7 @@ function processBreakers(rawLevel, server) {
         for (var m = 0; m < spawnedMonsters.length; m++) {
             try {
                 if (spawnedMonsters[m] != null && spawnedMonsters[m].isAlive()
-                    && spawnedMonsters[m].uuid === uuids[i]) {
+                    && spawnedMonsters[m].getStringUUID() === uuids[i]) {
                     found = true; break;
                 }
             } catch (e) {}
@@ -541,7 +525,7 @@ function processBreakers(rawLevel, server) {
     for (var m = 0; m < spawnedMonsters.length; m++) {
         var monster = spawnedMonsters[m];
         if (monster == null || !monster.isAlive()) continue;
-        var uuid = monster.uuid;
+        var uuid = monster.getStringUUID();
         if (monsterRoles[uuid] !== 'breaker') continue;
 
         var dir = getDirectionToTarget(monster, server);
@@ -586,7 +570,7 @@ function processPlacers(rawLevel, server) {
         for (var m = 0; m < spawnedMonsters.length; m++) {
             try {
                 if (spawnedMonsters[m] != null && spawnedMonsters[m].isAlive()
-                    && spawnedMonsters[m].uuid === cdKeys[i]) {
+                    && spawnedMonsters[m].getStringUUID() === cdKeys[i]) {
                     found = true; break;
                 }
             } catch (e) {}
@@ -597,7 +581,7 @@ function processPlacers(rawLevel, server) {
     for (var m = 0; m < spawnedMonsters.length; m++) {
         var monster = spawnedMonsters[m];
         if (monster == null || !monster.isAlive()) continue;
-        var uuid = monster.uuid;
+        var uuid = monster.getStringUUID();
         if (monsterRoles[uuid] !== 'placer') continue;
 
         if (placerCooldowns[uuid] && placerCooldowns[uuid] > 0) {
@@ -670,23 +654,10 @@ function doSpawning(rawLevel, server, dayNumber) {
 
     spawnedMonsters = [];
 
-    // Portal is 3 blocks wide: cx-1, cx, cx+1 — all have obsidian at portalY
-    // Mobs spawn on top of these blocks (portalY + 1)
-    var spawnPositions = [
-        [portalX - 1, portalY + 1, portalZ],
-        [portalX,     portalY + 1, portalZ],
-        [portalX + 1, portalY + 1, portalZ]
-    ];
-
     for (var i = 0; i < hordeSize; i++) {
-        // Pick a random portal block position
-        var posIdx = i % 3;  // distribute evenly across 3 positions
-        var sx = spawnPositions[posIdx][0];
-        var sy = spawnPositions[posIdx][1];
-        var sz = spawnPositions[posIdx][2];
-        // Small random offset (±0.5) for visual variety
-        sx += (Math.random() - 0.5);
-        sz += (Math.random() - 0.5);
+        var sx = portalX + Math.floor((Math.random() - 0.5) * 10);  // ±5 blocks
+        var sz = portalZ + Math.floor((Math.random() - 0.5) * 10);  // ±5 blocks
+        var sy = portalY + 1;
 
         if (isNaN(sx) || isNaN(sy) || isNaN(sz)) {
             logDebug('Skipping NaN position: sx=' + sx + ' sy=' + sy + ' sz=' + sz);
@@ -707,9 +678,9 @@ function doSpawning(rawLevel, server, dayNumber) {
         targetNearestPlayer(monster, server);
 
         spawnedMonsters.push(monster);
-        monsterRoles[monster.uuid] = role;
+        monsterRoles[monster.getStringUUID()] = role;
         if (role !== 'none') {
-            logDebug('Assigned role "' + role + '" to mob (UUID=' + monster.uuid + ')');
+            logDebug('Assigned role "' + role + '" to mob (UUID=' + monster.getStringUUID() + ')');
         }
         spawned++;
     }
@@ -810,7 +781,7 @@ ServerEvents.tick(function (event) {
                     var target = playerList[Math.floor(Math.random() * playerList.length)];
                     portalX = Math.floor(target.getX() + (Math.random() - 0.5) * 60);
                     portalZ = Math.floor(target.getZ() + (Math.random() - 0.5) * 60);
-                    portalY = getGroundY(rawLevel, portalX, portalZ);
+                    portalY = target.blockPosition().getY();
 
                     // NaN guard: abort if coordinates are invalid
                     if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
@@ -819,7 +790,7 @@ ServerEvents.tick(function (event) {
                         return;
                     }
 
-                    log('Portal target Y set to ' + portalY + ' (terrain at ' + portalX + ',' + portalZ + ', player=' + target.getName() + ')');
+                    log('Portal target Y set to ' + portalY + ' (player=' + target.getName() + ')');
 
                     // Spawn TNT primed entity at Y=200 — it will fall and explode naturally
                     var tnt = new $PrimedTnt(rawLevel, portalX + 0.5, 200, portalZ + 0.5, null);
@@ -848,7 +819,7 @@ ServerEvents.tick(function (event) {
         else if (phase === 'METEOR') {
             // TNT fuse is 100 ticks; wait 105 to be safe
             if (gameTime - phaseTick >= 105) {
-                // portalY was set to terrain surface height at portal XZ when meteor was launched
+                // portalY stays at the player's Y from when meteor was launched
 
                 // Build portal structure at impact point
                 log('Building portal at (' + portalX + ', ' + portalY + ', ' + portalZ + ')');
@@ -876,7 +847,7 @@ ServerEvents.tick(function (event) {
                     }
                 }
 
-                log('CHASE phase started. Portal active for the night.');
+                log('CHASE phase started. Portal active for 60 seconds.');
             }
         }
 
@@ -892,9 +863,8 @@ ServerEvents.tick(function (event) {
                 log('Portal broken! Monsters lose target and wander.');
             }
 
-            // Check if all monsters are dead or night has ended
-            var allDead     = areAllMonstersDead();
-            var timeExpired = !isNight(rawLevel);
+            // Check if all monsters are dead
+            var allDead = areAllMonstersDead();
 
             // Sunrise sickness: when night transitions to day, apply Wither to all alive horde mobs
             if (wasNight === true && isNt === false) {
@@ -917,15 +887,11 @@ ServerEvents.tick(function (event) {
                     if (spawnedMonsters[m] != null && spawnedMonsters[m].isAlive()) alive++;
                 }
                 var total = spawnedMonsters.length;
-                // Calculate remaining night time
-                var nightEnd = (getDayNumber(rawLevel) + 1) * 24000 + 23000;
-                var remaining = Math.max(0, nightEnd - gameTime);
-                var seconds = Math.ceil(remaining / 20);
                 var hName = getHordeName(dayNumber);
 
                 var hudPlayers = event.server.getPlayerList().getPlayers().toArray();
                 for (var hp = 0; hp < hudPlayers.length; hp++) {
-                    updateHud(hudPlayers[hp], hName, alive, total, seconds);
+                    updateHud(hudPlayers[hp], hName, alive, total);
                 }
 
                 // Process horde breaker/placer abilities
@@ -933,7 +899,7 @@ ServerEvents.tick(function (event) {
                 processPlacers(rawLevel, event.server);
             }
 
-            if (allDead || timeExpired) {
+            if (allDead) {
                 removePortal(rawLevel);
                 // Guard: only transition if still in CHASE
                 if (phase !== 'CHASE') return;
@@ -950,7 +916,7 @@ ServerEvents.tick(function (event) {
                 spawnedMonsters = [];
                 cleanupRoles();
 
-                log('CHASE ended. AllDead=' + allDead + ' TimeExpired=' + timeExpired);
+                log('CHASE ended. AllDead=' + allDead);
             } else if (portalIntact) {
                 // Emit portal particles while active
                 rawLevel.sendParticles(
@@ -995,7 +961,7 @@ ServerEvents.customCommand('hordestatus', function (event) {
         for (var r = 0; r < spawnedMonsters.length; r++) {
             try {
                 if (spawnedMonsters[r] != null && spawnedMonsters[r].isAlive()) {
-                    var rUuid = spawnedMonsters[r].uuid;
+                    var rUuid = spawnedMonsters[r].getStringUUID();
                     if (monsterRoles[rUuid] === 'breaker') breakerCount++;
                     else if (monsterRoles[rUuid] === 'placer') placerCount++;
                 }
@@ -1034,7 +1000,7 @@ ServerEvents.customCommand('hordeforce', function (event) {
         var target = playerList[Math.floor(Math.random() * playerList.length)];
         portalX = Math.floor(target.getX() + (Math.random() - 0.5) * 60);
         portalZ = Math.floor(target.getZ() + (Math.random() - 0.5) * 60);
-        portalY = getGroundY(rawLevel, portalX, portalZ);
+        portalY = target.blockPosition().getY();
 
         // NaN guard: abort if coordinates are invalid
         if (isNaN(portalX) || isNaN(portalY) || isNaN(portalZ)) {
@@ -1042,7 +1008,7 @@ ServerEvents.customCommand('hordeforce', function (event) {
             return;
         }
 
-        log('Portal target Y set to ' + portalY + ' (terrain at ' + portalX + ',' + portalZ + ', player=' + target.getName() + ')');
+        log('Portal target Y set to ' + portalY + ' (player=' + target.getName() + ')');
 
         // Spawn TNT
         var tnt = new $PrimedTnt(rawLevel, portalX + 0.5, 200, portalZ + 0.5, null);

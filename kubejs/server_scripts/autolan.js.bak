@@ -1,0 +1,27 @@
+// ================================================================
+//  AUTO OPEN TO LAN
+//  Automatically opens the singleplayer world to LAN on server start.
+// ================================================================
+
+var $IntegratedServer = Java.loadClass('net.minecraft.client.server.IntegratedServer');
+var $GameType = Java.loadClass('net.minecraft.world.level.GameType');
+
+ServerEvents.loaded(function (event) {
+    try {
+        var server = event.server;
+        
+        // Check if it's an IntegratedServer (singleplayer)
+        var isIntegrated = $IntegratedServer.class.isInstance(server);
+        if (isIntegrated) {
+            var integrated = $IntegratedServer.cast(server);
+            if (!integrated.isPublished()) {
+                integrated.publishServer($GameType.SURVIVAL, true, -1);
+                console.log('[AutoLAN] World opened to LAN (port auto-assigned)');
+            } else {
+                console.log('[AutoLAN] World already published to LAN');
+            }
+        }
+    } catch (e) {
+        console.log('[AutoLAN] Note: Auto-LAN requires client-side access. Error: ' + e);
+    }
+});

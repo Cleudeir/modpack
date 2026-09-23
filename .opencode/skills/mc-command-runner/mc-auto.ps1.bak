@@ -35,8 +35,7 @@ param(
     [switch]$Status,
     [string]$VerifyClick = "",
     [int]$TargetPid = 0,
-    [string]$TitleMatch = "Minecraft",
-    [switch]$RightClick
+    [string]$TitleMatch = "Minecraft"
 )
 
 $ErrorActionPreference = "Stop"
@@ -157,13 +156,12 @@ public static class MCAuto {
     public struct KI { public ushort wVk, wScan; public uint dwFlags, time; public IntPtr dwExtraInfo; }
     public const uint INPUT_MOUSE = 0, INPUT_KEYBOARD = 1;
     public const uint MOUSEEVENTF_LEFTDOWN = 0x0002, MOUSEEVENTF_LEFTUP = 0x0004;
-    public const uint MOUSEEVENTF_RIGHTDOWN = 0x0008, MOUSEEVENTF_RIGHTUP = 0x0010;
     public const uint MOUSEEVENTF_ABSOLUTE = 0x8000, MOUSEEVENTF_MOVE = 0x0001;
     public const uint KEYEVENTF_KEYUP = 0x0002;
     [DllImport("user32.dll")] public static extern uint SendInput(uint n, INPUT[] p, int cb);
     [StructLayout(LayoutKind.Sequential)]
     public struct RECT { public int L, T, R, B; }
-    public static void ClickPct(IntPtr wh, double pctW, double pctH, bool rightClick = false) {
+    public static void ClickPct(IntPtr wh, double pctW, double pctH) {
         RECT r; GetWindowRect(wh, out r);
         int winW = r.R - r.L, winH = r.B - r.T;
         int sx = r.L + (int)(winW * pctW / 100.0);
@@ -175,11 +173,9 @@ public static class MCAuto {
         inp[0].type = INPUT_MOUSE; inp[0].u.mi.dx = ax; inp[0].u.mi.dy = ay;
         inp[0].u.mi.fl = MOUSEEVENTF_MOVE | MOUSEEVENTF_ABSOLUTE;
         inp[1].type = INPUT_MOUSE; inp[1].u.mi.dx = ax; inp[1].u.mi.dy = ay;
-        inp[1].u.mi.fl = rightClick ? MOUSEEVENTF_RIGHTDOWN : MOUSEEVENTF_LEFTDOWN;
-        inp[1].u.mi.fl |= MOUSEEVENTF_ABSOLUTE;
+        inp[1].u.mi.fl = MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_ABSOLUTE;
         inp[2].type = INPUT_MOUSE; inp[2].u.mi.dx = ax; inp[2].u.mi.dy = ay;
-        inp[2].u.mi.fl = rightClick ? MOUSEEVENTF_RIGHTUP : MOUSEEVENTF_LEFTUP;
-        inp[2].u.mi.fl |= MOUSEEVENTF_ABSOLUTE;
+        inp[2].u.mi.fl = MOUSEEVENTF_LEFTUP | MOUSEEVENTF_ABSOLUTE;
         SendInput(3, inp, Marshal.SizeOf(typeof(INPUT)));
     }
     public static void SendVk(int vk) {
@@ -352,7 +348,7 @@ if ($ClickPct -ne "") {
         Focus-MC
         $parts = $ClickPct -split ','
         $pctW = [double]$parts[0]; $pctH = [double]$parts[1]
-        [MCAuto]::ClickPct($script:wh, $pctW, $pctH, $RightClick)
+        [MCAuto]::ClickPct($script:wh, $pctW, $pctH)
         Save-LearnClick $pctW $pctH "manual" "clicked"
         Write-Output "CLICKED_PCT=${pctW}%,${pctH}% (window $($script:ww)x$($script:wh_px))"
     }

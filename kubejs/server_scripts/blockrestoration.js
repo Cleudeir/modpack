@@ -107,13 +107,13 @@ var state = {
 // ------------------------------------------------------------------
 // UTILITÁRIOS
 // ------------------------------------------------------------------
-function log(msg) {
+function br_log(msg) {
     console.log('[blockrestoration] ' + msg);
 }
 
 // Log apenas quando o modo DEBUG está ativo
-function logDebug(msg) {
-    if (config.debug) log('[DEBUG] ' + msg);
+function br_logDebug(msg) {
+    if (config.debug) br_log('[DEBUG] ' + msg);
 }
 
 // Isolamento: garante que NENHUM outro mod executa a mesma lógica.
@@ -122,13 +122,13 @@ function checkIsolation() {
     try {
         var $Platform = Java.loadClass('dev.architectury.platform.Platform');
         if ($Platform.isModLoaded('avatar_blockrestoration')) {
-            log('ATENÇÃO: o mod avatar_blockrestoration está INSTALADO!');
-            log('Remova o .jar de mods/ para o teste isolado funcionar (só KubeJS).');
+            br_log('ATENÇÃO: o mod avatar_blockrestoration está INSTALADO!');
+            br_log('Remova o .jar de mods/ para o teste isolado funcionar (só KubeJS).');
         } else {
-            log('Isolamento OK: mod original NÃO instalado — só o KubeJS executa a restauração.');
+            br_log('Isolamento OK: mod original NÃO instalado — só o KubeJS executa a restauração.');
         }
     } catch (e) {
-        logDebug('Aviso: não foi possível verificar isolamento: ' + e);
+        br_logDebug('Aviso: não foi possível verificar isolamento: ' + e);
     }
 }
 
@@ -208,9 +208,9 @@ function saveState() {
         putMap(stateTag, 'brokenBlocks', state.brokenBlocks);
         putMap(stateTag, 'perimeterBlocks', state.perimeterBlocks);
         $NBTIO.write(SAVE_PATH, stateTag);
-        log('Estado salvo.');
+        br_log('Estado salvo.');
     } catch (e) {
-        log('ERRO ao salvar estado: ' + e);
+        br_log('ERRO ao salvar estado: ' + e);
     }
 }
 
@@ -218,7 +218,7 @@ function loadState() {
     try {
         var loadedTag = $NBTIO.read(SAVE_PATH); // null se não existir
         if (loadedTag == null) {
-            log('Sem arquivo de estado salvo (primeira vez).');
+            br_log('Sem arquivo de estado salvo (primeira vez).');
             return;
         }
         var posStr = loadedTag.getString('mainBlockPos');
@@ -226,12 +226,12 @@ function loadState() {
         readMap(loadedTag, 'aroundBlocks', state.aroundBlocks);
         readMap(loadedTag, 'brokenBlocks', state.brokenBlocks);
         readMap(loadedTag, 'perimeterBlocks', state.perimeterBlocks);
-        log('Estado carregado: main=' + (state.mainBlockPos ? keyOf(state.mainBlockPos) : 'nenhum')
+        br_log('Estado carregado: main=' + (state.mainBlockPos ? keyOf(state.mainBlockPos) : 'nenhum')
             + ' around=' + state.aroundBlocks.size
             + ' broken=' + state.brokenBlocks.size
             + ' perimeter=' + state.perimeterBlocks.size);
     } catch (e) {
-        log('ERRO ao carregar estado: ' + e);
+        br_log('ERRO ao carregar estado: ' + e);
     }
 }
 
@@ -254,7 +254,7 @@ function setBlockStatesAroundMainBlock(rawLevel, center) {
             }
         }
     }
-    log('Zona escaneada: around=' + state.aroundBlocks.size
+    br_log('Zona escaneada: around=' + state.aroundBlocks.size
         + ' perimeter=' + state.perimeterBlocks.size);
 }
 
@@ -304,12 +304,18 @@ function updatePutBlockAroundBlocks(rawLevel, pos) {
     }
 }
 
-// Jogador quebrou bloco dentro do volume → NÃO restaura
+// Jogador quebrou bloco dentro do volume → adiciona na fila de restauração
 function updatePlayerBreakBlockAroundBlocks(pos) {
     if (inVolume(pos)) {
         var key = keyOf(pos);
+        // Pega o estado ORIGINAL antes de deletar do around
+        var original = state.aroundBlocks.get(key);
+        if (original) {
+            // Adiciona na fila de restauração com o estado original
+            state.brokenBlocks.set(key, original);
+        }
+        // Remove do around (bloco agora é ar)
         state.aroundBlocks.delete(key);
-        state.brokenBlocks.delete(key);
     }
 }
 
@@ -337,7 +343,7 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
     if (rawLevel.getBlockState(state.mainBlockPos).isAir()) {
         state.aroundBlocks.clear();
         state.perimeterBlocks.clear();
-        log('Bloco principal removido — zona cancelada.');
+        br_log('Bloco principal removido — zona cancelada.');
     }
 
     state.aroundBlocks.forEach(function (value, k) {
@@ -345,7 +351,7 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
             // NAO adiciona TNT/fogo/blocos de explosao na fila de restauracao
             if (isExcludedBlock(value.stateString)) {
                 state.aroundBlocks.delete(k);
-                logDebug('excluido da restauracao: ' + k + ' (' + value.stateString + ')');
+                br_logDebug('excluido da restauracao: ' + k + ' (' + value.stateString + ')');
                 return;
             }
             state.brokenBlocks.set(k, value);      // guarda o estado ORIGINAL
@@ -357,9 +363,13 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
 // A cada 1s: restaura 1 bloco quebrado por vez, se vazio de entidades.
 // TNT/fogo/blocos de explosao sao sempre excluidos.
 function getRestoreBlocks(rawLevel, maxBlocks) {
-    if (state.brokenBlocks.size === 0 || maxBlocks <= 0) return;
+    if (state.brokenBlocks.size === 0 || maxBlocks <= 0) {
+        console.log('[blockrestoration-restore] SKIP: broken=' + state.brokenBlocks.size + ' maxBlocks=' + maxBlocks);
+        return;
+    }
 
     var restored = 0;
+    console.log('[blockrestoration-restore] START: broken=' + state.brokenBlocks.size + ' maxBlocks=' + maxBlocks);
     state.brokenBlocks.forEach(function (value, k) {
         if (restored >= maxBlocks) return;
         // pula blocos excluidos (TNT, fogo, etc.)
@@ -381,10 +391,10 @@ function getRestoreBlocks(rawLevel, maxBlocks) {
             rawLevel.setBlock(pos, blockState, 3);
             state.brokenBlocks.delete(k);
             restored++;
-            logDebug('restaurado ' + k + ' <- ' + value.stateString);
+            br_logDebug('restaurado ' + k + ' <- ' + value.stateString);
         }
     });
-    if (restored > 0) log('Restaurados ' + restored + ' bloco(s) (faltam ' + state.brokenBlocks.size + ').');
+    if (restored > 0) br_log('Restaurados ' + restored + ' bloco(s) (faltam ' + state.brokenBlocks.size + ').');
 }
 
 // A cada 4s: partículas nos quebrados e no perímetro
@@ -426,23 +436,23 @@ function placeSpawnFlag(rawLevel) {
         var flagBlock = (rl != null) ? $ForgeRegistries.BLOCKS.getValue(rl) : null;
 
         if (flagBlock == null || flagBlock === $Blocks.AIR) {
-            log('BANDEIRA NO SPAWN: bloco principal inválido (' + config.mainBlock + '), nada a fazer.');
+            br_log('BANDEIRA NO SPAWN: bloco principal inválido (' + config.mainBlock + '), nada a fazer.');
             return;
         }
 
         // já existe a bandeira exatamente no spawn → respeita o estado atual
         if (current.getBlock() === flagBlock) {
-            log('BANDEIRA NO SPAWN: já existe em ' + keyOf(targetPos) + ', nada a fazer.');
+            br_log('BANDEIRA NO SPAWN: já existe em ' + keyOf(targetPos) + ', nada a fazer.');
             return;
         }
 
-        log('BANDEIRA NO SPAWN: colocando ' + config.mainBlock + ' em ' + keyOf(targetPos));
+        br_log('BANDEIRA NO SPAWN: colocando ' + config.mainBlock + ' em ' + keyOf(targetPos));
         rawLevel.setBlock(targetPos, flagBlock.defaultBlockState(), 3);
 
         // só ativa a zona no spawn se NÃO existir outra zona ativa
         // (não rouba a zona de um jogador quando ele reloca a bandeira)
         if (state.mainBlockPos == null) {
-            log('BANDEIRA NO SPAWN: ativando zona no spawn.');
+            br_log('BANDEIRA NO SPAWN: ativando zona no spawn.');
             state.aroundBlocks.clear();
             state.perimeterBlocks.clear();
             state.mainBlockPos = targetPos;
@@ -452,7 +462,7 @@ function placeSpawnFlag(rawLevel) {
         }
         saveState();
     } catch (e) {
-        log('ERRO em placeSpawnFlag: ' + e);
+        br_log('ERRO em placeSpawnFlag: ' + e);
     }
 }
 
@@ -479,7 +489,7 @@ ServerEvents.loaded(function (event) {
         if (!rawLevel) return;
         placeSpawnFlag(rawLevel);
     } catch (e) {
-        log('ERRO em loaded: ' + e);
+        br_log('ERRO em loaded: ' + e);
     }
 });
 
@@ -489,29 +499,29 @@ BlockEvents.placed(function (event) {
         // Safety: ensure config.mainBlock is loaded (fixes /reload issue)
         if (!config.mainBlock || config.mainBlock === 'undefined') {
             loadConfig();
-            log('[DEBUG] Config reloaded in placed handler: mainBlock=' + config.mainBlock);
+            br_log('[DEBUG] Config reloaded in placed handler: mainBlock=' + config.mainBlock);
         }
         var rawLevel = event.level;       // Level cru (ServerLevel em servidor)
         var block = event.block;          // BlockContainerJS
         var pos = block.getPos();
         var id = block.getId();           // já é String ("mod:id")
 
-        log('[DEBUG] Block placed: ' + id + ' config.mainBlock=' + config.mainBlock + ' match=' + (id === config.mainBlock));
+        br_log('[DEBUG] Block placed: ' + id + ' config.mainBlock=' + config.mainBlock + ' match=' + (id === config.mainBlock));
         if (id === config.mainBlock) {
-            log('Bloco principal colocado em ' + keyOf(pos));
+            br_log('Bloco principal colocado em ' + keyOf(pos));
             removeBlockAroundMainBlock(rawLevel, pos);
             setBlockStatesAroundMainBlock(rawLevel, pos);
             getPerimeterBlocks(rawLevel, pos);
             getAnimate(rawLevel);
-            logDebug('DEBUG placed: zona ativa em ' + keyOf(pos)
+            br_logDebug('DEBUG placed: zona ativa em ' + keyOf(pos)
                 + ' around=' + state.aroundBlocks.size
                 + ' perimeter=' + state.perimeterBlocks.size);
         } else {
             updatePutBlockAroundBlocks(rawLevel, pos);
-            logDebug('DEBUG placed: ' + id + ' em ' + keyOf(pos));
+            br_logDebug('DEBUG placed: ' + id + ' em ' + keyOf(pos));
         }
     } catch (e) {
-        log('ERRO em placed: ' + e);
+        br_log('ERRO em placed: ' + e);
     }
 });
 
@@ -528,53 +538,57 @@ BlockEvents.broken(function (event) {
         // Se a posição quebrada é o bloco principal → cancela a zona
         var isMain = state.mainBlockPos && state.mainBlockPos.equals(pos);
         if (isMain) {
-            log('Bloco principal quebrado em ' + keyOf(pos) + ' — zona cancelada.');
+            br_log('Bloco principal quebrado em ' + keyOf(pos) + ' — zona cancelada.');
             state.aroundBlocks.clear();
             state.perimeterBlocks.clear();
             state.mainBlockPos = pos;
         } else {
             updatePlayerBreakBlockAroundBlocks(pos);
-            logDebug('DEBUG broken: ' + block.getId() + ' em ' + keyOf(pos)
-                + ' (marcado como controle do jogador, não restaura)');
+            br_logDebug('DEBUG broken: ' + block.getId() + ' em ' + keyOf(pos)
+                + ' (adicionado na fila de restauração)');
         }
     } catch (e) {
-        log('ERRO em broken: ' + e);
+        br_log('ERRO em broken: ' + e);
     }
 });
 
 // --------------------------- TICK LOOP ----------------------------
-var tickCounter = 0;
+var br_tickCounter = 0;
 ServerEvents.tick(function (event) {
     try {
         var rawLevel = event.server.overworld(); // ServerLevel (sem ambiguidade de getLevel)
         if (!rawLevel) return;
 
-        tickCounter++;
+        br_tickCounter++;
+        if (br_tickCounter % 200 === 0) {
+            console.log('[blockrestoration-tick] alive: tickCounter=' + br_tickCounter + ' broken=' + state.brokenBlocks.size + ' main=' + (state.mainBlockPos ? 'yes' : 'null'));
+        }
 
         // Sempre 1 bloco/segundo (20 ticks). Debug acelera scan/save mas NAO restore.
-        var restoreEvery = 20;                        // 1 bloco por segundo sempre
+        var restoreEvery = 20;                        // 1 bloco por sempre
         var renderEvery = config.debug ? 10 : 80;    // normal: a cada 4s
         var scanEvery   = config.debug ? 40 : 300;   // normal: a cada 15s
         var saveEvery   = config.debug ? 100: 600;   // normal: a cada 30s
 
-        if (tickCounter % restoreEvery === 0) {
+        if (br_tickCounter % restoreEvery === 0) {
             var timeOfDay = rawLevel.getDayTime() % 24000;
+            console.log('[blockrestoration-tick] restore tick: tickCounter=' + br_tickCounter + ' broken=' + state.brokenBlocks.size + ' timeOfDay=' + timeOfDay + ' debug=' + config.debug);
             // restaura apenas de dia. DEBUG ignora isso.
             if (timeOfDay < 13000 || config.debug) {
                 getRestoreBlocks(rawLevel, 1); // sempre 1 bloco por passada
             }
         }
-        if (tickCounter % renderEvery === 0) {          // partículas
+        if (br_tickCounter % renderEvery === 0) {          // partículas
             getAnimate(rawLevel);
         }
-        if (tickCounter % scanEvery === 0) {            // escaneia quebrados (griefing)
+        if (br_tickCounter % scanEvery === 0) {            // escaneia quebrados (griefing)
             checkBlockStatesAroundMainBlock(rawLevel);
         }
-        if (tickCounter % saveEvery === 0) {            // autosave (protege contra /reload)
+        if (br_tickCounter % saveEvery === 0) {            // autosave (protege contra /reload)
             saveState();
         }
     } catch (e) {
-        log('ERRO em tick: ' + e);
+        br_log('ERRO em tick: ' + e);
     }
 });
 
@@ -590,10 +604,10 @@ ServerEvents.customCommand('blockrestore_status', function (event) {
         if (event.player) {
             event.player.tell(msg);
         } else {
-            log(msg);
+            br_log(msg);
         }
     } catch (e) {
-        log('ERRO em command: ' + e);
+        br_log('ERRO em command: ' + e);
     }
 });
 
@@ -606,10 +620,10 @@ ServerEvents.customCommand('blockrestore_debug', function (event) {
         if (event.player) {
             event.player.tell(msg);
         } else {
-            log(msg);
+            br_log(msg);
         }
     } catch (e) {
-        log('ERRO em command debug: ' + e);
+        br_log('ERRO em command debug: ' + e);
     }
 });
 
@@ -628,11 +642,10 @@ PlayerEvents.loggedIn(function (event) {
         var flag = Item.of(config.mainBlock);
         if (!flag.isEmpty()) {
             player.give(flag);
-            player.give(Item.of(config.mainBlock)); // 2 bandeiras
-            player.tell('§6§lVoce recebeu a BANDEIRA! §r§7Coloque-a no chao para §bativar a area de restauracao de blocos§7 ao redor.');
+            player.tell('§6§lVoce recebeu 1 BANDEIRA! §r§7Coloque-a no chao para §bativar a area de restauracao de blocos§7 ao redor. Se colocar outra, a antiga sera destruida.');
         } else {
             player.tell('§cBandeira nao encontrada: §o' + config.mainBlock + '§r§c.');
-            log('Bandeira do config nao e um item valido: ' + config.mainBlock);
+            br_log('Bandeira do config nao e um item valido: ' + config.mainBlock);
         }
 
         // itens de teste: creeper egg, isqueiro, TNT
@@ -644,8 +657,8 @@ PlayerEvents.loggedIn(function (event) {
         player.give(Item.of('minecraft:cooked_beef', 64));
         player.give(Item.of('minecraft:torch', 64));
         player.tell('§a§lItens de teste: §r§764 Creeper Eggs, Isqueiro, 64 TNT, 64 Obsidian, Picareta de Diamante, Comida, Tochas.');
-        log('Itens de teste dados ao jogador: ' + player.getName());
+        br_log('Itens de teste dados ao jogador: ' + player.getName());
     } catch (e) {
-        log('ERRO em loggedIn (itens): ' + e);
+        br_log('ERRO em loggedIn (itens): ' + e);
     }
 });

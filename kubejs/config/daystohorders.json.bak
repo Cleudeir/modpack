@@ -1,0 +1,8 @@
+{
+  "intervalDays": 3,
+  "baseSize": 5,
+  "maxSize": 30,
+  "warningMinutes": 1,
+  "radius": 20,
+  "debug": true
+}

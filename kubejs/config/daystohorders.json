@@ -4,5 +4,11 @@
   "maxSize": 30,
   "warningMinutes": 1,
   "radius": 20,
-  "debug": true
+  "debug": true,
+  "breakerEnabled": true,
+  "breakerChance": 0.3,
+  "breakerBreakTimeTicks": 80,
+  "placerEnabled": true,
+  "placerChance": 0.3,
+  "placerCooldownTicks": 80
 }

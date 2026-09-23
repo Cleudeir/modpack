@@ -84,9 +84,9 @@ function loadConfig() {
             if (cfgObj.has('debug'))     config.debug     = cfgObj.get('debug').getAsBoolean();
         }
         config.radius = Math.max(1, Math.min(100, config.radius));
-        console.log('[blockrestoration] Config: mainBlock=' + config.mainBlock + ' radius=' + config.radius + ' debug=' + config.debug);
+        console.log('[blockrestoration] Config loaded: mainBlock=' + config.mainBlock + ' radius=' + config.radius + ' debug=' + config.debug);
     } catch (e) {
-        console.log('[blockrestoration] ERRO lendo config, usando padrões: ' + e);
+        console.log('[blockrestoration] ERRO lendo config, usando padrao: mainBlock=' + config.mainBlock);
     }
 }
 
@@ -304,12 +304,18 @@ function updatePutBlockAroundBlocks(rawLevel, pos) {
     }
 }
 
-// Jogador quebrou bloco dentro do volume → NÃO restaura
+// Jogador quebrou bloco dentro do volume → adiciona na fila de restauração
 function updatePlayerBreakBlockAroundBlocks(pos) {
     if (inVolume(pos)) {
         var key = keyOf(pos);
+        // Pega o estado ORIGINAL antes de deletar do around
+        var original = state.aroundBlocks.get(key);
+        if (original) {
+            // Adiciona na fila de restauração com o estado original
+            state.brokenBlocks.set(key, original);
+        }
+        // Remove do around (bloco agora é ar)
         state.aroundBlocks.delete(key);
-        state.brokenBlocks.delete(key);
     }
 }
 
@@ -357,9 +363,13 @@ function checkBlockStatesAroundMainBlock(rawLevel) {
 // A cada 1s: restaura 1 bloco quebrado por vez, se vazio de entidades.
 // TNT/fogo/blocos de explosao sao sempre excluidos.
 function getRestoreBlocks(rawLevel, maxBlocks) {
-    if (state.brokenBlocks.size === 0 || maxBlocks <= 0) return;
+    if (state.brokenBlocks.size === 0 || maxBlocks <= 0) {
+        console.log('[blockrestoration-restore] SKIP: broken=' + state.brokenBlocks.size + ' maxBlocks=' + maxBlocks);
+        return;
+    }
 
     var restored = 0;
+    console.log('[blockrestoration-restore] START: broken=' + state.brokenBlocks.size + ' maxBlocks=' + maxBlocks);
     state.brokenBlocks.forEach(function (value, k) {
         if (restored >= maxBlocks) return;
         // pula blocos excluidos (TNT, fogo, etc.)
@@ -486,11 +496,17 @@ ServerEvents.loaded(function (event) {
 // ------------------------- COLOCAR BLOCO --------------------------
 BlockEvents.placed(function (event) {
     try {
+        // Safety: ensure config.mainBlock is loaded (fixes /reload issue)
+        if (!config.mainBlock || config.mainBlock === 'undefined') {
+            loadConfig();
+            log('[DEBUG] Config reloaded in placed handler: mainBlock=' + config.mainBlock);
+        }
         var rawLevel = event.level;       // Level cru (ServerLevel em servidor)
         var block = event.block;          // BlockContainerJS
         var pos = block.getPos();
         var id = block.getId();           // já é String ("mod:id")
 
+        log('[DEBUG] Block placed: ' + id + ' config.mainBlock=' + config.mainBlock + ' match=' + (id === config.mainBlock));
         if (id === config.mainBlock) {
             log('Bloco principal colocado em ' + keyOf(pos));
             removeBlockAroundMainBlock(rawLevel, pos);
@@ -512,6 +528,9 @@ BlockEvents.placed(function (event) {
 // ------------------------- QUEBRAR BLOCO --------------------------
 BlockEvents.broken(function (event) {
     try {
+        if (!config.mainBlock || config.mainBlock === 'undefined') {
+            loadConfig();
+        }
         var rawLevel = event.level;       // Level cru
         var block = event.block;
         var pos = block.getPos();
@@ -526,7 +545,7 @@ BlockEvents.broken(function (event) {
         } else {
             updatePlayerBreakBlockAroundBlocks(pos);
             logDebug('DEBUG broken: ' + block.getId() + ' em ' + keyOf(pos)
-                + ' (marcado como controle do jogador, não restaura)');
+                + ' (adicionado na fila de restauração)');
         }
     } catch (e) {
         log('ERRO em broken: ' + e);
@@ -541,15 +560,19 @@ ServerEvents.tick(function (event) {
         if (!rawLevel) return;
 
         tickCounter++;
+        if (tickCounter % 200 === 0) {
+            console.log('[blockrestoration-tick] alive: tickCounter=' + tickCounter + ' broken=' + state.brokenBlocks.size + ' main=' + (state.mainBlockPos ? 'yes' : 'null'));
+        }
 
         // Sempre 1 bloco/segundo (20 ticks). Debug acelera scan/save mas NAO restore.
-        var restoreEvery = 20;                        // 1 bloco por segundo sempre
+        var restoreEvery = 20;                        // 1 bloco por sempre
         var renderEvery = config.debug ? 10 : 80;    // normal: a cada 4s
         var scanEvery   = config.debug ? 40 : 300;   // normal: a cada 15s
         var saveEvery   = config.debug ? 100: 600;   // normal: a cada 30s
 
         if (tickCounter % restoreEvery === 0) {
             var timeOfDay = rawLevel.getDayTime() % 24000;
+            console.log('[blockrestoration-tick] restore tick: tickCounter=' + tickCounter + ' broken=' + state.brokenBlocks.size + ' timeOfDay=' + timeOfDay + ' debug=' + config.debug);
             // restaura apenas de dia. DEBUG ignora isso.
             if (timeOfDay < 13000 || config.debug) {
                 getRestoreBlocks(rawLevel, 1); // sempre 1 bloco por passada
@@ -619,8 +642,7 @@ PlayerEvents.loggedIn(function (event) {
         var flag = Item.of(config.mainBlock);
         if (!flag.isEmpty()) {
             player.give(flag);
-            player.give(Item.of(config.mainBlock)); // 2 bandeiras
-            player.tell('§6§lVoce recebeu a BANDEIRA! §r§7Coloque-a no chao para §bativar a area de restauracao de blocos§7 ao redor.');
+            player.tell('§6§lVoce recebeu 1 BANDEIRA! §r§7Coloque-a no chao para §bativar a area de restauracao de blocos§7 ao redor. Se colocar outra, a antiga sera destruida.');
         } else {
             player.tell('§cBandeira nao encontrada: §o' + config.mainBlock + '§r§c.');
             log('Bandeira do config nao e um item valido: ' + config.mainBlock);
